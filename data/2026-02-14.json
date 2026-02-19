@@ -1,0 +1,60 @@
+{
+  "date": "2026-02-14",
+  "generated_at": "2026-02-19 07:34",
+  "summary": {
+    "total": 2,
+    "new_lead": 2,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0,
+    "lead_mql": "0/2 (0%)",
+    "mql_sql": "-",
+    "lead_sql": "0/2 (0%)",
+    "lead_mql_num": 0,
+    "mql_sql_num": 0,
+    "lead_sql_num": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0,
+        "lead_mql": "0/2 (0%)",
+        "mql_sql": "-",
+        "lead_sql": "0/2 (0%)",
+        "lead_mql_num": 0,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - boxenshop.net [DE] - 2026-02-14",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - fivelab.de [DE] - 2026-02-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": []
+    }
+  ],
+  "lost_reasons": []
+}

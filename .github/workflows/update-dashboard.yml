@@ -4,7 +4,12 @@ on:
   schedule:
     # 8:30 CET = 7:30 UTC (zima) / 6:30 UTC (lato)
     - cron: '30 7 * * *'
-  workflow_dispatch: # możliwość ręcznego uruchomienia
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: 'Data raportu (YYYY-MM-DD), domyślnie wczoraj'
+        required: false
+        type: string
 
 jobs:
   update:
@@ -26,15 +31,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate dashboard
+      - name: Generate data
         env:
           HUBSPOT_API_TOKEN: ${{ secrets.HUBSPOT_API_TOKEN }}
-        run: python generate_dashboard.py
+          REPORT_DATE: ${{ github.event.inputs.report_date }}
+        run: python generate_data.py
 
       - name: Commit and push
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add index.html
-          git diff --staged --quiet || git commit -m "Update dashboard $(date +%Y-%m-%d)"
+          git add data/
+          git diff --staged --quiet || git commit -m "Update data $(date +%Y-%m-%d)"
           git push

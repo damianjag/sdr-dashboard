@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SDR Pipeline Dashboard - 2026-02-18</title>
+    <title>SDR Pipeline Dashboard</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -16,18 +16,17 @@
             background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
             border-bottom: 1px solid #334155;
             padding: 24px 40px;
+        }
+        .header-top {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin-bottom: 16px;
         }
         .header h1 {
             font-size: 24px;
             font-weight: 700;
             color: #f1f5f9;
-        }
-        .header .date {
-            font-size: 14px;
-            color: #94a3b8;
         }
         .header .badge {
             background: #3b82f6;
@@ -37,7 +36,113 @@
             font-size: 13px;
             font-weight: 600;
         }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .view-switcher {
+            display: flex;
+            background: #334155;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .view-btn {
+            padding: 8px 18px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #94a3b8;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .view-btn:hover { color: #e2e8f0; }
+        .view-btn.active {
+            background: #3b82f6;
+            color: white;
+        }
+        .date-nav {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .date-nav button {
+            background: #334155;
+            border: 1px solid #475569;
+            color: #e2e8f0;
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+        .date-nav button:hover { background: #475569; }
+        .date-nav button:disabled { opacity: 0.3; cursor: not-allowed; }
+        .date-display {
+            font-size: 15px;
+            font-weight: 600;
+            color: #f1f5f9;
+            min-width: 180px;
+            text-align: center;
+        }
+        .date-picker-wrap {
+            position: relative;
+        }
+        .date-picker-wrap input[type="date"] {
+            background: #334155;
+            border: 1px solid #475569;
+            color: #e2e8f0;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-family: inherit;
+            cursor: pointer;
+        }
+        .date-picker-wrap input[type="date"]::-webkit-calendar-picker-indicator {
+            filter: invert(0.7);
+            cursor: pointer;
+        }
+        .generated-info {
+            font-size: 12px;
+            color: #64748b;
+            margin-left: auto;
+        }
+
         .container { max-width: 1400px; margin: 0 auto; padding: 24px 40px; }
+
+        /* Loading */
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 20px;
+            color: #94a3b8;
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #334155;
+            border-top-color: #3b82f6;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 16px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .no-data {
+            text-align: center;
+            padding: 80px 20px;
+            color: #64748b;
+        }
+        .no-data h3 { color: #94a3b8; margin-bottom: 8px; font-size: 18px; }
 
         /* KPI Cards */
         .kpi-grid {
@@ -52,6 +157,12 @@
             border-radius: 12px;
             padding: 20px;
             text-align: center;
+            cursor: pointer;
+            transition: border-color 0.2s, transform 0.15s;
+        }
+        .kpi-card:hover {
+            border-color: #3b82f6;
+            transform: translateY(-2px);
         }
         .kpi-card .value {
             font-size: 32px;
@@ -229,6 +340,100 @@
             margin-top: 40px;
         }
 
+        /* Modal overlay */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            animation: fadeIn 0.15s ease;
+        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .modal {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            max-width: 700px;
+            width: 100%;
+            max-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            animation: slideUp 0.2s ease;
+        }
+        @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 24px;
+            border-bottom: 1px solid #334155;
+        }
+        .modal-header h3 { font-size: 18px; font-weight: 600; color: #f1f5f9; }
+        .modal-header .modal-count {
+            background: #3b82f6;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-left: 12px;
+        }
+        .modal-close {
+            background: none;
+            border: none;
+            color: #94a3b8;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 6px;
+            line-height: 1;
+        }
+        .modal-close:hover { color: #f1f5f9; background: #334155; }
+        .modal-body {
+            overflow-y: auto;
+            padding: 16px 24px 24px;
+        }
+        .modal-deal {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 10px 12px;
+            border-bottom: 1px solid #263548;
+            font-size: 14px;
+            gap: 12px;
+        }
+        .modal-deal:last-child { border-bottom: none; }
+        .modal-deal:hover { background: #263548; border-radius: 6px; }
+        .modal-deal-name { color: #f1f5f9; font-weight: 500; flex: 1; }
+        .modal-deal-sdr { color: #94a3b8; font-size: 12px; margin-top: 2px; }
+        .modal-deal-stage {
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 6px;
+            white-space: nowrap;
+            font-weight: 500;
+        }
+        .stage-new-lead { background: #1e3a5f; color: #60a5fa; }
+        .stage-in-progress { background: #1a3330; color: #34d399; }
+        .stage-mql { background: #2e1a5e; color: #a78bfa; }
+        .stage-sql { background: #1a3330; color: #22c55e; }
+        .stage-won { background: #14532d; color: #4ade80; }
+        .stage-lost { background: #3b1a1a; color: #f87171; }
+        .stage-default { background: #334155; color: #94a3b8; }
+
+        /* Clickable table cells */
+        td.clickable {
+            cursor: pointer;
+            position: relative;
+        }
+        td.clickable:hover {
+            text-decoration: underline;
+        }
+
         /* Collapsible */
         details { margin-top: 12px; }
         summary {
@@ -238,467 +443,50 @@
             padding: 4px 0;
         }
         summary:hover { color: #60a5fa; }
+
+        @media (max-width: 600px) {
+            .header { padding: 16px 20px; }
+            .container { padding: 16px 20px; }
+            .controls { gap: 10px; }
+            .sdr-cards { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <div>
+        <div class="header-top">
             <h1>SDR Pipeline Dashboard</h1>
-            <div class="date">Dane z dnia: <strong>2026-02-18</strong> | Wygenerowano: 2026-02-19 08:01</div>
+            <div class="badge" id="total-badge">-</div>
         </div>
-        <div class="badge">27 deali</div>
+        <div class="controls">
+            <div class="view-switcher">
+                <button class="view-btn active" data-view="day">Dzie&#324;</button>
+                <button class="view-btn" data-view="week">Tydzie&#324;</button>
+                <button class="view-btn" data-view="month">Miesi&#261;c</button>
+            </div>
+            <div class="date-nav">
+                <button id="prev-btn" title="Poprzedni">&lsaquo;</button>
+                <div class="date-display" id="date-display">-</div>
+                <button id="next-btn" title="Nast&#281;pny">&rsaquo;</button>
+            </div>
+            <div class="date-picker-wrap">
+                <input type="date" id="date-picker">
+            </div>
+            <div class="generated-info" id="generated-info"></div>
+        </div>
     </div>
 
-    <div class="container">
-        <!-- KPI -->
-        <div class="kpi-grid">
-            <div class="kpi-card blue">
-                <div class="value">7</div>
-                <div class="label">Nowe Leady</div>
-            </div>
-            <div class="kpi-card purple">
-                <div class="value">6</div>
-                <div class="label">MQL</div>
-            </div>
-            <div class="kpi-card green">
-                <div class="value">6</div>
-                <div class="label">SQL (Kwalka)</div>
-            </div>
-            <div class="kpi-card green">
-                <div class="value">2</div>
-                <div class="label">Sales Won</div>
-            </div>
-            <div class="kpi-card orange">
-                <div class="value">9</div>
-                <div class="label">Lost Before MQL</div>
-            </div>
-            <div class="kpi-card red">
-                <div class="value">0</div>
-                <div class="label">Sales Lost</div>
-            </div>
-            <div class="kpi-card red">
-                <div class="value">9</div>
-                <div class="label">Lost Total</div>
-            </div>
-            <div class="kpi-card">
-                <div class="value" style="color:#f1f5f9">4</div>
-                <div class="label">Aktywni SDR-owie</div>
-            </div>
-        </div>
-
-        <!-- Konwersje ogolne -->
-        <div class="conv-grid">
-            <div class="conv-card">
-                <div class="conv-label">Lead <span class="conv-arrow">→</span> MQL</div>
-                <div class="conv-value">3/7 (43%)</div>
-            </div>
-            <div class="conv-card">
-                <div class="conv-label">MQL <span class="conv-arrow">→</span> SQL</div>
-                <div class="conv-value">1/6 (17%)</div>
-            </div>
-            <div class="conv-card">
-                <div class="conv-label">Lead <span class="conv-arrow">→</span> SQL</div>
-                <div class="conv-value">1/7 (14%)</div>
-            </div>
-        </div>
-
-        <!-- Tabela konwersji per SDR -->
-        <div class="section">
-            <h2>Konwersje per SDR</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>SDR</th>
-                        <th>Deale</th>
-                        <th>New Lead</th>
-                        <th>MQL</th>
-                        <th>SQL</th>
-                        <th>Won</th>
-                        <th>Lost</th>
-                        <th>Lead→MQL</th>
-                        <th>MQL→SQL</th>
-                        <th>Lead→SQL</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Emilia Kazimierczak</td>
-                        <td>9</td>
-                        <td>2</td>
-                        <td class="text-blue">3</td>
-                        <td class="text-green">3</td>
-                        <td class="text-green">0</td>
-                        <td class="text-red">4</td>
-                        <td class="text-blue">2/2 (100%)</td>
-                        <td class="text-blue">1/3 (33%)</td>
-                        <td class="text-blue">1/2 (50%)</td>
-                    </tr>
-                    <tr>
-                        <td>Igor Sapritonow</td>
-                        <td>8</td>
-                        <td>3</td>
-                        <td class="text-blue">1</td>
-                        <td class="text-green">1</td>
-                        <td class="text-green">0</td>
-                        <td class="text-red">4</td>
-                        <td class="text-blue">0/3 (0%)</td>
-                        <td class="text-blue">0/1 (0%)</td>
-                        <td class="text-blue">0/3 (0%)</td>
-                    </tr>
-                    <tr>
-                        <td>Kamil Oleksiak</td>
-                        <td>8</td>
-                        <td>2</td>
-                        <td class="text-blue">2</td>
-                        <td class="text-green">1</td>
-                        <td class="text-green">1</td>
-                        <td class="text-red">1</td>
-                        <td class="text-blue">1/2 (50%)</td>
-                        <td class="text-blue">0/2 (0%)</td>
-                        <td class="text-blue">0/2 (0%)</td>
-                    </tr>
-                    <tr>
-                        <td>Natalia Jedrysiak</td>
-                        <td>2</td>
-                        <td>0</td>
-                        <td class="text-blue">0</td>
-                        <td class="text-green">1</td>
-                        <td class="text-green">1</td>
-                        <td class="text-red">0</td>
-                        <td class="text-blue">-</td>
-                        <td class="text-blue">-</td>
-                        <td class="text-blue">-</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Przyczyny lostow -->
-        <div class="section">
-            <h2>Przyczyny Lostów</h2>
-            <div class="reason-bar">
-                <div class="bar-label">Price Too High</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:100.0%">22%</div>
-                </div>
-                <div class="bar-count">2</div>
-            </div>
-            <div class="reason-bar">
-                <div class="bar-label">Not Responding</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:50.0%">11%</div>
-                </div>
-                <div class="bar-count">1</div>
-            </div>
-            <div class="reason-bar">
-                <div class="bar-label">Was Only Checking</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:50.0%">11%</div>
-                </div>
-                <div class="bar-count">1</div>
-            </div>
-            <div class="reason-bar">
-                <div class="bar-label">Other</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:50.0%">11%</div>
-                </div>
-                <div class="bar-count">1</div>
-            </div>
-            <div class="reason-bar">
-                <div class="bar-label">Provider Initiated Termination</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:50.0%">11%</div>
-                </div>
-                <div class="bar-count">1</div>
-            </div>
-            <div class="reason-bar">
-                <div class="bar-label">Language Barrier</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:50.0%">11%</div>
-                </div>
-                <div class="bar-count">1</div>
-            </div>
-            <div class="reason-bar">
-                <div class="bar-label">No Business Need</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:50.0%">11%</div>
-                </div>
-                <div class="bar-count">1</div>
-            </div>
-            <div class="reason-bar">
-                <div class="bar-label">Insufficient Functionality</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:50.0%">11%</div>
-                </div>
-                <div class="bar-count">1</div>
-            </div>
-        </div>
-
-        <!-- Szczegoly per SDR -->
-        <div class="section">
-            <h2>Szczegóły per SDR</h2>
-            <div class="sdr-cards">
-                <div class="sdr-card">
-                    <div class="sdr-card-header">
-                        <h3>Emilia Kazimierczak</h3>
-                        <span class="deal-count">9 deali</span>
-                    </div>
-                    <div class="sdr-card-body">
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Nowe leady</span><span>2</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">MQL</span><span class="text-blue">3</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">SQL (Kwalka)</span><span class="text-green">3</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Sales Won</span><span class="text-green">0</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lost</span><span class="text-red">4</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lead → MQL</span><span class="text-blue">2/2 (100%)</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">MQL → SQL</span><span class="text-blue">1/3 (33%)</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lead → SQL</span><span class="text-blue">1/2 (50%)</span></div>
-                        <details>
-                            <summary>Pokaż przyczyny lostów</summary>
-                            <div class="lost-item">
-                                <div class="deal-name">SDR - klimat komfort [PL] - 2026-02-10</div>
-                                <div class="lost-meta">Lost Before MQL | Price Too High</div><div class="lost-meta">za drogo, nie są zainteresowani</div></div>
-                            <div class="lost-item">
-                                <div class="deal-name">SDR - melktechnik-discount [DE] - 2026-02-06</div>
-                                <div class="lost-meta">Lost Before MQL | Not Responding</div><div class="lost-meta">brak kontaktu</div></div>
-                            <div class="lost-item">
-                                <div class="deal-name">SDR - Dragomir  [BG] - 2026-02-16</div>
-                                <div class="lost-meta">Lost Before MQL | Other</div><div class="lost-meta">Dragomir (cs@peptidepower.is) has opted out of Sales Email | One to One.</div></div>
-                            <div class="lost-item">
-                                <div class="deal-name">SDR - befara.com [MARKET CODE] - 2026-02-17</div>
-                                <div class="lost-meta">Lost Before MQL | Language Barrier</div><div class="lost-meta">nie mówi po ang. </div></div>
-                        </details>
-                        <details>
-                            <summary>Pokaż listę deali</summary>
-                            <div style="margin-top:8px">
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - klimat komfort [PL] - 2026-02-10</span>
-                                    <span style="color:#64748b;margin-left:8px">(Lost Before MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">Lost Before MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - melktechnik-discount [DE] - 2026-02-06</span>
-                                    <span style="color:#64748b;margin-left:8px">(Lost Before MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">Lost Before MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - ZEW FOR MEN [PL] - 2026-02-10</span>
-                                    <span style="color:#64748b;margin-left:8px">(Kwalka (SQL))</span>
-                                    <div style="color:#94a3b8;font-size:11px">Kwalka (SQL)</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Weldricks Pharmacy [UK] - 2026-02-17</span>
-                                    <span style="color:#64748b;margin-left:8px">(MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">SDR Call Scheduled, MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Kärcher Center [PL] - 2026-02-18</span>
-                                    <span style="color:#64748b;margin-left:8px">(Kwalka (SQL))</span>
-                                    <div style="color:#94a3b8;font-size:11px">New Lead, In Progress, SDR Call Scheduled, MQL, Kwalka (SQL)</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Dragomir  [BG] - 2026-02-16</span>
-                                    <span style="color:#64748b;margin-left:8px">(Lost Before MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">Lost Before MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Amber Business Solutions [UK] - 2026-02-18</span>
-                                    <span style="color:#64748b;margin-left:8px">(MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">New Lead, In Progress, SDR Call Scheduled, MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - e-medest [PL] - 2026-02-11</span>
-                                    <span style="color:#64748b;margin-left:8px">(Kwalka (SQL))</span>
-                                    <div style="color:#94a3b8;font-size:11px">Kwalka (SQL)</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - befara.com [MARKET CODE] - 2026-02-17</span>
-                                    <span style="color:#64748b;margin-left:8px">(Lost Before MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">Lost Before MQL</div>
-                                </div>
-                            </div>
-                        </details>
-                    </div>
-                </div>
-                <div class="sdr-card">
-                    <div class="sdr-card-header">
-                        <h3>Igor Sapritonow</h3>
-                        <span class="deal-count">8 deali</span>
-                    </div>
-                    <div class="sdr-card-body">
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Nowe leady</span><span>3</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">MQL</span><span class="text-blue">1</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">SQL (Kwalka)</span><span class="text-green">1</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Sales Won</span><span class="text-green">0</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lost</span><span class="text-red">4</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lead → MQL</span><span class="text-blue">0/3 (0%)</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">MQL → SQL</span><span class="text-blue">0/1 (0%)</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lead → SQL</span><span class="text-blue">0/3 (0%)</span></div>
-                        <details>
-                            <summary>Pokaż przyczyny lostów</summary>
-                            <div class="lost-item">
-                                <div class="deal-name">SDR - axiomedia.it [IT] - 2026-02-18</div>
-                                <div class="lost-meta">Lost Before MQL | Price Too High</div><div class="lost-meta">za drogo, scope 10-15 direct e-shopow, szukają taniego a nie dobrego rozwiazania</div></div>
-                            <div class="lost-item">
-                                <div class="deal-name">SDR - batbua.no [MARKET CODE] - 2026-02-18</div>
-                                <div class="lost-meta">Lost Before MQL | Provider Initiated Termination</div><div class="lost-meta">Brak kontaktu</div></div>
-                            <div class="lost-item">
-                                <div class="deal-name">SDR - placeofvape.de [DE] - 2025-12-23</div>
-                                <div class="lost-meta">Lost Before MQL | No Business Need</div><div class="lost-meta">Szefowa nie chce narazie inwestowac pieniazkow, jak ogarną sytuacje bieżącą to się odezwa</div></div>
-                            <div class="lost-item">
-                                <div class="deal-name">SDR - adegis.com [PL] - 2026-01-06</div>
-                                <div class="lost-meta">Lost Before MQL | Insufficient Functionality</div><div class="lost-meta">Nie pasujemy do siebie</div></div>
-                        </details>
-                        <details>
-                            <summary>Pokaż listę deali</summary>
-                            <div style="margin-top:8px">
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Siluan [DE] - 2026-02-19</span>
-                                    <span style="color:#64748b;margin-left:8px">(MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - advancedtec.de [DE] - 2026-02-17</span>
-                                    <span style="color:#64748b;margin-left:8px">(In Progress)</span>
-                                    <div style="color:#94a3b8;font-size:11px">In Progress</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - displaynd [DE] - 2026-02-17</span>
-                                    <span style="color:#64748b;margin-left:8px">(Kwalka (SQL))</span>
-                                    <div style="color:#94a3b8;font-size:11px">Kwalka (SQL)</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - axiomedia.it [IT] - 2026-02-18</span>
-                                    <span style="color:#64748b;margin-left:8px">(Lost Before MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">New Lead, Lost Before MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - batbua.no [MARKET CODE] - 2026-02-18</span>
-                                    <span style="color:#64748b;margin-left:8px">(Lost Before MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">New Lead, Lost Before MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - freenappy.com [UK] - 2026-02-18</span>
-                                    <span style="color:#64748b;margin-left:8px">(In Progress)</span>
-                                    <div style="color:#94a3b8;font-size:11px">New Lead, In Progress</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - placeofvape.de [DE] - 2025-12-23</span>
-                                    <span style="color:#64748b;margin-left:8px">(Lost Before MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">Lost Before MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - adegis.com [PL] - 2026-01-06</span>
-                                    <span style="color:#64748b;margin-left:8px">(Lost Before MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">Lost Before MQL</div>
-                                </div>
-                            </div>
-                        </details>
-                    </div>
-                </div>
-                <div class="sdr-card">
-                    <div class="sdr-card-header">
-                        <h3>Kamil Oleksiak</h3>
-                        <span class="deal-count">8 deali</span>
-                    </div>
-                    <div class="sdr-card-body">
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Nowe leady</span><span>2</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">MQL</span><span class="text-blue">2</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">SQL (Kwalka)</span><span class="text-green">1</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Sales Won</span><span class="text-green">1</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lost</span><span class="text-red">1</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lead → MQL</span><span class="text-blue">1/2 (50%)</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">MQL → SQL</span><span class="text-blue">0/2 (0%)</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lead → SQL</span><span class="text-blue">0/2 (0%)</span></div>
-                        <details>
-                            <summary>Pokaż przyczyny lostów</summary>
-                            <div class="lost-item">
-                                <div class="deal-name">SDR - TekaPi - 2026-02-16</div>
-                                <div class="lost-meta">Lost Before MQL | Was Only Checking</div><div class="lost-meta">Robi rozeznanie, wyszliśmy najdrożej</div></div>
-                        </details>
-                        <details>
-                            <summary>Pokaż listę deali</summary>
-                            <div style="margin-top:8px">
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Seopol [PL] - 2026-02-16</span>
-                                    <span style="color:#64748b;margin-left:8px">(SDR Call Scheduled)</span>
-                                    <div style="color:#94a3b8;font-size:11px">SDR Call Scheduled</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Erotyczne wibracje [PL] - 2026-02-13</span>
-                                    <span style="color:#64748b;margin-left:8px">(Kwalka (SQL))</span>
-                                    <div style="color:#94a3b8;font-size:11px">Kwalka (SQL)</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - TekaPi - 2026-02-16</span>
-                                    <span style="color:#64748b;margin-left:8px">(Lost Before MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">Lost Before MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - aptekazusmiechem.pl [MARKET CODE] - 2026-02-</span>
-                                    <span style="color:#64748b;margin-left:8px">(In Progress)</span>
-                                    <div style="color:#94a3b8;font-size:11px">In Progress</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Zoomisia [PL] - 2026-02-18</span>
-                                    <span style="color:#64748b;margin-left:8px">(MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">New Lead, In Progress, SDR Call Scheduled, MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Moto budrex [PL] - 2026-02-16</span>
-                                    <span style="color:#64748b;margin-left:8px">(MQL)</span>
-                                    <div style="color:#94a3b8;font-size:11px">SDR Call Scheduled, MQL</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - listwy-dekory.pl [MARKET CODE] - 2026-02-18</span>
-                                    <span style="color:#64748b;margin-left:8px">(SDR Call Scheduled)</span>
-                                    <div style="color:#94a3b8;font-size:11px">New Lead, In Progress, SDR Call Scheduled</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Olivit [PL] - 2025-11-25</span>
-                                    <span style="color:#64748b;margin-left:8px">(Sales Won)</span>
-                                    <div style="color:#94a3b8;font-size:11px">Sales Won</div>
-                                </div>
-                            </div>
-                        </details>
-                    </div>
-                </div>
-                <div class="sdr-card">
-                    <div class="sdr-card-header">
-                        <h3>Natalia Jedrysiak</h3>
-                        <span class="deal-count">2 deali</span>
-                    </div>
-                    <div class="sdr-card-body">
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Nowe leady</span><span>0</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">MQL</span><span class="text-blue">0</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">SQL (Kwalka)</span><span class="text-green">1</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Sales Won</span><span class="text-green">1</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lost</span><span class="text-red">0</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lead → MQL</span><span class="text-blue">-</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">MQL → SQL</span><span class="text-blue">-</span></div>
-                        <div class="sdr-stat-row"><span class="sdr-stat-label">Lead → SQL</span><span class="text-blue">-</span></div>
-                        <details>
-                            <summary>Pokaż listę deali</summary>
-                            <div style="margin-top:8px">
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - suez [PL] - 2026-02-11</span>
-                                    <span style="color:#64748b;margin-left:8px">(Kwalka (SQL))</span>
-                                    <div style="color:#94a3b8;font-size:11px">Kwalka (SQL)</div>
-                                </div>
-                                <div style="padding:4px 0;border-bottom:1px solid #263548;font-size:13px">
-                                    <span style="color:#f1f5f9">SDR - Steri-Tech [DE] - 2026-02-10</span>
-                                    <span style="color:#64748b;margin-left:8px">(Sales Won)</span>
-                                    <div style="color:#94a3b8;font-size:11px">Sales Won</div>
-                                </div>
-                            </div>
-                        </details>
-                    </div>
-                </div>
-            </div>
+    <div class="container" id="main-container">
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <div>&#321;adowanie danych...</div>
         </div>
     </div>
 
     <div class="footer">
-        SDR Pipeline Dashboard | Dane z HubSpot API | Wygenerowano: 2026-02-19 08:01
+        SDR Pipeline Dashboard | Dane z HubSpot API
     </div>
+
+    <script src="dashboard.js"></script>
 </body>
 </html>

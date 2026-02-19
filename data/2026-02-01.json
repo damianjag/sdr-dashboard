@@ -1,0 +1,125 @@
+{
+  "date": "2026-02-01",
+  "generated_at": "2026-02-19 07:34",
+  "summary": {
+    "total": 5,
+    "new_lead": 5,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0,
+    "lead_mql": "0/5 (0%)",
+    "mql_sql": "-",
+    "lead_sql": "0/5 (0%)",
+    "lead_mql_num": 0,
+    "mql_sql_num": 0,
+    "lead_sql_num": 0
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0,
+        "lead_mql": "0/2 (0%)",
+        "mql_sql": "-",
+        "lead_sql": "0/2 (0%)",
+        "lead_mql_num": 0,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - shiftd.de [DE] - 2026-02-01",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - keraworld.de [DE] - 2026-02-01",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": []
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0,
+        "lead_mql": "0/2 (0%)",
+        "mql_sql": "-",
+        "lead_sql": "0/2 (0%)",
+        "lead_mql_num": 0,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - stmaria.cz [MARKET CODE] - 2026-02-01",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - jgsantehnika [LV] - 2026-02-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": []
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0,
+        "lead_mql": "0/1 (0%)",
+        "mql_sql": "-",
+        "lead_sql": "0/1 (0%)",
+        "lead_mql_num": 0,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - gigerbaits.pl [MARKET CODE] - 2026-02-01",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": []
+    }
+  ],
+  "lost_reasons": []
+}

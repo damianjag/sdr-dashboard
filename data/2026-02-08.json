@@ -1,0 +1,118 @@
+{
+  "date": "2026-02-08",
+  "generated_at": "2026-02-19 07:34",
+  "summary": {
+    "total": 4,
+    "new_lead": 4,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0,
+    "lead_mql": "0/4 (0%)",
+    "mql_sql": "-",
+    "lead_sql": "0/4 (0%)",
+    "lead_mql_num": 0,
+    "mql_sql_num": 0,
+    "lead_sql_num": 0
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0,
+        "lead_mql": "0/2 (0%)",
+        "mql_sql": "-",
+        "lead_sql": "0/2 (0%)",
+        "lead_mql_num": 0,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - profonlinestore.com [PT] - 2026-02-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - javivi.dev [ES] - 2026-02-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": []
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0,
+        "lead_mql": "0/1 (0%)",
+        "mql_sql": "-",
+        "lead_sql": "0/1 (0%)",
+        "lead_mql_num": 0,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - fhibis [PL] - 2026-02-08",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": []
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0,
+        "lead_mql": "0/1 (0%)",
+        "mql_sql": "-",
+        "lead_sql": "0/1 (0%)",
+        "lead_mql_num": 0,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - enecen.de [MARKET CODE] - 2026-02-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": []
+    }
+  ],
+  "lost_reasons": []
+}

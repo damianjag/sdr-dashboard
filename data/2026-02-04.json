@@ -1,0 +1,425 @@
+{
+  "date": "2026-02-04",
+  "generated_at": "2026-02-19 07:34",
+  "summary": {
+    "total": 27,
+    "new_lead": 10,
+    "mql": 8,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 8,
+    "sales_lost": 2,
+    "lost_total": 10,
+    "lead_mql": "3/10 (30%)",
+    "mql_sql": "0/8 (0%)",
+    "lead_sql": "0/10 (0%)",
+    "lead_mql_num": 3,
+    "mql_sql_num": 0,
+    "lead_sql_num": 0
+  },
+  "active_sdrs": 5,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 8,
+        "new_lead": 6,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2,
+        "lead_mql": "1/6 (17%)",
+        "mql_sql": "0/2 (0%)",
+        "lead_sql": "0/6 (0%)",
+        "lead_mql_num": 1,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - takeaware [NL] - 2026-01-26",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - oase-wassergarten [DE] - 2026-01-28",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - outaway [DE] - 2026-02-04",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - fmic [PL] - 2026-02-04",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - deindeal [CH] - 2026-02-04",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Ondřej Kvašňovský  [CZ] - 2026-02-04",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - merkbau [HU] - 2026-02-04",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - artspices [LV] - 2026-02-04",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - oase-wassergarten [DE] - 2026-01-28",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "za drogo"
+        },
+        {
+          "name": "SDR - artspices [LV] - 2026-02-04",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "za drogo"
+        }
+      ]
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 7,
+        "new_lead": 2,
+        "mql": 3,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 3,
+        "sales_lost": 0,
+        "lost_total": 3,
+        "lead_mql": "1/2 (50%)",
+        "mql_sql": "0/3 (0%)",
+        "lead_sql": "0/2 (0%)",
+        "lead_mql_num": 1,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Witty-Chemie GmbH [DE] - 2026-02-04",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - autodoc [DE] - 2026-02-04",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Szerszamjoker [HU] - 2026-01-28",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - UTC [CZ] 2026-02-03 - 2026-02-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - hurtel [PL] - 2026-02-03",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - abyssecorp [FR] - 2026-01-26",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - tinylibrary [NL] - 2026-01-26",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - UTC [CZ] 2026-02-03 - 2026-02-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Language Barrier",
+          "lost_description": "tylko po czesku"
+        },
+        {
+          "name": "SDR - abyssecorp [FR] - 2026-01-26",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - tinylibrary [NL] - 2026-01-26",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        }
+      ]
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 1,
+        "lost_total": 3,
+        "lead_mql": "1/1 (100%)",
+        "mql_sql": "0/1 (0%)",
+        "lead_sql": "0/1 (0%)",
+        "lead_mql_num": 1,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - \"Piotr Petliński\" <piotr.petlinski@porcelana24.pl> - 2026-02-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - Strima [PL] - 2026-02-04",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Castorama [PL] - 2026-01-13",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - marcin.t@kgktrend.pl - webinar - 2026-02-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Onlytools [PL] - 2026-01-12",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - niebieskiogrod.pl [MARKET CODE] - 2026-01-26",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - marcin.t@kgktrend.pl - webinar - 2026-02-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "zakres: 30 www bezpośrednio allegro i ceneo\n\nupdate \"Live\"\n\noczekiwania ~3000 zł"
+        },
+        {
+          "name": "SDR - Onlytools [PL] - 2026-01-12",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Unknown",
+          "lost_description": "nie przyszedł na prezkę po raz kolejny "
+        },
+        {
+          "name": "SDR - niebieskiogrod.pl [MARKET CODE] - 2026-01-26",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Usłyszała Dealavo to się rozłączyła "
+        }
+      ]
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 5,
+        "new_lead": 1,
+        "mql": 2,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1,
+        "lead_mql": "0/1 (0%)",
+        "mql_sql": "0/2 (0%)",
+        "lead_sql": "0/1 (0%)",
+        "lead_mql_num": 0,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - interelectro [AT] - 2026-02-02",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - vavado [DE] - 2026-02-04",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - comms-express [UK] - 2026-02-03",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Nesatec [DE] - 2026-01-14",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - acventis [DE] - 2026-01-28",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Nesatec [DE] - 2026-01-14",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "Klient CP, potrzeby BAU. Za drogo"
+        }
+      ]
+    },
+    {
+      "name": "Piotr Zelewski",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1,
+        "lead_mql": "-",
+        "mql_sql": "-",
+        "lead_sql": "-",
+        "lead_mql_num": 0,
+        "mql_sql_num": 0,
+        "lead_sql_num": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - storeschmi.de [MARKET CODE] - 2026-02-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - storeschmi.de [MARKET CODE] - 2026-02-02",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "Lead potencjalnego partnera na teraz chce przede wszystkim skupić się na kalkulacji cen i repricingu na Amazonie. Korzystają z repricera od Sellerlogic za ~90 EUR. StoreSchmi.de dalej zainteresowany partnerstwem (platynowy partner JTL) na DACH, wiec pozostajemy w kontakcie."
+        }
+      ]
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Price Too High",
+      "count": 4
+    },
+    {
+      "reason": "Not Responding",
+      "count": 3
+    },
+    {
+      "reason": "Language Barrier",
+      "count": 1
+    },
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    },
+    {
+      "reason": "Unknown",
+      "count": 1
+    }
+  ]
+}
