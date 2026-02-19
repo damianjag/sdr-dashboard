@@ -1,6 +1,6 @@
 {
   "date": "2026-02-08",
-  "generated_at": "2026-02-19 07:34",
+  "generated_at": "2026-02-19 19:09",
   "summary": {
     "total": 4,
     "new_lead": 4,
@@ -9,13 +9,7 @@
     "won": 0,
     "lost_before_mql": 0,
     "sales_lost": 0,
-    "lost_total": 0,
-    "lead_mql": "0/4 (0%)",
-    "mql_sql": "-",
-    "lead_sql": "0/4 (0%)",
-    "lead_mql_num": 0,
-    "mql_sql_num": 0,
-    "lead_sql_num": 0
+    "lost_total": 0
   },
   "active_sdrs": 3,
   "sdr_data": [
@@ -29,13 +23,7 @@
         "won": 0,
         "lost_before_mql": 0,
         "sales_lost": 0,
-        "lost_total": 0,
-        "lead_mql": "0/2 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/2 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 0
       },
       "deals": [
         {
@@ -53,7 +41,20 @@
           ]
         }
       ],
-      "lost_deals": []
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 717,
+        "total_mql": 126,
+        "lead_mql": "112/717 (16%)",
+        "lead_mql_num": 112,
+        "lead_mql_denom": 717,
+        "mql_sql": "64/126 (51%)",
+        "mql_sql_num": 64,
+        "mql_sql_denom": 126,
+        "lead_sql": "57/717 (8%)",
+        "lead_sql_num": 57,
+        "lead_sql_denom": 717
+      }
     },
     {
       "name": "Natalia Jedrysiak",
@@ -65,13 +66,7 @@
         "won": 0,
         "lost_before_mql": 0,
         "sales_lost": 0,
-        "lost_total": 0,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 0
       },
       "deals": [
         {
@@ -82,7 +77,20 @@
           ]
         }
       ],
-      "lost_deals": []
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 1946,
+        "total_mql": 433,
+        "lead_mql": "412/1946 (21%)",
+        "lead_mql_num": 412,
+        "lead_mql_denom": 1946,
+        "mql_sql": "248/433 (57%)",
+        "mql_sql_num": 248,
+        "mql_sql_denom": 433,
+        "lead_sql": "239/1946 (12%)",
+        "lead_sql_num": 239,
+        "lead_sql_denom": 1946
+      }
     },
     {
       "name": "Emilia Kazimierczak",
@@ -94,13 +102,7 @@
         "won": 0,
         "lost_before_mql": 0,
         "sales_lost": 0,
-        "lost_total": 0,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 0
       },
       "deals": [
         {
@@ -111,8 +113,34 @@
           ]
         }
       ],
-      "lost_deals": []
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 2760,
+        "total_mql": 876,
+        "lead_mql": "845/2760 (31%)",
+        "lead_mql_num": 845,
+        "lead_mql_denom": 2760,
+        "mql_sql": "515/876 (59%)",
+        "mql_sql_num": 515,
+        "mql_sql_denom": 876,
+        "lead_sql": "506/2760 (18%)",
+        "lead_sql_num": 506,
+        "lead_sql_denom": 2760
+      }
     }
   ],
-  "lost_reasons": []
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 8151,
+    "total_mql": 2143,
+    "lead_mql": "1986/8151 (24%)",
+    "lead_mql_num": 1986,
+    "lead_mql_denom": 8151,
+    "mql_sql": "1265/2143 (59%)",
+    "mql_sql_num": 1265,
+    "mql_sql_denom": 2143,
+    "lead_sql": "1180/8151 (14%)",
+    "lead_sql_num": 1180,
+    "lead_sql_denom": 8151
+  }
 }

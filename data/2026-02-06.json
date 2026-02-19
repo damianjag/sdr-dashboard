@@ -1,6 +1,6 @@
 {
   "date": "2026-02-06",
-  "generated_at": "2026-02-19 07:34",
+  "generated_at": "2026-02-19 19:09",
   "summary": {
     "total": 48,
     "new_lead": 26,
@@ -9,13 +9,7 @@
     "won": 2,
     "lost_before_mql": 11,
     "sales_lost": 4,
-    "lost_total": 15,
-    "lead_mql": "1/26 (4%)",
-    "mql_sql": "0/3 (0%)",
-    "lead_sql": "0/26 (0%)",
-    "lead_mql_num": 1,
-    "mql_sql_num": 0,
-    "lead_sql_num": 0
+    "lost_total": 15
   },
   "active_sdrs": 5,
   "sdr_data": [
@@ -29,15 +23,49 @@
         "won": 0,
         "lost_before_mql": 7,
         "sales_lost": 3,
-        "lost_total": 10,
-        "lead_mql": "0/10 (0%)",
-        "mql_sql": "0/1 (0%)",
-        "lead_sql": "0/10 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 10
       },
       "deals": [
+        {
+          "name": "SDR - dobre-suplementy [PL] - 2026-02-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - mtraversari [IT] - 2026-02-06",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - marso [HU] - 2026-01-14",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - 1000parfums.ch [MARKET CODE] - 2026-02-06",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - danhoss [PL] - 2026-02-06",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
         {
           "name": "SDR - takeaware [NL] - 2026-01-26",
           "current_stage": "Kwalka (SQL)",
@@ -50,14 +78,6 @@
           "current_stage": "Kwalka (SQL)",
           "stage_changes": [
             "Kwalka (SQL)"
-          ]
-        },
-        {
-          "name": "SDR - mtraversari [IT] - 2026-02-06",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
           ]
         },
         {
@@ -83,21 +103,6 @@
           ]
         },
         {
-          "name": "SDR - marso [HU] - 2026-01-14",
-          "current_stage": "Sales Lost",
-          "stage_changes": [
-            "Sales Lost"
-          ]
-        },
-        {
-          "name": "SDR - danhoss [PL] - 2026-02-06",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - mount7 [DE] - 2026-02-06",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
@@ -110,15 +115,6 @@
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "Lost Before MQL"
-          ]
-        },
-        {
-          "name": "SDR - dobre-suplementy [PL] - 2026-02-05",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "In Progress",
-            "SDR Call Scheduled",
-            "MQL"
           ]
         },
         {
@@ -142,14 +138,6 @@
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "New Lead"
-          ]
-        },
-        {
-          "name": "SDR - 1000parfums.ch [MARKET CODE] - 2026-02-06",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "New Lead",
-            "Lost Before MQL"
           ]
         },
         {
@@ -204,6 +192,12 @@
           "lost_description": "Koszty za wysokie, mieli pogadac wewnetrznie i kontakt sie urwal. "
         },
         {
+          "name": "SDR - 1000parfums.ch [MARKET CODE] - 2026-02-06",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Language Barrier",
+          "lost_description": "nie mowi po ang ani niem"
+        },
+        {
           "name": "SDR - mount7 [DE] - 2026-02-06",
           "lost_type": "Lost Before MQL",
           "lost_reason": "Lack of Decision Maker",
@@ -214,12 +208,6 @@
           "lost_type": "Lost Before MQL",
           "lost_reason": "Not Responding",
           "lost_description": "nie odp"
-        },
-        {
-          "name": "SDR - 1000parfums.ch [MARKET CODE] - 2026-02-06",
-          "lost_type": "Lost Before MQL",
-          "lost_reason": "Language Barrier",
-          "lost_description": "nie mowi po ang ani niem"
         },
         {
           "name": "SDR - cj-corp.de [MARKET CODE] - 2026-01-24",
@@ -257,7 +245,20 @@
           "lost_reason": "Was Only Checking",
           "lost_description": "na razie projekt wstrzymany"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 1945,
+        "total_mql": 433,
+        "lead_mql": "412/1945 (21%)",
+        "lead_mql_num": 412,
+        "lead_mql_denom": 1945,
+        "mql_sql": "248/433 (57%)",
+        "mql_sql_num": 248,
+        "mql_sql_denom": 433,
+        "lead_sql": "239/1945 (12%)",
+        "lead_sql_num": 239,
+        "lead_sql_denom": 1945
+      }
     },
     {
       "name": "Emilia Kazimierczak",
@@ -269,15 +270,39 @@
         "won": 2,
         "lost_before_mql": 1,
         "sales_lost": 1,
-        "lost_total": 2,
-        "lead_mql": "0/10 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/10 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
+        {
+          "name": "SDR - netenders.com [FR] - 2026-02-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Violin-musicstore [DE] - 2026-02-06",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - deejay [DE] - 2026-02-06",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - schedpol [PL] - 2025-11-24",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
         {
           "name": "SDR - melktechnik-discount [DE] - 2026-02-06",
           "current_stage": "Lost Before MQL",
@@ -296,14 +321,6 @@
           ]
         },
         {
-          "name": "SDR - netenders.com [FR] - 2026-02-06",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - Winkelstraat [NL] - 2026-01-27",
           "current_stage": "Kwalka (SQL)",
           "stage_changes": [
@@ -311,25 +328,10 @@
           ]
         },
         {
-          "name": "SDR - Violin-musicstore [DE] - 2026-02-06",
-          "current_stage": "SDR Call Scheduled",
-          "stage_changes": [
-            "New Lead"
-          ]
-        },
-        {
           "name": "SDR - kfzblitz24 [DE] - 2025-12-05",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "Lost Before MQL"
-          ]
-        },
-        {
-          "name": "SDR - deejay [DE] - 2026-02-06",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
           ]
         },
         {
@@ -350,13 +352,6 @@
         },
         {
           "name": "SDR - imm-professional [DE] - 2025-10-21",
-          "current_stage": "Sales Won",
-          "stage_changes": [
-            "Sales Won"
-          ]
-        },
-        {
-          "name": "SDR - schedpol [PL] - 2025-11-24",
           "current_stage": "Sales Won",
           "stage_changes": [
             "Sales Won"
@@ -407,7 +402,20 @@
           "lost_reason": "Change Of Business Model",
           "lost_description": "Stary lost - do prezentacji nie doszło, zmienili zdanie, nie podejmą się współpracy z żadną firmą monitorującą ceny"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2758,
+        "total_mql": 876,
+        "lead_mql": "845/2758 (31%)",
+        "lead_mql_num": 845,
+        "lead_mql_denom": 2758,
+        "mql_sql": "515/876 (59%)",
+        "mql_sql_num": 515,
+        "mql_sql_denom": 876,
+        "lead_sql": "506/2758 (18%)",
+        "lead_sql_num": 506,
+        "lead_sql_denom": 2758
+      }
     },
     {
       "name": "Igor Sapritonow",
@@ -419,13 +427,7 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 0,
-        "lost_total": 2,
-        "lead_mql": "0/5 (0%)",
-        "mql_sql": "0/1 (0%)",
-        "lead_sql": "0/5 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
         {
@@ -497,7 +499,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "n/a"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 713,
+        "total_mql": 126,
+        "lead_mql": "112/713 (16%)",
+        "lead_mql_num": 112,
+        "lead_mql_denom": 713,
+        "mql_sql": "64/126 (51%)",
+        "mql_sql_num": 64,
+        "mql_sql_denom": 126,
+        "lead_sql": "57/713 (8%)",
+        "lead_sql_num": 57,
+        "lead_sql_denom": 713
+      }
     },
     {
       "name": "Kamil Oleksiak",
@@ -509,13 +524,7 @@
         "won": 0,
         "lost_before_mql": 0,
         "sales_lost": 0,
-        "lost_total": 0,
-        "lead_mql": "-",
-        "mql_sql": "-",
-        "lead_sql": "-",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 0
       },
       "deals": [
         {
@@ -540,7 +549,20 @@
           ]
         }
       ],
-      "lost_deals": []
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 601,
+        "total_mql": 208,
+        "lead_mql": "207/601 (34%)",
+        "lead_mql_num": 207,
+        "lead_mql_denom": 601,
+        "mql_sql": "124/208 (60%)",
+        "mql_sql_num": 124,
+        "mql_sql_denom": 208,
+        "lead_sql": "123/601 (20%)",
+        "lead_sql_num": 123,
+        "lead_sql_denom": 601
+      }
     },
     {
       "name": "Nieznany",
@@ -552,13 +574,7 @@
         "won": 0,
         "lost_before_mql": 1,
         "sales_lost": 0,
-        "lost_total": 1,
-        "lead_mql": "1/1 (100%)",
-        "mql_sql": "0/1 (0%)",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 1
       },
       "deals": [
         {
@@ -586,7 +602,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "no reply to pings after switching to English"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2093,
+        "total_mql": 495,
+        "lead_mql": "405/2093 (19%)",
+        "lead_mql_num": 405,
+        "lead_mql_denom": 2093,
+        "mql_sql": "313/495 (63%)",
+        "mql_sql_num": 313,
+        "mql_sql_denom": 495,
+        "lead_sql": "251/2093 (12%)",
+        "lead_sql_num": 251,
+        "lead_sql_denom": 2093
+      }
     }
   ],
   "lost_reasons": [
@@ -603,11 +632,11 @@
       "count": 1
     },
     {
-      "reason": "Lack of Decision Maker",
+      "reason": "Language Barrier",
       "count": 1
     },
     {
-      "reason": "Language Barrier",
+      "reason": "Lack of Decision Maker",
       "count": 1
     },
     {
@@ -622,5 +651,18 @@
       "reason": "Try Later",
       "count": 1
     }
-  ]
+  ],
+  "conversions": {
+    "total_leads": 8144,
+    "total_mql": 2143,
+    "lead_mql": "1986/8144 (24%)",
+    "lead_mql_num": 1986,
+    "lead_mql_denom": 8144,
+    "mql_sql": "1265/2143 (59%)",
+    "mql_sql_num": 1265,
+    "mql_sql_denom": 2143,
+    "lead_sql": "1180/8144 (14%)",
+    "lead_sql_num": 1180,
+    "lead_sql_denom": 8144
+  }
 }

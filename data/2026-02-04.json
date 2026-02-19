@@ -1,6 +1,6 @@
 {
   "date": "2026-02-04",
-  "generated_at": "2026-02-19 07:34",
+  "generated_at": "2026-02-19 19:09",
   "summary": {
     "total": 27,
     "new_lead": 10,
@@ -9,13 +9,7 @@
     "won": 0,
     "lost_before_mql": 8,
     "sales_lost": 2,
-    "lost_total": 10,
-    "lead_mql": "3/10 (30%)",
-    "mql_sql": "0/8 (0%)",
-    "lead_sql": "0/10 (0%)",
-    "lead_mql_num": 3,
-    "mql_sql_num": 0,
-    "lead_sql_num": 0
+    "lost_total": 10
   },
   "active_sdrs": 5,
   "sdr_data": [
@@ -29,13 +23,7 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 0,
-        "lost_total": 2,
-        "lead_mql": "1/6 (17%)",
-        "mql_sql": "0/2 (0%)",
-        "lead_sql": "0/6 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
         {
@@ -116,7 +104,20 @@
           "lost_reason": "Price Too High",
           "lost_description": "za drogo"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 1929,
+        "total_mql": 430,
+        "lead_mql": "409/1929 (21%)",
+        "lead_mql_num": 409,
+        "lead_mql_denom": 1929,
+        "mql_sql": "245/430 (57%)",
+        "mql_sql_num": 245,
+        "mql_sql_denom": 430,
+        "lead_sql": "236/1929 (12%)",
+        "lead_sql_num": 236,
+        "lead_sql_denom": 1929
+      }
     },
     {
       "name": "Emilia Kazimierczak",
@@ -128,13 +129,7 @@
         "won": 0,
         "lost_before_mql": 3,
         "sales_lost": 0,
-        "lost_total": 3,
-        "lead_mql": "1/2 (50%)",
-        "mql_sql": "0/3 (0%)",
-        "lead_sql": "0/2 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 3
       },
       "deals": [
         {
@@ -210,7 +205,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "brak kontaktu"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2743,
+        "total_mql": 875,
+        "lead_mql": "844/2743 (31%)",
+        "lead_mql_num": 844,
+        "lead_mql_denom": 2743,
+        "mql_sql": "513/875 (59%)",
+        "mql_sql_num": 513,
+        "mql_sql_denom": 875,
+        "lead_sql": "504/2743 (18%)",
+        "lead_sql_num": 504,
+        "lead_sql_denom": 2743
+      }
     },
     {
       "name": "Kamil Oleksiak",
@@ -222,22 +230,9 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 1,
-        "lost_total": 3,
-        "lead_mql": "1/1 (100%)",
-        "mql_sql": "0/1 (0%)",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 3
       },
       "deals": [
-        {
-          "name": "SDR - \"Piotr Petliński\" <piotr.petlinski@porcelana24.pl> - 2026-02-03",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "SDR Call Scheduled"
-          ]
-        },
         {
           "name": "SDR - Strima [PL] - 2026-02-04",
           "current_stage": "Kwalka (SQL)",
@@ -246,6 +241,13 @@
             "In Progress",
             "SDR Call Scheduled",
             "MQL"
+          ]
+        },
+        {
+          "name": "SDR - \"Piotr Petliński\" <piotr.petlinski@porcelana24.pl> - 2026-02-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "SDR Call Scheduled"
           ]
         },
         {
@@ -296,7 +298,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "Usłyszała Dealavo to się rozłączyła "
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 600,
+        "total_mql": 208,
+        "lead_mql": "207/600 (34%)",
+        "lead_mql_num": 207,
+        "lead_mql_denom": 600,
+        "mql_sql": "123/208 (59%)",
+        "mql_sql_num": 123,
+        "mql_sql_denom": 208,
+        "lead_sql": "122/600 (20%)",
+        "lead_sql_num": 122,
+        "lead_sql_denom": 600
+      }
     },
     {
       "name": "Igor Sapritonow",
@@ -308,15 +323,17 @@
         "won": 0,
         "lost_before_mql": 0,
         "sales_lost": 1,
-        "lost_total": 1,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "0/2 (0%)",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 1
       },
       "deals": [
+        {
+          "name": "SDR - comms-express [UK] - 2026-02-03",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
         {
           "name": "SDR - interelectro [AT] - 2026-02-02",
           "current_stage": "Sales Won",
@@ -329,14 +346,6 @@
           "current_stage": "MQL",
           "stage_changes": [
             "New Lead"
-          ]
-        },
-        {
-          "name": "SDR - comms-express [UK] - 2026-02-03",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "SDR Call Scheduled",
-            "MQL"
           ]
         },
         {
@@ -361,7 +370,20 @@
           "lost_reason": "Price Too High",
           "lost_description": "Klient CP, potrzeby BAU. Za drogo"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 708,
+        "total_mql": 125,
+        "lead_mql": "111/708 (16%)",
+        "lead_mql_num": 111,
+        "lead_mql_denom": 708,
+        "mql_sql": "64/125 (51%)",
+        "mql_sql_num": 64,
+        "mql_sql_denom": 125,
+        "lead_sql": "57/708 (8%)",
+        "lead_sql_num": 57,
+        "lead_sql_denom": 708
+      }
     },
     {
       "name": "Piotr Zelewski",
@@ -373,13 +395,7 @@
         "won": 0,
         "lost_before_mql": 1,
         "sales_lost": 0,
-        "lost_total": 1,
-        "lead_mql": "-",
-        "mql_sql": "-",
-        "lead_sql": "-",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 1
       },
       "deals": [
         {
@@ -397,7 +413,20 @@
           "lost_reason": "Insufficient Functionality",
           "lost_description": "Lead potencjalnego partnera na teraz chce przede wszystkim skupić się na kalkulacji cen i repricingu na Amazonie. Korzystają z repricera od Sellerlogic za ~90 EUR. StoreSchmi.de dalej zainteresowany partnerstwem (platynowy partner JTL) na DACH, wiec pozostajemy w kontakcie."
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 1,
+        "total_mql": 0,
+        "lead_mql": "0/1 (0%)",
+        "lead_mql_num": 0,
+        "lead_mql_denom": 1,
+        "mql_sql": "-",
+        "mql_sql_num": 0,
+        "mql_sql_denom": 0,
+        "lead_sql": "0/1 (0%)",
+        "lead_sql_num": 0,
+        "lead_sql_denom": 1
+      }
     }
   ],
   "lost_reasons": [
@@ -421,5 +450,18 @@
       "reason": "Unknown",
       "count": 1
     }
-  ]
+  ],
+  "conversions": {
+    "total_leads": 8106,
+    "total_mql": 2137,
+    "lead_mql": "1980/8106 (24%)",
+    "lead_mql_num": 1980,
+    "lead_mql_denom": 8106,
+    "mql_sql": "1259/2137 (59%)",
+    "mql_sql_num": 1259,
+    "mql_sql_denom": 2137,
+    "lead_sql": "1174/8106 (14%)",
+    "lead_sql_num": 1174,
+    "lead_sql_denom": 8106
+  }
 }

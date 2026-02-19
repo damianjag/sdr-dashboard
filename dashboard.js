@@ -113,12 +113,15 @@
     const summary = {
       total: 0, new_lead: 0, mql: 0, sql: 0, won: 0,
       lost_before_mql: 0, sales_lost: 0, lost_total: 0,
-      lead_mql_num: 0, mql_sql_num: 0, lead_sql_num: 0,
     };
 
     const sdrMap = {};
     const reasonMap = {};
     let activeSdrs = new Set();
+
+    // Use latest day's conversions (cumulative snapshot)
+    const latestData = datasets[datasets.length - 1];
+    const conversions = latestData.conversions || null;
 
     for (const data of datasets) {
       const s = data.summary;
@@ -130,9 +133,6 @@
       summary.lost_before_mql += s.lost_before_mql;
       summary.sales_lost += s.sales_lost;
       summary.lost_total += s.lost_total;
-      summary.lead_mql_num += (s.lead_mql_num || 0);
-      summary.mql_sql_num += (s.mql_sql_num || 0);
-      summary.lead_sql_num += (s.lead_sql_num || 0);
 
       for (const sdr of data.sdr_data) {
         activeSdrs.add(sdr.name);
@@ -142,8 +142,8 @@
             stats: {
               total: 0, new_lead: 0, mql: 0, sql: 0, won: 0,
               lost_before_mql: 0, sales_lost: 0, lost_total: 0,
-              lead_mql_num: 0, mql_sql_num: 0, lead_sql_num: 0,
             },
+            conversions: null,
             deals: [],
             lost_deals: [],
           };
@@ -158,9 +158,6 @@
         m.stats.lost_before_mql += st.lost_before_mql;
         m.stats.sales_lost += st.sales_lost;
         m.stats.lost_total += st.lost_total;
-        m.stats.lead_mql_num += (st.lead_mql_num || 0);
-        m.stats.mql_sql_num += (st.mql_sql_num || 0);
-        m.stats.lead_sql_num += (st.lead_sql_num || 0);
         m.deals = m.deals.concat(sdr.deals);
         m.lost_deals = m.lost_deals.concat(sdr.lost_deals);
       }
@@ -170,33 +167,17 @@
       }
     }
 
-    // Compute conversion strings
-    summary.lead_mql = summary.new_lead > 0
-      ? `${summary.lead_mql_num}/${summary.new_lead} (${pctStr(summary.lead_mql_num, summary.new_lead)})`
-      : '-';
-    summary.mql_sql = summary.mql > 0
-      ? `${summary.mql_sql_num}/${summary.mql} (${pctStr(summary.mql_sql_num, summary.mql)})`
-      : '-';
-    summary.lead_sql = summary.new_lead > 0
-      ? `${summary.lead_sql_num}/${summary.new_lead} (${pctStr(summary.lead_sql_num, summary.new_lead)})`
-      : '-';
+    // Take per-SDR conversions from latest day's data
+    if (latestData.sdr_data) {
+      for (const sdr of latestData.sdr_data) {
+        if (sdrMap[sdr.name] && sdr.conversions) {
+          sdrMap[sdr.name].conversions = sdr.conversions;
+        }
+      }
+    }
 
-    // SDR data with conversion strings
     const sdr_data = Object.values(sdrMap)
-      .sort((a, b) => b.stats.total - a.stats.total)
-      .map(sdr => {
-        const st = sdr.stats;
-        st.lead_mql = st.new_lead > 0
-          ? `${st.lead_mql_num}/${st.new_lead} (${pctStr(st.lead_mql_num, st.new_lead)})`
-          : '-';
-        st.mql_sql = st.mql > 0
-          ? `${st.mql_sql_num}/${st.mql} (${pctStr(st.mql_sql_num, st.mql)})`
-          : '-';
-        st.lead_sql = st.new_lead > 0
-          ? `${st.lead_sql_num}/${st.new_lead} (${pctStr(st.lead_sql_num, st.new_lead)})`
-          : '-';
-        return sdr;
-      });
+      .sort((a, b) => b.stats.total - a.stats.total);
 
     const lost_reasons = Object.entries(reasonMap)
       .sort((a, b) => b[1] - a[1])
@@ -204,8 +185,9 @@
 
     return {
       date: datasets.length === 1 ? datasets[0].date : null,
-      generated_at: datasets[datasets.length - 1].generated_at,
+      generated_at: latestData.generated_at,
       summary,
+      conversions,
       active_sdrs: activeSdrs.size,
       sdr_data,
       lost_reasons,
@@ -342,20 +324,21 @@
       <div class="kpi-card" style="cursor:default"><div class="value" style="color:#f1f5f9">${data.active_sdrs}</div><div class="label">Aktywni SDR-owie</div></div>
     </div>`;
 
-    // Conversions
+    // Conversions (cumulative pipeline)
+    const c = data.conversions || {};
     html += `
     <div class="conv-grid">
       <div class="conv-card">
-        <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> MQL</div>
-        <div class="conv-value">${escapeHTML(s.lead_mql)}</div>
+        <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> MQL <span style="font-size:11px;color:#475569">(kumulatywnie)</span></div>
+        <div class="conv-value">${escapeHTML(c.lead_mql || '-')}</div>
       </div>
       <div class="conv-card">
-        <div class="conv-label">MQL <span class="conv-arrow">\u2192</span> SQL</div>
-        <div class="conv-value">${escapeHTML(s.mql_sql)}</div>
+        <div class="conv-label">MQL <span class="conv-arrow">\u2192</span> SQL <span style="font-size:11px;color:#475569">(kumulatywnie)</span></div>
+        <div class="conv-value">${escapeHTML(c.mql_sql || '-')}</div>
       </div>
       <div class="conv-card">
-        <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> SQL</div>
-        <div class="conv-value">${escapeHTML(s.lead_sql)}</div>
+        <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> SQL <span style="font-size:11px;color:#475569">(kumulatywnie)</span></div>
+        <div class="conv-value">${escapeHTML(c.lead_sql || '-')}</div>
       </div>
     </div>`;
 
@@ -375,6 +358,7 @@
 
     for (const sdr of data.sdr_data) {
       const st = sdr.stats;
+      const sc = sdr.conversions || {};
       const sn = escapeHTML(sdr.name);
       html += `
           <tr>
@@ -385,9 +369,9 @@
             <td class="text-green clickable" data-filter="sql" data-sdr="${sn}">${st.sql}</td>
             <td class="text-green clickable" data-filter="won" data-sdr="${sn}">${st.won}</td>
             <td class="text-red clickable" data-filter="lost_total" data-sdr="${sn}">${st.lost_total}</td>
-            <td class="text-blue">${escapeHTML(st.lead_mql)}</td>
-            <td class="text-blue">${escapeHTML(st.mql_sql)}</td>
-            <td class="text-blue">${escapeHTML(st.lead_sql)}</td>
+            <td class="text-blue">${escapeHTML(sc.lead_mql || '-')}</td>
+            <td class="text-blue">${escapeHTML(sc.mql_sql || '-')}</td>
+            <td class="text-blue">${escapeHTML(sc.lead_sql || '-')}</td>
           </tr>`;
     }
 
@@ -438,9 +422,9 @@
             <div class="sdr-stat-row"><span class="sdr-stat-label">SQL (Kwalka)</span><span class="text-green">${st.sql}</span></div>
             <div class="sdr-stat-row"><span class="sdr-stat-label">Sales Won</span><span class="text-green">${st.won}</span></div>
             <div class="sdr-stat-row"><span class="sdr-stat-label">Lost</span><span class="text-red">${st.lost_total}</span></div>
-            <div class="sdr-stat-row"><span class="sdr-stat-label">Lead \u2192 MQL</span><span class="text-blue">${escapeHTML(st.lead_mql)}</span></div>
-            <div class="sdr-stat-row"><span class="sdr-stat-label">MQL \u2192 SQL</span><span class="text-blue">${escapeHTML(st.mql_sql)}</span></div>
-            <div class="sdr-stat-row"><span class="sdr-stat-label">Lead \u2192 SQL</span><span class="text-blue">${escapeHTML(st.lead_sql)}</span></div>`;
+            <div class="sdr-stat-row"><span class="sdr-stat-label">Lead \u2192 MQL</span><span class="text-blue">${escapeHTML((sdr.conversions || {}).lead_mql || '-')}</span></div>
+            <div class="sdr-stat-row"><span class="sdr-stat-label">MQL \u2192 SQL</span><span class="text-blue">${escapeHTML((sdr.conversions || {}).mql_sql || '-')}</span></div>
+            <div class="sdr-stat-row"><span class="sdr-stat-label">Lead \u2192 SQL</span><span class="text-blue">${escapeHTML((sdr.conversions || {}).lead_sql || '-')}</span></div>`;
 
       // Lost deals details
       if (sdr.lost_deals && sdr.lost_deals.length > 0) {

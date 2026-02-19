@@ -1,6 +1,6 @@
 {
   "date": "2026-02-02",
-  "generated_at": "2026-02-19 07:34",
+  "generated_at": "2026-02-19 19:09",
   "summary": {
     "total": 32,
     "new_lead": 9,
@@ -9,13 +9,7 @@
     "won": 0,
     "lost_before_mql": 14,
     "sales_lost": 0,
-    "lost_total": 14,
-    "lead_mql": "4/9 (44%)",
-    "mql_sql": "0/6 (0%)",
-    "lead_sql": "0/9 (0%)",
-    "lead_mql_num": 4,
-    "mql_sql_num": 0,
-    "lead_sql_num": 0
+    "lost_total": 14
   },
   "active_sdrs": 6,
   "sdr_data": [
@@ -29,15 +23,31 @@
         "won": 0,
         "lost_before_mql": 7,
         "sales_lost": 0,
-        "lost_total": 7,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "0/1 (0%)",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 7
       },
       "deals": [
+        {
+          "name": "SDR - Oxyshop [PL] - 2026-01-28",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - alnor [PL] - 2026-02-02",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Hurleys [UK] - 2026-02-02",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
         {
           "name": "SDR - Orlen [PL] - 2026-01-30",
           "current_stage": "Lost Before MQL",
@@ -60,14 +70,6 @@
           ]
         },
         {
-          "name": "SDR - Hurleys [UK] - 2026-02-02",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - holz-leute.de [DE] - 2026-01-28",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
@@ -75,24 +77,10 @@
           ]
         },
         {
-          "name": "SDR - alnor [PL] - 2026-02-02",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "MQL"
-          ]
-        },
-        {
           "name": "SDR - alberabike [FR] - 2026-01-27",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "Lost Before MQL"
-          ]
-        },
-        {
-          "name": "SDR - Oxyshop [PL] - 2026-01-28",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "Kwalka (SQL)"
           ]
         },
         {
@@ -160,7 +148,20 @@
           "lost_reason": "Language Barrier",
           "lost_description": "nie mówi po ang. "
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2731,
+        "total_mql": 871,
+        "lead_mql": "840/2731 (31%)",
+        "lead_mql_num": 840,
+        "lead_mql_denom": 2731,
+        "mql_sql": "513/871 (59%)",
+        "mql_sql_num": 513,
+        "mql_sql_denom": 871,
+        "lead_sql": "504/2731 (18%)",
+        "lead_sql_num": 504,
+        "lead_sql_denom": 2731
+      }
     },
     {
       "name": "Natalia Jedrysiak",
@@ -172,13 +173,7 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 0,
-        "lost_total": 2,
-        "lead_mql": "2/3 (67%)",
-        "mql_sql": "0/2 (0%)",
-        "lead_sql": "0/3 (0%)",
-        "lead_mql_num": 2,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
         {
@@ -258,7 +253,20 @@
           "lost_reason": "Was Only Checking",
           "lost_description": "załatwili inny tool"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 1922,
+        "total_mql": 427,
+        "lead_mql": "406/1922 (21%)",
+        "lead_mql_num": 406,
+        "lead_mql_denom": 1922,
+        "mql_sql": "243/427 (57%)",
+        "mql_sql_num": 243,
+        "mql_sql_denom": 427,
+        "lead_sql": "234/1922 (12%)",
+        "lead_sql_num": 234,
+        "lead_sql_denom": 1922
+      }
     },
     {
       "name": "Kamil Oleksiak",
@@ -270,13 +278,7 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 0,
-        "lost_total": 2,
-        "lead_mql": "1/1 (100%)",
-        "mql_sql": "0/2 (0%)",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
         {
@@ -331,7 +333,20 @@
           "lost_reason": "Was Only Checking",
           "lost_description": "Chce wiedzieć jakie produkty generują największą sprzedaż, jak usłyszał, że musi podawać strony i liczbe produktów to zrezygnował "
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 596,
+        "total_mql": 207,
+        "lead_mql": "206/596 (35%)",
+        "lead_mql_num": 206,
+        "lead_mql_denom": 596,
+        "mql_sql": "121/207 (58%)",
+        "mql_sql_num": 121,
+        "mql_sql_denom": 207,
+        "lead_sql": "120/596 (20%)",
+        "lead_sql_num": 120,
+        "lead_sql_denom": 596
+      }
     },
     {
       "name": "Igor Sapritonow",
@@ -343,13 +358,7 @@
         "won": 0,
         "lost_before_mql": 1,
         "sales_lost": 0,
-        "lost_total": 1,
-        "lead_mql": "1/2 (50%)",
-        "mql_sql": "0/1 (0%)",
-        "lead_sql": "0/2 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 1
       },
       "deals": [
         {
@@ -391,7 +400,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "nie odpowiada, mial ktos sie zglosic nie zglosil"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 702,
+        "total_mql": 121,
+        "lead_mql": "107/702 (15%)",
+        "lead_mql_num": 107,
+        "lead_mql_denom": 702,
+        "mql_sql": "62/121 (51%)",
+        "mql_sql_num": 62,
+        "mql_sql_denom": 121,
+        "lead_sql": "55/702 (8%)",
+        "lead_sql_num": 55,
+        "lead_sql_denom": 702
+      }
     },
     {
       "name": "Nieznany",
@@ -403,24 +425,18 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 0,
-        "lost_total": 2,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
         {
-          "name": "SDR - marketplacex.ro [RO] - 2026-01-29",
+          "name": "SDR - cloudcontrolled.uk [GB] - 2026-01-14",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "Lost Before MQL"
           ]
         },
         {
-          "name": "SDR - cloudcontrolled.uk [GB] - 2026-01-14",
+          "name": "SDR - marketplacex.ro [RO] - 2026-01-29",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "Lost Before MQL"
@@ -437,18 +453,31 @@
       ],
       "lost_deals": [
         {
-          "name": "SDR - marketplacex.ro [RO] - 2026-01-29",
-          "lost_type": "Lost Before MQL",
-          "lost_reason": "Price Too High",
-          "lost_description": "no point in mq, his budget and the budget of his clients is around 10-20€/month, not even close to the minimum of 150"
-        },
-        {
           "name": "SDR - cloudcontrolled.uk [GB] - 2026-01-14",
           "lost_type": "Lost Before MQL",
           "lost_reason": "Not Responding",
           "lost_description": "asked for clarification on func, no reply to pings since"
+        },
+        {
+          "name": "SDR - marketplacex.ro [RO] - 2026-01-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "no point in mq, his budget and the budget of his clients is around 10-20€/month, not even close to the minimum of 150"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2092,
+        "total_mql": 494,
+        "lead_mql": "404/2092 (19%)",
+        "lead_mql_num": 404,
+        "lead_mql_denom": 2092,
+        "mql_sql": "313/494 (63%)",
+        "mql_sql_num": 313,
+        "mql_sql_denom": 494,
+        "lead_sql": "251/2092 (12%)",
+        "lead_sql_num": 251,
+        "lead_sql_denom": 2092
+      }
     },
     {
       "name": "Piotr Zelewski",
@@ -460,13 +489,7 @@
         "won": 0,
         "lost_before_mql": 0,
         "sales_lost": 0,
-        "lost_total": 0,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 0
       },
       "deals": [
         {
@@ -477,7 +500,20 @@
           ]
         }
       ],
-      "lost_deals": []
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 1,
+        "total_mql": 0,
+        "lead_mql": "0/1 (0%)",
+        "lead_mql_num": 0,
+        "lead_mql_denom": 1,
+        "mql_sql": "-",
+        "mql_sql_num": 0,
+        "mql_sql_denom": 0,
+        "lead_sql": "0/1 (0%)",
+        "lead_sql_num": 0,
+        "lead_sql_denom": 1
+      }
     }
   ],
   "lost_reasons": [
@@ -501,5 +537,18 @@
       "reason": "Insufficient Functionality",
       "count": 1
     }
-  ]
+  ],
+  "conversions": {
+    "total_leads": 8077,
+    "total_mql": 2125,
+    "lead_mql": "1968/8077 (24%)",
+    "lead_mql_num": 1968,
+    "lead_mql_denom": 8077,
+    "mql_sql": "1253/2125 (59%)",
+    "mql_sql_num": 1253,
+    "mql_sql_denom": 2125,
+    "lead_sql": "1168/8077 (14%)",
+    "lead_sql_num": 1168,
+    "lead_sql_denom": 8077
+  }
 }

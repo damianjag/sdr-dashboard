@@ -1,6 +1,6 @@
 {
   "date": "2026-02-05",
-  "generated_at": "2026-02-19 07:34",
+  "generated_at": "2026-02-19 19:09",
   "summary": {
     "total": 30,
     "new_lead": 12,
@@ -9,13 +9,7 @@
     "won": 0,
     "lost_before_mql": 9,
     "sales_lost": 1,
-    "lost_total": 10,
-    "lead_mql": "2/12 (17%)",
-    "mql_sql": "0/3 (0%)",
-    "lead_sql": "0/12 (0%)",
-    "lead_mql_num": 2,
-    "mql_sql_num": 0,
-    "lead_sql_num": 0
+    "lost_total": 10
   },
   "active_sdrs": 4,
   "sdr_data": [
@@ -29,15 +23,16 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 1,
-        "lost_total": 3,
-        "lead_mql": "1/6 (17%)",
-        "mql_sql": "0/2 (0%)",
-        "lead_sql": "0/6 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 3
       },
       "deals": [
+        {
+          "name": "SDR - dobre-suplementy [PL] - 2026-02-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
         {
           "name": "SDR - thebioniceye [UK] - 2026-02-05",
           "current_stage": "Lost Before MQL",
@@ -81,13 +76,6 @@
           "current_stage": "In Progress",
           "stage_changes": [
             "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - dobre-suplementy [PL] - 2026-02-05",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "New Lead"
           ]
         },
         {
@@ -150,7 +138,20 @@
           "lost_reason": "Language Barrier",
           "lost_description": "nie mówia po ang"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 1935,
+        "total_mql": 432,
+        "lead_mql": "411/1935 (21%)",
+        "lead_mql_num": 411,
+        "lead_mql_denom": 1935,
+        "mql_sql": "245/432 (57%)",
+        "mql_sql_num": 245,
+        "mql_sql_denom": 432,
+        "lead_sql": "236/1935 (12%)",
+        "lead_sql_num": 236,
+        "lead_sql_denom": 1935
+      }
     },
     {
       "name": "Emilia Kazimierczak",
@@ -162,15 +163,26 @@
         "won": 0,
         "lost_before_mql": 3,
         "sales_lost": 0,
-        "lost_total": 3,
-        "lead_mql": "1/5 (20%)",
-        "mql_sql": "0/1 (0%)",
-        "lead_sql": "0/5 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 3
       },
       "deals": [
+        {
+          "name": "SDR - Hurleys [UK] - 2026-02-02",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - Luma [PL] - 2026-02-05",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
         {
           "name": "SDR - goamogh.com [MARKET CODE] - 2026-02-05",
           "current_stage": "Lost Before MQL",
@@ -186,13 +198,6 @@
           "stage_changes": [
             "New Lead",
             "In Progress",
-            "SDR Call Scheduled"
-          ]
-        },
-        {
-          "name": "SDR - Hurleys [UK] - 2026-02-02",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
             "SDR Call Scheduled"
           ]
         },
@@ -234,16 +239,6 @@
           ]
         },
         {
-          "name": "SDR - Luma [PL] - 2026-02-05",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "New Lead",
-            "In Progress",
-            "SDR Call Scheduled",
-            "MQL"
-          ]
-        },
-        {
           "name": "SDR - KaVo Dental [PL] - 2025-12-17",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
@@ -270,7 +265,20 @@
           "lost_reason": "Cost Cut",
           "lost_description": "nie ma budżetu"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2748,
+        "total_mql": 876,
+        "lead_mql": "845/2748 (31%)",
+        "lead_mql_num": 845,
+        "lead_mql_denom": 2748,
+        "mql_sql": "514/876 (59%)",
+        "mql_sql_num": 514,
+        "mql_sql_denom": 876,
+        "lead_sql": "505/2748 (18%)",
+        "lead_sql_num": 505,
+        "lead_sql_denom": 2748
+      }
     },
     {
       "name": "Kamil Oleksiak",
@@ -282,15 +290,16 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 0,
-        "lost_total": 2,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
+        {
+          "name": "SDR - eibach.pl [MARKET CODE] - 2026-01-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
         {
           "name": "SDR - Insta360 [PL] - 2026-01-29",
           "current_stage": "SDR Call Scheduled",
@@ -306,13 +315,6 @@
           ]
         },
         {
-          "name": "SDR - eibach.pl [MARKET CODE] - 2026-01-22",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "Lost Before MQL"
-          ]
-        },
-        {
           "name": "SDR - Krzysztof Kalicki  [MARKET CODE] - 2026-02-05",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
@@ -322,18 +324,31 @@
       ],
       "lost_deals": [
         {
-          "name": "SDR - \"Piotr Petliński\" <piotr.petlinski@porcelana24.pl> - 2026-02-03",
-          "lost_type": "Lost Before MQL",
-          "lost_reason": "Was Only Checking",
-          "lost_description": "Szuka narzędzia, gdzie w sposób zautomatyzowany będzie mu znajdowało nowe produkty w internecie bez podawania nam stron czy produktów "
-        },
-        {
           "name": "SDR - eibach.pl [MARKET CODE] - 2026-01-22",
           "lost_type": "Lost Before MQL",
           "lost_reason": "Try Later",
           "lost_description": "Kontakt końcem marca "
+        },
+        {
+          "name": "SDR - \"Piotr Petliński\" <piotr.petlinski@porcelana24.pl> - 2026-02-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Szuka narzędzia, gdzie w sposób zautomatyzowany będzie mu znajdowało nowe produkty w internecie bez podawania nam stron czy produktów "
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 601,
+        "total_mql": 208,
+        "lead_mql": "207/601 (34%)",
+        "lead_mql_num": 207,
+        "lead_mql_denom": 601,
+        "mql_sql": "123/208 (59%)",
+        "mql_sql_num": 123,
+        "mql_sql_denom": 208,
+        "lead_sql": "122/601 (20%)",
+        "lead_sql_num": 122,
+        "lead_sql_denom": 601
+      }
     },
     {
       "name": "Igor Sapritonow",
@@ -345,13 +360,7 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 0,
-        "lost_total": 2,
-        "lead_mql": "-",
-        "mql_sql": "-",
-        "lead_sql": "-",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
         {
@@ -396,7 +405,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "nie odp"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 708,
+        "total_mql": 125,
+        "lead_mql": "111/708 (16%)",
+        "lead_mql_num": 111,
+        "lead_mql_denom": 708,
+        "mql_sql": "64/125 (51%)",
+        "mql_sql_num": 64,
+        "mql_sql_denom": 125,
+        "lead_sql": "57/708 (8%)",
+        "lead_sql_num": 57,
+        "lead_sql_denom": 708
+      }
     }
   ],
   "lost_reasons": [
@@ -424,5 +446,18 @@
       "reason": "Language Barrier",
       "count": 1
     }
-  ]
+  ],
+  "conversions": {
+    "total_leads": 8118,
+    "total_mql": 2140,
+    "lead_mql": "1983/8118 (24%)",
+    "lead_mql_num": 1983,
+    "lead_mql_denom": 8118,
+    "mql_sql": "1260/2140 (59%)",
+    "mql_sql_num": 1260,
+    "mql_sql_denom": 2140,
+    "lead_sql": "1175/8118 (14%)",
+    "lead_sql_num": 1175,
+    "lead_sql_denom": 8118
+  }
 }

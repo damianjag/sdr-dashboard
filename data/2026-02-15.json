@@ -1,6 +1,6 @@
 {
   "date": "2026-02-15",
-  "generated_at": "2026-02-19 07:34",
+  "generated_at": "2026-02-19 19:09",
   "summary": {
     "total": 1,
     "new_lead": 1,
@@ -9,13 +9,7 @@
     "won": 0,
     "lost_before_mql": 0,
     "sales_lost": 0,
-    "lost_total": 0,
-    "lead_mql": "0/1 (0%)",
-    "mql_sql": "-",
-    "lead_sql": "0/1 (0%)",
-    "lead_mql_num": 0,
-    "mql_sql_num": 0,
-    "lead_sql_num": 0
+    "lost_total": 0
   },
   "active_sdrs": 1,
   "sdr_data": [
@@ -29,13 +23,7 @@
         "won": 0,
         "lost_before_mql": 0,
         "sales_lost": 0,
-        "lost_total": 0,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 0
       },
       "deals": [
         {
@@ -46,8 +34,34 @@
           ]
         }
       ],
-      "lost_deals": []
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 727,
+        "total_mql": 127,
+        "lead_mql": "113/727 (16%)",
+        "lead_mql_num": 113,
+        "lead_mql_denom": 727,
+        "mql_sql": "66/127 (52%)",
+        "mql_sql_num": 66,
+        "mql_sql_denom": 127,
+        "lead_sql": "59/727 (8%)",
+        "lead_sql_num": 59,
+        "lead_sql_denom": 727
+      }
     }
   ],
-  "lost_reasons": []
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 8267,
+    "total_mql": 2168,
+    "lead_mql": "2011/8267 (24%)",
+    "lead_mql_num": 2011,
+    "lead_mql_denom": 8267,
+    "mql_sql": "1281/2168 (59%)",
+    "mql_sql_num": 1281,
+    "mql_sql_denom": 2168,
+    "lead_sql": "1196/8267 (14%)",
+    "lead_sql_num": 1196,
+    "lead_sql_denom": 8267
+  }
 }

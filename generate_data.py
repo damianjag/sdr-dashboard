@@ -35,6 +35,16 @@ DATE_ENTERED_FIELDS = {
     "hs_v2_date_entered_344689651": "Lost Before MQL",
 }
 
+# Stage IDs for date_entered lookups
+STAGE_DATE_FIELDS = {
+    "New Lead": "hs_v2_date_entered_344689645",
+    "MQL": "hs_v2_date_entered_344689652",
+    "Kwalka (SQL)": "hs_v2_date_entered_344689650",
+    "Sales Won": "hs_v2_date_entered_3981279427",
+    "Sales Lost": "hs_v2_date_entered_3938055393",
+    "Lost Before MQL": "hs_v2_date_entered_344689651",
+}
+
 PROPERTIES = [
     "dealname", "dealstage", "hubspot_owner_id", "createdate",
     "closedate", "hs_lastmodifieddate", "amount",
@@ -57,23 +67,16 @@ def get_owners():
     return owners
 
 
-def fetch_deals(report_date):
+def fetch_all_pipeline_deals():
+    """Pobiera WSZYSTKIE deale z pipeline SDR (bez filtra po dacie)."""
     all_deals = []
     after = None
-    date_start = f"{report_date}T00:00:00.000Z"
-    date_end = f"{report_date}T23:59:59.999Z"
-
     while True:
         payload = {
-            "filterGroups": [{
-                "filters": [
-                    {"propertyName": "pipeline", "operator": "EQ", "value": SDR_PIPELINE_ID},
-                    {"propertyName": "hs_lastmodifieddate", "operator": "GTE", "value": date_start},
-                    {"propertyName": "hs_lastmodifieddate", "operator": "LTE", "value": date_end},
-                ]
-            }],
+            "filterGroups": [{"filters": [
+                {"propertyName": "pipeline", "operator": "EQ", "value": SDR_PIPELINE_ID},
+            ]}],
             "properties": PROPERTIES,
-            "sorts": [{"propertyName": "hs_lastmodifieddate", "direction": "DESCENDING"}],
             "limit": 100
         }
         if after:
@@ -106,7 +109,19 @@ def is_date_match(date_str, target_date):
         return False
 
 
+def get_entry_date(props, field):
+    """Wyciaga date YYYY-MM-DD z pola date_entered."""
+    val = props.get(field)
+    if not val:
+        return None
+    try:
+        return datetime.fromisoformat(val.replace("Z", "+00:00")).strftime("%Y-%m-%d")
+    except:
+        return None
+
+
 def process_deals(all_deals, owners, report_date):
+    """Filtruje deale z aktywnością w danym dniu (zmiana etapu)."""
     today_deals = []
     for deal in all_deals:
         props = deal["properties"]
@@ -132,19 +147,13 @@ def process_deals(all_deals, owners, report_date):
 
 
 def calc_stats(deals):
+    """Liczy aktywność dnia (ile deali weszło w dany etap TEGO DNIA)."""
     new_l = sum(1 for d in deals if "New Lead" in d["stage_changes"])
     mql = sum(1 for d in deals if "MQL" in d["stage_changes"])
     sql = sum(1 for d in deals if "Kwalka (SQL)" in d["stage_changes"])
     won = sum(1 for d in deals if "Sales Won" in d["stage_changes"])
     lost_bm = sum(1 for d in deals if "Lost Before MQL" in d["stage_changes"])
     lost_s = sum(1 for d in deals if "Sales Lost" in d["stage_changes"])
-
-    lead_mql = sum(1 for d in deals if "New Lead" in d["stage_changes"] and "MQL" in d["stage_changes"])
-    mql_sql = sum(1 for d in deals if "MQL" in d["stage_changes"] and "Kwalka (SQL)" in d["stage_changes"])
-    lead_sql = sum(1 for d in deals if "New Lead" in d["stage_changes"] and "Kwalka (SQL)" in d["stage_changes"])
-
-    def pct(a, b):
-        return f"{a/b*100:.0f}%" if b > 0 else "-"
 
     return {
         "total": len(deals),
@@ -155,17 +164,89 @@ def calc_stats(deals):
         "lost_before_mql": lost_bm,
         "sales_lost": lost_s,
         "lost_total": lost_bm + lost_s,
-        "lead_mql": f"{lead_mql}/{new_l} ({pct(lead_mql, new_l)})" if new_l > 0 else "-",
-        "mql_sql": f"{mql_sql}/{mql} ({pct(mql_sql, mql)})" if mql > 0 else "-",
-        "lead_sql": f"{lead_sql}/{new_l} ({pct(lead_sql, new_l)})" if new_l > 0 else "-",
-        # Raw values for aggregation in JS
-        "lead_mql_num": lead_mql,
-        "mql_sql_num": mql_sql,
-        "lead_sql_num": lead_sql,
     }
 
 
-def build_json(today_deals, report_date):
+def calc_conversions(all_deals, owners, as_of_date=None):
+    """Liczy kumulatywne konwersje z WSZYSTKICH deali w pipeline.
+
+    as_of_date: jeśli podane, liczy tylko etapy wejściowe do tej daty (snapshot historyczny).
+    """
+
+    def pct(a, b):
+        return f"{a/b*100:.0f}%" if b > 0 else "-"
+
+    def conv_metrics(infos):
+        total_leads = sum(1 for d in infos if d["nl"])
+        total_mql = sum(1 for d in infos if d["mql"])
+        lead_to_mql = sum(1 for d in infos if d["nl"] and d["mql"])
+        mql_to_sql = sum(1 for d in infos if d["mql"] and d["sql"])
+        lead_to_sql = sum(1 for d in infos if d["nl"] and d["sql"])
+
+        return {
+            "total_leads": total_leads,
+            "total_mql": total_mql,
+            "lead_mql": f"{lead_to_mql}/{total_leads} ({pct(lead_to_mql, total_leads)})" if total_leads > 0 else "-",
+            "lead_mql_num": lead_to_mql,
+            "lead_mql_denom": total_leads,
+            "mql_sql": f"{mql_to_sql}/{total_mql} ({pct(mql_to_sql, total_mql)})" if total_mql > 0 else "-",
+            "mql_sql_num": mql_to_sql,
+            "mql_sql_denom": total_mql,
+            "lead_sql": f"{lead_to_sql}/{total_leads} ({pct(lead_to_sql, total_leads)})" if total_leads > 0 else "-",
+            "lead_sql_num": lead_to_sql,
+            "lead_sql_denom": total_leads,
+        }
+
+    deal_infos = []
+    for deal in all_deals:
+        props = deal["properties"]
+        owner_name = owners.get(props.get("hubspot_owner_id"), "Nieznany")
+        if owner_name in EXCLUDE_OWNERS:
+            continue
+
+        nl = get_entry_date(props, STAGE_DATE_FIELDS["New Lead"])
+        mql = get_entry_date(props, STAGE_DATE_FIELDS["MQL"])
+        sql = get_entry_date(props, STAGE_DATE_FIELDS["Kwalka (SQL)"])
+        won = get_entry_date(props, STAGE_DATE_FIELDS["Sales Won"])
+
+        # Snapshot historyczny - odcinamy etapy po dacie
+        if as_of_date:
+            if nl and nl > as_of_date:
+                nl = None
+            if mql and mql > as_of_date:
+                mql = None
+            if sql and sql > as_of_date:
+                sql = None
+            if won and won > as_of_date:
+                won = None
+
+        # Pomijamy deale które jeszcze nie weszly w pipeline na ten dzien
+        if not nl and not mql and not sql and not won:
+            continue
+
+        deal_infos.append({
+            "owner_name": owner_name,
+            "nl": nl,
+            "mql": mql,
+            "sql": sql,
+            "won": won,
+        })
+
+    overall = conv_metrics(deal_infos)
+
+    # Per SDR
+    by_owner = defaultdict(list)
+    for d in deal_infos:
+        by_owner[d["owner_name"]].append(d)
+
+    sdr_conv = {}
+    for owner, deals in by_owner.items():
+        sdr_conv[owner] = conv_metrics(deals)
+
+    return overall, sdr_conv
+
+
+def build_json(today_deals, report_date, conversions=None, sdr_conversions=None):
     by_owner = defaultdict(list)
     for d in today_deals:
         by_owner[d["owner_name"]].append(d)
@@ -204,14 +285,18 @@ def build_json(today_deals, report_date):
                 "lost_description": d["lost_description"],
             })
 
-        sdr_data.append({
+        sdr_entry = {
             "name": owner_name,
             "stats": stats,
             "deals": sdr_deals,
             "lost_deals": sdr_lost,
-        })
+        }
+        if sdr_conversions and owner_name in sdr_conversions:
+            sdr_entry["conversions"] = sdr_conversions[owner_name]
 
-    return {
+        sdr_data.append(sdr_entry)
+
+    result = {
         "date": report_date,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "summary": total_stats,
@@ -219,6 +304,10 @@ def build_json(today_deals, report_date):
         "sdr_data": sdr_data,
         "lost_reasons": [{"reason": r, "count": c} for r, c in sorted_reasons],
     }
+    if conversions:
+        result["conversions"] = conversions
+
+    return result
 
 
 def update_index(data_dir, report_date):
@@ -244,13 +333,18 @@ def main():
     print(f"Generowanie danych dla daty: {report_date}")
 
     owners = get_owners()
-    all_deals = fetch_deals(report_date)
-    print(f"Pobrano {len(all_deals)} deali")
+    print(f"Ownerzy: {len(owners)}")
+
+    all_deals = fetch_all_pipeline_deals()
+    print(f"Pobrano {len(all_deals)} deali z pipeline")
 
     today_deals = process_deals(all_deals, owners, report_date)
-    print(f"Deale ze zmiana etapu: {len(today_deals)}")
+    print(f"Deale ze zmiana etapu w {report_date}: {len(today_deals)}")
 
-    data = build_json(today_deals, report_date)
+    conversions, sdr_conversions = calc_conversions(all_deals, owners, as_of_date=report_date)
+    print(f"Konwersje pipeline: Lead->MQL {conversions['lead_mql']}, MQL->SQL {conversions['mql_sql']}")
+
+    data = build_json(today_deals, report_date, conversions, sdr_conversions)
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(script_dir, "data")

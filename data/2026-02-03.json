@@ -1,6 +1,6 @@
 {
   "date": "2026-02-03",
-  "generated_at": "2026-02-19 07:34",
+  "generated_at": "2026-02-19 19:09",
   "summary": {
     "total": 41,
     "new_lead": 19,
@@ -9,13 +9,7 @@
     "won": 0,
     "lost_before_mql": 12,
     "sales_lost": 0,
-    "lost_total": 12,
-    "lead_mql": "1/19 (5%)",
-    "mql_sql": "0/4 (0%)",
-    "lead_sql": "0/19 (0%)",
-    "lead_mql_num": 1,
-    "mql_sql_num": 0,
-    "lead_sql_num": 0
+    "lost_total": 12
   },
   "active_sdrs": 5,
   "sdr_data": [
@@ -29,15 +23,46 @@
         "won": 0,
         "lost_before_mql": 4,
         "sales_lost": 0,
-        "lost_total": 4,
-        "lead_mql": "0/5 (0%)",
-        "mql_sql": "0/2 (0%)",
-        "lead_sql": "0/5 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 4
       },
       "deals": [
+        {
+          "name": "SDR - comms-express [UK] - 2026-02-03",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - fahrradprofis.de [DE] - 2026-02-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - mojadielna.sk [SK] - 2026-01-20",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - cfzeller [DE] - 2026-01-12",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - skapetze [DE] - 2026-01-22",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
         {
           "name": "SDR - shiftd.de [DE] - 2026-02-01",
           "current_stage": "SDR Call Scheduled",
@@ -59,14 +84,6 @@
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "Lost Before MQL"
-          ]
-        },
-        {
-          "name": "SDR - fahrradprofis.de [DE] - 2026-02-03",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
           ]
         },
         {
@@ -93,39 +110,10 @@
           ]
         },
         {
-          "name": "SDR - mojadielna.sk [SK] - 2026-01-20",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "Lost Before MQL"
-          ]
-        },
-        {
-          "name": "SDR - comms-express [UK] - 2026-02-03",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - foto-koester.de [DE] - 2026-02-03",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "New Lead"
-          ]
-        },
-        {
-          "name": "SDR - skapetze [DE] - 2026-01-22",
-          "current_stage": "Sales Lost",
-          "stage_changes": [
-            "MQL"
-          ]
-        },
-        {
-          "name": "SDR - cfzeller [DE] - 2026-01-12",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "Kwalka (SQL)"
           ]
         },
         {
@@ -137,6 +125,12 @@
         }
       ],
       "lost_deals": [
+        {
+          "name": "SDR - mojadielna.sk [SK] - 2026-01-20",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "za duzo projektow follow up za 1 mies"
+        },
         {
           "name": "SDR - sonomateriel.com [FR] - 2026-01-26",
           "lost_type": "Lost Before MQL",
@@ -150,18 +144,25 @@
           "lost_description": "za drogo"
         },
         {
-          "name": "SDR - mojadielna.sk [SK] - 2026-01-20",
-          "lost_type": "Lost Before MQL",
-          "lost_reason": "Does Not Have Time",
-          "lost_description": "za duzo projektow follow up za 1 mies"
-        },
-        {
           "name": "SDR - keraworld.de [DE] - 2026-02-01",
           "lost_type": "Lost Before MQL",
           "lost_reason": "Does Not Have Time",
           "lost_description": "Za 6 meisiecy prosil o kontakt"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 707,
+        "total_mql": 123,
+        "lead_mql": "109/707 (15%)",
+        "lead_mql_num": 109,
+        "lead_mql_denom": 707,
+        "mql_sql": "63/123 (51%)",
+        "mql_sql_num": 63,
+        "mql_sql_denom": 123,
+        "lead_sql": "56/707 (8%)",
+        "lead_sql_num": 56,
+        "lead_sql_denom": 707
+      }
     },
     {
       "name": "Emilia Kazimierczak",
@@ -173,15 +174,17 @@
         "won": 0,
         "lost_before_mql": 1,
         "sales_lost": 0,
-        "lost_total": 1,
-        "lead_mql": "1/10 (10%)",
-        "mql_sql": "0/1 (0%)",
-        "lead_sql": "0/10 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 1
       },
       "deals": [
+        {
+          "name": "SDR - Askari Angelsport [DE] - 2026-02-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
         {
           "name": "SDR - My Software [DE] - 2026-02-03",
           "current_stage": "In Progress",
@@ -201,14 +204,6 @@
         {
           "name": "SDR - autodoc [DE] - 2026-02-03",
           "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - Askari Angelsport [DE] - 2026-02-03",
-          "current_stage": "Lost Before MQL",
           "stage_changes": [
             "New Lead",
             "In Progress"
@@ -287,7 +282,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "brak kontaku"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2741,
+        "total_mql": 872,
+        "lead_mql": "841/2741 (31%)",
+        "lead_mql_num": 841,
+        "lead_mql_denom": 2741,
+        "mql_sql": "513/872 (59%)",
+        "mql_sql_num": 513,
+        "mql_sql_denom": 872,
+        "lead_sql": "504/2741 (18%)",
+        "lead_sql_num": 504,
+        "lead_sql_denom": 2741
+      }
     },
     {
       "name": "Natalia Jedrysiak",
@@ -299,15 +307,16 @@
         "won": 0,
         "lost_before_mql": 4,
         "sales_lost": 0,
-        "lost_total": 4,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "0/1 (0%)",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 4
       },
       "deals": [
+        {
+          "name": "SDR - yeppon [IT] - 2026-01-28",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
         {
           "name": "SDR - proficio [DE] - 2026-01-26",
           "current_stage": "Lost Before MQL",
@@ -334,13 +343,6 @@
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "Lost Before MQL"
-          ]
-        },
-        {
-          "name": "SDR - yeppon [IT] - 2026-01-28",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "Kwalka (SQL)"
           ]
         },
         {
@@ -398,7 +400,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "nie odp i rzuca słuchawką"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 1923,
+        "total_mql": 428,
+        "lead_mql": "407/1923 (21%)",
+        "lead_mql_num": 407,
+        "lead_mql_denom": 1923,
+        "mql_sql": "245/428 (57%)",
+        "mql_sql_num": 245,
+        "mql_sql_denom": 428,
+        "lead_sql": "236/1923 (12%)",
+        "lead_sql_num": 236,
+        "lead_sql_denom": 1923
+      }
     },
     {
       "name": "Kamil Oleksiak",
@@ -410,15 +425,16 @@
         "won": 0,
         "lost_before_mql": 2,
         "sales_lost": 0,
-        "lost_total": 2,
-        "lead_mql": "0/3 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/3 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
+        {
+          "name": "SDR - Natalia Łepkowska  [MARKET CODE] - 2026-01-12",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
         {
           "name": "SDR - \"Piotr Petliński\" <piotr.petlinski@porcelana24.pl> - 2026-02-03",
           "current_stage": "Lost Before MQL",
@@ -440,13 +456,6 @@
           "current_stage": "Kwalka (SQL)",
           "stage_changes": [
             "Kwalka (SQL)"
-          ]
-        },
-        {
-          "name": "SDR - Natalia Łepkowska  [MARKET CODE] - 2026-01-12",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "Lost Before MQL"
           ]
         },
         {
@@ -478,7 +487,20 @@
           "lost_reason": "Was Only Checking",
           "lost_description": "Znają naszą ofertę, nie są zainteresowani"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 599,
+        "total_mql": 207,
+        "lead_mql": "206/599 (34%)",
+        "lead_mql_num": 206,
+        "lead_mql_denom": 599,
+        "mql_sql": "122/207 (59%)",
+        "mql_sql_num": 122,
+        "mql_sql_denom": 207,
+        "lead_sql": "121/599 (20%)",
+        "lead_sql_num": 121,
+        "lead_sql_denom": 599
+      }
     },
     {
       "name": "Nieznany",
@@ -490,13 +512,7 @@
         "won": 0,
         "lost_before_mql": 1,
         "sales_lost": 0,
-        "lost_total": 1,
-        "lead_mql": "-",
-        "mql_sql": "-",
-        "lead_sql": "-",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 1
       },
       "deals": [
         {
@@ -514,7 +530,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "asked for clarification on func, then broke contact"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2092,
+        "total_mql": 494,
+        "lead_mql": "404/2092 (19%)",
+        "lead_mql_num": 404,
+        "lead_mql_denom": 2092,
+        "mql_sql": "313/494 (63%)",
+        "mql_sql_num": 313,
+        "mql_sql_denom": 494,
+        "lead_sql": "251/2092 (12%)",
+        "lead_sql_num": 251,
+        "lead_sql_denom": 2092
+      }
     }
   ],
   "lost_reasons": [
@@ -538,5 +567,18 @@
       "reason": "Price Too High",
       "count": 1
     }
-  ]
+  ],
+  "conversions": {
+    "total_leads": 8096,
+    "total_mql": 2129,
+    "lead_mql": "1972/8096 (24%)",
+    "lead_mql_num": 1972,
+    "lead_mql_denom": 8096,
+    "mql_sql": "1257/2129 (59%)",
+    "mql_sql_num": 1257,
+    "mql_sql_denom": 2129,
+    "lead_sql": "1172/8096 (14%)",
+    "lead_sql_num": 1172,
+    "lead_sql_denom": 8096
+  }
 }

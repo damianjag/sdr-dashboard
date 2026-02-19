@@ -1,6 +1,6 @@
 {
   "date": "2026-02-16",
-  "generated_at": "2026-02-19 07:34",
+  "generated_at": "2026-02-19 19:09",
   "summary": {
     "total": 37,
     "new_lead": 17,
@@ -9,13 +9,7 @@
     "won": 1,
     "lost_before_mql": 12,
     "sales_lost": 0,
-    "lost_total": 12,
-    "lead_mql": "1/17 (6%)",
-    "mql_sql": "0/3 (0%)",
-    "lead_sql": "0/17 (0%)",
-    "lead_mql_num": 1,
-    "mql_sql_num": 0,
-    "lead_sql_num": 0
+    "lost_total": 12
   },
   "active_sdrs": 4,
   "sdr_data": [
@@ -29,15 +23,39 @@
         "won": 0,
         "lost_before_mql": 4,
         "sales_lost": 0,
-        "lost_total": 4,
-        "lead_mql": "1/8 (12%)",
-        "mql_sql": "0/3 (0%)",
-        "lead_sql": "0/8 (0%)",
-        "lead_mql_num": 1,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 4
       },
       "deals": [
+        {
+          "name": "SDR - e-medest [PL] - 2026-02-11",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Metrex [PL] - 2026-02-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - World of lubricant [UK] - 2026-02-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Sachin Kapur <sachin.kapur@farfetch.com> - 2026-02-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
         {
           "name": "SDR - Tomson [PL] - 2026-02-16",
           "current_stage": "In Progress",
@@ -72,14 +90,6 @@
           ]
         },
         {
-          "name": "SDR - Metrex [PL] - 2026-02-16",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - semprefarmacia [IT] - 2026-02-16",
           "current_stage": "In Progress",
           "stage_changes": [
@@ -101,28 +111,6 @@
           "stage_changes": [
             "New Lead",
             "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - World of lubricant [UK] - 2026-02-16",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - Sachin Kapur <sachin.kapur@farfetch.com> - 2026-02-13",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - e-medest [PL] - 2026-02-11",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "MQL"
           ]
         },
         {
@@ -180,7 +168,20 @@
           "lost_reason": "Other",
           "lost_description": "marcus@tuning-bikes.de has opted out of all communications."
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2820,
+        "total_mql": 887,
+        "lead_mql": "856/2820 (30%)",
+        "lead_mql_num": 856,
+        "lead_mql_denom": 2820,
+        "mql_sql": "523/887 (59%)",
+        "mql_sql_num": 523,
+        "mql_sql_denom": 887,
+        "lead_sql": "514/2820 (18%)",
+        "lead_sql_num": 514,
+        "lead_sql_denom": 2820
+      }
     },
     {
       "name": "Kamil Oleksiak",
@@ -192,21 +193,46 @@
         "won": 0,
         "lost_before_mql": 7,
         "sales_lost": 0,
-        "lost_total": 7,
-        "lead_mql": "0/8 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/8 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 7
       },
       "deals": [
+        {
+          "name": "SDR - Moto budrex [PL] - 2026-02-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Petbox [PL] - 2026-02-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
         {
           "name": "SDR - bioswena.pl [MARKET CODE] - 2026-02-16",
           "current_stage": "SDR Call Scheduled",
           "stage_changes": [
             "New Lead",
             "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Seopol [PL] - 2026-02-16",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - office@teosmart.eu [MARKET CODE] - 2026-02-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
           ]
         },
         {
@@ -224,32 +250,8 @@
           ]
         },
         {
-          "name": "SDR - Seopol [PL] - 2026-02-16",
-          "current_stage": "SDR Call Scheduled",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - TekaPi - 2026-02-16",
           "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - Petbox [PL] - 2026-02-16",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - Moto budrex [PL] - 2026-02-16",
-          "current_stage": "MQL",
           "stage_changes": [
             "New Lead",
             "In Progress"
@@ -277,13 +279,6 @@
           ]
         },
         {
-          "name": "SDR - office@teosmart.eu [MARKET CODE] - 2026-02-10",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "Lost Before MQL"
-          ]
-        },
-        {
           "name": "SDR - rozetka.com.ua [MARKET CODE] - 2026-02-16",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
@@ -301,6 +296,12 @@
         }
       ],
       "lost_deals": [
+        {
+          "name": "SDR - office@teosmart.eu [MARKET CODE] - 2026-02-10",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Temat jest interesujący, ale jeszcze nie teraz. Będą się kontaktować "
+        },
         {
           "name": "SDR - oss.com.pl [MARKET CODE] - 2026-02-11",
           "lost_type": "Lost Before MQL",
@@ -326,12 +327,6 @@
           "lost_description": "Sprawdzał z ciekawości, nie jest zainteresowany"
         },
         {
-          "name": "SDR - office@teosmart.eu [MARKET CODE] - 2026-02-10",
-          "lost_type": "Lost Before MQL",
-          "lost_reason": "Was Only Checking",
-          "lost_description": "Temat jest interesujący, ale jeszcze nie teraz. Będą się kontaktować "
-        },
-        {
           "name": "SDR - rozetka.com.ua [MARKET CODE] - 2026-02-16",
           "lost_type": "Lost Before MQL",
           "lost_reason": "Was Only Checking",
@@ -343,7 +338,20 @@
           "lost_reason": "Taken Over By Another Team",
           "lost_description": "Kwalka z grudnia - Oliver jest z nimi w kontakcie"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 628,
+        "total_mql": 213,
+        "lead_mql": "212/628 (34%)",
+        "lead_mql_num": 212,
+        "lead_mql_denom": 628,
+        "mql_sql": "127/213 (60%)",
+        "mql_sql_num": 127,
+        "mql_sql_denom": 213,
+        "lead_sql": "126/628 (20%)",
+        "lead_sql_num": 126,
+        "lead_sql_denom": 628
+      }
     },
     {
       "name": "Igor Sapritonow",
@@ -355,22 +363,9 @@
         "won": 0,
         "lost_before_mql": 1,
         "sales_lost": 0,
-        "lost_total": 1,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 1
       },
       "deals": [
-        {
-          "name": "SDR - boxenshop.net [DE] - 2026-02-14",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "In Progress"
-          ]
-        },
         {
           "name": "SDR - nejenleky.cz [CZ] - 2026-02-13",
           "current_stage": "In Progress",
@@ -383,6 +378,13 @@
           "current_stage": "In Progress",
           "stage_changes": [
             "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - boxenshop.net [DE] - 2026-02-14",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress"
           ]
         },
         {
@@ -421,7 +423,20 @@
           "lost_reason": "Not Responding",
           "lost_description": "NA"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 728,
+        "total_mql": 127,
+        "lead_mql": "113/728 (16%)",
+        "lead_mql_num": 113,
+        "lead_mql_denom": 728,
+        "mql_sql": "66/127 (52%)",
+        "mql_sql_num": 66,
+        "mql_sql_denom": 127,
+        "lead_sql": "59/728 (8%)",
+        "lead_sql_num": 59,
+        "lead_sql_denom": 728
+      }
     },
     {
       "name": "Natalia Jedrysiak",
@@ -433,15 +448,16 @@
         "won": 1,
         "lost_before_mql": 0,
         "sales_lost": 0,
-        "lost_total": 0,
-        "lead_mql": "-",
-        "mql_sql": "-",
-        "lead_sql": "-",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 0
       },
       "deals": [
+        {
+          "name": "SDR - danhoss [PL] - 2026-02-06",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
         {
           "name": "SDR - prinslifestyle [NL] - 2026-02-12",
           "current_stage": "Sales Won",
@@ -449,16 +465,22 @@
             "Kwalka (SQL)",
             "Sales Won"
           ]
-        },
-        {
-          "name": "SDR - danhoss [PL] - 2026-02-06",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "Kwalka (SQL)"
-          ]
         }
       ],
-      "lost_deals": []
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 1981,
+        "total_mql": 444,
+        "lead_mql": "423/1981 (21%)",
+        "lead_mql_num": 423,
+        "lead_mql_denom": 1981,
+        "mql_sql": "252/444 (57%)",
+        "mql_sql_num": 252,
+        "mql_sql_denom": 444,
+        "lead_sql": "243/1981 (12%)",
+        "lead_sql_num": 243,
+        "lead_sql_denom": 1981
+      }
     }
   ],
   "lost_reasons": [
@@ -482,5 +504,18 @@
       "reason": "Taken Over By Another Team",
       "count": 1
     }
-  ]
+  ],
+  "conversions": {
+    "total_leads": 8284,
+    "total_mql": 2171,
+    "lead_mql": "2014/8284 (24%)",
+    "lead_mql_num": 2014,
+    "lead_mql_denom": 8284,
+    "mql_sql": "1283/2171 (59%)",
+    "mql_sql_num": 1283,
+    "mql_sql_denom": 2171,
+    "lead_sql": "1198/8284 (14%)",
+    "lead_sql_num": 1198,
+    "lead_sql_denom": 8284
+  }
 }

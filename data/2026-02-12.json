@@ -1,6 +1,6 @@
 {
   "date": "2026-02-12",
-  "generated_at": "2026-02-19 07:34",
+  "generated_at": "2026-02-19 19:09",
   "summary": {
     "total": 50,
     "new_lead": 11,
@@ -9,13 +9,7 @@
     "won": 1,
     "lost_before_mql": 12,
     "sales_lost": 19,
-    "lost_total": 31,
-    "lead_mql": "2/11 (18%)",
-    "mql_sql": "0/2 (0%)",
-    "lead_sql": "0/11 (0%)",
-    "lead_mql_num": 2,
-    "mql_sql_num": 0,
-    "lead_sql_num": 0
+    "lost_total": 31
   },
   "active_sdrs": 5,
   "sdr_data": [
@@ -29,15 +23,16 @@
         "won": 1,
         "lost_before_mql": 4,
         "sales_lost": 9,
-        "lost_total": 13,
-        "lead_mql": "2/5 (40%)",
-        "mql_sql": "0/2 (0%)",
-        "lead_sql": "0/5 (0%)",
-        "lead_mql_num": 2,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 13
       },
       "deals": [
+        {
+          "name": "SDR - tsreklam [SE] - 2026-01-09",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
         {
           "name": "SDR - Sanitaerschweiz - 2026-01-30",
           "current_stage": "Lost Before MQL",
@@ -152,13 +147,6 @@
           ]
         },
         {
-          "name": "SDR - tsreklam [SE] - 2026-01-09",
-          "current_stage": "Sales Lost",
-          "stage_changes": [
-            "Sales Lost"
-          ]
-        },
-        {
           "name": "SDR - allsaints [GB] - 2025-08-14",
           "current_stage": "Sales Lost",
           "stage_changes": [
@@ -188,6 +176,12 @@
         }
       ],
       "lost_deals": [
+        {
+          "name": "SDR - tsreklam [SE] - 2026-01-09",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Specyfika ich biznesu raczej nie do końca zgrywa się z tym co możemy im zaoferować. \nSprzedają 'customwe' produkty typu bluzy / kubki / torby z logo, konkurencja czasem ma to samo a czasem inne produkty bazowe. Do tego różni retailerzy sprzedają w róznych ilościach (20/50/100 sztuk), nie zawsze ilości są tożsame pomiędzy retailerami. "
+        },
         {
           "name": "SDR - Sanitaerschweiz - 2026-01-30",
           "lost_type": "Lost Before MQL",
@@ -237,12 +231,6 @@
           "lost_description": "BAU drogo dla nich, consultingiem niezainteresowani, CP nie odpowiada na potrzeby (część produktów bez EANów). Rozglądają się po rynku i będą ewentualnie zapraszać wybranych dostawców do fazy testowej. "
         },
         {
-          "name": "SDR - tsreklam [SE] - 2026-01-09",
-          "lost_type": "Sales Lost",
-          "lost_reason": "Was Only Checking",
-          "lost_description": "Specyfika ich biznesu raczej nie do końca zgrywa się z tym co możemy im zaoferować. \nSprzedają 'customwe' produkty typu bluzy / kubki / torby z logo, konkurencja czasem ma to samo a czasem inne produkty bazowe. Do tego różni retailerzy sprzedają w róznych ilościach (20/50/100 sztuk), nie zawsze ilości są tożsame pomiędzy retailerami. "
-        },
-        {
           "name": "SDR - allsaints [GB] - 2025-08-14",
           "lost_type": "Sales Lost",
           "lost_reason": "Not Responding",
@@ -266,7 +254,20 @@
           "lost_reason": "Language Barrier",
           "lost_description": "nie mowi po ang"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 1979,
+        "total_mql": 443,
+        "lead_mql": "422/1979 (21%)",
+        "lead_mql_num": 422,
+        "lead_mql_denom": 1979,
+        "mql_sql": "250/443 (56%)",
+        "mql_sql_num": 250,
+        "mql_sql_denom": 443,
+        "lead_sql": "241/1979 (12%)",
+        "lead_sql_num": 241,
+        "lead_sql_denom": 1979
+      }
     },
     {
       "name": "Emilia Kazimierczak",
@@ -278,15 +279,23 @@
         "won": 0,
         "lost_before_mql": 4,
         "sales_lost": 5,
-        "lost_total": 9,
-        "lead_mql": "0/4 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/4 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 9
       },
       "deals": [
+        {
+          "name": "SDR - IGO3D [DE] - 21.01.2026 - 2026-01-21",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Pasazfoto [PL] - 2026-02-12",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
         {
           "name": "SDR - adias [BR] - 2026-02-10",
           "current_stage": "Lost Before MQL",
@@ -322,13 +331,6 @@
           "current_stage": "In Progress",
           "stage_changes": [
             "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - Pasazfoto [PL] - 2026-02-12",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead"
           ]
         },
         {
@@ -371,13 +373,6 @@
           "current_stage": "In Progress",
           "stage_changes": [
             "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - IGO3D [DE] - 21.01.2026 - 2026-01-21",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "Kwalka (SQL)"
           ]
         },
         {
@@ -465,7 +460,20 @@
           "lost_reason": "Was Only Checking",
           "lost_description": "patrzy sobie w raport, ale nie ma zapotrzebowania za bardzo"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2801,
+        "total_mql": 883,
+        "lead_mql": "852/2801 (30%)",
+        "lead_mql_num": 852,
+        "lead_mql_denom": 2801,
+        "mql_sql": "523/883 (59%)",
+        "mql_sql_num": 523,
+        "mql_sql_denom": 883,
+        "lead_sql": "514/2801 (18%)",
+        "lead_sql_num": 514,
+        "lead_sql_denom": 2801
+      }
     },
     {
       "name": "Igor Sapritonow",
@@ -477,13 +485,7 @@
         "won": 0,
         "lost_before_mql": 3,
         "sales_lost": 2,
-        "lost_total": 5,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 5
       },
       "deals": [
         {
@@ -568,7 +570,20 @@
           "lost_reason": "Price Too High",
           "lost_description": "za drogo"
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 721,
+        "total_mql": 127,
+        "lead_mql": "113/721 (16%)",
+        "lead_mql_num": 113,
+        "lead_mql_denom": 721,
+        "mql_sql": "66/127 (52%)",
+        "mql_sql_num": 66,
+        "mql_sql_denom": 127,
+        "lead_sql": "59/721 (8%)",
+        "lead_sql_num": 59,
+        "lead_sql_denom": 721
+      }
     },
     {
       "name": "Kamil Oleksiak",
@@ -580,13 +595,7 @@
         "won": 0,
         "lost_before_mql": 1,
         "sales_lost": 1,
-        "lost_total": 2,
-        "lead_mql": "0/1 (0%)",
-        "mql_sql": "-",
-        "lead_sql": "0/1 (0%)",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
         {
@@ -632,7 +641,20 @@
           "lost_reason": "Was Only Checking",
           "lost_description": "prowadzi rozmowy z dwoma firmami, stwierdził ze nasz raport nie ma wartości, to spam, rozmawiał z nami na targach. nie mają eanów, twierdzi ze nie jesteśmy w stanie mu pomóc, jak z innymi firmami się nie uda, to się do nas zwróci. Nie chciał umówić się na spotkanie "
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 618,
+        "total_mql": 211,
+        "lead_mql": "210/618 (34%)",
+        "lead_mql_num": 210,
+        "lead_mql_denom": 618,
+        "mql_sql": "127/211 (60%)",
+        "mql_sql_num": 127,
+        "mql_sql_denom": 211,
+        "lead_sql": "126/618 (20%)",
+        "lead_sql_num": 126,
+        "lead_sql_denom": 618
+      }
     },
     {
       "name": "Nieznany",
@@ -644,13 +666,7 @@
         "won": 0,
         "lost_before_mql": 0,
         "sales_lost": 2,
-        "lost_total": 2,
-        "lead_mql": "-",
-        "mql_sql": "-",
-        "lead_sql": "-",
-        "lead_mql_num": 0,
-        "mql_sql_num": 0,
-        "lead_sql_num": 0
+        "lost_total": 2
       },
       "deals": [
         {
@@ -681,7 +697,20 @@
           "lost_reason": "Insufficient Functionality",
           "lost_description": "They have MPNs, but they don't sell the products for which they have the codes, instead they manually dismantle the products and sell them in pieces, so matching for products would have to be done manually for all of them, based on concrete technical specs, which many of this comps don't even have listed in their offers, we don't know if we have someone who can manually match everything with enough precision (technical know-how in the niche field of specialty electronics and robotics), and even if we did, they're a small client and would never be able to afford a service like this."
         }
-      ]
+      ],
+      "conversions": {
+        "total_leads": 2093,
+        "total_mql": 495,
+        "lead_mql": "405/2093 (19%)",
+        "lead_mql_num": 405,
+        "lead_mql_denom": 2093,
+        "mql_sql": "314/495 (63%)",
+        "mql_sql_num": 314,
+        "mql_sql_denom": 495,
+        "lead_sql": "252/2093 (12%)",
+        "lead_sql_num": 252,
+        "lead_sql_denom": 2093
+      }
     }
   ],
   "lost_reasons": [
@@ -725,5 +754,18 @@
       "reason": "Incorrect Data",
       "count": 1
     }
-  ]
+  ],
+  "conversions": {
+    "total_leads": 8246,
+    "total_mql": 2164,
+    "lead_mql": "2007/8246 (24%)",
+    "lead_mql_num": 2007,
+    "lead_mql_denom": 8246,
+    "mql_sql": "1281/2164 (59%)",
+    "mql_sql_num": 1281,
+    "mql_sql_denom": 2164,
+    "lead_sql": "1196/8246 (15%)",
+    "lead_sql_num": 1196,
+    "lead_sql_denom": 8246
+  }
 }
