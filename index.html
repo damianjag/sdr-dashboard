@@ -444,6 +444,77 @@
         }
         summary:hover { color: #60a5fa; }
 
+        /* Login gate */
+        .login-gate {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: #0f172a;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-box {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 40px;
+            width: 100%;
+            max-width: 380px;
+            text-align: center;
+        }
+        .login-box h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #f1f5f9;
+            margin-bottom: 8px;
+        }
+        .login-box p {
+            font-size: 13px;
+            color: #64748b;
+            margin-bottom: 24px;
+        }
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 12px 16px;
+            background: #0f172a;
+            border: 1px solid #475569;
+            border-radius: 8px;
+            color: #e2e8f0;
+            font-size: 15px;
+            font-family: inherit;
+            margin-bottom: 16px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .login-box input[type="password"]:focus {
+            border-color: #3b82f6;
+        }
+        .login-box input[type="password"].error {
+            border-color: #ef4444;
+            animation: shake 0.3s;
+        }
+        @keyframes shake {
+            0%,100% { transform: translateX(0); }
+            25% { transform: translateX(-6px); }
+            75% { transform: translateX(6px); }
+        }
+        .login-box button {
+            width: 100%;
+            padding: 12px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .login-box button:hover { background: #2563eb; }
+        .app-content { display: none; }
+        .app-content.visible { display: block; }
+
         @media (max-width: 600px) {
             .header { padding: 16px 20px; }
             .container { padding: 16px 20px; }
@@ -453,40 +524,99 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="header-top">
-            <h1>SDR Pipeline Dashboard</h1>
-            <div class="badge" id="total-badge">-</div>
-        </div>
-        <div class="controls">
-            <div class="view-switcher">
-                <button class="view-btn active" data-view="day">Dzie&#324;</button>
-                <button class="view-btn" data-view="week">Tydzie&#324;</button>
-                <button class="view-btn" data-view="month">Miesi&#261;c</button>
-            </div>
-            <div class="date-nav">
-                <button id="prev-btn" title="Poprzedni">&lsaquo;</button>
-                <div class="date-display" id="date-display">-</div>
-                <button id="next-btn" title="Nast&#281;pny">&rsaquo;</button>
-            </div>
-            <div class="date-picker-wrap">
-                <input type="date" id="date-picker">
-            </div>
-            <div class="generated-info" id="generated-info"></div>
+    <div class="login-gate" id="login-gate">
+        <div class="login-box">
+            <h2>SDR Dashboard</h2>
+            <p>Podaj has&#322;o, aby kontynuowa&#263;</p>
+            <input type="password" id="login-password" placeholder="Has&#322;o..." autocomplete="off">
+            <button id="login-btn">Zaloguj</button>
         </div>
     </div>
 
-    <div class="container" id="main-container">
-        <div class="loading" id="loading">
-            <div class="spinner"></div>
-            <div>&#321;adowanie danych...</div>
+    <div class="app-content" id="app-content">
+        <div class="header">
+            <div class="header-top">
+                <h1>SDR Pipeline Dashboard</h1>
+                <div class="badge" id="total-badge">-</div>
+            </div>
+            <div class="controls">
+                <div class="view-switcher">
+                    <button class="view-btn active" data-view="day">Dzie&#324;</button>
+                    <button class="view-btn" data-view="week">Tydzie&#324;</button>
+                    <button class="view-btn" data-view="month">Miesi&#261;c</button>
+                </div>
+                <div class="date-nav">
+                    <button id="prev-btn" title="Poprzedni">&lsaquo;</button>
+                    <div class="date-display" id="date-display">-</div>
+                    <button id="next-btn" title="Nast&#281;pny">&rsaquo;</button>
+                </div>
+                <div class="date-picker-wrap">
+                    <input type="date" id="date-picker">
+                </div>
+                <div class="generated-info" id="generated-info"></div>
+            </div>
+        </div>
+
+        <div class="container" id="main-container">
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <div>&#321;adowanie danych...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            SDR Pipeline Dashboard | Dane z HubSpot API
         </div>
     </div>
 
-    <div class="footer">
-        SDR Pipeline Dashboard | Dane z HubSpot API
-    </div>
+    <script>
+    (function() {
+        var HASH = '774f059b1cd9da1db9f92ded36ee6ba3ea67376de46adc297a77bad2270afe43';
+        var gate = document.getElementById('login-gate');
+        var app = document.getElementById('app-content');
+        var pwInput = document.getElementById('login-password');
+        var loginBtn = document.getElementById('login-btn');
 
-    <script src="dashboard.js"></script>
+        if (sessionStorage.getItem('sdr_auth') === HASH) {
+            gate.style.display = 'none';
+            app.classList.add('visible');
+            loadDashboard();
+        } else {
+            pwInput.focus();
+        }
+
+        async function checkPassword() {
+            var pw = pwInput.value;
+            var encoded = new TextEncoder().encode(pw);
+            var hashBuf = await crypto.subtle.digest('SHA-256', encoded);
+            var hashHex = Array.from(new Uint8Array(hashBuf)).map(function(b) {
+                return b.toString(16).padStart(2, '0');
+            }).join('');
+
+            if (hashHex === HASH) {
+                sessionStorage.setItem('sdr_auth', HASH);
+                gate.style.display = 'none';
+                app.classList.add('visible');
+                loadDashboard();
+            } else {
+                pwInput.classList.add('error');
+                pwInput.value = '';
+                pwInput.focus();
+                setTimeout(function() { pwInput.classList.remove('error'); }, 500);
+            }
+        }
+
+        loginBtn.addEventListener('click', checkPassword);
+        pwInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') checkPassword();
+        });
+
+        function loadDashboard() {
+            var s = document.createElement('script');
+            s.src = 'dashboard.js';
+            document.body.appendChild(s);
+        }
+    })();
+    </script>
 </body>
 </html>
