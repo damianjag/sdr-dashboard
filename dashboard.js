@@ -327,17 +327,25 @@
     // Conversions from JSON (year-to-date, scoped to current year)
     const conv = data.conversions || {};
 
+    const year = (currentDate || '').slice(0, 4) || '2026';
+
     html += `
     <div class="conv-grid">
       <div class="conv-card">
+        <div class="conv-info">?</div>
+        <div class="conv-tooltip">Ile lead\u00f3w z ${year} roku dosz\u0142o do MQL.<br>Liczone s\u0105 tylko deale kt\u00f3re wesz\u0142y jako New Lead w ${year}. Leady z poprzednich lat nie s\u0105 uwzgl\u0119dniane.</div>
         <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> MQL</div>
         <div class="conv-value">${escapeHTML(conv.lead_mql || '-')}</div>
       </div>
       <div class="conv-card">
+        <div class="conv-info">?</div>
+        <div class="conv-tooltip">Ile MQL-i z ${year} roku dosz\u0142o do Kwalki (SQL).<br>Liczone s\u0105 tylko deale z New Lead w ${year} kt\u00f3re przesz\u0142y przez MQL i dalej do SQL.</div>
         <div class="conv-label">MQL <span class="conv-arrow">\u2192</span> SQL</div>
         <div class="conv-value">${escapeHTML(conv.mql_sql || '-')}</div>
       </div>
       <div class="conv-card">
+        <div class="conv-info">?</div>
+        <div class="conv-tooltip">Ile lead\u00f3w z ${year} roku dosz\u0142o bezpo\u015brednio do Kwalki (SQL).<br>Pokazuje konwersj\u0119 ca\u0142ego lejka \u2014 tylko rocznik ${year}.</div>
         <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> SQL</div>
         <div class="conv-value">${escapeHTML(conv.lead_sql || '-')}</div>
       </div>
