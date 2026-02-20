@@ -1,0 +1,205 @@
+{
+  "date": "2026-02-20",
+  "generated_at": "2026-02-20 10:10",
+  "summary": {
+    "total": 8,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 3,
+    "sales_lost": 0,
+    "lost_total": 3
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - ambaseny.pl [MARKET CODE] - 2026-02-19",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - balaganstudio.com [MARKET CODE] - 2026-02-11",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - coffeelove.pl [MARKET CODE] - 2026-02-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - ministerstvohracek.cz [MARKET CODE] - 2026-02-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - ambaseny.pl [MARKET CODE] - 2026-02-19",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Nie jest zainteresowana "
+        },
+        {
+          "name": "SDR - balaganstudio.com [MARKET CODE] - 2026-02-11",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Brak kontaktu "
+        }
+      ],
+      "conversions": {
+        "total_leads": 88,
+        "total_mql": 28,
+        "lead_mql": "28/88 (32%)",
+        "lead_mql_num": 28,
+        "lead_mql_denom": 88,
+        "mql_sql": "17/28 (61%)",
+        "mql_sql_num": 17,
+        "mql_sql_denom": 28,
+        "lead_sql": "17/88 (19%)",
+        "lead_sql_num": 17,
+        "lead_sql_denom": 88
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - fahrradprofis.de [DE] - 2026-02-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - schwimmbadtechnik-fkb.de [DE] - 2026-02-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - ostermann.de [DE] - 2026-02-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - fahrradprofis.de [DE] - 2026-02-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 123,
+        "total_mql": 23,
+        "lead_mql": "23/123 (19%)",
+        "lead_mql_num": 23,
+        "lead_mql_denom": 123,
+        "mql_sql": "13/23 (57%)",
+        "mql_sql_num": 13,
+        "mql_sql_denom": 23,
+        "lead_sql": "13/123 (11%)",
+        "lead_sql_num": 13,
+        "lead_sql_denom": 123
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Adam Płaszczyk  [MARKET CODE] - 2026-02-20",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 223,
+        "total_mql": 52,
+        "lead_mql": "52/223 (23%)",
+        "lead_mql_num": 52,
+        "lead_mql_denom": 223,
+        "mql_sql": "29/52 (56%)",
+        "mql_sql_num": 29,
+        "mql_sql_denom": 52,
+        "lead_sql": "29/223 (13%)",
+        "lead_sql_num": 29,
+        "lead_sql_denom": 223
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 645,
+    "total_mql": 148,
+    "lead_mql": "148/645 (23%)",
+    "lead_mql_num": 148,
+    "lead_mql_denom": 645,
+    "mql_sql": "81/148 (55%)",
+    "mql_sql_num": 81,
+    "mql_sql_denom": 148,
+    "lead_sql": "81/645 (13%)",
+    "lead_sql_num": 81,
+    "lead_sql_denom": 645
+  }
+}

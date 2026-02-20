@@ -1,11 +1,35 @@
 import os
 import json
+import time
 import requests
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
 from collections import defaultdict
 
 load_dotenv()
+
+
+def api_request(method, url, **kwargs):
+    """Wrapper z retry na 429 rate limit i timeout."""
+    kwargs.setdefault("timeout", 60)
+    for attempt in range(8):
+        try:
+            r = method(url, **kwargs)
+        except requests.exceptions.ReadTimeout:
+            print(f"  Timeout - czekam 10s (próba {attempt+1}/8)...")
+            time.sleep(10)
+            continue
+        except requests.exceptions.ConnectionError:
+            print(f"  Connection error - czekam 15s (próba {attempt+1}/8)...")
+            time.sleep(15)
+            continue
+        if r.status_code == 429:
+            wait = max(int(r.headers.get("Retry-After", 30)), 30)
+            print(f"  Rate limit - czekam {wait}s (próba {attempt+1}/8)...")
+            time.sleep(wait)
+            continue
+        return r
+    return r
 
 token = os.getenv("HUBSPOT_API_TOKEN")
 headers = {"Authorization": f"Bearer {token}"}
@@ -60,7 +84,7 @@ def get_report_date():
 
 
 def get_owners():
-    r = requests.get("https://api.hubapi.com/crm/v3/owners?limit=200", headers=headers, timeout=30)
+    r = api_request(requests.get, "https://api.hubapi.com/crm/v3/owners?limit=200", headers=headers)
     owners = {}
     for o in r.json().get("results", []):
         owners[o["id"]] = f"{o.get('firstName', '')} {o.get('lastName', '')}".strip()
@@ -77,14 +101,15 @@ def fetch_all_pipeline_deals():
                 {"propertyName": "pipeline", "operator": "EQ", "value": SDR_PIPELINE_ID},
             ]}],
             "properties": PROPERTIES,
+            "sorts": [{"propertyName": "hs_lastmodifieddate", "direction": "DESCENDING"}],
             "limit": 100
         }
         if after:
             payload["after"] = after
 
-        r = requests.post(
+        r = api_request(requests.post,
             "https://api.hubapi.com/crm/v3/objects/deals/search",
-            headers=headers, json=payload, timeout=30
+            headers=headers, json=payload
         )
         if r.status_code != 200:
             print(f"API error: {r.status_code}")
