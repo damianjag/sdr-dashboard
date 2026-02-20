@@ -369,6 +369,12 @@
       const st = sdr.stats;
       const sc = sdr.conversions || {};
       const sn = escapeHTML(sdr.name);
+      const sdrLM = st.new_lead > 0 ? `${st.mql}/${st.new_lead} (${pctStr(st.mql, st.new_lead)})` : '-';
+      const sdrMS = st.mql > 0 ? `${st.sql}/${st.mql} (${pctStr(st.sql, st.mql)})` : '-';
+      const sdrLS = st.new_lead > 0 ? `${st.sql}/${st.new_lead} (${pctStr(st.sql, st.new_lead)})` : '-';
+      const ytdLM = sc.lead_mql ? `YTD: ${sc.lead_mql}` : '';
+      const ytdMS = sc.mql_sql ? `YTD: ${sc.mql_sql}` : '';
+      const ytdLS = sc.lead_sql ? `YTD: ${sc.lead_sql}` : '';
       html += `
           <tr>
             <td>${sn}</td>
@@ -378,9 +384,9 @@
             <td class="text-green clickable" data-filter="sql" data-sdr="${sn}">${st.sql}</td>
             <td class="text-green clickable" data-filter="won" data-sdr="${sn}">${st.won}</td>
             <td class="text-red clickable" data-filter="lost_total" data-sdr="${sn}">${st.lost_total}</td>
-            <td class="text-blue">${escapeHTML(sc.lead_mql || '-')}</td>
-            <td class="text-blue">${escapeHTML(sc.mql_sql || '-')}</td>
-            <td class="text-blue">${escapeHTML(sc.lead_sql || '-')}</td>
+            <td class="text-blue" ${ytdLM ? `title="${ytdLM}"` : ''}>${sdrLM}</td>
+            <td class="text-blue" ${ytdMS ? `title="${ytdMS}"` : ''}>${sdrMS}</td>
+            <td class="text-blue" ${ytdLS ? `title="${ytdLS}"` : ''}>${sdrLS}</td>
           </tr>`;
     }
 
@@ -431,9 +437,18 @@
             <div class="sdr-stat-row"><span class="sdr-stat-label">SQL (Kwalka)</span><span class="text-green">${st.sql}</span></div>
             <div class="sdr-stat-row"><span class="sdr-stat-label">Sales Won</span><span class="text-green">${st.won}</span></div>
             <div class="sdr-stat-row"><span class="sdr-stat-label">Lost</span><span class="text-red">${st.lost_total}</span></div>
-            <div class="sdr-stat-row"><span class="sdr-stat-label">Lead \u2192 MQL</span><span class="text-blue">${escapeHTML((sdr.conversions || {}).lead_mql || '-')}</span></div>
-            <div class="sdr-stat-row"><span class="sdr-stat-label">MQL \u2192 SQL</span><span class="text-blue">${escapeHTML((sdr.conversions || {}).mql_sql || '-')}</span></div>
-            <div class="sdr-stat-row"><span class="sdr-stat-label">Lead \u2192 SQL</span><span class="text-blue">${escapeHTML((sdr.conversions || {}).lead_sql || '-')}</span></div>`;
+            <div class="sdr-stat-row"><span class="sdr-stat-label">Lead \u2192 MQL</span><span class="text-blue">${st.new_lead > 0 ? `${st.mql}/${st.new_lead} (${pctStr(st.mql, st.new_lead)})` : '-'}</span></div>
+            <div class="sdr-stat-row"><span class="sdr-stat-label">MQL \u2192 SQL</span><span class="text-blue">${st.mql > 0 ? `${st.sql}/${st.mql} (${pctStr(st.sql, st.mql)})` : '-'}</span></div>
+            <div class="sdr-stat-row"><span class="sdr-stat-label">Lead \u2192 SQL</span><span class="text-blue">${st.new_lead > 0 ? `${st.sql}/${st.new_lead} (${pctStr(st.sql, st.new_lead)})` : '-'}</span></div>`;
+      if (sdr.conversions) {
+        const sc = sdr.conversions;
+        html += `
+            <div style="margin-top:8px;padding-top:8px;border-top:1px solid #334155">
+              <div class="sdr-stat-row"><span class="sdr-stat-label" style="color:#64748b">YTD Lead\u2192MQL</span><span style="color:#64748b;font-size:13px">${escapeHTML(sc.lead_mql || '-')}</span></div>
+              <div class="sdr-stat-row"><span class="sdr-stat-label" style="color:#64748b">YTD MQL\u2192SQL</span><span style="color:#64748b;font-size:13px">${escapeHTML(sc.mql_sql || '-')}</span></div>
+              <div class="sdr-stat-row"><span class="sdr-stat-label" style="color:#64748b">YTD Lead\u2192SQL</span><span style="color:#64748b;font-size:13px">${escapeHTML(sc.lead_sql || '-')}</span></div>
+            </div>`;
+      }
 
       // Lost deals details
       if (sdr.lost_deals && sdr.lost_deals.length > 0) {
