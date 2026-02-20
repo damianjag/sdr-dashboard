@@ -1,6 +1,6 @@
 {
   "date": "2026-02-01",
-  "generated_at": "2026-02-19 19:09",
+  "generated_at": "2026-02-20 09:36",
   "summary": {
     "total": 5,
     "new_lead": 5,
@@ -43,17 +43,17 @@
       ],
       "lost_deals": [],
       "conversions": {
-        "total_leads": 700,
-        "total_mql": 120,
-        "lead_mql": "106/700 (15%)",
-        "lead_mql_num": 106,
-        "lead_mql_denom": 700,
-        "mql_sql": "62/120 (52%)",
-        "mql_sql_num": 62,
-        "mql_sql_denom": 120,
-        "lead_sql": "55/700 (8%)",
-        "lead_sql_num": 55,
-        "lead_sql_denom": 700
+        "total_leads": 78,
+        "total_mql": 13,
+        "lead_mql": "13/78 (17%)",
+        "lead_mql_num": 13,
+        "lead_mql_denom": 78,
+        "mql_sql": "6/13 (46%)",
+        "mql_sql_num": 6,
+        "mql_sql_denom": 13,
+        "lead_sql": "6/78 (8%)",
+        "lead_sql_num": 6,
+        "lead_sql_denom": 78
       }
     },
     {
@@ -86,17 +86,17 @@
       ],
       "lost_deals": [],
       "conversions": {
-        "total_leads": 1919,
-        "total_mql": 425,
-        "lead_mql": "404/1919 (21%)",
-        "lead_mql_num": 404,
-        "lead_mql_denom": 1919,
-        "mql_sql": "242/425 (57%)",
-        "mql_sql_num": 242,
-        "mql_sql_denom": 425,
-        "lead_sql": "233/1919 (12%)",
-        "lead_sql_num": 233,
-        "lead_sql_denom": 1919
+        "total_leads": 121,
+        "total_mql": 20,
+        "lead_mql": "20/121 (17%)",
+        "lead_mql_num": 20,
+        "lead_mql_denom": 121,
+        "mql_sql": "5/20 (25%)",
+        "mql_sql_num": 5,
+        "mql_sql_denom": 20,
+        "lead_sql": "5/121 (4%)",
+        "lead_sql_num": 5,
+        "lead_sql_denom": 121
       }
     },
     {
@@ -122,32 +122,32 @@
       ],
       "lost_deals": [],
       "conversions": {
-        "total_leads": 595,
-        "total_mql": 205,
-        "lead_mql": "204/595 (34%)",
-        "lead_mql_num": 204,
-        "lead_mql_denom": 595,
-        "mql_sql": "121/205 (59%)",
-        "mql_sql_num": 121,
-        "mql_sql_denom": 205,
-        "lead_sql": "120/595 (20%)",
-        "lead_sql_num": 120,
-        "lead_sql_denom": 595
+        "total_leads": 44,
+        "total_mql": 14,
+        "lead_mql": "14/44 (32%)",
+        "lead_mql_num": 14,
+        "lead_mql_denom": 44,
+        "mql_sql": "8/14 (57%)",
+        "mql_sql_num": 8,
+        "mql_sql_denom": 14,
+        "lead_sql": "8/44 (18%)",
+        "lead_sql_num": 8,
+        "lead_sql_denom": 44
       }
     }
   ],
   "lost_reasons": [],
   "conversions": {
-    "total_leads": 8068,
-    "total_mql": 2119,
-    "lead_mql": "1962/8068 (24%)",
-    "lead_mql_num": 1962,
-    "lead_mql_denom": 8068,
-    "mql_sql": "1250/2119 (59%)",
-    "mql_sql_num": 1250,
-    "mql_sql_denom": 2119,
-    "lead_sql": "1165/8068 (14%)",
-    "lead_sql_num": 1165,
-    "lead_sql_denom": 8068
+    "total_leads": 373,
+    "total_mql": 79,
+    "lead_mql": "79/373 (21%)",
+    "lead_mql_num": 79,
+    "lead_mql_denom": 373,
+    "mql_sql": "34/79 (43%)",
+    "mql_sql_num": 34,
+    "mql_sql_denom": 79,
+    "lead_sql": "34/373 (9%)",
+    "lead_sql_num": 34,
+    "lead_sql_denom": 373
   }
 }

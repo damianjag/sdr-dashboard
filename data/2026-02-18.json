@@ -1,6 +1,6 @@
 {
   "date": "2026-02-18",
-  "generated_at": "2026-02-19 19:09",
+  "generated_at": "2026-02-20 09:36",
   "summary": {
     "total": 41,
     "new_lead": 16,
@@ -27,7 +27,7 @@
       },
       "deals": [
         {
-          "name": "SDR - Carrefour [RO] - 2026-02-18",
+          "name": "SDR - Epicentrk [UA] - 2026-02-17",
           "current_stage": "In Progress",
           "stage_changes": [
             "New Lead",
@@ -43,7 +43,23 @@
           ]
         },
         {
-          "name": "SDR - Epicentrk [UA] - 2026-02-17",
+          "name": "SDR - Carrefour [RO] - 2026-02-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - avantsec [ES] - 2026-02-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - CurveCatch [NL] - 2026-02-18",
           "current_stage": "In Progress",
           "stage_changes": [
             "New Lead",
@@ -73,14 +89,6 @@
           ]
         },
         {
-          "name": "SDR - CurveCatch [NL] - 2026-02-18",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - Sirowa Poland [PL] - 2026-02-18",
           "current_stage": "MQL",
           "stage_changes": [
@@ -94,14 +102,6 @@
           "stage_changes": [
             "SDR Call Scheduled",
             "MQL"
-          ]
-        },
-        {
-          "name": "SDR - avantsec [ES] - 2026-02-18",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
           ]
         },
         {
@@ -209,17 +209,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 2839,
-        "total_mql": 893,
-        "lead_mql": "862/2839 (30%)",
-        "lead_mql_num": 862,
-        "lead_mql_denom": 2839,
-        "mql_sql": "527/893 (59%)",
-        "mql_sql_num": 527,
-        "mql_sql_denom": 893,
-        "lead_sql": "518/2839 (18%)",
-        "lead_sql_num": 518,
-        "lead_sql_denom": 2839
+        "total_leads": 214,
+        "total_mql": 50,
+        "lead_mql": "50/214 (23%)",
+        "lead_mql_num": 50,
+        "lead_mql_denom": 214,
+        "mql_sql": "28/50 (56%)",
+        "mql_sql_num": 28,
+        "mql_sql_denom": 50,
+        "lead_sql": "28/214 (13%)",
+        "lead_sql_num": 28,
+        "lead_sql_denom": 214
       }
     },
     {
@@ -236,11 +236,17 @@
       },
       "deals": [
         {
-          "name": "SDR - Moto budrex [PL] - 2026-02-16",
-          "current_stage": "MQL",
+          "name": "SDR - Seopol [PL] - 2026-02-16",
+          "current_stage": "SDR Call Scheduled",
           "stage_changes": [
-            "SDR Call Scheduled",
-            "MQL"
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - aptekazusmiechem.pl [MARKET CODE] - 2026-02-17",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
           ]
         },
         {
@@ -250,6 +256,21 @@
             "New Lead",
             "In Progress",
             "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - TekaPi - 2026-02-16",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Moto budrex [PL] - 2026-02-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
           ]
         },
         {
@@ -263,13 +284,6 @@
           ]
         },
         {
-          "name": "SDR - aptekazusmiechem.pl [MARKET CODE] - 2026-02-17",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - bioswena.pl [MARKET CODE] - 2026-02-16",
           "current_stage": "SDR Call Scheduled",
           "stage_changes": [
@@ -278,13 +292,6 @@
         },
         {
           "name": "SDR - Krzysztof Siudzinski <krzysztof.siudzinski@hifiexclusive.pl> - 2026-02-11",
-          "current_stage": "SDR Call Scheduled",
-          "stage_changes": [
-            "SDR Call Scheduled"
-          ]
-        },
-        {
-          "name": "SDR - Seopol [PL] - 2026-02-16",
           "current_stage": "SDR Call Scheduled",
           "stage_changes": [
             "SDR Call Scheduled"
@@ -305,13 +312,6 @@
           ]
         },
         {
-          "name": "SDR - TekaPi - 2026-02-16",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "Lost Before MQL"
-          ]
-        },
-        {
           "name": "SDR - Olivit [PL] - 2025-11-25",
           "current_stage": "Sales Won",
           "stage_changes": [
@@ -321,30 +321,30 @@
       ],
       "lost_deals": [
         {
-          "name": "SDR - klima-sklep [PL] - 2026-02-11",
-          "lost_type": "Sales Lost",
-          "lost_reason": "Was Only Checking",
-          "lost_description": "Trudna branża, główny problem to - brak EANów (do obejscia w bau). Ale kolejna sprawa to ze w wielu przypadkach to są produkty gdzie konkurencja 'manipuluje' cenami. Duzo customów, których nie za bardzo mamy jak obsluzyc. Ping na przyszły tydzień."
-        },
-        {
           "name": "SDR - TekaPi - 2026-02-16",
           "lost_type": "Lost Before MQL",
           "lost_reason": "Was Only Checking",
           "lost_description": "Robi rozeznanie, wyszliśmy najdrożej"
+        },
+        {
+          "name": "SDR - klima-sklep [PL] - 2026-02-11",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Trudna branża, główny problem to - brak EANów (do obejscia w bau). Ale kolejna sprawa to ze w wielu przypadkach to są produkty gdzie konkurencja 'manipuluje' cenami. Duzo customów, których nie za bardzo mamy jak obsluzyc. Ping na przyszły tydzień."
         }
       ],
       "conversions": {
-        "total_leads": 633,
-        "total_mql": 219,
-        "lead_mql": "218/633 (34%)",
-        "lead_mql_num": 218,
-        "lead_mql_denom": 633,
-        "mql_sql": "129/219 (59%)",
-        "mql_sql_num": 129,
-        "mql_sql_denom": 219,
-        "lead_sql": "128/633 (20%)",
-        "lead_sql_num": 128,
-        "lead_sql_denom": 633
+        "total_leads": 82,
+        "total_mql": 28,
+        "lead_mql": "28/82 (34%)",
+        "lead_mql_num": 28,
+        "lead_mql_denom": 82,
+        "mql_sql": "16/28 (57%)",
+        "mql_sql_num": 16,
+        "mql_sql_denom": 28,
+        "lead_sql": "16/82 (20%)",
+        "lead_sql_num": 16,
+        "lead_sql_denom": 82
       }
     },
     {
@@ -360,6 +360,13 @@
         "lost_total": 4
       },
       "deals": [
+        {
+          "name": "SDR - advancedtec.de [DE] - 2026-02-17",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
         {
           "name": "SDR - freenappy.com [UK] - 2026-02-18",
           "current_stage": "In Progress",
@@ -387,13 +394,6 @@
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "New Lead",
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - advancedtec.de [DE] - 2026-02-17",
-          "current_stage": "In Progress",
-          "stage_changes": [
             "In Progress"
           ]
         },
@@ -455,17 +455,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 737,
-        "total_mql": 131,
-        "lead_mql": "116/737 (16%)",
-        "lead_mql_num": 116,
-        "lead_mql_denom": 737,
-        "mql_sql": "69/131 (53%)",
-        "mql_sql_num": 69,
-        "mql_sql_denom": 131,
-        "lead_sql": "62/737 (8%)",
-        "lead_sql_num": 62,
-        "lead_sql_denom": 737
+        "total_leads": 115,
+        "total_mql": 23,
+        "lead_mql": "23/115 (20%)",
+        "lead_mql_num": 23,
+        "lead_mql_denom": 115,
+        "mql_sql": "13/23 (57%)",
+        "mql_sql_num": 13,
+        "mql_sql_denom": 23,
+        "lead_sql": "13/115 (11%)",
+        "lead_sql_num": 13,
+        "lead_sql_denom": 115
       }
     },
     {
@@ -482,33 +482,33 @@
       },
       "deals": [
         {
-          "name": "SDR - suez [PL] - 2026-02-11",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "Kwalka (SQL)"
-          ]
-        },
-        {
           "name": "SDR - Steri-Tech [DE] - 2026-02-10",
           "current_stage": "Sales Won",
           "stage_changes": [
             "Sales Won"
           ]
+        },
+        {
+          "name": "SDR - suez [PL] - 2026-02-11",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
         }
       ],
       "lost_deals": [],
       "conversions": {
-        "total_leads": 1981,
-        "total_mql": 444,
-        "lead_mql": "423/1981 (21%)",
-        "lead_mql_num": 423,
-        "lead_mql_denom": 1981,
-        "mql_sql": "255/444 (57%)",
-        "mql_sql_num": 255,
-        "mql_sql_denom": 444,
-        "lead_sql": "246/1981 (12%)",
-        "lead_sql_num": 246,
-        "lead_sql_denom": 1981
+        "total_leads": 183,
+        "total_mql": 39,
+        "lead_mql": "39/183 (21%)",
+        "lead_mql_num": 39,
+        "lead_mql_denom": 183,
+        "mql_sql": "18/39 (46%)",
+        "mql_sql_num": 18,
+        "mql_sql_denom": 39,
+        "lead_sql": "18/183 (10%)",
+        "lead_sql_num": 18,
+        "lead_sql_denom": 183
       }
     }
   ],
@@ -547,16 +547,16 @@
     }
   ],
   "conversions": {
-    "total_leads": 8317,
-    "total_mql": 2187,
-    "lead_mql": "2029/8317 (24%)",
-    "lead_mql_num": 2029,
-    "lead_mql_denom": 8317,
-    "mql_sql": "1295/2187 (59%)",
-    "mql_sql_num": 1295,
-    "mql_sql_denom": 2187,
-    "lead_sql": "1210/8317 (15%)",
-    "lead_sql_num": 1210,
-    "lead_sql_denom": 8317
+    "total_leads": 622,
+    "total_mql": 146,
+    "lead_mql": "146/622 (23%)",
+    "lead_mql_num": 146,
+    "lead_mql_denom": 622,
+    "mql_sql": "79/146 (54%)",
+    "mql_sql_num": 79,
+    "mql_sql_denom": 146,
+    "lead_sql": "79/622 (13%)",
+    "lead_sql_num": 79,
+    "lead_sql_denom": 622
   }
 }

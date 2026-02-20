@@ -1,6 +1,6 @@
 {
   "date": "2026-02-16",
-  "generated_at": "2026-02-19 19:09",
+  "generated_at": "2026-02-20 09:36",
   "summary": {
     "total": 37,
     "new_lead": 17,
@@ -27,17 +27,9 @@
       },
       "deals": [
         {
-          "name": "SDR - e-medest [PL] - 2026-02-11",
-          "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "MQL"
-          ]
-        },
-        {
-          "name": "SDR - Metrex [PL] - 2026-02-16",
+          "name": "SDR - Sachin Kapur <sachin.kapur@farfetch.com> - 2026-02-13",
           "current_stage": "In Progress",
           "stage_changes": [
-            "New Lead",
             "In Progress"
           ]
         },
@@ -50,9 +42,18 @@
           ]
         },
         {
-          "name": "SDR - Sachin Kapur <sachin.kapur@farfetch.com> - 2026-02-13",
+          "name": "SDR - semprefarmacia [IT] - 2026-02-16",
           "current_stage": "In Progress",
           "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - PWN [PL] - 2026-02-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
             "In Progress"
           ]
         },
@@ -62,6 +63,21 @@
           "stage_changes": [
             "New Lead",
             "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Metrex [PL] - 2026-02-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - e-medest [PL] - 2026-02-11",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "MQL"
           ]
         },
         {
@@ -90,24 +106,8 @@
           ]
         },
         {
-          "name": "SDR - semprefarmacia [IT] - 2026-02-16",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - Dragomir  [BG] - 2026-02-16",
           "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - PWN [PL] - 2026-02-16",
-          "current_stage": "In Progress",
           "stage_changes": [
             "New Lead",
             "In Progress"
@@ -170,17 +170,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 2820,
-        "total_mql": 887,
-        "lead_mql": "856/2820 (30%)",
-        "lead_mql_num": 856,
-        "lead_mql_denom": 2820,
-        "mql_sql": "523/887 (59%)",
-        "mql_sql_num": 523,
-        "mql_sql_denom": 887,
-        "lead_sql": "514/2820 (18%)",
-        "lead_sql_num": 514,
-        "lead_sql_denom": 2820
+        "total_leads": 195,
+        "total_mql": 44,
+        "lead_mql": "44/195 (23%)",
+        "lead_mql_num": 44,
+        "lead_mql_denom": 195,
+        "mql_sql": "24/44 (55%)",
+        "mql_sql_num": 24,
+        "mql_sql_denom": 44,
+        "lead_sql": "24/195 (12%)",
+        "lead_sql_num": 24,
+        "lead_sql_denom": 195
       }
     },
     {
@@ -197,14 +197,6 @@
       },
       "deals": [
         {
-          "name": "SDR - Moto budrex [PL] - 2026-02-16",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - Petbox [PL] - 2026-02-16",
           "current_stage": "MQL",
           "stage_changes": [
@@ -213,7 +205,14 @@
           ]
         },
         {
-          "name": "SDR - bioswena.pl [MARKET CODE] - 2026-02-16",
+          "name": "SDR - Partnertele [PL] - 2026-02-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Seopol [PL] - 2026-02-16",
           "current_stage": "SDR Call Scheduled",
           "stage_changes": [
             "New Lead",
@@ -221,7 +220,23 @@
           ]
         },
         {
-          "name": "SDR - Seopol [PL] - 2026-02-16",
+          "name": "SDR - TekaPi - 2026-02-16",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Moto budrex [PL] - 2026-02-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - bioswena.pl [MARKET CODE] - 2026-02-16",
           "current_stage": "SDR Call Scheduled",
           "stage_changes": [
             "New Lead",
@@ -247,21 +262,6 @@
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "Lost Before MQL"
-          ]
-        },
-        {
-          "name": "SDR - TekaPi - 2026-02-16",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - Partnertele [PL] - 2026-02-16",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "New Lead"
           ]
         },
         {
@@ -340,17 +340,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 628,
-        "total_mql": 213,
-        "lead_mql": "212/628 (34%)",
-        "lead_mql_num": 212,
-        "lead_mql_denom": 628,
-        "mql_sql": "127/213 (60%)",
-        "mql_sql_num": 127,
-        "mql_sql_denom": 213,
-        "lead_sql": "126/628 (20%)",
-        "lead_sql_num": 126,
-        "lead_sql_denom": 628
+        "total_leads": 77,
+        "total_mql": 22,
+        "lead_mql": "22/77 (29%)",
+        "lead_mql_num": 22,
+        "lead_mql_denom": 77,
+        "mql_sql": "14/22 (64%)",
+        "mql_sql_num": 14,
+        "mql_sql_denom": 22,
+        "lead_sql": "14/77 (18%)",
+        "lead_sql_num": 14,
+        "lead_sql_denom": 77
       }
     },
     {
@@ -367,6 +367,13 @@
       },
       "deals": [
         {
+          "name": "SDR - boxenshop.net [DE] - 2026-02-14",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
           "name": "SDR - nejenleky.cz [CZ] - 2026-02-13",
           "current_stage": "In Progress",
           "stage_changes": [
@@ -378,13 +385,6 @@
           "current_stage": "In Progress",
           "stage_changes": [
             "New Lead"
-          ]
-        },
-        {
-          "name": "SDR - boxenshop.net [DE] - 2026-02-14",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "In Progress"
           ]
         },
         {
@@ -425,17 +425,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 728,
-        "total_mql": 127,
-        "lead_mql": "113/728 (16%)",
-        "lead_mql_num": 113,
-        "lead_mql_denom": 728,
-        "mql_sql": "66/127 (52%)",
-        "mql_sql_num": 66,
-        "mql_sql_denom": 127,
-        "lead_sql": "59/728 (8%)",
-        "lead_sql_num": 59,
-        "lead_sql_denom": 728
+        "total_leads": 106,
+        "total_mql": 20,
+        "lead_mql": "20/106 (19%)",
+        "lead_mql_num": 20,
+        "lead_mql_denom": 106,
+        "mql_sql": "10/20 (50%)",
+        "mql_sql_num": 10,
+        "mql_sql_denom": 20,
+        "lead_sql": "10/106 (9%)",
+        "lead_sql_num": 10,
+        "lead_sql_denom": 106
       }
     },
     {
@@ -469,17 +469,17 @@
       ],
       "lost_deals": [],
       "conversions": {
-        "total_leads": 1981,
-        "total_mql": 444,
-        "lead_mql": "423/1981 (21%)",
-        "lead_mql_num": 423,
-        "lead_mql_denom": 1981,
-        "mql_sql": "252/444 (57%)",
-        "mql_sql_num": 252,
-        "mql_sql_denom": 444,
-        "lead_sql": "243/1981 (12%)",
-        "lead_sql_num": 243,
-        "lead_sql_denom": 1981
+        "total_leads": 183,
+        "total_mql": 39,
+        "lead_mql": "39/183 (21%)",
+        "lead_mql_num": 39,
+        "lead_mql_denom": 183,
+        "mql_sql": "15/39 (38%)",
+        "mql_sql_num": 15,
+        "mql_sql_denom": 39,
+        "lead_sql": "15/183 (8%)",
+        "lead_sql_num": 15,
+        "lead_sql_denom": 183
       }
     }
   ],
@@ -506,16 +506,16 @@
     }
   ],
   "conversions": {
-    "total_leads": 8284,
-    "total_mql": 2171,
-    "lead_mql": "2014/8284 (24%)",
-    "lead_mql_num": 2014,
-    "lead_mql_denom": 8284,
-    "mql_sql": "1283/2171 (59%)",
-    "mql_sql_num": 1283,
-    "mql_sql_denom": 2171,
-    "lead_sql": "1198/8284 (14%)",
-    "lead_sql_num": 1198,
-    "lead_sql_denom": 8284
+    "total_leads": 589,
+    "total_mql": 131,
+    "lead_mql": "131/589 (22%)",
+    "lead_mql_num": 131,
+    "lead_mql_denom": 589,
+    "mql_sql": "67/131 (51%)",
+    "mql_sql_num": 67,
+    "mql_sql_denom": 131,
+    "lead_sql": "67/589 (11%)",
+    "lead_sql_num": 67,
+    "lead_sql_denom": 589
   }
 }

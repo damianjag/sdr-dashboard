@@ -167,10 +167,11 @@ def calc_stats(deals):
     }
 
 
-def calc_conversions(all_deals, owners, as_of_date=None):
-    """Liczy kumulatywne konwersje z WSZYSTKICH deali w pipeline.
+def calc_conversions(all_deals, owners, as_of_date=None, from_date=None):
+    """Liczy konwersje z deali w pipeline.
 
     as_of_date: jeśli podane, liczy tylko etapy wejściowe do tej daty (snapshot historyczny).
+    from_date: jeśli podane, liczy tylko deale z New Lead >= from_date (np. "2026-01-01").
     """
 
     def pct(a, b):
@@ -219,6 +220,10 @@ def calc_conversions(all_deals, owners, as_of_date=None):
                 sql = None
             if won and won > as_of_date:
                 won = None
+
+        # Filtr roku - liczymy tylko deale z New Lead >= from_date
+        if from_date and (not nl or nl < from_date):
+            continue
 
         # Pomijamy deale które jeszcze nie weszly w pipeline na ten dzien
         if not nl and not mql and not sql and not won:
@@ -341,8 +346,9 @@ def main():
     today_deals = process_deals(all_deals, owners, report_date)
     print(f"Deale ze zmiana etapu w {report_date}: {len(today_deals)}")
 
-    conversions, sdr_conversions = calc_conversions(all_deals, owners, as_of_date=report_date)
-    print(f"Konwersje pipeline: Lead->MQL {conversions['lead_mql']}, MQL->SQL {conversions['mql_sql']}")
+    year_start = report_date[:4] + "-01-01"
+    conversions, sdr_conversions = calc_conversions(all_deals, owners, as_of_date=report_date, from_date=year_start)
+    print(f"Konwersje {report_date[:4]}: Lead->MQL {conversions['lead_mql']}, MQL->SQL {conversions['mql_sql']}")
 
     data = build_json(today_deals, report_date, conversions, sdr_conversions)
 

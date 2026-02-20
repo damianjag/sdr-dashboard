@@ -158,8 +158,9 @@ def main():
     for date_str in dates_in_range:
         today_deals = process_deals_for_date(all_deals, owners, date_str)
 
-        # Konwersje kumulatywne na ten dzień (snapshot)
-        conversions, sdr_conversions = calc_conversions(all_deals, owners, as_of_date=date_str)
+        # Konwersje z tego roku (snapshot na dany dzień)
+        year_start = date_str[:4] + "-01-01"
+        conversions, sdr_conversions = calc_conversions(all_deals, owners, as_of_date=date_str, from_date=year_start)
 
         data = build_json(today_deals, date_str, conversions, sdr_conversions)
 

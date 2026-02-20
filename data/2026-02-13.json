@@ -1,6 +1,6 @@
 {
   "date": "2026-02-13",
-  "generated_at": "2026-02-19 19:09",
+  "generated_at": "2026-02-20 09:36",
   "summary": {
     "total": 44,
     "new_lead": 18,
@@ -27,7 +27,30 @@
       },
       "deals": [
         {
+          "name": "SDR - Sachin Kapur <sachin.kapur@farfetch.com> - 2026-02-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - lullabeefabrics [UK] - 2026-02-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
           "name": "SDR - funkyfluid [PL] - 2026-02-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - webprofits [AU] - 2026-02-13",
           "current_stage": "In Progress",
           "stage_changes": [
             "New Lead",
@@ -59,14 +82,6 @@
           ]
         },
         {
-          "name": "SDR - lullabeefabrics [UK] - 2026-02-13",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - lechameau [UK] - 2026-02-13",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
@@ -82,25 +97,10 @@
           ]
         },
         {
-          "name": "SDR - webprofits [AU] - 2026-02-13",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - Pasazfoto [PL] - 2026-02-12",
           "current_stage": "In Progress",
           "stage_changes": [
             "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - Sachin Kapur <sachin.kapur@farfetch.com> - 2026-02-13",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead"
           ]
         },
         {
@@ -171,17 +171,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 2812,
-        "total_mql": 884,
-        "lead_mql": "853/2812 (30%)",
-        "lead_mql_num": 853,
-        "lead_mql_denom": 2812,
-        "mql_sql": "523/884 (59%)",
-        "mql_sql_num": 523,
-        "mql_sql_denom": 884,
-        "lead_sql": "514/2812 (18%)",
-        "lead_sql_num": 514,
-        "lead_sql_denom": 2812
+        "total_leads": 187,
+        "total_mql": 41,
+        "lead_mql": "41/187 (22%)",
+        "lead_mql_num": 41,
+        "lead_mql_denom": 187,
+        "mql_sql": "24/41 (59%)",
+        "mql_sql_num": 24,
+        "mql_sql_denom": 41,
+        "lead_sql": "24/187 (13%)",
+        "lead_sql_num": 24,
+        "lead_sql_denom": 187
       }
     },
     {
@@ -382,17 +382,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 1981,
-        "total_mql": 444,
-        "lead_mql": "423/1981 (21%)",
-        "lead_mql_num": 423,
-        "lead_mql_denom": 1981,
-        "mql_sql": "250/444 (56%)",
-        "mql_sql_num": 250,
-        "mql_sql_denom": 444,
-        "lead_sql": "241/1981 (12%)",
-        "lead_sql_num": 241,
-        "lead_sql_denom": 1981
+        "total_leads": 183,
+        "total_mql": 39,
+        "lead_mql": "39/183 (21%)",
+        "lead_mql_num": 39,
+        "lead_mql_denom": 183,
+        "mql_sql": "13/39 (33%)",
+        "mql_sql_num": 13,
+        "mql_sql_denom": 39,
+        "lead_sql": "13/183 (7%)",
+        "lead_sql_num": 13,
+        "lead_sql_denom": 183
       }
     },
     {
@@ -473,17 +473,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 724,
-        "total_mql": 127,
-        "lead_mql": "113/724 (16%)",
-        "lead_mql_num": 113,
-        "lead_mql_denom": 724,
-        "mql_sql": "66/127 (52%)",
-        "mql_sql_num": 66,
-        "mql_sql_denom": 127,
-        "lead_sql": "59/724 (8%)",
-        "lead_sql_num": 59,
-        "lead_sql_denom": 724
+        "total_leads": 102,
+        "total_mql": 20,
+        "lead_mql": "20/102 (20%)",
+        "lead_mql_num": 20,
+        "lead_mql_denom": 102,
+        "mql_sql": "10/20 (50%)",
+        "mql_sql_num": 10,
+        "mql_sql_denom": 20,
+        "lead_sql": "10/102 (10%)",
+        "lead_sql_num": 10,
+        "lead_sql_denom": 102
       }
     },
     {
@@ -500,6 +500,15 @@
       },
       "deals": [
         {
+          "name": "SDR - meden.com.pl [MARKET CODE] - 2026-02-13",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
           "name": "SDR - Erotyczne wibracje [PL] - 2026-02-13",
           "current_stage": "Kwalka (SQL)",
           "stage_changes": [
@@ -507,15 +516,6 @@
             "In Progress",
             "SDR Call Scheduled",
             "MQL"
-          ]
-        },
-        {
-          "name": "SDR - meden.com.pl [MARKET CODE] - 2026-02-13",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress",
-            "SDR Call Scheduled"
           ]
         },
         {
@@ -550,17 +550,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 620,
-        "total_mql": 213,
-        "lead_mql": "212/620 (34%)",
-        "lead_mql_num": 212,
-        "lead_mql_denom": 620,
-        "mql_sql": "127/213 (60%)",
-        "mql_sql_num": 127,
-        "mql_sql_denom": 213,
-        "lead_sql": "126/620 (20%)",
-        "lead_sql_num": 126,
-        "lead_sql_denom": 620
+        "total_leads": 69,
+        "total_mql": 22,
+        "lead_mql": "22/69 (32%)",
+        "lead_mql_num": 22,
+        "lead_mql_denom": 69,
+        "mql_sql": "14/22 (64%)",
+        "mql_sql_num": 14,
+        "mql_sql_denom": 22,
+        "lead_sql": "14/69 (20%)",
+        "lead_sql_num": 14,
+        "lead_sql_denom": 69
       }
     },
     {
@@ -593,17 +593,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 2093,
-        "total_mql": 495,
-        "lead_mql": "405/2093 (19%)",
-        "lead_mql_num": 405,
-        "lead_mql_denom": 2093,
-        "mql_sql": "314/495 (63%)",
-        "mql_sql_num": 314,
-        "mql_sql_denom": 495,
-        "lead_sql": "252/2093 (12%)",
-        "lead_sql_num": 252,
-        "lead_sql_denom": 2093
+        "total_leads": 27,
+        "total_mql": 6,
+        "lead_mql": "6/27 (22%)",
+        "lead_mql_num": 6,
+        "lead_mql_denom": 27,
+        "mql_sql": "4/6 (67%)",
+        "mql_sql_num": 4,
+        "mql_sql_denom": 6,
+        "lead_sql": "4/27 (15%)",
+        "lead_sql_num": 4,
+        "lead_sql_denom": 27
       }
     }
   ],
@@ -630,16 +630,16 @@
     }
   ],
   "conversions": {
-    "total_leads": 8264,
-    "total_mql": 2168,
-    "lead_mql": "2011/8264 (24%)",
-    "lead_mql_num": 2011,
-    "lead_mql_denom": 8264,
-    "mql_sql": "1281/2168 (59%)",
-    "mql_sql_num": 1281,
-    "mql_sql_denom": 2168,
-    "lead_sql": "1196/8264 (14%)",
-    "lead_sql_num": 1196,
-    "lead_sql_denom": 8264
+    "total_leads": 569,
+    "total_mql": 128,
+    "lead_mql": "128/569 (22%)",
+    "lead_mql_num": 128,
+    "lead_mql_denom": 569,
+    "mql_sql": "65/128 (51%)",
+    "mql_sql_num": 65,
+    "mql_sql_denom": 128,
+    "lead_sql": "65/569 (11%)",
+    "lead_sql_num": 65,
+    "lead_sql_denom": 569
   }
 }

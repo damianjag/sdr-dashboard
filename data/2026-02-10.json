@@ -1,6 +1,6 @@
 {
   "date": "2026-02-10",
-  "generated_at": "2026-02-19 19:09",
+  "generated_at": "2026-02-20 09:36",
   "summary": {
     "total": 74,
     "new_lead": 40,
@@ -27,10 +27,49 @@
       },
       "deals": [
         {
+          "name": "SDR - alkam-security [PL] - 2026-02-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
           "name": "SDR - aquamatic [PL] - 2026-02-10",
           "current_stage": "In Progress",
           "stage_changes": [
             "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - klinika agd [PL] - 2026-02-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Elite sport food [PL] - 2026-02-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - kaster cheval [DE] - 2026-02-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Marco Labahn <marco.labahn@eibmarkt.de> - 2026-02-09",
+          "current_stage": "In Progress",
+          "stage_changes": [
             "In Progress"
           ]
         },
@@ -84,30 +123,6 @@
           ]
         },
         {
-          "name": "SDR - Elite sport food [PL] - 2026-02-10",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - kaster cheval [DE] - 2026-02-10",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - klinika agd [PL] - 2026-02-10",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - regionalapo [DE] - 2026-02-09",
           "current_stage": "In Progress",
           "stage_changes": [
@@ -137,14 +152,6 @@
           ]
         },
         {
-          "name": "SDR - alkam-security [PL] - 2026-02-10",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
-          ]
-        },
-        {
           "name": "SDR - goamogh.com [MARKET CODE] - 2026-02-05",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
@@ -162,13 +169,6 @@
         {
           "name": "SDR - Samsung [PT] - 2026-02-09",
           "current_stage": "Kwalka (SQL)",
-          "stage_changes": [
-            "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - Marco Labahn <marco.labahn@eibmarkt.de> - 2026-02-09",
-          "current_stage": "In Progress",
           "stage_changes": [
             "In Progress"
           ]
@@ -358,17 +358,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 2788,
-        "total_mql": 881,
-        "lead_mql": "850/2788 (30%)",
-        "lead_mql_num": 850,
-        "lead_mql_denom": 2788,
-        "mql_sql": "518/881 (59%)",
-        "mql_sql_num": 518,
-        "mql_sql_denom": 881,
-        "lead_sql": "509/2788 (18%)",
-        "lead_sql_num": 509,
-        "lead_sql_denom": 2788
+        "total_leads": 163,
+        "total_mql": 38,
+        "lead_mql": "38/163 (23%)",
+        "lead_mql_num": 38,
+        "lead_mql_denom": 163,
+        "mql_sql": "19/38 (50%)",
+        "mql_sql_num": 19,
+        "mql_sql_denom": 38,
+        "lead_sql": "19/163 (12%)",
+        "lead_sql_num": 19,
+        "lead_sql_denom": 163
       }
     },
     {
@@ -384,6 +384,24 @@
         "lost_total": 4
       },
       "deals": [
+        {
+          "name": "SDR - Steri-Tech [DE] - 2026-02-10",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL",
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - pleo [PL] - 2026-02-05",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
         {
           "name": "SDR - grupamo.pl [MARKET CODE] - 2026-02-10",
           "current_stage": "In Progress",
@@ -421,17 +439,6 @@
             "In Progress",
             "SDR Call Scheduled",
             "MQL"
-          ]
-        },
-        {
-          "name": "SDR - Steri-Tech [DE] - 2026-02-10",
-          "current_stage": "Sales Won",
-          "stage_changes": [
-            "New Lead",
-            "In Progress",
-            "SDR Call Scheduled",
-            "MQL",
-            "Kwalka (SQL)"
           ]
         },
         {
@@ -503,13 +510,6 @@
           ]
         },
         {
-          "name": "SDR - pleo [PL] - 2026-02-05",
-          "current_stage": "Sales Lost",
-          "stage_changes": [
-            "Sales Lost"
-          ]
-        },
-        {
           "name": "SDR - zanuro [DE] - 2026-02-02",
           "current_stage": "Kwalka (SQL)",
           "stage_changes": [
@@ -518,6 +518,12 @@
         }
       ],
       "lost_deals": [
+        {
+          "name": "SDR - pleo [PL] - 2026-02-05",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Insufficient Data Quality",
+          "lost_description": "panel marki własnej - za mali "
+        },
         {
           "name": "SDR - hornbach [DE] - 2026-01-17",
           "lost_type": "Lost Before MQL",
@@ -535,26 +541,20 @@
           "lost_type": "Lost Before MQL",
           "lost_reason": "Was Only Checking",
           "lost_description": "nie jest zainteresowany"
-        },
-        {
-          "name": "SDR - pleo [PL] - 2026-02-05",
-          "lost_type": "Sales Lost",
-          "lost_reason": "Insufficient Data Quality",
-          "lost_description": "panel marki własnej - za mali "
         }
       ],
       "conversions": {
-        "total_leads": 1964,
-        "total_mql": 438,
-        "lead_mql": "417/1964 (21%)",
-        "lead_mql_num": 417,
-        "lead_mql_denom": 1964,
-        "mql_sql": "250/438 (57%)",
-        "mql_sql_num": 250,
-        "mql_sql_denom": 438,
-        "lead_sql": "241/1964 (12%)",
-        "lead_sql_num": 241,
-        "lead_sql_denom": 1964
+        "total_leads": 166,
+        "total_mql": 33,
+        "lead_mql": "33/166 (20%)",
+        "lead_mql_num": 33,
+        "lead_mql_denom": 166,
+        "mql_sql": "13/33 (39%)",
+        "mql_sql_num": 13,
+        "mql_sql_denom": 33,
+        "lead_sql": "13/166 (8%)",
+        "lead_sql_num": 13,
+        "lead_sql_denom": 166
       }
     },
     {
@@ -570,6 +570,14 @@
         "lost_total": 7
       },
       "deals": [
+        {
+          "name": "SDR - e-librariescolara [RO] - 2026-02-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
         {
           "name": "SDR - skapetze [DE] - 2026-01-22",
           "current_stage": "Sales Lost",
@@ -624,14 +632,6 @@
           "current_stage": "Lost Before MQL",
           "stage_changes": [
             "Lost Before MQL"
-          ]
-        },
-        {
-          "name": "SDR - e-librariescolara [RO] - 2026-02-10",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress"
           ]
         },
         {
@@ -709,17 +709,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 720,
-        "total_mql": 126,
-        "lead_mql": "112/720 (16%)",
-        "lead_mql_num": 112,
-        "lead_mql_denom": 720,
-        "mql_sql": "65/126 (52%)",
-        "mql_sql_num": 65,
-        "mql_sql_denom": 126,
-        "lead_sql": "58/720 (8%)",
-        "lead_sql_num": 58,
-        "lead_sql_denom": 720
+        "total_leads": 98,
+        "total_mql": 19,
+        "lead_mql": "19/98 (19%)",
+        "lead_mql_num": 19,
+        "lead_mql_denom": 98,
+        "mql_sql": "9/19 (47%)",
+        "mql_sql_num": 9,
+        "mql_sql_denom": 19,
+        "lead_sql": "9/98 (9%)",
+        "lead_sql_num": 9,
+        "lead_sql_denom": 98
       }
     },
     {
@@ -821,17 +821,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 609,
-        "total_mql": 208,
-        "lead_mql": "207/609 (34%)",
-        "lead_mql_num": 207,
-        "lead_mql_denom": 609,
-        "mql_sql": "127/208 (61%)",
-        "mql_sql_num": 127,
-        "mql_sql_denom": 208,
-        "lead_sql": "126/609 (21%)",
-        "lead_sql_num": 126,
-        "lead_sql_denom": 609
+        "total_leads": 58,
+        "total_mql": 17,
+        "lead_mql": "17/58 (29%)",
+        "lead_mql_num": 17,
+        "lead_mql_denom": 58,
+        "mql_sql": "14/17 (82%)",
+        "mql_sql_num": 14,
+        "mql_sql_denom": 17,
+        "lead_sql": "14/58 (24%)",
+        "lead_sql_num": 14,
+        "lead_sql_denom": 58
       }
     }
   ],
@@ -857,6 +857,10 @@
       "count": 2
     },
     {
+      "reason": "Insufficient Data Quality",
+      "count": 1
+    },
+    {
       "reason": "Insufficient Functionality",
       "count": 1
     },
@@ -871,23 +875,19 @@
     {
       "reason": "Language Barrier",
       "count": 1
-    },
-    {
-      "reason": "Insufficient Data Quality",
-      "count": 1
     }
   ],
   "conversions": {
-    "total_leads": 8208,
-    "total_mql": 2153,
-    "lead_mql": "1996/8208 (24%)",
-    "lead_mql_num": 1996,
-    "lead_mql_denom": 8208,
-    "mql_sql": "1274/2153 (59%)",
-    "mql_sql_num": 1274,
-    "mql_sql_denom": 2153,
-    "lead_sql": "1189/8208 (14%)",
-    "lead_sql_num": 1189,
-    "lead_sql_denom": 8208
+    "total_leads": 513,
+    "total_mql": 113,
+    "lead_mql": "113/513 (22%)",
+    "lead_mql_num": 113,
+    "lead_mql_denom": 513,
+    "mql_sql": "58/113 (51%)",
+    "mql_sql_num": 58,
+    "mql_sql_denom": 113,
+    "lead_sql": "58/513 (11%)",
+    "lead_sql_num": 58,
+    "lead_sql_denom": 513
   }
 }

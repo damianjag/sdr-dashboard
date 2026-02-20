@@ -1,6 +1,6 @@
 {
   "date": "2026-02-02",
-  "generated_at": "2026-02-19 19:09",
+  "generated_at": "2026-02-20 09:36",
   "summary": {
     "total": 32,
     "new_lead": 9,
@@ -27,6 +27,13 @@
       },
       "deals": [
         {
+          "name": "SDR - Orlen [PL] - 2026-01-30",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
           "name": "SDR - Oxyshop [PL] - 2026-01-28",
           "current_stage": "Kwalka (SQL)",
           "stage_changes": [
@@ -46,13 +53,6 @@
           "stage_changes": [
             "New Lead",
             "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - Orlen [PL] - 2026-01-30",
-          "current_stage": "Lost Before MQL",
-          "stage_changes": [
-            "Lost Before MQL"
           ]
         },
         {
@@ -150,17 +150,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 2731,
-        "total_mql": 871,
-        "lead_mql": "840/2731 (31%)",
-        "lead_mql_num": 840,
-        "lead_mql_denom": 2731,
-        "mql_sql": "513/871 (59%)",
-        "mql_sql_num": 513,
-        "mql_sql_denom": 871,
-        "lead_sql": "504/2731 (18%)",
-        "lead_sql_num": 504,
-        "lead_sql_denom": 2731
+        "total_leads": 106,
+        "total_mql": 28,
+        "lead_mql": "28/106 (26%)",
+        "lead_mql_num": 28,
+        "lead_mql_denom": 106,
+        "mql_sql": "14/28 (50%)",
+        "mql_sql_num": 14,
+        "mql_sql_denom": 28,
+        "lead_sql": "14/106 (13%)",
+        "lead_sql_num": 14,
+        "lead_sql_denom": 106
       }
     },
     {
@@ -255,17 +255,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 1922,
-        "total_mql": 427,
-        "lead_mql": "406/1922 (21%)",
-        "lead_mql_num": 406,
-        "lead_mql_denom": 1922,
-        "mql_sql": "243/427 (57%)",
-        "mql_sql_num": 243,
-        "mql_sql_denom": 427,
-        "lead_sql": "234/1922 (12%)",
-        "lead_sql_num": 234,
-        "lead_sql_denom": 1922
+        "total_leads": 124,
+        "total_mql": 22,
+        "lead_mql": "22/124 (18%)",
+        "lead_mql_num": 22,
+        "lead_mql_denom": 124,
+        "mql_sql": "6/22 (27%)",
+        "mql_sql_num": 6,
+        "mql_sql_denom": 22,
+        "lead_sql": "6/124 (5%)",
+        "lead_sql_num": 6,
+        "lead_sql_denom": 124
       }
     },
     {
@@ -335,17 +335,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 596,
-        "total_mql": 207,
-        "lead_mql": "206/596 (35%)",
-        "lead_mql_num": 206,
-        "lead_mql_denom": 596,
-        "mql_sql": "121/207 (58%)",
-        "mql_sql_num": 121,
-        "mql_sql_denom": 207,
-        "lead_sql": "120/596 (20%)",
-        "lead_sql_num": 120,
-        "lead_sql_denom": 596
+        "total_leads": 45,
+        "total_mql": 16,
+        "lead_mql": "16/45 (36%)",
+        "lead_mql_num": 16,
+        "lead_mql_denom": 45,
+        "mql_sql": "8/16 (50%)",
+        "mql_sql_num": 8,
+        "mql_sql_denom": 16,
+        "lead_sql": "8/45 (18%)",
+        "lead_sql_num": 8,
+        "lead_sql_denom": 45
       }
     },
     {
@@ -402,17 +402,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 702,
-        "total_mql": 121,
-        "lead_mql": "107/702 (15%)",
-        "lead_mql_num": 107,
-        "lead_mql_denom": 702,
-        "mql_sql": "62/121 (51%)",
-        "mql_sql_num": 62,
-        "mql_sql_denom": 121,
-        "lead_sql": "55/702 (8%)",
-        "lead_sql_num": 55,
-        "lead_sql_denom": 702
+        "total_leads": 80,
+        "total_mql": 14,
+        "lead_mql": "14/80 (18%)",
+        "lead_mql_num": 14,
+        "lead_mql_denom": 80,
+        "mql_sql": "6/14 (43%)",
+        "mql_sql_num": 6,
+        "mql_sql_denom": 14,
+        "lead_sql": "6/80 (8%)",
+        "lead_sql_num": 6,
+        "lead_sql_denom": 80
       }
     },
     {
@@ -466,17 +466,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 2092,
-        "total_mql": 494,
-        "lead_mql": "404/2092 (19%)",
-        "lead_mql_num": 404,
-        "lead_mql_denom": 2092,
-        "mql_sql": "313/494 (63%)",
-        "mql_sql_num": 313,
-        "mql_sql_denom": 494,
-        "lead_sql": "251/2092 (12%)",
-        "lead_sql_num": 251,
-        "lead_sql_denom": 2092
+        "total_leads": 26,
+        "total_mql": 5,
+        "lead_mql": "5/26 (19%)",
+        "lead_mql_num": 5,
+        "lead_mql_denom": 26,
+        "mql_sql": "3/5 (60%)",
+        "mql_sql_num": 3,
+        "mql_sql_denom": 5,
+        "lead_sql": "3/26 (12%)",
+        "lead_sql_num": 3,
+        "lead_sql_denom": 26
       }
     },
     {
@@ -539,16 +539,16 @@
     }
   ],
   "conversions": {
-    "total_leads": 8077,
-    "total_mql": 2125,
-    "lead_mql": "1968/8077 (24%)",
-    "lead_mql_num": 1968,
-    "lead_mql_denom": 8077,
-    "mql_sql": "1253/2125 (59%)",
-    "mql_sql_num": 1253,
-    "mql_sql_denom": 2125,
-    "lead_sql": "1168/8077 (14%)",
-    "lead_sql_num": 1168,
-    "lead_sql_denom": 8077
+    "total_leads": 382,
+    "total_mql": 85,
+    "lead_mql": "85/382 (22%)",
+    "lead_mql_num": 85,
+    "lead_mql_denom": 382,
+    "mql_sql": "37/85 (44%)",
+    "mql_sql_num": 37,
+    "mql_sql_denom": 85,
+    "lead_sql": "37/382 (10%)",
+    "lead_sql_num": 37,
+    "lead_sql_denom": 382
   }
 }

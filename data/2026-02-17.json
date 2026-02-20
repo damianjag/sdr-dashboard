@@ -1,6 +1,6 @@
 {
   "date": "2026-02-17",
-  "generated_at": "2026-02-19 19:09",
+  "generated_at": "2026-02-20 09:36",
   "summary": {
     "total": 37,
     "new_lead": 17,
@@ -26,6 +26,25 @@
         "lost_total": 7
       },
       "deals": [
+        {
+          "name": "SDR - nole [PL] - 2026-02-17",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - MP3 Store [PL] - 2026-02-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
         {
           "name": "SDR - Parmafood [RO] - 2026-02-17",
           "current_stage": "Lost Before MQL",
@@ -73,29 +92,10 @@
           ]
         },
         {
-          "name": "SDR - nole [PL] - 2026-02-17",
-          "current_stage": "SDR Call Scheduled",
-          "stage_changes": [
-            "New Lead",
-            "In Progress",
-            "SDR Call Scheduled"
-          ]
-        },
-        {
           "name": "SDR - Hurleys [UK] - 2026-02-02",
           "current_stage": "Kwalka (SQL)",
           "stage_changes": [
             "Kwalka (SQL)"
-          ]
-        },
-        {
-          "name": "SDR - MP3 Store [PL] - 2026-02-17",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress",
-            "SDR Call Scheduled",
-            "MQL"
           ]
         },
         {
@@ -206,17 +206,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 2829,
-        "total_mql": 890,
-        "lead_mql": "859/2829 (30%)",
-        "lead_mql_num": 859,
-        "lead_mql_denom": 2829,
-        "mql_sql": "524/890 (59%)",
-        "mql_sql_num": 524,
-        "mql_sql_denom": 890,
-        "lead_sql": "515/2829 (18%)",
-        "lead_sql_num": 515,
-        "lead_sql_denom": 2829
+        "total_leads": 204,
+        "total_mql": 47,
+        "lead_mql": "47/204 (23%)",
+        "lead_mql_num": 47,
+        "lead_mql_denom": 204,
+        "mql_sql": "25/47 (53%)",
+        "mql_sql_num": 25,
+        "mql_sql_denom": 47,
+        "lead_sql": "25/204 (12%)",
+        "lead_sql_num": 25,
+        "lead_sql_denom": 204
       }
     },
     {
@@ -233,6 +233,31 @@
       },
       "deals": [
         {
+          "name": "SDR - boxenshop.net [DE] - 2026-02-14",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - advancedtec.de [DE] - 2026-02-17",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - edsystem.cz [CZ] - 2026-02-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
           "name": "SDR - comms-express [UK] - 2026-02-03",
           "current_stage": "Kwalka (SQL)",
           "stage_changes": [
@@ -247,28 +272,11 @@
           ]
         },
         {
-          "name": "SDR - edsystem.cz [CZ] - 2026-02-17",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "New Lead",
-            "In Progress",
-            "SDR Call Scheduled",
-            "MQL"
-          ]
-        },
-        {
           "name": "SDR - thebath.es [ES] - 2026-02-17",
           "current_stage": "In Progress",
           "stage_changes": [
             "New Lead",
             "In Progress"
-          ]
-        },
-        {
-          "name": "SDR - advancedtec.de [DE] - 2026-02-17",
-          "current_stage": "In Progress",
-          "stage_changes": [
-            "New Lead"
           ]
         },
         {
@@ -295,29 +303,21 @@
             "SDR Call Scheduled",
             "MQL"
           ]
-        },
-        {
-          "name": "SDR - boxenshop.net [DE] - 2026-02-14",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "SDR Call Scheduled",
-            "MQL"
-          ]
         }
       ],
       "lost_deals": [],
       "conversions": {
-        "total_leads": 733,
-        "total_mql": 130,
-        "lead_mql": "116/733 (16%)",
-        "lead_mql_num": 116,
-        "lead_mql_denom": 733,
-        "mql_sql": "68/130 (52%)",
-        "mql_sql_num": 68,
-        "mql_sql_denom": 130,
-        "lead_sql": "61/733 (8%)",
-        "lead_sql_num": 61,
-        "lead_sql_denom": 733
+        "total_leads": 111,
+        "total_mql": 23,
+        "lead_mql": "23/111 (21%)",
+        "lead_mql_num": 23,
+        "lead_mql_denom": 111,
+        "mql_sql": "12/23 (52%)",
+        "mql_sql_num": 12,
+        "mql_sql_denom": 23,
+        "lead_sql": "12/111 (11%)",
+        "lead_sql_num": 12,
+        "lead_sql_denom": 111
       }
     },
     {
@@ -334,11 +334,20 @@
       },
       "deals": [
         {
-          "name": "SDR - ngastro.pl [MARKET CODE] - 2026-02-17",
-          "current_stage": "In Progress",
+          "name": "SDR - Petbox [PL] - 2026-02-16",
+          "current_stage": "MQL",
           "stage_changes": [
-            "New Lead",
-            "In Progress"
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Partnertele [PL] - 2026-02-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
           ]
         },
         {
@@ -349,19 +358,19 @@
           ]
         },
         {
+          "name": "SDR - ngastro.pl [MARKET CODE] - 2026-02-17",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
           "name": "SDR - Strauss Cafe [PL] - 2026-02-17",
           "current_stage": "MQL",
           "stage_changes": [
             "New Lead",
             "In Progress",
-            "SDR Call Scheduled",
-            "MQL"
-          ]
-        },
-        {
-          "name": "SDR - Petbox [PL] - 2026-02-16",
-          "current_stage": "MQL",
-          "stage_changes": [
             "SDR Call Scheduled",
             "MQL"
           ]
@@ -382,15 +391,6 @@
           ]
         },
         {
-          "name": "SDR - Partnertele [PL] - 2026-02-16",
-          "current_stage": "MQL",
-          "stage_changes": [
-            "In Progress",
-            "SDR Call Scheduled",
-            "MQL"
-          ]
-        },
-        {
           "name": "SDR - STAMATS [PL] - 2025-06-18",
           "current_stage": "Lost Before MQL",
           "stage_changes": [
@@ -407,17 +407,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 631,
-        "total_mql": 217,
-        "lead_mql": "216/631 (34%)",
-        "lead_mql_num": 216,
-        "lead_mql_denom": 631,
-        "mql_sql": "128/217 (59%)",
-        "mql_sql_num": 128,
-        "mql_sql_denom": 217,
-        "lead_sql": "127/631 (20%)",
-        "lead_sql_num": 127,
-        "lead_sql_denom": 631
+        "total_leads": 80,
+        "total_mql": 26,
+        "lead_mql": "26/80 (32%)",
+        "lead_mql_num": 26,
+        "lead_mql_denom": 80,
+        "mql_sql": "15/26 (58%)",
+        "mql_sql_num": 15,
+        "mql_sql_denom": 26,
+        "lead_sql": "15/80 (19%)",
+        "lead_sql_num": 15,
+        "lead_sql_denom": 80
       }
     },
     {
@@ -464,17 +464,17 @@
         }
       ],
       "conversions": {
-        "total_leads": 1981,
-        "total_mql": 444,
-        "lead_mql": "423/1981 (21%)",
-        "lead_mql_num": 423,
-        "lead_mql_denom": 1981,
-        "mql_sql": "254/444 (57%)",
-        "mql_sql_num": 254,
-        "mql_sql_denom": 444,
-        "lead_sql": "245/1981 (12%)",
-        "lead_sql_num": 245,
-        "lead_sql_denom": 1981
+        "total_leads": 183,
+        "total_mql": 39,
+        "lead_mql": "39/183 (21%)",
+        "lead_mql_num": 39,
+        "lead_mql_denom": 183,
+        "mql_sql": "17/39 (44%)",
+        "mql_sql_num": 17,
+        "mql_sql_denom": 39,
+        "lead_sql": "17/183 (9%)",
+        "lead_sql_num": 17,
+        "lead_sql_denom": 183
       }
     }
   ],
@@ -505,16 +505,16 @@
     }
   ],
   "conversions": {
-    "total_leads": 8301,
-    "total_mql": 2181,
-    "lead_mql": "2024/8301 (24%)",
-    "lead_mql_num": 2024,
-    "lead_mql_denom": 8301,
-    "mql_sql": "1289/2181 (59%)",
-    "mql_sql_num": 1289,
-    "mql_sql_denom": 2181,
-    "lead_sql": "1204/8301 (15%)",
-    "lead_sql_num": 1204,
-    "lead_sql_denom": 8301
+    "total_leads": 606,
+    "total_mql": 141,
+    "lead_mql": "141/606 (23%)",
+    "lead_mql_num": 141,
+    "lead_mql_denom": 606,
+    "mql_sql": "73/141 (52%)",
+    "mql_sql_num": 73,
+    "mql_sql_denom": 141,
+    "lead_sql": "73/606 (12%)",
+    "lead_sql_num": 73,
+    "lead_sql_denom": 606
   }
 }

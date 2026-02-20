@@ -324,21 +324,22 @@
       <div class="kpi-card" style="cursor:default"><div class="value" style="color:#f1f5f9">${data.active_sdrs}</div><div class="label">Aktywni SDR-owie</div></div>
     </div>`;
 
-    // Conversions (cumulative pipeline)
-    const c = data.conversions || {};
+    // Conversions from JSON (year-to-date, scoped to current year)
+    const conv = data.conversions || {};
+
     html += `
     <div class="conv-grid">
       <div class="conv-card">
-        <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> MQL <span style="font-size:11px;color:#475569">(kumulatywnie)</span></div>
-        <div class="conv-value">${escapeHTML(c.lead_mql || '-')}</div>
+        <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> MQL</div>
+        <div class="conv-value">${escapeHTML(conv.lead_mql || '-')}</div>
       </div>
       <div class="conv-card">
-        <div class="conv-label">MQL <span class="conv-arrow">\u2192</span> SQL <span style="font-size:11px;color:#475569">(kumulatywnie)</span></div>
-        <div class="conv-value">${escapeHTML(c.mql_sql || '-')}</div>
+        <div class="conv-label">MQL <span class="conv-arrow">\u2192</span> SQL</div>
+        <div class="conv-value">${escapeHTML(conv.mql_sql || '-')}</div>
       </div>
       <div class="conv-card">
-        <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> SQL <span style="font-size:11px;color:#475569">(kumulatywnie)</span></div>
-        <div class="conv-value">${escapeHTML(c.lead_sql || '-')}</div>
+        <div class="conv-label">Lead <span class="conv-arrow">\u2192</span> SQL</div>
+        <div class="conv-value">${escapeHTML(conv.lead_sql || '-')}</div>
       </div>
     </div>`;
 

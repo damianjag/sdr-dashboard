@@ -1,6 +1,6 @@
 {
   "date": "2026-02-07",
-  "generated_at": "2026-02-19 19:09",
+  "generated_at": "2026-02-20 09:36",
   "summary": {
     "total": 3,
     "new_lead": 3,
@@ -43,17 +43,17 @@
       ],
       "lost_deals": [],
       "conversions": {
-        "total_leads": 715,
-        "total_mql": 126,
-        "lead_mql": "112/715 (16%)",
-        "lead_mql_num": 112,
-        "lead_mql_denom": 715,
-        "mql_sql": "64/126 (51%)",
-        "mql_sql_num": 64,
-        "mql_sql_denom": 126,
-        "lead_sql": "57/715 (8%)",
-        "lead_sql_num": 57,
-        "lead_sql_denom": 715
+        "total_leads": 93,
+        "total_mql": 19,
+        "lead_mql": "19/93 (20%)",
+        "lead_mql_num": 19,
+        "lead_mql_denom": 93,
+        "mql_sql": "8/19 (42%)",
+        "mql_sql_num": 8,
+        "mql_sql_denom": 19,
+        "lead_sql": "8/93 (9%)",
+        "lead_sql_num": 8,
+        "lead_sql_denom": 93
       }
     },
     {
@@ -79,32 +79,32 @@
       ],
       "lost_deals": [],
       "conversions": {
-        "total_leads": 2759,
-        "total_mql": 876,
-        "lead_mql": "845/2759 (31%)",
-        "lead_mql_num": 845,
-        "lead_mql_denom": 2759,
-        "mql_sql": "515/876 (59%)",
-        "mql_sql_num": 515,
-        "mql_sql_denom": 876,
-        "lead_sql": "506/2759 (18%)",
-        "lead_sql_num": 506,
-        "lead_sql_denom": 2759
+        "total_leads": 134,
+        "total_mql": 33,
+        "lead_mql": "33/134 (25%)",
+        "lead_mql_num": 33,
+        "lead_mql_denom": 134,
+        "mql_sql": "16/33 (48%)",
+        "mql_sql_num": 16,
+        "mql_sql_denom": 33,
+        "lead_sql": "16/134 (12%)",
+        "lead_sql_num": 16,
+        "lead_sql_denom": 134
       }
     }
   ],
   "lost_reasons": [],
   "conversions": {
-    "total_leads": 8147,
-    "total_mql": 2143,
-    "lead_mql": "1986/8147 (24%)",
-    "lead_mql_num": 1986,
-    "lead_mql_denom": 8147,
-    "mql_sql": "1265/2143 (59%)",
-    "mql_sql_num": 1265,
-    "mql_sql_denom": 2143,
-    "lead_sql": "1180/8147 (14%)",
-    "lead_sql_num": 1180,
-    "lead_sql_denom": 8147
+    "total_leads": 452,
+    "total_mql": 103,
+    "lead_mql": "103/452 (23%)",
+    "lead_mql_num": 103,
+    "lead_mql_denom": 452,
+    "mql_sql": "49/103 (48%)",
+    "mql_sql_num": 49,
+    "mql_sql_denom": 103,
+    "lead_sql": "49/452 (11%)",
+    "lead_sql_num": 49,
+    "lead_sql_denom": 452
   }
 }
