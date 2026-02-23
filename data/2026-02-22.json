@@ -1,0 +1,103 @@
+{
+  "date": "2026-02-22",
+  "generated_at": "2026-02-23 08:05",
+  "summary": {
+    "total": 2,
+    "new_lead": 2,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - feuer-und-design [DE] - 2026-02-22",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 186,
+        "total_mql": 39,
+        "lead_mql": "39/186 (21%)",
+        "lead_mql_num": 39,
+        "lead_mql_denom": 186,
+        "mql_sql": "18/39 (46%)",
+        "mql_sql_num": 18,
+        "mql_sql_denom": 39,
+        "lead_sql": "18/186 (10%)",
+        "lead_sql_num": 18,
+        "lead_sql_denom": 186
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - krishnakumars1312@gmail.com [MARKET CODE] - 2026-02-22",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 232,
+        "total_mql": 53,
+        "lead_mql": "53/232 (23%)",
+        "lead_mql_num": 53,
+        "lead_mql_denom": 232,
+        "mql_sql": "30/53 (57%)",
+        "mql_sql_num": 30,
+        "mql_sql_denom": 53,
+        "lead_sql": "30/232 (13%)",
+        "lead_sql_num": 30,
+        "lead_sql_denom": 232
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 663,
+    "total_mql": 151,
+    "lead_mql": "151/663 (23%)",
+    "lead_mql_num": 151,
+    "lead_mql_denom": 663,
+    "mql_sql": "83/151 (55%)",
+    "mql_sql_num": 83,
+    "mql_sql_denom": 151,
+    "lead_sql": "83/663 (13%)",
+    "lead_sql_num": 83,
+    "lead_sql_denom": 663
+  }
+}
