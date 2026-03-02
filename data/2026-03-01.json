@@ -1,0 +1,67 @@
+{
+  "date": "2026-03-01",
+  "generated_at": "2026-03-02 08:01",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Jan Mrozewski  [MARKET CODE] - 2026-03-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 104,
+        "total_mql": 36,
+        "lead_mql": "36/104 (35%)",
+        "lead_mql_num": 36,
+        "lead_mql_denom": 104,
+        "mql_sql": "21/36 (58%)",
+        "mql_sql_num": 21,
+        "mql_sql_denom": 36,
+        "lead_sql": "21/104 (20%)",
+        "lead_sql_num": 21,
+        "lead_sql_denom": 104
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 725,
+    "total_mql": 177,
+    "lead_mql": "177/725 (24%)",
+    "lead_mql_num": 177,
+    "lead_mql_denom": 725,
+    "mql_sql": "94/177 (53%)",
+    "mql_sql_num": 94,
+    "mql_sql_denom": 177,
+    "lead_sql": "94/725 (13%)",
+    "lead_sql_num": 94,
+    "lead_sql_denom": 725
+  }
+}
