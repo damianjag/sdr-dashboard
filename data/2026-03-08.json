@@ -1,0 +1,103 @@
+{
+  "date": "2026-03-08",
+  "generated_at": "2026-03-09 08:01",
+  "summary": {
+    "total": 2,
+    "new_lead": 2,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - aramiso.sk [SK] - 2026-03-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 164,
+        "total_mql": 33,
+        "lead_mql": "33/164 (20%)",
+        "lead_mql_num": 33,
+        "lead_mql_denom": 164,
+        "mql_sql": "18/33 (55%)",
+        "mql_sql_num": 18,
+        "mql_sql_denom": 33,
+        "lead_sql": "18/164 (11%)",
+        "lead_sql_num": 18,
+        "lead_sql_denom": 164
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - agregaty-malarskie.pl [MARKET CODE] - 2026-03-09",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 238,
+        "total_mql": 66,
+        "lead_mql": "66/238 (28%)",
+        "lead_mql_num": 66,
+        "lead_mql_denom": 238,
+        "mql_sql": "33/66 (50%)",
+        "mql_sql_num": 33,
+        "mql_sql_denom": 66,
+        "lead_sql": "33/238 (14%)",
+        "lead_sql_num": 33,
+        "lead_sql_denom": 238
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 779,
+    "total_mql": 198,
+    "lead_mql": "198/779 (25%)",
+    "lead_mql_num": 198,
+    "lead_mql_denom": 779,
+    "mql_sql": "110/198 (56%)",
+    "mql_sql_num": 110,
+    "mql_sql_denom": 198,
+    "lead_sql": "110/779 (14%)",
+    "lead_sql_num": 110,
+    "lead_sql_denom": 779
+  }
+}
