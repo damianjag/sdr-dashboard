@@ -1,0 +1,340 @@
+{
+  "date": "2026-03-16",
+  "generated_at": "2026-03-17 08:05",
+  "summary": {
+    "total": 26,
+    "new_lead": 12,
+    "mql": 3,
+    "sql": 2,
+    "won": 1,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 10,
+        "new_lead": 3,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - matuszczak.pro [MARKET CODE] - 2026-03-16",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Ozone [BG] - 2026-03-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - jana.juenke@business-ausstatter.de - 2026-03-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - gonser [CH] - 2026-03-03",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Andrii Piddubnyi  [MARKET CODE] - 2026-03-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - fragrance [NL] - 2026-03-13",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Magic Booster Box <info@magic-booster-box.eu> - 2026-03-05",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - halfords [UK] - 2026-03-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - t2f.pl [MARKET CODE] - 2026-03-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - a-tak [PL] - 2026-03-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 269,
+        "total_mql": 73,
+        "lead_mql": "73/269 (27%)",
+        "lead_mql_num": 73,
+        "lead_mql_denom": 269,
+        "mql_sql": "41/73 (56%)",
+        "mql_sql_num": 41,
+        "mql_sql_denom": 73,
+        "lead_sql": "41/269 (15%)",
+        "lead_sql_num": 41,
+        "lead_sql_denom": 269
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 7,
+        "new_lead": 5,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - elnougarden [ES] - 2026-03-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - bernskoetter-moebel [DE] - 2026-03-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - charles bentley [UK] - 2026-03-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Stewart Dennerley <stewart@sportsequipmentsupplies.com> - 2026-03-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - camposautomocion [ES] - 2026-03-16",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Copia Nexus [LT] - 2026-03-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - salonselect [NL] - 2026-03-13",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 264,
+        "total_mql": 61,
+        "lead_mql": "61/264 (23%)",
+        "lead_mql_num": 61,
+        "lead_mql_denom": 264,
+        "mql_sql": "34/61 (56%)",
+        "mql_sql_num": 34,
+        "mql_sql_denom": 61,
+        "lead_sql": "34/264 (13%)",
+        "lead_sql_num": 34,
+        "lead_sql_denom": 264
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 6,
+        "new_lead": 4,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - sgsgastro.de [DE] - 2026-03-16",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - digital-sat-online.de [DE] - 2026-03-16",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - batterium.de [DE] - 2026-03-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - sanisusmedical.com [ES] - 2026-03-16",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Siluan [DE] - 2026-02-19",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - bucko.app [RS] - 2026-03-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 182,
+        "total_mql": 36,
+        "lead_mql": "36/182 (20%)",
+        "lead_mql_num": 36,
+        "lead_mql_denom": 182,
+        "mql_sql": "20/36 (56%)",
+        "mql_sql_num": 20,
+        "mql_sql_denom": 36,
+        "lead_sql": "20/182 (11%)",
+        "lead_sql_num": 20,
+        "lead_sql_denom": 182
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - niebieskiogrod.pl [MARKET CODE] - 2026-03-15",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - Seboradin [PL] - 2026-02-24",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Baitnow  [PL] - 2025-11-14",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 117,
+        "total_mql": 43,
+        "lead_mql": "43/117 (37%)",
+        "lead_mql_num": 43,
+        "lead_mql_denom": 117,
+        "mql_sql": "28/43 (65%)",
+        "mql_sql_num": 28,
+        "mql_sql_denom": 43,
+        "lead_sql": "28/117 (24%)",
+        "lead_sql_num": 28,
+        "lead_sql_denom": 117
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 860,
+    "total_mql": 219,
+    "lead_mql": "219/860 (25%)",
+    "lead_mql_num": 219,
+    "lead_mql_denom": 860,
+    "mql_sql": "127/219 (58%)",
+    "mql_sql_num": 127,
+    "mql_sql_denom": 219,
+    "lead_sql": "127/860 (15%)",
+    "lead_sql_num": 127,
+    "lead_sql_denom": 860
+  }
+}
