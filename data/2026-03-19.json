@@ -1,0 +1,695 @@
+{
+  "date": "2026-03-19",
+  "generated_at": "2026-03-20 07:59",
+  "summary": {
+    "total": 54,
+    "new_lead": 31,
+    "mql": 6,
+    "sql": 3,
+    "won": 0,
+    "lost_before_mql": 14,
+    "sales_lost": 2,
+    "lost_total": 16
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 15,
+        "new_lead": 11,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 4,
+        "sales_lost": 1,
+        "lost_total": 5
+      },
+      "deals": [
+        {
+          "name": "SDR - deichmann [AT] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - \"Michał Plezia\" <michal.plezia@maxfliz.pl> - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - buldent.eu [MARKET CODE] - 2026-03-19",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - wplusm [DE] - 2026-02-11",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - lottchens-tiershop [DE] - 2026-03-19",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - gep24.de [MARKET CODE] - 2026-03-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - druckdichaus [DE] - 2026-03-12",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - yachtbatterie [DE] - 2026-03-19",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - marwiol.pl [MARKET CODE] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - tuningteile [DE] - 2026-03-18",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - colorstories [PL] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - raiwashop [DE] - 2026-03-19",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - \"PuntoTropicalePet.com\" <info@puntotropicalepet.com> - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - rewu [DE] - 2026-03-19",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - aleplanszowki [PL] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - wplusm [DE] - 2026-02-11",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "jednak stwierdzili, ze nie potrzebują narzędzia"
+        },
+        {
+          "name": "SDR - yachtbatterie [DE] - 2026-03-19",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie widzą wartosci w monitoringu "
+        },
+        {
+          "name": "SDR - tuningteile [DE] - 2026-03-18",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No Business Need",
+          "lost_description": "Nie mają EANów, a bau za drogie. Spora część produktów sprzedaje się raz w roku/raz na kwartał, a dla reszty narzędzie nie jest dla nich opłacalne "
+        },
+        {
+          "name": "SDR - raiwashop [DE] - 2026-03-19",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "oni nie mają czasu się teraz niczym zajmować "
+        },
+        {
+          "name": "SDR - rewu [DE] - 2026-03-19",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "tylko oglądał raport, bedzie sie zastanawiał"
+        }
+      ],
+      "conversions": {
+        "total_leads": 298,
+        "total_mql": 80,
+        "lead_mql": "80/298 (27%)",
+        "lead_mql_num": 80,
+        "lead_mql_denom": 298,
+        "mql_sql": "43/80 (54%)",
+        "mql_sql_num": 43,
+        "mql_sql_denom": 80,
+        "lead_sql": "43/298 (14%)",
+        "lead_sql_num": 43,
+        "lead_sql_denom": 298
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 15,
+        "new_lead": 6,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 6,
+        "sales_lost": 0,
+        "lost_total": 6
+      },
+      "deals": [
+        {
+          "name": "SDR - limelight-distribution.ch [CH] - 2026-03-19",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - sondi.ch [CH] - 2026-03-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - motorun.de [DE] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - ebike-pro.de [DE] - 2026-03-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - aura-hifi.de [DE] - 2026-03-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - mobileparts.ch [CH] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - mountainspirit.it [IT] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - fivelab.de [DE] - 2026-02-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - lundf-home.de [DE] - 2026-03-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - sgsgastro [DE] - 2026-03-16",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - luftballons.de [DE] - 2026-03-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - kingnature.de [DE] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - protein4life [RO] - 2026-03-11",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - info@kraftathlet.de [DE] - 2026-03-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - aromashop.ch [CH] - 2026-03-19",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - fivelab.de [DE] - 2026-02-14",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Insufficient Data Quality",
+          "lost_description": "Agnecja dla klienta, klient zdecydował narazie poogarniać bałagan z EAN/GTIN \n\nDane agencji przekazane Piotrowi żeby zwerbować partnera"
+        },
+        {
+          "name": "SDR - lundf-home.de [DE] - 2026-03-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Business Need",
+          "lost_description": "Twierdzi że nie potrzebuje, jest fanem tych samych cen online co offline "
+        },
+        {
+          "name": "SDR - luftballons.de [DE] - 2026-03-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "za 2-3 miesiące się umawiamy, zmienił dostawce google ads, mówi ze za 2-3 miesiące powinny być wyniki i wtedy będzie go stać, zatem czekamy"
+        },
+        {
+          "name": "SDR - protein4life [RO] - 2026-03-11",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odpowiada"
+        },
+        {
+          "name": "SDR - info@kraftathlet.de [DE] - 2026-03-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Provider Initiated Termination",
+          "lost_description": "PDC"
+        },
+        {
+          "name": "SDR - aromashop.ch [CH] - 2026-03-19",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Business Need",
+          "lost_description": "twierdzi że nie potrzebują"
+        }
+      ],
+      "conversions": {
+        "total_leads": 203,
+        "total_mql": 41,
+        "lead_mql": "41/203 (20%)",
+        "lead_mql_num": 41,
+        "lead_mql_denom": 203,
+        "mql_sql": "21/41 (51%)",
+        "mql_sql_num": 21,
+        "mql_sql_denom": 41,
+        "lead_sql": "21/203 (10%)",
+        "lead_sql_num": 21,
+        "lead_sql_denom": 203
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 14,
+        "new_lead": 6,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 4,
+        "sales_lost": 1,
+        "lost_total": 5
+      },
+      "deals": [
+        {
+          "name": "SDR - NIVONA [DE] - 2026-03-19",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Tiny Love Polska [PL] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - waterwipes [DE] - 2026-03-18",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - spc [CH] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - skorzana [PL] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - praxisdienst [DE] - 2026-03-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Birkenstock [DE] - 2026-03-17",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - balneo [PL] - 2026-03-19",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - itd24.pl [MARKET CODE] - 2026-03-19",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - automaximizer [US] - 2026-03-11",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - r2-bike.com [MARKET CODE] - 2026-03-17",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - ledkia [UK/DE] - 2026-03-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Atmar [PL] - 2026-01-19",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Marco Labahn <marco.labahn@eibmarkt.de> - 2026-02-09",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - praxisdienst [DE] - 2026-03-10",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "nie ma teraz czasu, sam się odezwie"
+        },
+        {
+          "name": "SDR - automaximizer [US] - 2026-03-11",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Na ten moment nie są gotowi. Poziom sprzedaży to ok 10k $ miesięcznie. Sprzedają produkty bez żadnych kodów UPC/GTIN. "
+        },
+        {
+          "name": "SDR - r2-bike.com [MARKET CODE] - 2026-03-17",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie są zainteresowani"
+        },
+        {
+          "name": "SDR - ledkia [UK/DE] - 2026-03-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Competition",
+          "lost_description": "Korzystają z Pricefy, produkty podobne\n"
+        },
+        {
+          "name": "SDR - Marco Labahn <marco.labahn@eibmarkt.de> - 2026-02-09",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "nie ma teraz czasu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 291,
+        "total_mql": 68,
+        "lead_mql": "68/291 (23%)",
+        "lead_mql_num": 68,
+        "lead_mql_denom": 291,
+        "mql_sql": "36/68 (53%)",
+        "mql_sql_num": 36,
+        "mql_sql_denom": 68,
+        "lead_sql": "36/291 (12%)",
+        "lead_sql_num": 36,
+        "lead_sql_denom": 291
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 10,
+        "new_lead": 8,
+        "mql": 2,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Yellowsport [PL] - 2026-03-19",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - autoleggera.pl [MARKET CODE] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - galilu.pl [MARKET CODE] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Ampol-merol [PL] - 2026-03-19",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - net-s.pl [MARKET CODE] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - wycinarnia.pl [MARKET CODE] - 2026-03-18",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - piubiu.pl [MARKET CODE] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Baitnow  [PL] - 2025-11-14",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - terrasklep.pl [MARKET CODE] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - biurobot.pl [MARKET CODE] - 2026-03-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 128,
+        "total_mql": 45,
+        "lead_mql": "45/128 (35%)",
+        "lead_mql_num": 45,
+        "lead_mql_denom": 128,
+        "mql_sql": "28/45 (62%)",
+        "mql_sql_num": 28,
+        "mql_sql_denom": 45,
+        "lead_sql": "28/128 (22%)",
+        "lead_sql_num": 28,
+        "lead_sql_denom": 128
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Was Only Checking",
+      "count": 5
+    },
+    {
+      "reason": "Does Not Have Time",
+      "count": 4
+    },
+    {
+      "reason": "No Business Need",
+      "count": 3
+    },
+    {
+      "reason": "Insufficient Data Quality",
+      "count": 1
+    },
+    {
+      "reason": "Competition",
+      "count": 1
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    },
+    {
+      "reason": "Provider Initiated Termination",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 948,
+    "total_mql": 240,
+    "lead_mql": "240/948 (25%)",
+    "lead_mql_num": 240,
+    "lead_mql_denom": 948,
+    "mql_sql": "132/240 (55%)",
+    "mql_sql_num": 132,
+    "mql_sql_denom": 240,
+    "lead_sql": "132/948 (14%)",
+    "lead_sql_num": 132,
+    "lead_sql_denom": 948
+  }
+}
