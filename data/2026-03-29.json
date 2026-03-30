@@ -1,0 +1,103 @@
+{
+  "date": "2026-03-29",
+  "generated_at": "2026-03-30 08:53",
+  "summary": {
+    "total": 2,
+    "new_lead": 2,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - 3pagen [DE] - 2026-03-29",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 327,
+        "total_mql": 89,
+        "lead_mql": "89/327 (27%)",
+        "lead_mql_num": 89,
+        "lead_mql_denom": 327,
+        "mql_sql": "48/89 (54%)",
+        "mql_sql_num": 48,
+        "mql_sql_denom": 89,
+        "lead_sql": "48/327 (15%)",
+        "lead_sql_num": 48,
+        "lead_sql_denom": 327
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - qudo.ro [MARKET CODE] - 2026-03-29",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 225,
+        "total_mql": 47,
+        "lead_mql": "47/225 (21%)",
+        "lead_mql_num": 47,
+        "lead_mql_denom": 225,
+        "mql_sql": "23/47 (49%)",
+        "mql_sql_num": 23,
+        "mql_sql_denom": 47,
+        "lead_sql": "23/225 (10%)",
+        "lead_sql_num": 23,
+        "lead_sql_denom": 225
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1059,
+    "total_mql": 274,
+    "lead_mql": "274/1059 (26%)",
+    "lead_mql_num": 274,
+    "lead_mql_denom": 1059,
+    "mql_sql": "152/274 (55%)",
+    "mql_sql_num": 152,
+    "mql_sql_denom": 274,
+    "lead_sql": "152/1059 (14%)",
+    "lead_sql_num": 152,
+    "lead_sql_denom": 1059
+  }
+}
