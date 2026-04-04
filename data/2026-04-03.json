@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-03",
+  "generated_at": "2026-04-04 08:04",
+  "summary": {
+    "total": 9,
+    "new_lead": 1,
+    "mql": 1,
+    "sql": 1,
+    "won": 1,
+    "lost_before_mql": 2,
+    "sales_lost": 1,
+    "lost_total": 3
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - lightprestige.pl [MARKET CODE] - 2026-03-30",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - bike2office [PL] - 2026-04-02",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - nowaelektro [PL] - 2026-03-30",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - info@sockenpara.de - 2026-04-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - nowaelektro [PL] - 2026-03-30",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie oglądal raportu, nie jest odpowiedzialny, jest kierownikiem sklepu stacjonarnego, nie ma dostepu do DM"
+        }
+      ],
+      "conversions": {
+        "total_leads": 341,
+        "total_mql": 97,
+        "lead_mql": "97/341 (28%)",
+        "lead_mql_num": 97,
+        "lead_mql_denom": 341,
+        "mql_sql": "52/97 (54%)",
+        "mql_sql_num": 52,
+        "mql_sql_denom": 97,
+        "lead_sql": "52/341 (15%)",
+        "lead_sql_num": 52,
+        "lead_sql_denom": 341
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - ACR Bielefeld - 02.04.2026 - 2026-04-02",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - hardware-wallet.shop [DE] - 2026-04-02",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - ACR Bielefeld - 02.04.2026 - 2026-04-02",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "Potrzeba update danych co kilka minut na wielu rynkach z budżetem CP"
+        }
+      ],
+      "conversions": {
+        "total_leads": 344,
+        "total_mql": 87,
+        "lead_mql": "87/344 (25%)",
+        "lead_mql_num": 87,
+        "lead_mql_denom": 344,
+        "mql_sql": "50/87 (57%)",
+        "mql_sql_num": 50,
+        "mql_sql_denom": 87,
+        "lead_sql": "50/344 (15%)",
+        "lead_sql_num": 50,
+        "lead_sql_denom": 344
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - nordtech.sklep.pl [PL] - 2026-04-02",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - qudo.ro [RO] - 2026-03-29",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - qudo.ro [RO] - 2026-03-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Business Need",
+          "lost_description": "nie ma potrzeby"
+        }
+      ],
+      "conversions": {
+        "total_leads": 233,
+        "total_mql": 47,
+        "lead_mql": "47/233 (20%)",
+        "lead_mql_num": 47,
+        "lead_mql_denom": 233,
+        "mql_sql": "26/47 (55%)",
+        "mql_sql_num": 26,
+        "mql_sql_denom": 47,
+        "lead_sql": "26/233 (11%)",
+        "lead_sql_num": 26,
+        "lead_sql_denom": 233
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Agropol [PL] 2026-03-12 - 2026-03-12",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 159,
+        "total_mql": 53,
+        "lead_mql": "53/159 (33%)",
+        "lead_mql_num": 53,
+        "lead_mql_denom": 159,
+        "mql_sql": "35/53 (66%)",
+        "mql_sql_num": 35,
+        "mql_sql_denom": 53,
+        "lead_sql": "35/159 (22%)",
+        "lead_sql_num": 35,
+        "lead_sql_denom": 159
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    },
+    {
+      "reason": "No Business Need",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1105,
+    "total_mql": 290,
+    "lead_mql": "290/1105 (26%)",
+    "lead_mql_num": 290,
+    "lead_mql_denom": 1105,
+    "mql_sql": "167/290 (58%)",
+    "mql_sql_num": 167,
+    "mql_sql_denom": 290,
+    "lead_sql": "167/1105 (15%)",
+    "lead_sql_num": 167,
+    "lead_sql_denom": 1105
+  }
+}
