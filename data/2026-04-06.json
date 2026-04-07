@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-06",
+  "generated_at": "2026-04-07 08:42",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - dnipro-m.ua [MARKET CODE] - 2026-04-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 344,
+        "total_mql": 97,
+        "lead_mql": "97/344 (28%)",
+        "lead_mql_num": 97,
+        "lead_mql_denom": 344,
+        "mql_sql": "52/97 (54%)",
+        "mql_sql_num": 52,
+        "mql_sql_denom": 97,
+        "lead_sql": "52/344 (15%)",
+        "lead_sql_num": 52,
+        "lead_sql_denom": 344
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1105,
+    "total_mql": 288,
+    "lead_mql": "288/1105 (26%)",
+    "lead_mql_num": 288,
+    "lead_mql_denom": 1105,
+    "mql_sql": "166/288 (58%)",
+    "mql_sql_num": 166,
+    "mql_sql_denom": 288,
+    "lead_sql": "166/1105 (15%)",
+    "lead_sql_num": 166,
+    "lead_sql_denom": 1105
+  }
+}
