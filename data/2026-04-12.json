@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-12",
+  "generated_at": "2026-04-13 09:17",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - gac-service [DE] - 2026-04-12",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 369,
+        "total_mql": 105,
+        "lead_mql": "105/369 (28%)",
+        "lead_mql_num": 105,
+        "lead_mql_denom": 369,
+        "mql_sql": "60/105 (57%)",
+        "mql_sql_num": 60,
+        "mql_sql_denom": 105,
+        "lead_sql": "60/369 (16%)",
+        "lead_sql_num": 60,
+        "lead_sql_denom": 369
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1170,
+    "total_mql": 304,
+    "lead_mql": "304/1170 (26%)",
+    "lead_mql_num": 304,
+    "lead_mql_denom": 1170,
+    "mql_sql": "179/304 (59%)",
+    "mql_sql_num": 179,
+    "mql_sql_denom": 304,
+    "lead_sql": "179/1170 (15%)",
+    "lead_sql_num": 179,
+    "lead_sql_denom": 1170
+  }
+}
