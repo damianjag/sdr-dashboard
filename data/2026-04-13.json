@@ -1,0 +1,219 @@
+{
+  "date": "2026-04-13",
+  "generated_at": "2026-04-14 08:58",
+  "summary": {
+    "total": 17,
+    "new_lead": 10,
+    "mql": 2,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 15,
+        "new_lead": 8,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - merkurymarket.pl [MARKET CODE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - spirit-of-hockey.at [MARKET CODE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - chemicaltiger.com [MARKET CODE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - lozkoholicy [PL] - 2026-04-13",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - naturgut.de [MARKET CODE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - dein-buchladen.de [MARKET CODE] - 2026-04-11",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - gac-service [DE] - 2026-04-12",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - wein-moment [DE] - 2026-04-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - briju.pl [MARKET CODE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - strefariders [PL] - 2026-04-13",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - timetex.de [MARKET CODE] - 2026-04-11",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - lampenonline.de [MARKET CODE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - cm-nordic.dk [MARKET CODE] - 2026-04-11",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - consumerworld.ch [MARKET CODE] - 2026-04-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - fechtner-modellbau.de [MARKET CODE] - 2026-04-11",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 377,
+        "total_mql": 107,
+        "lead_mql": "107/377 (28%)",
+        "lead_mql_num": 107,
+        "lead_mql_denom": 377,
+        "mql_sql": "60/107 (56%)",
+        "mql_sql_num": 60,
+        "mql_sql_denom": 107,
+        "lead_sql": "60/377 (16%)",
+        "lead_sql_num": 60,
+        "lead_sql_denom": 377
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - allinox.be [BE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - wohnbedarf-pies.de [DE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 257,
+        "total_mql": 50,
+        "lead_mql": "50/257 (19%)",
+        "lead_mql_num": 50,
+        "lead_mql_denom": 257,
+        "mql_sql": "26/50 (52%)",
+        "mql_sql_num": 26,
+        "mql_sql_denom": 50,
+        "lead_sql": "26/257 (10%)",
+        "lead_sql_num": 26,
+        "lead_sql_denom": 257
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1180,
+    "total_mql": 306,
+    "lead_mql": "306/1180 (26%)",
+    "lead_mql_num": 306,
+    "lead_mql_denom": 1180,
+    "mql_sql": "179/306 (58%)",
+    "mql_sql_num": 179,
+    "mql_sql_denom": 306,
+    "lead_sql": "179/1180 (15%)",
+    "lead_sql_num": 179,
+    "lead_sql_denom": 1180
+  }
+}
