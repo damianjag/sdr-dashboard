@@ -1,0 +1,328 @@
+{
+  "date": "2026-04-14",
+  "generated_at": "2026-04-15 08:58",
+  "summary": {
+    "total": 24,
+    "new_lead": 21,
+    "mql": 2,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 12,
+        "new_lead": 9,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - KROSS [PL] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - pro-wellness.pl [MARKET CODE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - auduro.ch [MARKET CODE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - spirit-of-hockey.at [MARKET CODE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - merkurymarket.pl [MARKET CODE] - 2026-04-13",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - bueroring [DE] - 2026-04-14",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - j-kessel.de [MARKET CODE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - daisykidstore.pl [MARKET CODE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - florentyna [PL] - 2026-04-14",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - avaloid [DE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - rehazakupy.pl [MARKET CODE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - alanturing.com.br [MARKET CODE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 389,
+        "total_mql": 109,
+        "lead_mql": "109/389 (28%)",
+        "lead_mql_num": 109,
+        "lead_mql_denom": 389,
+        "mql_sql": "60/109 (55%)",
+        "mql_sql_num": 60,
+        "mql_sql_denom": 109,
+        "lead_sql": "60/389 (15%)",
+        "lead_sql_num": 60,
+        "lead_sql_denom": 389
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 5,
+        "new_lead": 5,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - avenirmed.com [MARKET CODE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - csk-med.pl [MARKET CODE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - biuro@pompaglebinowa.pl [MARKET CODE] - 2026-04-14",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - salag.com [MARKET CODE] - 2026-04-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - mixfoto.pl [MARKET CODE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 159,
+        "total_mql": 53,
+        "lead_mql": "53/159 (33%)",
+        "lead_mql_num": 53,
+        "lead_mql_denom": 159,
+        "mql_sql": "36/53 (68%)",
+        "mql_sql_num": 36,
+        "mql_sql_denom": 53,
+        "lead_sql": "36/159 (23%)",
+        "lead_sql_num": 36,
+        "lead_sql_denom": 159
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 4,
+        "new_lead": 4,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - kolory-swiatla.pl [MARKET CODE] - 2026-04-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - naszosie.pl [MARKET CODE] - 2026-04-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - sklep-amfarmer.pl [MARKET CODE] - 2026-04-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - im-trading.de [MARKET CODE] - 2026-04-14",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 370,
+        "total_mql": 91,
+        "lead_mql": "91/370 (25%)",
+        "lead_mql_num": 91,
+        "lead_mql_denom": 370,
+        "mql_sql": "53/91 (58%)",
+        "mql_sql_num": 53,
+        "mql_sql_denom": 91,
+        "lead_sql": "53/370 (14%)",
+        "lead_sql_num": 53,
+        "lead_sql_denom": 370
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Matthias Herlitzius [DE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - chess-tigers.de [DE] - 2026-04-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Jens Felderhoff  [DE] - 2026-04-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 261,
+        "total_mql": 50,
+        "lead_mql": "50/261 (19%)",
+        "lead_mql_num": 50,
+        "lead_mql_denom": 261,
+        "mql_sql": "26/50 (52%)",
+        "mql_sql_num": 26,
+        "mql_sql_denom": 50,
+        "lead_sql": "26/261 (10%)",
+        "lead_sql_num": 26,
+        "lead_sql_denom": 261
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1203,
+    "total_mql": 308,
+    "lead_mql": "308/1203 (26%)",
+    "lead_mql_num": 308,
+    "lead_mql_denom": 1203,
+    "mql_sql": "179/308 (58%)",
+    "mql_sql_num": 179,
+    "mql_sql_denom": 308,
+    "lead_sql": "179/1203 (15%)",
+    "lead_sql_num": 179,
+    "lead_sql_denom": 1203
+  }
+}
