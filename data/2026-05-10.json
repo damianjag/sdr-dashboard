@@ -1,0 +1,110 @@
+{
+  "date": "2026-05-10",
+  "generated_at": "2026-05-11 10:46",
+  "summary": {
+    "total": 3,
+    "new_lead": 3,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - sunbaby [PL] - 2026-05-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - info@lampenflut.de [MARKET CODE] - 2026-05-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 378,
+        "total_mql": 110,
+        "lead_mql": "110/378 (29%)",
+        "lead_mql_num": 110,
+        "lead_mql_denom": 378,
+        "mql_sql": "71/110 (65%)",
+        "mql_sql_num": 71,
+        "mql_sql_denom": 110,
+        "lead_sql": "71/378 (19%)",
+        "lead_sql_num": 71,
+        "lead_sql_denom": 378
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - pack-den-ranzen.de [DE] - 2026-05-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 395,
+        "total_mql": 82,
+        "lead_mql": "82/395 (21%)",
+        "lead_mql_num": 82,
+        "lead_mql_denom": 395,
+        "mql_sql": "43/82 (52%)",
+        "mql_sql_num": 43,
+        "mql_sql_denom": 82,
+        "lead_sql": "43/395 (11%)",
+        "lead_sql_num": 43,
+        "lead_sql_denom": 395
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1459,
+    "total_mql": 384,
+    "lead_mql": "384/1459 (26%)",
+    "lead_mql_num": 384,
+    "lead_mql_denom": 1459,
+    "mql_sql": "228/384 (59%)",
+    "mql_sql_num": 228,
+    "mql_sql_denom": 384,
+    "lead_sql": "228/1459 (16%)",
+    "lead_sql_num": 228,
+    "lead_sql_denom": 1459
+  }
+}
