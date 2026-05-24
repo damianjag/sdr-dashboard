@@ -1,0 +1,67 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-24 09:27",
+  "summary": {
+    "total": 1,
+    "new_lead": 0,
+    "mql": 0,
+    "sql": 0,
+    "won": 1,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - klundertmusic [NL] - 2026-01-23",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 403,
+        "total_mql": 83,
+        "lead_mql": "83/403 (21%)",
+        "lead_mql_num": 83,
+        "lead_mql_denom": 403,
+        "mql_sql": "45/83 (54%)",
+        "mql_sql_num": 45,
+        "mql_sql_denom": 83,
+        "lead_sql": "45/403 (11%)",
+        "lead_sql_num": 45,
+        "lead_sql_denom": 403
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1578,
+    "total_mql": 433,
+    "lead_mql": "433/1578 (27%)",
+    "lead_mql_num": 433,
+    "lead_mql_denom": 1578,
+    "mql_sql": "259/433 (60%)",
+    "mql_sql_num": 259,
+    "mql_sql_denom": 433,
+    "lead_sql": "259/1578 (16%)",
+    "lead_sql_num": 259,
+    "lead_sql_denom": 1578
+  }
+}
