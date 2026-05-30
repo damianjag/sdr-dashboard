@@ -1,0 +1,361 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-30 09:28",
+  "summary": {
+    "total": 19,
+    "new_lead": 7,
+    "mql": 2,
+    "sql": 3,
+    "won": 0,
+    "lost_before_mql": 7,
+    "sales_lost": 2,
+    "lost_total": 9
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 8,
+        "new_lead": 3,
+        "mql": 1,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 2,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - Arka [PL] - 2026-05-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - blastnet [PL] - 2026-05-29",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - prettyclever.pl [MARKET CODE] - 2026-05-29",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Moya [PL] - 2026-05-28",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - sunbaby [PL] - 2026-05-14",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - Naturo [PL] - 2026-05-21",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - vts-tech.pl [MARKET CODE] - 2026-04-24",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - MOVA [PL] - 2026-05-28",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - sunbaby [PL] - 2026-05-14",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No Business Need",
+          "lost_description": "Kompletna strata czasu. Sunbaby w sumie ani nie jest sklepem, ani dystrybutorem, ani producentem. Oczywiście produkty podobne konieczne bo \"zalew tanich podróbek z chin\". Tak naprawdę to Pani przyszła poopowiadać (w przerwach jak odpisywała szefowi)  jak w excelu analizuje wyniki sprzedaży i jak w magazynie paczki się u nich pakuje. Konia z rzędem osobie która wdroży testy na poczytalność które będzie można przeprowadzić w ciągu pierwszych 2 minut rozmowy.   "
+        },
+        {
+          "name": "SDR - Naturo [PL] - 2026-05-21",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Stwierdził, że rozmowa telefoniczna mu wystarczy, przekazał informację osobom zainteresowanym. Jak temat będzie interesujący dla nich to wrócą z tematem "
+        },
+        {
+          "name": "SDR - vts-tech.pl [MARKET CODE] - 2026-04-24",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Brak kontaktu "
+        }
+      ],
+      "conversions": {
+        "total_leads": 249,
+        "total_mql": 88,
+        "lead_mql": "88/249 (35%)",
+        "lead_mql_num": 88,
+        "lead_mql_denom": 249,
+        "mql_sql": "62/88 (70%)",
+        "mql_sql_num": 62,
+        "mql_sql_denom": 88,
+        "lead_sql": "62/249 (25%)",
+        "lead_sql_num": 62,
+        "lead_sql_denom": 249
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 7,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 4,
+        "sales_lost": 0,
+        "lost_total": 4
+      },
+      "deals": [
+        {
+          "name": "SDR - fotoskoda.cz [MARKET CODE] - 2026-05-11",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - abbate.ro [RO] - 2026-05-29",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - yogabazaar.hu [HU] - 2026-05-29",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Matthias Herlitzius [DE] - 2026-04-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - ofenhaus-melle.de [DE] - 2026-04-28",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - myrich.de [DE] - 2026-05-13",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - helmut-dutz.de [MARKET CODE] - 2026-05-29",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - fotoskoda.cz [MARKET CODE] - 2026-05-11",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - Matthias Herlitzius [DE] - 2026-04-14",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - ofenhaus-melle.de [DE] - 2026-04-28",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - myrich.de [DE] - 2026-05-13",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "na"
+        }
+      ],
+      "conversions": {
+        "total_leads": 410,
+        "total_mql": 83,
+        "lead_mql": "83/410 (20%)",
+        "lead_mql_num": 83,
+        "lead_mql_denom": 410,
+        "mql_sql": "45/83 (54%)",
+        "mql_sql_num": 45,
+        "mql_sql_denom": 83,
+        "lead_sql": "45/410 (11%)",
+        "lead_sql_num": 45,
+        "lead_sql_denom": 410
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - depozitsolar [RO] - 2026-05-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - prosatech [DE] - 2026-05-12",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - eshopmaisongomez.com [MARKET CODE] - 2026-05-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - prosatech [DE] - 2026-05-12",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "na razie nie są zainteresowani, beda sie odzywać"
+        },
+        {
+          "name": "SDR - eshopmaisongomez.com [MARKET CODE] - 2026-05-22",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 435,
+        "total_mql": 131,
+        "lead_mql": "131/435 (30%)",
+        "lead_mql_num": 131,
+        "lead_mql_denom": 435,
+        "mql_sql": "80/131 (61%)",
+        "mql_sql_num": 80,
+        "mql_sql_denom": 131,
+        "lead_sql": "80/435 (18%)",
+        "lead_sql_num": 80,
+        "lead_sql_denom": 435
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Poręba Rowery  [PL] - 2026-05-19",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 494,
+        "total_mql": 139,
+        "lead_mql": "139/494 (28%)",
+        "lead_mql_num": 139,
+        "lead_mql_denom": 494,
+        "mql_sql": "84/139 (60%)",
+        "mql_sql_num": 84,
+        "mql_sql_denom": 139,
+        "lead_sql": "84/494 (17%)",
+        "lead_sql_num": 84,
+        "lead_sql_denom": 494
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 6
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 2
+    },
+    {
+      "reason": "No Business Need",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1610,
+    "total_mql": 445,
+    "lead_mql": "445/1610 (28%)",
+    "lead_mql_num": 445,
+    "lead_mql_denom": 1610,
+    "mql_sql": "274/445 (62%)",
+    "mql_sql_num": 274,
+    "mql_sql_denom": 445,
+    "lead_sql": "274/1610 (17%)",
+    "lead_sql_num": 274,
+    "lead_sql_denom": 1610
+  }
+}
