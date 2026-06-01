@@ -1,0 +1,74 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-06-01 13:06",
+  "summary": {
+    "total": 2,
+    "new_lead": 2,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - alptrade.at [AT] - 2026-05-31",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Sabine Selbka  [DE] - 2026-05-31",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 412,
+        "total_mql": 83,
+        "lead_mql": "83/412 (20%)",
+        "lead_mql_num": 83,
+        "lead_mql_denom": 412,
+        "mql_sql": "45/83 (54%)",
+        "mql_sql_num": 45,
+        "mql_sql_denom": 83,
+        "lead_sql": "45/412 (11%)",
+        "lead_sql_num": 45,
+        "lead_sql_denom": 412
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1613,
+    "total_mql": 445,
+    "lead_mql": "445/1613 (28%)",
+    "lead_mql_num": 445,
+    "lead_mql_denom": 1613,
+    "mql_sql": "274/445 (62%)",
+    "mql_sql_num": 274,
+    "mql_sql_denom": 445,
+    "lead_sql": "274/1613 (17%)",
+    "lead_sql_num": 274,
+    "lead_sql_denom": 1613
+  }
+}
