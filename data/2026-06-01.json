@@ -1,0 +1,280 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-02 11:46",
+  "summary": {
+    "total": 13,
+    "new_lead": 2,
+    "mql": 1,
+    "sql": 1,
+    "won": 0,
+    "lost_before_mql": 8,
+    "sales_lost": 0,
+    "lost_total": 8
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 8,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 6,
+        "sales_lost": 0,
+        "lost_total": 6
+      },
+      "deals": [
+        {
+          "name": "SDR - hofats [DE] - 2026-06-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Greenist [DE] - 2026-05-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - mhd. [FR] - 2026-05-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Arena sport [DE] - 2026-05-15",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - salzkontor [DE] - 2026-05-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - neomatic [FR] - 2026-05-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - joseph-car-shop [IL] - 2026-05-24",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - motopublica [PL] - 2026-05-26",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Greenist [DE] - 2026-05-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - mhd. [FR] - 2026-05-22",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - salzkontor [DE] - 2026-05-14",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - neomatic [FR] - 2026-05-22",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - joseph-car-shop [IL] - 2026-05-24",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "za drogo"
+        },
+        {
+          "name": "SDR - motopublica [PL] - 2026-05-26",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Competition",
+          "lost_description": "szef zdecydował się na inne rozwiązanie i testuje 30-dniowe demo. "
+        }
+      ],
+      "conversions": {
+        "total_leads": 495,
+        "total_mql": 139,
+        "lead_mql": "139/495 (28%)",
+        "lead_mql_num": 139,
+        "lead_mql_denom": 495,
+        "mql_sql": "84/139 (60%)",
+        "mql_sql_num": 84,
+        "mql_sql_denom": 139,
+        "lead_sql": "84/495 (17%)",
+        "lead_sql_num": 84,
+        "lead_sql_denom": 495
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - alptrade.at [AT] - 2026-05-31",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Benjamin Göbel [DE] - 2026-05-13",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - eand.com [UAE] - 2026-06-01",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Sabine Selbka  [DE] - 2026-05-31",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Benjamin Göbel [DE] - 2026-05-13",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "na"
+        },
+        {
+          "name": "SDR - Sabine Selbka  [DE] - 2026-05-31",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Business Need",
+          "lost_description": "twierdzi ze miss click, chodziło jej tylko żeby sobie wytestować nie chce kupować, nie ma czasu rozmawiać"
+        }
+      ],
+      "conversions": {
+        "total_leads": 413,
+        "total_mql": 84,
+        "lead_mql": "84/413 (20%)",
+        "lead_mql_num": 84,
+        "lead_mql_denom": 413,
+        "mql_sql": "45/84 (54%)",
+        "mql_sql_num": 45,
+        "mql_sql_denom": 84,
+        "lead_sql": "45/413 (11%)",
+        "lead_sql_num": 45,
+        "lead_sql_denom": 413
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - spacefoot [FR] - 2026-05-21",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 435,
+        "total_mql": 131,
+        "lead_mql": "131/435 (30%)",
+        "lead_mql_num": 131,
+        "lead_mql_denom": 435,
+        "mql_sql": "81/131 (62%)",
+        "mql_sql_num": 81,
+        "mql_sql_denom": 131,
+        "lead_sql": "81/435 (19%)",
+        "lead_sql_num": 81,
+        "lead_sql_denom": 435
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 5
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Competition",
+      "count": 1
+    },
+    {
+      "reason": "No Business Need",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1614,
+    "total_mql": 445,
+    "lead_mql": "445/1614 (28%)",
+    "lead_mql_num": 445,
+    "lead_mql_denom": 1614,
+    "mql_sql": "275/445 (62%)",
+    "mql_sql_num": 275,
+    "mql_sql_denom": 445,
+    "lead_sql": "275/1614 (17%)",
+    "lead_sql_num": 275,
+    "lead_sql_denom": 1614
+  }
+}
