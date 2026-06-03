@@ -1,0 +1,276 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-03 12:16",
+  "summary": {
+    "total": 14,
+    "new_lead": 9,
+    "mql": 3,
+    "sql": 1,
+    "won": 3,
+    "lost_before_mql": 3,
+    "sales_lost": 0,
+    "lost_total": 3
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 6,
+        "new_lead": 5,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - spielwaren-laumann.de [DE] - 2026-06-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - ballyduffpharmacy.com [UK] - 2026-06-02",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Vavado [DE] - 2026-06-02",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - pape@sport-net-gmbh.de - webinar - 2026-06-02",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - triace.ie [IE] - 2026-06-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - motorun.de [DE] - 2026-03-19",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - triace.ie [IE] - 2026-06-02",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "Za mały dochód firmy żeby było ich stać na takie wydatki, ich konkurencja ma ale oni nie ( sami przyznają )"
+        },
+        {
+          "name": "SDR - motorun.de [DE] - 2026-03-19",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Other",
+          "lost_description": "Partner Lead nie można się kontaktować leży od paru miesięcy i nic się nie dzieje"
+        }
+      ],
+      "conversions": {
+        "total_leads": 418,
+        "total_mql": 86,
+        "lead_mql": "86/418 (21%)",
+        "lead_mql_num": 86,
+        "lead_mql_denom": 418,
+        "mql_sql": "45/86 (52%)",
+        "mql_sql_num": 45,
+        "mql_sql_denom": 86,
+        "lead_sql": "45/418 (11%)",
+        "lead_sql_num": 45,
+        "lead_sql_denom": 418
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 5,
+        "new_lead": 4,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - Fabel Services [IN] - 2026-06-02",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Robert Payet Carbo  [?] - 2026-06-02",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - TTI-Emea [PL] - 2026-06-02",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - BadeDu [DE] - 2026-05-27",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - essenz-it [DE] - 2026-06-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - essenz-it [DE] - 2026-06-02",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "potrzebował link do freemium"
+        }
+      ],
+      "conversions": {
+        "total_leads": 499,
+        "total_mql": 140,
+        "lead_mql": "140/499 (28%)",
+        "lead_mql_num": 140,
+        "lead_mql_denom": 499,
+        "mql_sql": "85/140 (61%)",
+        "mql_sql_num": 85,
+        "mql_sql_denom": 140,
+        "lead_sql": "85/499 (17%)",
+        "lead_sql_num": 85,
+        "lead_sql_denom": 499
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 2,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - adrial [EU] - 2026-03-27",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - houseofmusic [BE] - 2026-04-21",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 435,
+        "total_mql": 131,
+        "lead_mql": "131/435 (30%)",
+        "lead_mql_num": 131,
+        "lead_mql_denom": 435,
+        "mql_sql": "81/131 (62%)",
+        "mql_sql_num": 81,
+        "mql_sql_denom": 131,
+        "lead_sql": "81/435 (19%)",
+        "lead_sql_num": 81,
+        "lead_sql_denom": 435
+      }
+    },
+    {
+      "name": "Oliver Copik",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SALES - videt (Alensa Group) [RO] - 2026-03-30",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": []
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    },
+    {
+      "reason": "Other",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1624,
+    "total_mql": 448,
+    "lead_mql": "448/1624 (28%)",
+    "lead_mql_num": 448,
+    "lead_mql_denom": 1624,
+    "mql_sql": "276/448 (62%)",
+    "mql_sql_num": 276,
+    "mql_sql_denom": 448,
+    "lead_sql": "276/1624 (17%)",
+    "lead_sql_num": 276,
+    "lead_sql_denom": 1624
+  }
+}
