@@ -1,0 +1,319 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-04 10:46",
+  "summary": {
+    "total": 18,
+    "new_lead": 10,
+    "mql": 3,
+    "sql": 0,
+    "won": 1,
+    "lost_before_mql": 5,
+    "sales_lost": 1,
+    "lost_total": 6
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 12,
+        "new_lead": 6,
+        "mql": 1,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 4,
+        "sales_lost": 1,
+        "lost_total": 5
+      },
+      "deals": [
+        {
+          "name": "SDR - Bissell.com [NL] - 2026-06-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - kidsboutique.ro [RO] - 2026-06-03",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - ballyduffpharmacy.com [UK] - 2026-06-02",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - suruburitimisoara.ro [RO] - 2026-06-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - army-rubicon.cz [MARKET CODE] - 2026-06-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - renvi.hu [HU] - 2026-06-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - tazzio.de [DE] - 2026-06-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - ledxess.de [DE] - 2026-06-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - funktionelles [DE] 2026-04-24 - 2026-04-24",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - hirschgmbh.de [DE] - 2026-02-27",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - boxxco.com [DE] - 2026-05-15",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - spielwaren-laumann.de [DE] - 2026-06-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - suruburitimisoara.ro [RO] - 2026-06-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Business Need",
+          "lost_description": "pan wszystko wie bo ma kolege, nie chce być kontaktowany szybki lost"
+        },
+        {
+          "name": "SDR - tazzio.de [DE] - 2026-06-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "Szybki Lost, Producent sprzedający u siebie"
+        },
+        {
+          "name": "SDR - hirschgmbh.de [DE] - 2026-02-27",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "Ciągle chce przesuwać o 4-6 tygodni i tak w kółko"
+        },
+        {
+          "name": "SDR - boxxco.com [DE] - 2026-05-15",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Nie odpowiada, firma od kartonów do wysyłek"
+        },
+        {
+          "name": "SDR - spielwaren-laumann.de [DE] - 2026-06-02",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Business Need",
+          "lost_description": "Jego IT Head powiedział że jak ktoś będzie dzwonił ma ich odwołać, tak też zrobił"
+        }
+      ],
+      "conversions": {
+        "total_leads": 424,
+        "total_mql": 87,
+        "lead_mql": "87/424 (21%)",
+        "lead_mql_num": 87,
+        "lead_mql_denom": 424,
+        "mql_sql": "45/87 (52%)",
+        "mql_sql_num": 45,
+        "mql_sql_denom": 87,
+        "lead_sql": "45/424 (11%)",
+        "lead_sql_num": 45,
+        "lead_sql_denom": 424
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 5,
+        "new_lead": 4,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Robert Payet Carbo  [?] - 2026-06-02",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Formaster Group [PL] - 2026-06-03",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - dizajnove. [CZ] - 2026-06-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - techgear [CZ] - 2026-06-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Rolladenbau-Mingo [DE] - 2026-06-03",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 503,
+        "total_mql": 142,
+        "lead_mql": "142/503 (28%)",
+        "lead_mql_num": 142,
+        "lead_mql_denom": 503,
+        "mql_sql": "85/142 (60%)",
+        "mql_sql_num": 85,
+        "mql_sql_denom": 142,
+        "lead_sql": "85/503 (17%)",
+        "lead_sql_num": 85,
+        "lead_sql_denom": 503
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - [contact@dealavo.com] - hurt@nitai.pl - 2026-05-13",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - [contact@dealavo.com] - hurt@nitai.pl - 2026-05-13",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Wybrali konkurencję - pewnie cena za wysoka, bo mówił ze drogo"
+        }
+      ],
+      "conversions": {
+        "total_leads": 250,
+        "total_mql": 87,
+        "lead_mql": "87/250 (35%)",
+        "lead_mql_num": 87,
+        "lead_mql_denom": 250,
+        "mql_sql": "62/87 (71%)",
+        "mql_sql_num": 62,
+        "mql_sql_denom": 87,
+        "lead_sql": "62/250 (25%)",
+        "lead_sql_num": 62,
+        "lead_sql_denom": 250
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "No Business Need",
+      "count": 2
+    },
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    },
+    {
+      "reason": "Does Not Have Time",
+      "count": 1
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1634,
+    "total_mql": 451,
+    "lead_mql": "451/1634 (28%)",
+    "lead_mql_num": 451,
+    "lead_mql_denom": 1634,
+    "mql_sql": "276/451 (61%)",
+    "mql_sql_num": 276,
+    "mql_sql_denom": 451,
+    "lead_sql": "276/1634 (17%)",
+    "lead_sql_num": 276,
+    "lead_sql_denom": 1634
+  }
+}
