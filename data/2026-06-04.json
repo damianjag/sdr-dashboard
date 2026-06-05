@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-05 10:56",
+  "summary": {
+    "total": 4,
+    "new_lead": 4,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 3,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - sexshop [CZ] - 2026-06-04",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - zielone-biuro [PL] - 2026-06-04",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - vavex [CZ] - 2026-06-04",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 506,
+        "total_mql": 142,
+        "lead_mql": "142/506 (28%)",
+        "lead_mql_num": 142,
+        "lead_mql_denom": 506,
+        "mql_sql": "85/142 (60%)",
+        "mql_sql_num": 85,
+        "mql_sql_denom": 142,
+        "lead_sql": "85/506 (17%)",
+        "lead_sql_num": 85,
+        "lead_sql_denom": 506
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - imexxon@t-online.de [DE] - 2026-06-04",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 425,
+        "total_mql": 87,
+        "lead_mql": "87/425 (20%)",
+        "lead_mql_num": 87,
+        "lead_mql_denom": 425,
+        "mql_sql": "45/87 (52%)",
+        "mql_sql_num": 45,
+        "mql_sql_denom": 87,
+        "lead_sql": "45/425 (11%)",
+        "lead_sql_num": 45,
+        "lead_sql_denom": 425
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1639,
+    "total_mql": 451,
+    "lead_mql": "451/1639 (28%)",
+    "lead_mql_num": 451,
+    "lead_mql_denom": 1639,
+    "mql_sql": "276/451 (61%)",
+    "mql_sql_num": 276,
+    "mql_sql_denom": 451,
+    "lead_sql": "276/1639 (17%)",
+    "lead_sql_num": 276,
+    "lead_sql_denom": 1639
+  }
+}
