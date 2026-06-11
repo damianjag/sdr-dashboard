@@ -1,0 +1,329 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-11 11:53",
+  "summary": {
+    "total": 21,
+    "new_lead": 13,
+    "mql": 6,
+    "sql": 1,
+    "won": 1,
+    "lost_before_mql": 3,
+    "sales_lost": 1,
+    "lost_total": 4
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 11,
+        "new_lead": 6,
+        "mql": 3,
+        "sql": 1,
+        "won": 1,
+        "lost_before_mql": 1,
+        "sales_lost": 1,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - TurboZentrum [DE] - 2026-06-10",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - pupa [IT] - 2026-06-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - BeKeto [PL] - 2026-06-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Wolff Finnhaus Shop [DE] - 2026-06-10",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - livosy [DE] - 2026-06-10",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Sectron [CZ] - 2026-06-09",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - sexshop [CZ] - 2026-06-04",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Dorema-Megastore-Spuerkel [DE] - 2026-06-10",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - zielone-biuro [PL] - 2026-06-04",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - IchLiebeDesign  [DE] - 2026-05-22",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - Punch GmbH DE] - 2026-05-11",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - sexshop [CZ] - 2026-06-04",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Competition",
+          "lost_description": "we decided drive our prices with Mergado-PricingFox tool"
+        },
+        {
+          "name": "SDR - IchLiebeDesign  [DE] - 2026-05-22",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "Temat nie na teraz, mamy wrócić do rozmów za 5-6 tygodni"
+        }
+      ],
+      "conversions": {
+        "total_leads": 524,
+        "total_mql": 153,
+        "lead_mql": "153/524 (29%)",
+        "lead_mql_num": 153,
+        "lead_mql_denom": 524,
+        "mql_sql": "87/153 (57%)",
+        "mql_sql_num": 87,
+        "mql_sql_denom": 153,
+        "lead_sql": "87/524 (17%)",
+        "lead_sql_num": 87,
+        "lead_sql_denom": 524
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 7,
+        "new_lead": 5,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - vavex.cz [CZ] - 2026-06-10",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - sktes.com [DE] - 2026-06-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - e-postkasten.de [DE] - 2026-06-09",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - lineaprofessionale.it [IT] - 2026-06-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - realmediashop.de [DE] - 2026-06-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - natureal.sk [SK] - 2026-06-10",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - renvi.hu [HU] - 2026-06-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - renvi.hu [HU] - 2026-06-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 436,
+        "total_mql": 92,
+        "lead_mql": "92/436 (21%)",
+        "lead_mql_num": 92,
+        "lead_mql_denom": 436,
+        "mql_sql": "48/92 (52%)",
+        "mql_sql_num": 48,
+        "mql_sql_denom": 92,
+        "lead_sql": "48/436 (11%)",
+        "lead_sql_num": 48,
+        "lead_sql_denom": 436
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - budohurt.pl [MARKET CODE] - 2026-06-09",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Boma [PL] - 2026-06-10",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - ekamedica.pl [MARKET CODE] - 2026-06-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - ekamedica.pl [MARKET CODE] - 2026-06-10",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Nie zdążył zobaczyć raportu, zna nas, jak będzie zainteresowany to sam się odezwie"
+        }
+      ],
+      "conversions": {
+        "total_leads": 252,
+        "total_mql": 87,
+        "lead_mql": "87/252 (35%)",
+        "lead_mql_num": 87,
+        "lead_mql_denom": 252,
+        "mql_sql": "60/87 (69%)",
+        "mql_sql_num": 60,
+        "mql_sql_denom": 87,
+        "lead_sql": "60/252 (24%)",
+        "lead_sql_num": 60,
+        "lead_sql_denom": 252
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Competition",
+      "count": 1
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    },
+    {
+      "reason": "Does Not Have Time",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1666,
+    "total_mql": 468,
+    "lead_mql": "468/1666 (28%)",
+    "lead_mql_num": 468,
+    "lead_mql_denom": 1666,
+    "mql_sql": "280/468 (60%)",
+    "mql_sql_num": 280,
+    "mql_sql_denom": 468,
+    "lead_sql": "280/1666 (17%)",
+    "lead_sql_num": 280,
+    "lead_sql_denom": 1666
+  }
+}
