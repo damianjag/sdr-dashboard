@@ -1,0 +1,275 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-16 12:24",
+  "summary": {
+    "total": 14,
+    "new_lead": 6,
+    "mql": 0,
+    "sql": 5,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 3,
+    "lost_total": 3
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Szkło Krosno [PL] - 2026-06-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Nexterio [PL] - 2026-06-15",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Redback Boots [AU] - 2026-06-11",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Flodraulic Europe [IT] - 2026-06-05",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 540,
+        "total_mql": 162,
+        "lead_mql": "162/540 (30%)",
+        "lead_mql_num": 162,
+        "lead_mql_denom": 540,
+        "mql_sql": "95/162 (59%)",
+        "mql_sql_num": 95,
+        "mql_sql_denom": 162,
+        "lead_sql": "95/540 (18%)",
+        "lead_sql_num": 95,
+        "lead_sql_denom": 540
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 2,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - phoenixgroup [FI] - 2026-06-15",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Holz-Richter 2026-05-14 - 2026-05-14",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - unicorn-naturals [RO] - 2026-05-11",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - fhb [DE] - 2026-05-21",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Holz-Richter 2026-05-14 - 2026-05-14",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "Prosi o kontakt pod koniec Q3, nie są gotowi na rozmowy teraz."
+        },
+        {
+          "name": "SDR - unicorn-naturals [RO] - 2026-05-11",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "Niestety monitoring Google i Compari nic nie da, nie ma tam ich produktów. Konieczny BAU, oczekiwali że może moglibyśmy im zrobić scraping 5 stron 2-3 razy w roku. Miesięcznie za drogo, brak fitu.  "
+        }
+      ],
+      "conversions": {
+        "total_leads": 431,
+        "total_mql": 131,
+        "lead_mql": "131/431 (30%)",
+        "lead_mql_num": 131,
+        "lead_mql_denom": 431,
+        "mql_sql": "82/131 (63%)",
+        "mql_sql_num": 82,
+        "mql_sql_denom": 131,
+        "lead_sql": "82/431 (19%)",
+        "lead_sql_num": 82,
+        "lead_sql_denom": 431
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - geruest-welt.de [DE] - 2026-06-15",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - natureal [SK] - 2026-06-10",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - yogabazaar.hu [HU] - 2026-05-29",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - yogabazaar.hu [HU] - 2026-05-29",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "BAU zdecydowanie za drogie, CP nie odpowiada na potrzeby (główni konkurenci z zagranicy nie listują się ani na google ani arukereso, dodatkowo część produktów nie ma EANów)."
+        }
+      ],
+      "conversions": {
+        "total_leads": 439,
+        "total_mql": 94,
+        "lead_mql": "94/439 (21%)",
+        "lead_mql_num": 94,
+        "lead_mql_denom": 439,
+        "mql_sql": "50/94 (53%)",
+        "mql_sql_num": 50,
+        "mql_sql_denom": 94,
+        "lead_sql": "50/439 (11%)",
+        "lead_sql_num": 50,
+        "lead_sql_denom": 439
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - republikasmaku.net [MARKET CODE] - 2026-06-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - pgd.biz.pl [MARKET CODE] - 2026-06-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Boma [PL] - 2026-06-10",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 256,
+        "total_mql": 87,
+        "lead_mql": "87/256 (34%)",
+        "lead_mql_num": 87,
+        "lead_mql_denom": 256,
+        "mql_sql": "62/87 (71%)",
+        "mql_sql_num": 62,
+        "mql_sql_denom": 87,
+        "lead_sql": "62/256 (24%)",
+        "lead_sql_num": 62,
+        "lead_sql_denom": 256
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Price Too High",
+      "count": 2
+    },
+    {
+      "reason": "Try Later",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1687,
+    "total_mql": 478,
+    "lead_mql": "478/1687 (28%)",
+    "lead_mql_num": 478,
+    "lead_mql_denom": 1687,
+    "mql_sql": "292/478 (61%)",
+    "mql_sql_num": 292,
+    "mql_sql_denom": 478,
+    "lead_sql": "292/1687 (17%)",
+    "lead_sql_num": 292,
+    "lead_sql_denom": 1687
+  }
+}
