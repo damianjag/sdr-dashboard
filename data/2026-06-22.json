@@ -1,0 +1,354 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-23 10:46",
+  "summary": {
+    "total": 18,
+    "new_lead": 5,
+    "mql": 4,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 6,
+    "sales_lost": 2,
+    "lost_total": 8
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 7,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 5,
+        "sales_lost": 0,
+        "lost_total": 5
+      },
+      "deals": [
+        {
+          "name": "SDR - Smith Bros [UK] - 2026-06-17",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - 4342  [MARKET CODE] - 2026-06-22",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - friseur-haarfarbe123 [DE] - 2026-05-13",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - dahm-werkzeuge.de [MARKET CODE] - 2026-05-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - infrajesenik [CZ] - 2026-06-04",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - elzap.eu [MARKET CODE] - 2026-06-16",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - medicalbudget.ch [MARKET CODE] - 2026-06-11",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - friseur-haarfarbe123 [DE] - 2026-05-13",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - dahm-werkzeuge.de [MARKET CODE] - 2026-05-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "interesował ją tylko raport"
+        },
+        {
+          "name": "SDR - infrajesenik [CZ] - 2026-06-04",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Language Barrier",
+          "lost_description": "nie mówi po ang."
+        },
+        {
+          "name": "SDR - elzap.eu [MARKET CODE] - 2026-06-16",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - medicalbudget.ch [MARKET CODE] - 2026-06-11",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 545,
+        "total_mql": 167,
+        "lead_mql": "167/545 (31%)",
+        "lead_mql_num": 167,
+        "lead_mql_denom": 545,
+        "mql_sql": "103/167 (62%)",
+        "mql_sql_num": 103,
+        "mql_sql_denom": 167,
+        "lead_sql": "103/545 (19%)",
+        "lead_sql_num": 103,
+        "lead_sql_denom": 545
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 7,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 2,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - Vavado [DE] - 2026-06-02",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - rutar [AT] - 2026-06-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - pz [LT] - 2026-05-15",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - elministeren.dk [DK] - 2026-06-22",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - alptrade.at [AT] - 2026-05-31",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - vavex [CZ] - 2026-06-10",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - stockfitness.it [IT] - 2026-06-13",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Vavado [DE] - 2026-06-02",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "Zależało mu na Subskrypcji w stylu prowizja od sprzedazy a nie subskrypcja pakietowa ( nie przyszedł na prezentacje nie jest już zainteresowany )"
+        },
+        {
+          "name": "SDR - pz [LT] - 2026-05-15",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No-show",
+          "lost_description": "nie przyszła na prezentacje słuch zaginał"
+        },
+        {
+          "name": "SDR - stockfitness.it [IT] - 2026-06-13",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odpowiada"
+        }
+      ],
+      "conversions": {
+        "total_leads": 441,
+        "total_mql": 101,
+        "lead_mql": "101/441 (23%)",
+        "lead_mql_num": 101,
+        "lead_mql_denom": 441,
+        "mql_sql": "54/101 (53%)",
+        "mql_sql_num": 54,
+        "mql_sql_denom": 101,
+        "lead_sql": "54/441 (12%)",
+        "lead_sql_num": 54,
+        "lead_sql_denom": 441
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - pflanzen-koelle.de [MARKET CODE] - 2026-06-22",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - designtolike [DE] - 2026-06-19",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - slonex2.pl [MARKET CODE] - 2026-06-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 433,
+        "total_mql": 137,
+        "lead_mql": "137/433 (32%)",
+        "lead_mql_num": 137,
+        "lead_mql_denom": 433,
+        "mql_sql": "85/137 (62%)",
+        "mql_sql_num": 85,
+        "mql_sql_denom": 137,
+        "lead_sql": "85/433 (20%)",
+        "lead_sql_num": 85,
+        "lead_sql_denom": 433
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - jelux [PL] - 2026-06-22",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 261,
+        "total_mql": 94,
+        "lead_mql": "94/261 (36%)",
+        "lead_mql_num": 94,
+        "lead_mql_denom": 261,
+        "mql_sql": "65/94 (69%)",
+        "mql_sql_num": 65,
+        "mql_sql_denom": 94,
+        "lead_sql": "65/261 (25%)",
+        "lead_sql_num": 65,
+        "lead_sql_denom": 261
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 4
+    },
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    },
+    {
+      "reason": "No-show",
+      "count": 1
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    },
+    {
+      "reason": "Language Barrier",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1703,
+    "total_mql": 504,
+    "lead_mql": "504/1703 (30%)",
+    "lead_mql_num": 504,
+    "lead_mql_denom": 1703,
+    "mql_sql": "310/504 (62%)",
+    "mql_sql_num": 310,
+    "mql_sql_denom": 504,
+    "lead_sql": "310/1703 (18%)",
+    "lead_sql_num": 310,
+    "lead_sql_denom": 1703
+  }
+}
