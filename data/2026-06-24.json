@@ -1,0 +1,225 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-25 10:23",
+  "summary": {
+    "total": 10,
+    "new_lead": 4,
+    "mql": 2,
+    "sql": 1,
+    "won": 1,
+    "lost_before_mql": 3,
+    "sales_lost": 0,
+    "lost_total": 3
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 1,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Operon [PL] - 2026-06-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - lebkuchen-welt [DE] - 2026-06-23",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - Ketosklep [PL] - 2026-04-24",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - Firatec [DE] - 2026-06-18",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 548,
+        "total_mql": 170,
+        "lead_mql": "170/548 (31%)",
+        "lead_mql_num": 170,
+        "lead_mql_denom": 548,
+        "mql_sql": "104/170 (61%)",
+        "mql_sql_num": 104,
+        "mql_sql_denom": 170,
+        "lead_sql": "104/548 (19%)",
+        "lead_sql_num": 104,
+        "lead_sql_denom": 548
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - Marcel Riksen OREX <m.riksen@orex.de> - 2026-06-16",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - 2-cycle.de [MARKET CODE] - 2026-06-24",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - druckdichaus [DE] - 2026-03-12",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - lcwaikiki.com [MARKET CODE] - 2026-06-24",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Marcel Riksen OREX <m.riksen@orex.de> - 2026-06-16",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - druckdichaus [DE] - 2026-03-12",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie jest juz zainteresowany"
+        }
+      ],
+      "conversions": {
+        "total_leads": 438,
+        "total_mql": 140,
+        "lead_mql": "140/438 (32%)",
+        "lead_mql_num": 140,
+        "lead_mql_denom": 438,
+        "mql_sql": "86/140 (61%)",
+        "mql_sql_num": 86,
+        "mql_sql_denom": 140,
+        "lead_sql": "86/438 (20%)",
+        "lead_sql_num": 86,
+        "lead_sql_denom": 438
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - trends4cents.de [DE] - 2026-06-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - raaad.de [DE] - 2026-06-17",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - raaad.de [DE] - 2026-06-17",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Nie odp. brak nr tel"
+        }
+      ],
+      "conversions": {
+        "total_leads": 445,
+        "total_mql": 104,
+        "lead_mql": "104/445 (23%)",
+        "lead_mql_num": 104,
+        "lead_mql_denom": 445,
+        "mql_sql": "54/104 (52%)",
+        "mql_sql_num": 54,
+        "mql_sql_denom": 104,
+        "lead_sql": "54/445 (12%)",
+        "lead_sql_num": 54,
+        "lead_sql_denom": 445
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1717,
+    "total_mql": 515,
+    "lead_mql": "515/1717 (30%)",
+    "lead_mql_num": 515,
+    "lead_mql_denom": 1717,
+    "mql_sql": "315/515 (61%)",
+    "mql_sql_num": 315,
+    "mql_sql_denom": 515,
+    "lead_sql": "315/1717 (18%)",
+    "lead_sql_num": 315,
+    "lead_sql_denom": 1717
+  }
+}
