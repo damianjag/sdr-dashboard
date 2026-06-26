@@ -1,0 +1,304 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-26 10:33",
+  "summary": {
+    "total": 14,
+    "new_lead": 9,
+    "mql": 5,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 2,
+    "sales_lost": 2,
+    "lost_total": 4
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 5,
+        "mql": 4,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - dampftbeidir [DE] - 2026-06-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - shimaa.yasin@systemsltd.com - 2026-06-25",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - 2-cycle [DE] - 2026-06-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Abele Optik [DE] - 2026-06-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - ceence [PL] - 2026-06-25",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - dederichs [DE] - 2026-06-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - ceence [PL] - 2026-06-25",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "tylko sprawdzał raport "
+        }
+      ],
+      "conversions": {
+        "total_leads": 441,
+        "total_mql": 144,
+        "lead_mql": "144/441 (33%)",
+        "lead_mql_num": 144,
+        "lead_mql_denom": 441,
+        "mql_sql": "86/144 (60%)",
+        "mql_sql_num": 86,
+        "mql_sql_denom": 144,
+        "lead_sql": "86/441 (20%)",
+        "lead_sql_num": 86,
+        "lead_sql_denom": 441
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - windwave.pl [MARKET CODE] - 2026-06-25",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - scandiconcept.pl [MARKET CODE] - 2026-06-25",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - agora.pl [MARKET CODE] - 2026-06-12",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Galicja [PL] - 2026-06-19",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - agora.pl [MARKET CODE] - 2026-06-12",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Brak kontaktu "
+        }
+      ],
+      "conversions": {
+        "total_leads": 264,
+        "total_mql": 95,
+        "lead_mql": "95/264 (36%)",
+        "lead_mql_num": 95,
+        "lead_mql_denom": 264,
+        "mql_sql": "67/95 (71%)",
+        "mql_sql_num": 67,
+        "mql_sql_denom": 95,
+        "lead_sql": "67/264 (25%)",
+        "lead_sql_num": 67,
+        "lead_sql_denom": 264
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Esono [PL] - 2026-06-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Wohn-schick [DE] - 2026-06-12",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 549,
+        "total_mql": 170,
+        "lead_mql": "170/549 (31%)",
+        "lead_mql_num": 170,
+        "lead_mql_denom": 549,
+        "mql_sql": "105/170 (62%)",
+        "mql_sql_num": 105,
+        "mql_sql_denom": 170,
+        "lead_sql": "105/549 (19%)",
+        "lead_sql_num": 105,
+        "lead_sql_denom": 549
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 2,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - homedone.co.uk [UK] - 2026-06-25",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL",
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - elministeren.dk [DK] - 2026-06-22",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - homedone.co.uk [UK] - 2026-06-25",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "Ich obecne narzędzie wychodzi ok. 4 razy taniej. (150k SKU). Może jest brzydkie, ale ponoć działa, więc zostaną przy nim. "
+        },
+        {
+          "name": "SDR - elministeren.dk [DK] - 2026-06-22",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Szukają agencji / narzędzia do ogarnięcia importu danych od ich dostawców do shopware 6. Jak to ogarną to będziemy mogli rozmawiać o monitoringu i repricingu, ale to i tak pod koniec wakacji bo zaczynają urlopy. "
+        }
+      ],
+      "conversions": {
+        "total_leads": 445,
+        "total_mql": 104,
+        "lead_mql": "104/445 (23%)",
+        "lead_mql_num": 104,
+        "lead_mql_denom": 445,
+        "mql_sql": "53/104 (51%)",
+        "mql_sql_num": 53,
+        "mql_sql_denom": 104,
+        "lead_sql": "53/445 (12%)",
+        "lead_sql_num": 53,
+        "lead_sql_denom": 445
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Was Only Checking",
+      "count": 2
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1723,
+    "total_mql": 519,
+    "lead_mql": "519/1723 (30%)",
+    "lead_mql_num": 519,
+    "lead_mql_denom": 1723,
+    "mql_sql": "316/519 (61%)",
+    "mql_sql_num": 316,
+    "mql_sql_denom": 519,
+    "lead_sql": "316/1723 (18%)",
+    "lead_sql_num": 316,
+    "lead_sql_denom": 1723
+  }
+}
