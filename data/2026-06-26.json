@@ -1,0 +1,396 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-27 09:36",
+  "summary": {
+    "total": 23,
+    "new_lead": 8,
+    "mql": 4,
+    "sql": 3,
+    "won": 0,
+    "lost_before_mql": 8,
+    "sales_lost": 1,
+    "lost_total": 9
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 11,
+        "new_lead": 4,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 5,
+        "sales_lost": 0,
+        "lost_total": 5
+      },
+      "deals": [
+        {
+          "name": "SDR - home and fun [PL] - 2026-06-23",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Verdementa [ES] - 2026-06-16",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Maxpet [SK] - 2026-06-26",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Esono [PL] - 2026-06-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - lebkuchen-welt [DE] - 2026-06-23",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - \"Marcin Woźniak\" <marcin.wozniak@wader.toys> - 2026-06-26",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - \"Świat-Laptopów.pl - Radosław Sośnik\" <r.sosnik@swiat-laptopow.pl> - 2026-06-26",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - ABC SZEFA FIRMY [PL] - 2026-06-26",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - brangs-heinrich [DE] - 2026-05-12",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - physical company [UK] - 2026-05-20",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Equinista [DE] - 2026-05-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - home and fun [PL] - 2026-06-23",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "znależli tańszą alternatywę"
+        },
+        {
+          "name": "SDR - Verdementa [ES] - 2026-06-16",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - brangs-heinrich [DE] - 2026-05-12",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - physical company [UK] - 2026-05-20",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - Equinista [DE] - 2026-05-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 553,
+        "total_mql": 172,
+        "lead_mql": "172/553 (31%)",
+        "lead_mql_num": 172,
+        "lead_mql_denom": 553,
+        "mql_sql": "105/172 (61%)",
+        "mql_sql_num": 105,
+        "mql_sql_denom": 172,
+        "lead_sql": "105/553 (19%)",
+        "lead_sql_num": 105,
+        "lead_sql_denom": 553
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 5,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 3,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - alptrade [AT] - 2026-05-31",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - trends4cents [DE] - 2026-06-24",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - ksdigital [LT] - 2026-06-19",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - musik-dinge.at [AT] - 2026-02-16",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - heavy-tuned.de [DE] - 2026-05-07",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - musik-dinge.at [AT] - 2026-02-16",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "miał się sam zgłosić minął jakiś czas, usłyszał dealsavo i się rozłączył"
+        },
+        {
+          "name": "SDR - heavy-tuned.de [DE] - 2026-05-07",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Ma zabookować jak coś mu się zwolni i kontakt się urwał"
+        }
+      ],
+      "conversions": {
+        "total_leads": 445,
+        "total_mql": 104,
+        "lead_mql": "104/445 (23%)",
+        "lead_mql_num": 104,
+        "lead_mql_denom": 445,
+        "mql_sql": "56/104 (54%)",
+        "mql_sql_num": 56,
+        "mql_sql_denom": 104,
+        "lead_sql": "56/445 (13%)",
+        "lead_sql_num": 56,
+        "lead_sql_denom": 445
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - VTS Group [PL] - 2026-06-26",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Pawel Zawadziłło  [MARKET CODE] - 2026-06-25",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - ElElhurt-Elmet [PL] - 2026-06-26",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - prymex [PL] - 2026-05-28",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - prymex [PL] - 2026-05-28",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Try Later",
+          "lost_description": "Sami będą sie odzywać jak ogarna procesy po swojej stronie "
+        }
+      ],
+      "conversions": {
+        "total_leads": 268,
+        "total_mql": 97,
+        "lead_mql": "97/268 (36%)",
+        "lead_mql_num": 97,
+        "lead_mql_denom": 268,
+        "mql_sql": "67/97 (69%)",
+        "mql_sql_num": 67,
+        "mql_sql_denom": 97,
+        "lead_sql": "67/268 (25%)",
+        "lead_sql_num": 67,
+        "lead_sql_denom": 268
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - suunto.com [MARKET CODE] - 2026-06-26",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - fdm.pl [MARKET CODE] - 2026-06-26",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - TorDoc 2026-05-19 - 2026-05-19",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - TorDoc 2026-05-19 - 2026-05-19",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odbiera"
+        }
+      ],
+      "conversions": {
+        "total_leads": 443,
+        "total_mql": 144,
+        "lead_mql": "144/443 (33%)",
+        "lead_mql_num": 144,
+        "lead_mql_denom": 443,
+        "mql_sql": "86/144 (60%)",
+        "mql_sql_num": 86,
+        "mql_sql_denom": 144,
+        "lead_sql": "86/443 (19%)",
+        "lead_sql_num": 86,
+        "lead_sql_denom": 443
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 7
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Try Later",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1733,
+    "total_mql": 523,
+    "lead_mql": "523/1733 (30%)",
+    "lead_mql_num": 523,
+    "lead_mql_denom": 1733,
+    "mql_sql": "319/523 (61%)",
+    "mql_sql_num": 319,
+    "mql_sql_denom": 523,
+    "lead_sql": "319/1733 (18%)",
+    "lead_sql_num": 319,
+    "lead_sql_denom": 1733
+  }
+}
