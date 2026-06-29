@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-29 12:15",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - bplusb [PL] - 2026-06-28",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 270,
+        "total_mql": 97,
+        "lead_mql": "97/270 (36%)",
+        "lead_mql_num": 97,
+        "lead_mql_denom": 270,
+        "mql_sql": "67/97 (69%)",
+        "mql_sql_num": 67,
+        "mql_sql_denom": 97,
+        "lead_sql": "67/270 (25%)",
+        "lead_sql_num": 67,
+        "lead_sql_denom": 270
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1734,
+    "total_mql": 521,
+    "lead_mql": "521/1734 (30%)",
+    "lead_mql_num": 521,
+    "lead_mql_denom": 1734,
+    "mql_sql": "317/521 (61%)",
+    "mql_sql_num": 317,
+    "mql_sql_denom": 521,
+    "lead_sql": "317/1734 (18%)",
+    "lead_sql_num": 317,
+    "lead_sql_denom": 1734
+  }
+}
