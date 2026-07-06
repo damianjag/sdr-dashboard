@@ -1,0 +1,67 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-06 11:46",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - mycotech.de [DE] - 2026-07-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 474,
+        "total_mql": 109,
+        "lead_mql": "109/474 (23%)",
+        "lead_mql_num": 109,
+        "lead_mql_denom": 474,
+        "mql_sql": "59/109 (54%)",
+        "mql_sql_num": 59,
+        "mql_sql_denom": 109,
+        "lead_sql": "59/474 (12%)",
+        "lead_sql_num": 59,
+        "lead_sql_denom": 474
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1833,
+    "total_mql": 546,
+    "lead_mql": "546/1833 (30%)",
+    "lead_mql_num": 546,
+    "lead_mql_denom": 1833,
+    "mql_sql": "332/546 (61%)",
+    "mql_sql_num": 332,
+    "mql_sql_denom": 546,
+    "lead_sql": "332/1833 (18%)",
+    "lead_sql_num": 332,
+    "lead_sql_denom": 1833
+  }
+}
