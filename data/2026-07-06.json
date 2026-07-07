@@ -1,0 +1,353 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-07 10:37",
+  "summary": {
+    "total": 21,
+    "new_lead": 9,
+    "mql": 4,
+    "sql": 4,
+    "won": 0,
+    "lost_before_mql": 4,
+    "sales_lost": 1,
+    "lost_total": 5
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 7,
+        "new_lead": 4,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - biobaby.pl [MARKET CODE] - 2026-07-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - mybauer [DE] - 2026-07-03",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - pooltotal.com [MARKET CODE] - 2026-07-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - schaffrath.com [MARKET CODE] - 2026-07-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - eplastrol [PL] - 2026-07-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - motorland.de [MARKET CODE] - 2026-07-04",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - lcwaikiki.com [MARKET CODE] - 2026-06-24",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - lcwaikiki.com [MARKET CODE] - 2026-06-24",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 477,
+        "total_mql": 151,
+        "lead_mql": "151/477 (32%)",
+        "lead_mql_num": 151,
+        "lead_mql_denom": 477,
+        "mql_sql": "90/151 (60%)",
+        "mql_sql_num": 90,
+        "mql_sql_denom": 151,
+        "lead_sql": "90/477 (19%)",
+        "lead_sql_num": 90,
+        "lead_sql_denom": 477
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 6,
+        "new_lead": 3,
+        "mql": 1,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - crazy-heels [DE] - 2026-07-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - insparrow [PL] - 2026-07-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - winch industry [DE] - 2026-07-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Mediaform [DE] - 2026-06-29",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Brillenplatz [DE] - 2026-07-06",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - Elevate OC [DE] - 2026-04-09",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - crazy-heels [DE] - 2026-07-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "z drogo"
+        }
+      ],
+      "conversions": {
+        "total_leads": 587,
+        "total_mql": 178,
+        "lead_mql": "178/587 (30%)",
+        "lead_mql_num": 178,
+        "lead_mql_denom": 587,
+        "mql_sql": "109/178 (61%)",
+        "mql_sql_num": 109,
+        "mql_sql_denom": 178,
+        "lead_sql": "109/587 (19%)",
+        "lead_sql_num": 109,
+        "lead_sql_denom": 587
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 6,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 1,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - mycotech.de [DE] - 2026-07-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - schuhe.shop [DE] - 2026-07-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - comnico.ro [RO] - 2026-07-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - autoteilekontor.com [DE] - 2026-05-12",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - besa.energy [DE] - 2026-06-29",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - industriepumpen.net [MARKET CODE] - 2026-07-02",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - autoteilekontor.com [DE] - 2026-05-12",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "Za drogo."
+        },
+        {
+          "name": "SDR - besa.energy [DE] - 2026-06-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 476,
+        "total_mql": 111,
+        "lead_mql": "111/476 (23%)",
+        "lead_mql_num": 111,
+        "lead_mql_denom": 476,
+        "mql_sql": "59/111 (53%)",
+        "mql_sql_num": 59,
+        "mql_sql_denom": 111,
+        "lead_sql": "59/476 (12%)",
+        "lead_sql_num": 59,
+        "lead_sql_denom": 476
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - Solar [PL] - 2026-07-03",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - scandiconcept.pl [MARKET CODE] - 2026-06-25",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - scandiconcept.pl [MARKET CODE] - 2026-06-25",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Brak kontaktu "
+        }
+      ],
+      "conversions": {
+        "total_leads": 276,
+        "total_mql": 104,
+        "lead_mql": "104/276 (38%)",
+        "lead_mql_num": 104,
+        "lead_mql_denom": 276,
+        "mql_sql": "73/104 (70%)",
+        "mql_sql_num": 73,
+        "mql_sql_denom": 104,
+        "lead_sql": "73/276 (26%)",
+        "lead_sql_num": 73,
+        "lead_sql_denom": 276
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 3
+    },
+    {
+      "reason": "Price Too High",
+      "count": 2
+    }
+  ],
+  "conversions": {
+    "total_leads": 1840,
+    "total_mql": 550,
+    "lead_mql": "550/1840 (30%)",
+    "lead_mql_num": 550,
+    "lead_mql_denom": 1840,
+    "mql_sql": "336/550 (61%)",
+    "mql_sql_num": 336,
+    "mql_sql_denom": 550,
+    "lead_sql": "336/1840 (18%)",
+    "lead_sql_num": 336,
+    "lead_sql_denom": 1840
+  }
+}
