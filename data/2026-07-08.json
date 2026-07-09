@@ -1,0 +1,419 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-09 10:37",
+  "summary": {
+    "total": 24,
+    "new_lead": 10,
+    "mql": 3,
+    "sql": 4,
+    "won": 1,
+    "lost_before_mql": 8,
+    "sales_lost": 2,
+    "lost_total": 10
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 11,
+        "new_lead": 4,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 6,
+        "sales_lost": 1,
+        "lost_total": 7
+      },
+      "deals": [
+        {
+          "name": "SDR - rotor1.pl [MARKET CODE] - 2026-07-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - ostoase.de [MARKET CODE] - 2026-07-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - sollo [DE] - 2026-07-01",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Rut Laselle Laselle [MARKET CODE] - 2026-07-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - richter-menzel [DE] - 2026-06-29",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - julie.boucker@secretsdeloly.com - 2026-07-07",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - hanse-soft [DE] - 2026-07-07",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - zal-med.pl [MARKET CODE] - 2026-07-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - eplastrol [PL] - 2026-07-06",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - bbq-laden.de [MARKET CODE] - 2026-06-29",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - REKUBIK GmbH <remo.herrmann@rekubik.de> - 2026-07-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - ostoase.de [MARKET CODE] - 2026-07-02",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odpowiada"
+        },
+        {
+          "name": "SDR - Rut Laselle Laselle [MARKET CODE] - 2026-07-08",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Language Barrier",
+          "lost_description": "nie mowi po ang"
+        },
+        {
+          "name": "SDR - richter-menzel [DE] - 2026-06-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie sa zainteresoani"
+        },
+        {
+          "name": "SDR - zal-med.pl [MARKET CODE] - 2026-07-08",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "nie nasz scope"
+        },
+        {
+          "name": "SDR - eplastrol [PL] - 2026-07-06",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No Business Need",
+          "lost_description": "gość na spotkaniu przyznał że zależu mu na danych jednorazowo bo dopiero co mają zmaiar ruszyć ze sklepem na allegro i szef mu kazał znaleźć rozwiązanie"
+        },
+        {
+          "name": "SDR - bbq-laden.de [MARKET CODE] - 2026-06-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie jest zainteresowany"
+        },
+        {
+          "name": "SDR - REKUBIK GmbH <remo.herrmann@rekubik.de> - 2026-07-08",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "pogadali wewnetrznie ze nie sa zainteresowani"
+        }
+      ],
+      "conversions": {
+        "total_leads": 484,
+        "total_mql": 151,
+        "lead_mql": "151/484 (31%)",
+        "lead_mql_num": 151,
+        "lead_mql_denom": 484,
+        "mql_sql": "91/151 (60%)",
+        "mql_sql_num": 91,
+        "mql_sql_denom": 151,
+        "lead_sql": "91/484 (19%)",
+        "lead_sql_num": 91,
+        "lead_sql_denom": 484
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 7,
+        "new_lead": 3,
+        "mql": 1,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - sitech3d [PL] - 2026-06-11",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - insparrow [PL] - 2026-07-06",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Münzenlager [DE] - 2026-06-29",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - STYX [SK] - 2026-07-07",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - astor.com.pl [MARKET CODE] - 2026-07-08",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - the modelist  [MARKET CODE] - 2026-07-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - fuxtec [DE] - 2026-06-29",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Münzenlager [DE] - 2026-06-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu, błędny nr tel. "
+        },
+        {
+          "name": "SDR - fuxtec [DE] - 2026-06-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 594,
+        "total_mql": 182,
+        "lead_mql": "182/594 (31%)",
+        "lead_mql_num": 182,
+        "lead_mql_denom": 594,
+        "mql_sql": "112/182 (62%)",
+        "mql_sql_num": 112,
+        "mql_sql_denom": 182,
+        "lead_sql": "112/594 (19%)",
+        "lead_sql_num": 112,
+        "lead_sql_denom": 594
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - hifisound [DE] 2026-07-08 - 2026-07-08",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - acproducts.nl [NL] - 2026-07-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - vavex [CZ] - 2026-06-10",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - mycotech.de [DE] - 2026-07-05",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - mycotech.de [DE] - 2026-07-05",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "Mają focus na amazon i korzystają teraz z sellerlogic, który jest sporo tańszy. Pod koniec roku chcą się rozwijać na innych marketplace i wtedy mamy wrócić do rozmów"
+        }
+      ],
+      "conversions": {
+        "total_leads": 478,
+        "total_mql": 113,
+        "lead_mql": "113/478 (24%)",
+        "lead_mql_num": 113,
+        "lead_mql_denom": 478,
+        "mql_sql": "59/113 (52%)",
+        "mql_sql_num": 59,
+        "mql_sql_denom": 113,
+        "lead_sql": "59/478 (12%)",
+        "lead_sql_num": 59,
+        "lead_sql_denom": 478
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Waldin [PL] - 2026-07-02",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Apteka Codzienna [PL] - 2026-07-08",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 279,
+        "total_mql": 106,
+        "lead_mql": "106/279 (38%)",
+        "lead_mql_num": 106,
+        "lead_mql_denom": 279,
+        "mql_sql": "74/106 (70%)",
+        "mql_sql_num": 74,
+        "mql_sql_denom": 106,
+        "lead_sql": "74/279 (27%)",
+        "lead_sql_num": 74,
+        "lead_sql_denom": 279
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 3
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 3
+    },
+    {
+      "reason": "Language Barrier",
+      "count": 1
+    },
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    },
+    {
+      "reason": "No Business Need",
+      "count": 1
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1859,
+    "total_mql": 558,
+    "lead_mql": "558/1859 (30%)",
+    "lead_mql_num": 558,
+    "lead_mql_denom": 1859,
+    "mql_sql": "341/558 (61%)",
+    "mql_sql_num": 341,
+    "mql_sql_denom": 558,
+    "lead_sql": "341/1859 (18%)",
+    "lead_sql_num": 341,
+    "lead_sql_denom": 1859
+  }
+}
