@@ -1,0 +1,277 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-11 09:04",
+  "summary": {
+    "total": 13,
+    "new_lead": 4,
+    "mql": 1,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 6,
+    "sales_lost": 1,
+    "lost_total": 7
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 5,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - mister-auto [FR] - 2026-06-30",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Jonas Bler  [DE] - 2026-07-01",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - MIWAN [PL] - 2026-07-07",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - woodstore24 [DE] - 2026-07-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Sound [DE] - 2026-07-09",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - mister-auto [FR] - 2026-06-30",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie są zainteresowani, mają własne narzędzie"
+        },
+        {
+          "name": "SDR - Jonas Bler  [DE] - 2026-07-01",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 597,
+        "total_mql": 184,
+        "lead_mql": "184/597 (31%)",
+        "lead_mql_num": 184,
+        "lead_mql_denom": 597,
+        "mql_sql": "115/184 (62%)",
+        "mql_sql_num": 115,
+        "mql_sql_denom": 184,
+        "lead_sql": "115/597 (19%)",
+        "lead_sql_num": 115,
+        "lead_sql_denom": 597
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 1,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - whey-protein.hu [DE] - 2026-07-01",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Sinntec.de [DE] - 2026-07-02",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL",
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - boostyfoods.com [PL] - 2026-07-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - chess-tigers.de [MARKET CODE] - 2026-07-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - whey-protein.hu [DE] - 2026-07-01",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - Sinntec.de [DE] - 2026-07-02",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "Po umówieniu prezentacji jednak się rozmyślał i odwołał spotkanie"
+        }
+      ],
+      "conversions": {
+        "total_leads": 475,
+        "total_mql": 114,
+        "lead_mql": "114/475 (24%)",
+        "lead_mql_num": 114,
+        "lead_mql_denom": 475,
+        "mql_sql": "59/114 (52%)",
+        "mql_sql_num": 59,
+        "mql_sql_denom": 114,
+        "lead_sql": "59/475 (12%)",
+        "lead_sql_num": 59,
+        "lead_sql_denom": 475
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 3,
+        "sales_lost": 0,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - neon24  [DE] - 2026-07-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - biobaby.pl [MARKET CODE] - 2026-07-06",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - wachtel-shop.com [MARKET CODE] - 2026-07-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - LG [GT] - 2026-06-25",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - biobaby.pl [MARKET CODE] - 2026-07-06",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "chciał kupić API"
+        },
+        {
+          "name": "SDR - wachtel-shop.com [MARKET CODE] - 2026-07-02",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - LG [GT] - 2026-06-25",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 486,
+        "total_mql": 152,
+        "lead_mql": "152/486 (31%)",
+        "lead_mql_num": 152,
+        "lead_mql_denom": 486,
+        "mql_sql": "92/152 (61%)",
+        "mql_sql_num": 92,
+        "mql_sql_denom": 152,
+        "lead_sql": "92/486 (19%)",
+        "lead_sql_num": 92,
+        "lead_sql_denom": 486
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 4
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1862,
+    "total_mql": 562,
+    "lead_mql": "562/1862 (30%)",
+    "lead_mql_num": 562,
+    "lead_mql_denom": 1862,
+    "mql_sql": "346/562 (62%)",
+    "mql_sql_num": 346,
+    "mql_sql_denom": 562,
+    "lead_sql": "346/1862 (19%)",
+    "lead_sql_num": 346,
+    "lead_sql_denom": 1862
+  }
+}
