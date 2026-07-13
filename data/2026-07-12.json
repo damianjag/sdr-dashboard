@@ -1,0 +1,67 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-13 10:38",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - kraftathlet.com [DE] - 2026-07-12",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 475,
+        "total_mql": 113,
+        "lead_mql": "113/475 (24%)",
+        "lead_mql_num": 113,
+        "lead_mql_denom": 475,
+        "mql_sql": "59/113 (52%)",
+        "mql_sql_num": 59,
+        "mql_sql_denom": 113,
+        "lead_sql": "59/475 (12%)",
+        "lead_sql_num": 59,
+        "lead_sql_denom": 475
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1863,
+    "total_mql": 562,
+    "lead_mql": "562/1863 (30%)",
+    "lead_mql_num": 562,
+    "lead_mql_denom": 1863,
+    "mql_sql": "346/562 (62%)",
+    "mql_sql_num": 346,
+    "mql_sql_denom": 562,
+    "lead_sql": "346/1863 (19%)",
+    "lead_sql_num": 346,
+    "lead_sql_denom": 1863
+  }
+}
