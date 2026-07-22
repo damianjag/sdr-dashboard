@@ -1,0 +1,297 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-22 09:44",
+  "summary": {
+    "total": 15,
+    "new_lead": 7,
+    "mql": 2,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 1,
+    "sales_lost": 2,
+    "lost_total": 3
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 8,
+        "new_lead": 4,
+        "mql": 2,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - info.com [MARKET CODE] - 2026-07-21",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - kingspan [IR] - 2026-07-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - pieswchmurach [PL] - 2026-07-20",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - prestige-home [VN] - 2026-07-15",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - iitsupplies [NL] - 2026-06-23",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - rowerystylowe.pl [MARKET CODE] - 2026-07-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - werzalit [DE] - 2026-07-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - craft-com [DE] - 2026-07-20",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - iitsupplies [NL] - 2026-06-23",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Other",
+          "lost_description": "Za mali są na razie niestety. Od początku roku 60 zamówień. Nie mają żadnych historycznych danych o produktach do określenia zakresu do monitoringu (z 1 miliona SKU w dropshippingu). Sklep jest tylko dla b2b i to i tak 'dodatkowy' biznes. Temat nie na teraz, może kiedyś."
+        }
+      ],
+      "conversions": {
+        "total_leads": 388,
+        "total_mql": 127,
+        "lead_mql": "127/388 (33%)",
+        "lead_mql_num": 127,
+        "lead_mql_denom": 388,
+        "mql_sql": "82/127 (65%)",
+        "mql_sql_num": 82,
+        "mql_sql_denom": 127,
+        "lead_sql": "82/388 (21%)",
+        "lead_sql_num": 82,
+        "lead_sql_denom": 388
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 5,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - socialive.com.pl [MARKET CODE] - 2026-07-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - BRICK Flip GmbH [AT] - Buyer Intent - 2026-07-21",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - Verdementa [ES] - 2026-06-16",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - Wagnerbeauty [DE] - 2026-07-13",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - ecoABM [PL] - 2026-07-21",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Verdementa [ES] - 2026-06-16",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "Dla większości asortymentu nie mają EANów, cena też poza budżetem."
+        }
+      ],
+      "conversions": {
+        "total_leads": 467,
+        "total_mql": 153,
+        "lead_mql": "153/467 (33%)",
+        "lead_mql_num": 153,
+        "lead_mql_denom": 467,
+        "mql_sql": "95/153 (62%)",
+        "mql_sql_num": 95,
+        "mql_sql_denom": 153,
+        "lead_sql": "95/467 (20%)",
+        "lead_sql_num": 95,
+        "lead_sql_denom": 467
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - bonus-czystosc.pl [MARKET CODE] - 2026-07-20",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 241,
+        "total_mql": 90,
+        "lead_mql": "90/241 (37%)",
+        "lead_mql_num": 90,
+        "lead_mql_denom": 241,
+        "mql_sql": "64/90 (71%)",
+        "mql_sql_num": 64,
+        "mql_sql_denom": 90,
+        "lead_sql": "64/241 (27%)",
+        "lead_sql_num": 64,
+        "lead_sql_denom": 241
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - cs-parts.de [DE] - 2026-06-30",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - cs-parts.de [DE] - 2026-06-30",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "Edit the following text:\nCzas Urlopowy, ogólnie temat interesujący, ale w październiku chce o tym pogadać"
+        }
+      ],
+      "conversions": {
+        "total_leads": 358,
+        "total_mql": 76,
+        "lead_mql": "76/358 (21%)",
+        "lead_mql_num": 76,
+        "lead_mql_denom": 358,
+        "mql_sql": "41/76 (54%)",
+        "mql_sql_num": 41,
+        "mql_sql_denom": 76,
+        "lead_sql": "41/358 (11%)",
+        "lead_sql_num": 41,
+        "lead_sql_denom": 358
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Other",
+      "count": 1
+    },
+    {
+      "reason": "Does Not Have Time",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1480,
+    "total_mql": 451,
+    "lead_mql": "451/1480 (30%)",
+    "lead_mql_num": 451,
+    "lead_mql_denom": 1480,
+    "mql_sql": "285/451 (63%)",
+    "mql_sql_num": 285,
+    "mql_sql_denom": 451,
+    "lead_sql": "285/1480 (19%)",
+    "lead_sql_num": 285,
+    "lead_sql_denom": 1480
+  }
+}
