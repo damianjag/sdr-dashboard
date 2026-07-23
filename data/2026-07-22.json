@@ -1,0 +1,250 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-23 09:45",
+  "summary": {
+    "total": 13,
+    "new_lead": 4,
+    "mql": 3,
+    "sql": 1,
+    "won": 1,
+    "lost_before_mql": 3,
+    "sales_lost": 1,
+    "lost_total": 4
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 7,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 1,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - lebkuchen-welt [DE] - 2026-06-23",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Q36.5 [IT] - 2026-07-17",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - BRICK Flip GmbH [AT] - Buyer Intent - 2026-07-21",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - yandex [BY] - 2026-07-22",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - PlastModel [PL] - 2026-07-22",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - tlcs [PL] - 2026-07-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - STYX [SK] - 2026-07-07",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - lebkuchen-welt [DE] - 2026-06-23",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Other",
+          "lost_description": "Proszą o zaprzestanie kontaktu"
+        },
+        {
+          "name": "SDR - tlcs [PL] - 2026-07-14",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "dał cynk działowi sprzedaży, teraz piłeczka po ich stronie. Prosi, żeby więcej do niego nie dzwonić, bo się zdenerwuje. Jeśli będą zainteresowani, sami się odezwą. "
+        },
+        {
+          "name": "SDR - STYX [SK] - 2026-07-07",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Rozglądają się, ale nie wiedzą co by chcieli monitorować dokładnie, koszty też wydają się wysokie. \"Muszą pogadać wewnętrznie\" Ping za pare tygodni."
+        }
+      ],
+      "conversions": {
+        "total_leads": 476,
+        "total_mql": 159,
+        "lead_mql": "159/476 (33%)",
+        "lead_mql_num": 159,
+        "lead_mql_denom": 476,
+        "mql_sql": "101/159 (64%)",
+        "mql_sql_num": 101,
+        "mql_sql_denom": 159,
+        "lead_sql": "101/476 (21%)",
+        "lead_sql_num": 101,
+        "lead_sql_denom": 476
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - offerexpress24 [DE] - 2026-07-22",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - kraftathlet.com [DE] - 2026-07-12",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - schellendirekt.de [MARKET CODE] - 2026-07-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 372,
+        "total_mql": 83,
+        "lead_mql": "83/372 (22%)",
+        "lead_mql_num": 83,
+        "lead_mql_denom": 372,
+        "mql_sql": "42/83 (51%)",
+        "mql_sql_num": 42,
+        "mql_sql_denom": 83,
+        "lead_sql": "42/372 (11%)",
+        "lead_sql_num": 42,
+        "lead_sql_denom": 372
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - info.com [MARKET CODE] - 2026-07-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Chronoguard GmbH  [CH] - 2026-07-15",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - dampftbeidir [DE] - 2026-06-25",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Chronoguard GmbH  [CH] - 2026-07-15",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie ma dm, niewiadomo kto i co"
+        }
+      ],
+      "conversions": {
+        "total_leads": 398,
+        "total_mql": 127,
+        "lead_mql": "127/398 (32%)",
+        "lead_mql_num": 127,
+        "lead_mql_denom": 398,
+        "mql_sql": "86/127 (68%)",
+        "mql_sql_num": 86,
+        "mql_sql_denom": 127,
+        "lead_sql": "86/398 (22%)",
+        "lead_sql_num": 86,
+        "lead_sql_denom": 398
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Was Only Checking",
+      "count": 3
+    },
+    {
+      "reason": "Other",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1512,
+    "total_mql": 466,
+    "lead_mql": "466/1512 (31%)",
+    "lead_mql_num": 466,
+    "lead_mql_denom": 1512,
+    "mql_sql": "300/466 (64%)",
+    "mql_sql_num": 300,
+    "mql_sql_denom": 466,
+    "lead_sql": "300/1512 (20%)",
+    "lead_sql_num": 300,
+    "lead_sql_denom": 1512
+  }
+}
