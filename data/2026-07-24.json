@@ -1,0 +1,189 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-25 09:17",
+  "summary": {
+    "total": 7,
+    "new_lead": 5,
+    "mql": 3,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 1,
+    "sales_lost": 0,
+    "lost_total": 1
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - zunft [DE] - 2026-07-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - brytonsport.com [MARKET CODE] - 2026-07-24",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Plusgum [PL] - 2026-07-23",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Plusgum [PL] - 2026-07-23",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "za drogo"
+        }
+      ],
+      "conversions": {
+        "total_leads": 407,
+        "total_mql": 128,
+        "lead_mql": "128/407 (31%)",
+        "lead_mql_num": 128,
+        "lead_mql_denom": 407,
+        "mql_sql": "86/128 (67%)",
+        "mql_sql_num": 86,
+        "mql_sql_denom": 128,
+        "lead_sql": "86/407 (21%)",
+        "lead_sql_num": 86,
+        "lead_sql_denom": 407
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - funplace.com.pl [MARKET CODE] - 2026-07-24",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Dragon [PL] - 2026-07-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 241,
+        "total_mql": 92,
+        "lead_mql": "92/241 (38%)",
+        "lead_mql_num": 92,
+        "lead_mql_denom": 241,
+        "mql_sql": "67/92 (73%)",
+        "mql_sql_num": 67,
+        "mql_sql_denom": 92,
+        "lead_sql": "67/241 (28%)",
+        "lead_sql_num": 67,
+        "lead_sql_denom": 241
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - tacticalforce.lt [MARKET CODE] - 2026-07-23",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - amilano [DE] - 2026-07-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 380,
+        "total_mql": 87,
+        "lead_mql": "87/380 (23%)",
+        "lead_mql_num": 87,
+        "lead_mql_denom": 380,
+        "mql_sql": "46/87 (53%)",
+        "mql_sql_num": 46,
+        "mql_sql_denom": 87,
+        "lead_sql": "46/380 (12%)",
+        "lead_sql_num": 46,
+        "lead_sql_denom": 380
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Price Too High",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1536,
+    "total_mql": 479,
+    "lead_mql": "479/1536 (31%)",
+    "lead_mql_num": 479,
+    "lead_mql_denom": 1536,
+    "mql_sql": "305/479 (64%)",
+    "mql_sql_num": 305,
+    "mql_sql_denom": 479,
+    "lead_sql": "305/1536 (20%)",
+    "lead_sql_num": 305,
+    "lead_sql_denom": 1536
+  }
+}
