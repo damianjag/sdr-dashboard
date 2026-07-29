@@ -1,0 +1,240 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-29 10:03",
+  "summary": {
+    "total": 9,
+    "new_lead": 5,
+    "mql": 3,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 1,
+    "sales_lost": 1,
+    "lost_total": 2
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 5,
+        "new_lead": 3,
+        "mql": 2,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - owlie [PL] - 2026-07-28",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - brytonsport [TW] - 2026-07-24",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - semantique [PL] - 2026-07-28",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - zunft [DE] - 2026-07-24",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - saluti.pl [MARKET CODE] - 2026-07-28",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - zunft [DE] - 2026-07-24",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "Znowu ta sama gadka co zwykle, czyli ważny temat, ale nie teraz. Pogadaliśmy 10 minut, prosi o ponowny kontakt za 3 miesiące."
+        }
+      ],
+      "conversions": {
+        "total_leads": 434,
+        "total_mql": 142,
+        "lead_mql": "142/434 (33%)",
+        "lead_mql_num": 142,
+        "lead_mql_denom": 434,
+        "mql_sql": "91/142 (64%)",
+        "mql_sql_num": 91,
+        "mql_sql_denom": 142,
+        "lead_sql": "91/434 (21%)",
+        "lead_sql_num": 91,
+        "lead_sql_denom": 434
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - sklepfryz.pl [MARKET CODE] - 2026-07-28",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - funplace.com.pl [MARKET CODE] - 2026-07-24",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - funplace.com.pl [MARKET CODE] - 2026-07-24",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Try Later",
+          "lost_description": "Musi zająć się wnuczką, bo zamknęli przedszkole. Jak będzie miała czas to się odezwie po wakacjach "
+        }
+      ],
+      "conversions": {
+        "total_leads": 257,
+        "total_mql": 98,
+        "lead_mql": "98/257 (38%)",
+        "lead_mql_num": 98,
+        "lead_mql_denom": 257,
+        "mql_sql": "69/98 (70%)",
+        "mql_sql_num": 69,
+        "mql_sql_denom": 98,
+        "lead_sql": "69/257 (27%)",
+        "lead_sql_num": 69,
+        "lead_sql_denom": 257
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - paperseal [LT] - 2026-07-28",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 387,
+        "total_mql": 97,
+        "lead_mql": "97/387 (25%)",
+        "lead_mql_num": 97,
+        "lead_mql_denom": 387,
+        "mql_sql": "51/97 (53%)",
+        "mql_sql_num": 51,
+        "mql_sql_denom": 97,
+        "lead_sql": "51/387 (13%)",
+        "lead_sql_num": 51,
+        "lead_sql_denom": 387
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - ecoABM [PL] - 2026-07-21",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 509,
+        "total_mql": 175,
+        "lead_mql": "175/509 (34%)",
+        "lead_mql_num": 175,
+        "lead_mql_denom": 509,
+        "mql_sql": "111/175 (63%)",
+        "mql_sql_num": 111,
+        "mql_sql_denom": 175,
+        "lead_sql": "111/509 (22%)",
+        "lead_sql_num": 111,
+        "lead_sql_denom": 509
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Try Later",
+      "count": 2
+    }
+  ],
+  "conversions": {
+    "total_leads": 1615,
+    "total_mql": 519,
+    "lead_mql": "519/1615 (32%)",
+    "lead_mql_num": 519,
+    "lead_mql_denom": 1615,
+    "mql_sql": "327/519 (63%)",
+    "mql_sql_num": 327,
+    "mql_sql_denom": 519,
+    "lead_sql": "327/1615 (20%)",
+    "lead_sql_num": 327,
+    "lead_sql_denom": 1615
+  }
+}
