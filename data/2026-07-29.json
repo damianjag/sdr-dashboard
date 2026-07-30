@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-30 09:56",
+  "summary": {
+    "total": 6,
+    "new_lead": 4,
+    "mql": 4,
+    "sql": 2,
+    "won": 1,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 3,
+        "mql": 3,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - ABEXIL [PL] - 2026-07-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Agora (publio.pl) [PL] - 2026-07-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Znak [PL] - 2026-07-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 263,
+        "total_mql": 102,
+        "lead_mql": "102/263 (39%)",
+        "lead_mql_num": 102,
+        "lead_mql_denom": 263,
+        "mql_sql": "70/102 (69%)",
+        "mql_sql_num": 70,
+        "mql_sql_denom": 102,
+        "lead_sql": "70/263 (27%)",
+        "lead_sql_num": 70,
+        "lead_sql_denom": 263
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - apiscosmetics [PL] - 2026-07-27",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - 24 I.S. [UK] - 2026-07-29",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL",
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 443,
+        "total_mql": 144,
+        "lead_mql": "144/443 (33%)",
+        "lead_mql_num": 144,
+        "lead_mql_denom": 443,
+        "mql_sql": "92/144 (64%)",
+        "mql_sql_num": 92,
+        "mql_sql_denom": 144,
+        "lead_sql": "92/443 (21%)",
+        "lead_sql_num": 92,
+        "lead_sql_denom": 443
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Clovin [PL] - 2026-06-12",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 517,
+        "total_mql": 176,
+        "lead_mql": "176/517 (34%)",
+        "lead_mql_num": 176,
+        "lead_mql_denom": 517,
+        "mql_sql": "112/176 (64%)",
+        "mql_sql_num": 112,
+        "mql_sql_denom": 176,
+        "lead_sql": "112/517 (22%)",
+        "lead_sql_num": 112,
+        "lead_sql_denom": 517
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1641,
+    "total_mql": 525,
+    "lead_mql": "525/1641 (32%)",
+    "lead_mql_num": 525,
+    "lead_mql_denom": 1641,
+    "mql_sql": "330/525 (63%)",
+    "mql_sql_num": 330,
+    "mql_sql_denom": 525,
+    "lead_sql": "330/1641 (20%)",
+    "lead_sql_num": 330,
+    "lead_sql_denom": 1641
+  }
+}
