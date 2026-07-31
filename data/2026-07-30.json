@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-31 10:02",
+  "summary": {
+    "total": 10,
+    "new_lead": 7,
+    "mql": 5,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 2,
+    "sales_lost": 0,
+    "lost_total": 2
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 7,
+        "new_lead": 5,
+        "mql": 3,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - selbermachen-versand.de [MARKET CODE] - 2026-07-30",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - m.solberg@solbergretail.com - 2026-07-30",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - vvs [DK] - 2026-07-27",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - basecom [DE] - 2026-07-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - ppmcolor [PL] - 2026-07-30",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - elkogroup 2026-07-30 - 2026-07-30",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - wgl [PL]- Buyer Intent - 2026-07-30",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - basecom [DE] - 2026-07-02",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "juz nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 451,
+        "total_mql": 148,
+        "lead_mql": "148/451 (33%)",
+        "lead_mql_num": 148,
+        "lead_mql_denom": 451,
+        "mql_sql": "92/148 (62%)",
+        "mql_sql_num": 92,
+        "mql_sql_denom": 148,
+        "lead_sql": "92/451 (20%)",
+        "lead_sql_num": 92,
+        "lead_sql_denom": 451
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - hauswerk.shop [DE] - 2026-07-30",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - tacticalforce.lt [lt] - 2026-07-23",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - tacticalforce.lt [lt] - 2026-07-23",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 391,
+        "total_mql": 97,
+        "lead_mql": "97/391 (25%)",
+        "lead_mql_num": 97,
+        "lead_mql_denom": 391,
+        "mql_sql": "51/97 (53%)",
+        "mql_sql_num": 51,
+        "mql_sql_denom": 97,
+        "lead_sql": "51/391 (13%)",
+        "lead_sql_num": 51,
+        "lead_sql_denom": 391
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Hurtel [PL] - 2026-07-30",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 265,
+        "total_mql": 104,
+        "lead_mql": "104/265 (39%)",
+        "lead_mql_num": 104,
+        "lead_mql_denom": 265,
+        "mql_sql": "71/104 (68%)",
+        "mql_sql_num": 71,
+        "mql_sql_denom": 104,
+        "lead_sql": "71/265 (27%)",
+        "lead_sql_num": 71,
+        "lead_sql_denom": 265
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    }
+  ],
+  "conversions": {
+    "total_leads": 1649,
+    "total_mql": 531,
+    "lead_mql": "531/1649 (32%)",
+    "lead_mql_num": 531,
+    "lead_mql_denom": 1649,
+    "mql_sql": "331/531 (62%)",
+    "mql_sql_num": 331,
+    "mql_sql_denom": 531,
+    "lead_sql": "331/1649 (20%)",
+    "lead_sql_num": 331,
+    "lead_sql_denom": 1649
+  }
+}
