@@ -1,0 +1,206 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-08-01 09:30",
+  "summary": {
+    "total": 9,
+    "new_lead": 2,
+    "mql": 2,
+    "sql": 4,
+    "won": 1,
+    "lost_before_mql": 2,
+    "sales_lost": 0,
+    "lost_total": 2
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - maspex [PL] - 2026-07-31",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - owlie [PL] - 2026-07-28",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - neon24  [DE] - 2026-07-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - body-cult [DE] 2026-07-27 - 2026-07-27",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - neon24  [DE] - 2026-07-10",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie ma go, nie odpisuje "
+        }
+      ],
+      "conversions": {
+        "total_leads": 463,
+        "total_mql": 153,
+        "lead_mql": "153/463 (33%)",
+        "lead_mql_num": 153,
+        "lead_mql_denom": 463,
+        "mql_sql": "96/153 (63%)",
+        "mql_sql_num": 96,
+        "mql_sql_denom": 153,
+        "lead_sql": "96/463 (21%)",
+        "lead_sql_num": 96,
+        "lead_sql_denom": 463
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 1,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - offerexpress24 [DE] - 2026-07-22",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - Old Lost (CLIENT) - tehnocenter.ro [RO] - 2026-07-31",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - hauswerk.shop [DE] - 2026-07-30",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 399,
+        "total_mql": 100,
+        "lead_mql": "100/399 (25%)",
+        "lead_mql_num": 100,
+        "lead_mql_denom": 399,
+        "mql_sql": "54/100 (54%)",
+        "mql_sql_num": 54,
+        "mql_sql_denom": 100,
+        "lead_sql": "54/399 (14%)",
+        "lead_sql_num": 54,
+        "lead_sql_denom": 399
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - ABEXIL [PL] - 2026-07-29",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - bonus-czystosc.pl [MARKET CODE] - 2026-07-20",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - bonus-czystosc.pl [MARKET CODE] - 2026-07-20",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 268,
+        "total_mql": 106,
+        "lead_mql": "106/268 (40%)",
+        "lead_mql_num": 106,
+        "lead_mql_denom": 268,
+        "mql_sql": "75/106 (71%)",
+        "mql_sql_num": 75,
+        "mql_sql_denom": 106,
+        "lead_sql": "75/268 (28%)",
+        "lead_sql_num": 75,
+        "lead_sql_denom": 268
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    }
+  ],
+  "conversions": {
+    "total_leads": 1678,
+    "total_mql": 543,
+    "lead_mql": "543/1678 (32%)",
+    "lead_mql_num": 543,
+    "lead_mql_denom": 1678,
+    "mql_sql": "342/543 (63%)",
+    "mql_sql_num": 342,
+    "mql_sql_denom": 543,
+    "lead_sql": "342/1678 (20%)",
+    "lead_sql_num": 342,
+    "lead_sql_denom": 1678
+  }
+}
