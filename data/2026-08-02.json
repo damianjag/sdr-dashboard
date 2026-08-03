@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-03 10:53",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - campingmarkt.com [MARKET CODE] - 2026-08-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 412,
+        "total_mql": 104,
+        "lead_mql": "104/412 (25%)",
+        "lead_mql_num": 104,
+        "lead_mql_denom": 412,
+        "mql_sql": "54/104 (52%)",
+        "mql_sql_num": 54,
+        "mql_sql_denom": 104,
+        "lead_sql": "54/412 (13%)",
+        "lead_sql_num": 54,
+        "lead_sql_denom": 412
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1723,
+    "total_mql": 549,
+    "lead_mql": "549/1723 (32%)",
+    "lead_mql_num": 549,
+    "lead_mql_denom": 1723,
+    "mql_sql": "345/549 (63%)",
+    "mql_sql_num": 345,
+    "mql_sql_denom": 549,
+    "lead_sql": "345/1723 (20%)",
+    "lead_sql_num": 345,
+    "lead_sql_denom": 1723
+  }
+}
