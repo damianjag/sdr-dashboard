@@ -1,0 +1,247 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-05 10:03",
+  "summary": {
+    "total": 10,
+    "new_lead": 2,
+    "mql": 2,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 3,
+    "sales_lost": 2,
+    "lost_total": 5
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 1,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - kultum [DE] - 2026-06-26",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - reifen [DE] - Click From Mailing - 2026-08-04",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - rowerystylowe.pl [MARKET CODE] - 2026-07-21",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - werzalit [DE] - 2026-07-21",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - kultum [DE] - 2026-06-26",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "stary temat - teraz nie, może za pół roku"
+        },
+        {
+          "name": "SDR - rowerystylowe.pl [MARKET CODE] - 2026-07-21",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - werzalit [DE] - 2026-07-21",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "mały skelp na panel"
+        }
+      ],
+      "conversions": {
+        "total_leads": 480,
+        "total_mql": 158,
+        "lead_mql": "158/480 (33%)",
+        "lead_mql_num": 158,
+        "lead_mql_denom": 480,
+        "mql_sql": "99/158 (63%)",
+        "mql_sql_num": 99,
+        "mql_sql_denom": 158,
+        "lead_sql": "99/480 (21%)",
+        "lead_sql_num": 99,
+        "lead_sql_denom": 480
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - maiwell.com [MARKET CODE] - 2026-08-04",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - wild-wear [DE] - 2026-07-02",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - waka-waffen.de [DE] - 2026-08-03",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 431,
+        "total_mql": 108,
+        "lead_mql": "108/431 (25%)",
+        "lead_mql_num": 108,
+        "lead_mql_denom": 431,
+        "mql_sql": "55/108 (51%)",
+        "mql_sql_num": 55,
+        "mql_sql_denom": 108,
+        "lead_sql": "55/431 (13%)",
+        "lead_sql_num": 55,
+        "lead_sql_denom": 431
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 1,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - czasnaparty.pl [MARKET CODE] - 2026-06-27",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - rbl24 [PL] - 2026-06-16",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - Hurtel [PL] - 2026-07-30",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - czasnaparty.pl [MARKET CODE] - 2026-06-27",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "Chcą często zmieniać produkty, bo mają sezonowe, 10% im nie wystarczy, ad-hoc również nie, bo chcą automatyzacje - zostaną przy baselinkerze"
+        },
+        {
+          "name": "SDR - rbl24 [PL] - 2026-06-16",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "Temat z czerwca. Cały czas powtarza, że nie ma czasu i że sam się skontaktuje. Na razie nie jest zainteresowany"
+        }
+      ],
+      "conversions": {
+        "total_leads": 282,
+        "total_mql": 109,
+        "lead_mql": "109/282 (39%)",
+        "lead_mql_num": 109,
+        "lead_mql_denom": 282,
+        "mql_sql": "79/109 (72%)",
+        "mql_sql_num": 79,
+        "mql_sql_denom": 109,
+        "lead_sql": "79/282 (28%)",
+        "lead_sql_num": 79,
+        "lead_sql_denom": 282
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Try Later",
+      "count": 1
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    },
+    {
+      "reason": "Does Not Have Time",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1766,
+    "total_mql": 565,
+    "lead_mql": "565/1766 (32%)",
+    "lead_mql_num": 565,
+    "lead_mql_denom": 1766,
+    "mql_sql": "356/565 (63%)",
+    "mql_sql_num": 356,
+    "mql_sql_denom": 565,
+    "lead_sql": "356/1766 (20%)",
+    "lead_sql_num": 356,
+    "lead_sql_denom": 1766
+  }
+}
