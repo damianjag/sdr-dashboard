@@ -1,0 +1,257 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-06 10:06",
+  "summary": {
+    "total": 11,
+    "new_lead": 7,
+    "mql": 2,
+    "sql": 3,
+    "won": 0,
+    "lost_before_mql": 2,
+    "sales_lost": 0,
+    "lost_total": 2
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 5,
+        "new_lead": 3,
+        "mql": 1,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - lackstore.de - Buyer Intent - 2026-08-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - asda-photo.co.uk [MARKET CODE] - 2026-08-05",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - realpharm [DE] - 2026-08-01",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - kuechen [DE] - 2026-08-03",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - heiz24.de [MARKET CODE] - 2026-08-05",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 436,
+        "total_mql": 110,
+        "lead_mql": "110/436 (25%)",
+        "lead_mql_num": 110,
+        "lead_mql_denom": 436,
+        "mql_sql": "57/110 (52%)",
+        "mql_sql_num": 57,
+        "mql_sql_denom": 110,
+        "lead_sql": "57/436 (13%)",
+        "lead_sql_num": 57,
+        "lead_sql_denom": 436
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - epat.pl [MARKET CODE] - 2026-08-05",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Intersport [PL] - 2026-08-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - sklepfryz.pl [MARKET CODE] - 2026-07-28",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - epat.pl [MARKET CODE] - 2026-08-05",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "Produkty podobne "
+        },
+        {
+          "name": "SDR - sklepfryz.pl [MARKET CODE] - 2026-07-28",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Brak kontaktu "
+        }
+      ],
+      "conversions": {
+        "total_leads": 284,
+        "total_mql": 111,
+        "lead_mql": "111/284 (39%)",
+        "lead_mql_num": 111,
+        "lead_mql_denom": 284,
+        "mql_sql": "80/111 (72%)",
+        "mql_sql_num": 80,
+        "mql_sql_denom": 111,
+        "lead_sql": "80/284 (28%)",
+        "lead_sql_num": 80,
+        "lead_sql_denom": 284
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - jeta [PL] - 2026-08-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - mtechnique.fr [MARKET CODE] - 2026-08-05",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 483,
+        "total_mql": 158,
+        "lead_mql": "158/483 (33%)",
+        "lead_mql_num": 158,
+        "lead_mql_denom": 483,
+        "mql_sql": "99/158 (63%)",
+        "mql_sql_num": 99,
+        "mql_sql_denom": 158,
+        "lead_sql": "99/483 (20%)",
+        "lead_sql_num": 99,
+        "lead_sql_denom": 483
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Polimat [PL] - 2026-07-14",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 552,
+        "total_mql": 185,
+        "lead_mql": "185/552 (34%)",
+        "lead_mql_num": 185,
+        "lead_mql_denom": 552,
+        "mql_sql": "121/185 (65%)",
+        "mql_sql_num": 121,
+        "mql_sql_denom": 185,
+        "lead_sql": "121/552 (22%)",
+        "lead_sql_num": 121,
+        "lead_sql_denom": 552
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1779,
+    "total_mql": 570,
+    "lead_mql": "570/1779 (32%)",
+    "lead_mql_num": 570,
+    "lead_mql_denom": 1779,
+    "mql_sql": "361/570 (63%)",
+    "mql_sql_num": 361,
+    "mql_sql_denom": 570,
+    "lead_sql": "361/1779 (20%)",
+    "lead_sql_num": 361,
+    "lead_sql_denom": 1779
+  }
+}
