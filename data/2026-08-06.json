@@ -1,0 +1,238 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-07 08:33",
+  "summary": {
+    "total": 12,
+    "new_lead": 5,
+    "mql": 5,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 1,
+    "sales_lost": 1,
+    "lost_total": 2
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - elkogroup 2026-07-30 - 2026-07-30",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - maxfliz [PL] - Buyer Intent - 2026-08-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - jeta [PL] - 2026-08-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - vvs [DK] - 2026-07-27",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - wgl [PL]- Buyer Intent - 2026-07-30",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Gabriel  [MARKET CODE] - 2026-08-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - vvs [DK] - 2026-07-27",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 487,
+        "total_mql": 162,
+        "lead_mql": "162/487 (33%)",
+        "lead_mql_num": 162,
+        "lead_mql_denom": 487,
+        "mql_sql": "102/162 (63%)",
+        "mql_sql_num": 102,
+        "mql_sql_denom": 162,
+        "lead_sql": "102/487 (21%)",
+        "lead_sql_num": 102,
+        "lead_sql_denom": 487
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - horecagemak.nl - Buyer Intent - 2026-08-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - ortovox.com [MARKET CODE] - 2026-08-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - waka-waffen.de [DE] - 2026-08-03",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - waka-waffen.de [DE] - 2026-08-03",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "godzina dwadzieścia, ale niestety lost temat najwcześniej na październik i cena też mu mocno nie podpasowała"
+        }
+      ],
+      "conversions": {
+        "total_leads": 441,
+        "total_mql": 111,
+        "lead_mql": "111/441 (25%)",
+        "lead_mql_num": 111,
+        "lead_mql_denom": 441,
+        "mql_sql": "57/111 (51%)",
+        "mql_sql_num": 57,
+        "mql_sql_denom": 111,
+        "lead_sql": "57/441 (13%)",
+        "lead_sql_num": 57,
+        "lead_sql_denom": 441
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - E.Leclercl [PL] - 2026-08-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Trefl [PL] - 2026-08-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - wyprawa4x4.pl [MARKET CODE] - 2026-08-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 287,
+        "total_mql": 112,
+        "lead_mql": "112/287 (39%)",
+        "lead_mql_num": 112,
+        "lead_mql_denom": 287,
+        "mql_sql": "80/112 (71%)",
+        "mql_sql_num": 80,
+        "mql_sql_denom": 112,
+        "lead_sql": "80/287 (28%)",
+        "lead_sql_num": 80,
+        "lead_sql_denom": 287
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 1
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1792,
+    "total_mql": 577,
+    "lead_mql": "577/1792 (32%)",
+    "lead_mql_num": 577,
+    "lead_mql_denom": 1792,
+    "mql_sql": "364/577 (63%)",
+    "mql_sql_num": 364,
+    "mql_sql_denom": 577,
+    "lead_sql": "364/1792 (20%)",
+    "lead_sql_num": 364,
+    "lead_sql_denom": 1792
+  }
+}
