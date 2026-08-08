@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-08 08:09",
+  "summary": {
+    "total": 7,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 5,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - ortovox.com [MARKET CODE] - 2026-08-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - lackstore [DE] - Buyer Intent - 2026-08-05",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - horecagemak [NL] - 2026-08-06",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 442,
+        "total_mql": 112,
+        "lead_mql": "112/442 (25%)",
+        "lead_mql_num": 112,
+        "lead_mql_denom": 442,
+        "mql_sql": "60/112 (54%)",
+        "mql_sql_num": 60,
+        "mql_sql_denom": 112,
+        "lead_sql": "60/442 (14%)",
+        "lead_sql_num": 60,
+        "lead_sql_denom": 442
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - maxfliz [PL] - Buyer Intent - 2026-08-06",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - maspex [PL] - 2026-07-31",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 489,
+        "total_mql": 164,
+        "lead_mql": "164/489 (34%)",
+        "lead_mql_num": 164,
+        "lead_mql_denom": 489,
+        "mql_sql": "105/164 (64%)",
+        "mql_sql_num": 105,
+        "mql_sql_denom": 164,
+        "lead_sql": "105/489 (21%)",
+        "lead_sql_num": 105,
+        "lead_sql_denom": 489
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - rotomaty.pl [MARKET CODE] - 2026-08-07",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Znak [PL] - 2026-07-29",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 287,
+        "total_mql": 112,
+        "lead_mql": "112/287 (39%)",
+        "lead_mql_num": 112,
+        "lead_mql_denom": 287,
+        "mql_sql": "81/112 (72%)",
+        "mql_sql_num": 81,
+        "mql_sql_denom": 112,
+        "lead_sql": "81/287 (28%)",
+        "lead_sql_num": 81,
+        "lead_sql_denom": 287
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1796,
+    "total_mql": 580,
+    "lead_mql": "580/1796 (32%)",
+    "lead_mql_num": 580,
+    "lead_mql_denom": 1796,
+    "mql_sql": "371/580 (64%)",
+    "mql_sql_num": 371,
+    "mql_sql_denom": 580,
+    "lead_sql": "371/1796 (21%)",
+    "lead_sql_num": 371,
+    "lead_sql_denom": 1796
+  }
+}
