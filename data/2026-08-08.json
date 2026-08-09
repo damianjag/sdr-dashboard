@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-08",
+  "generated_at": "2026-08-09 08:07",
+  "summary": {
+    "total": 0,
+    "new_lead": 0,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 0,
+  "sdr_data": [],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1795,
+    "total_mql": 580,
+    "lead_mql": "580/1795 (32%)",
+    "lead_mql_num": 580,
+    "lead_mql_denom": 1795,
+    "mql_sql": "371/580 (64%)",
+    "mql_sql_num": 371,
+    "mql_sql_denom": 580,
+    "lead_sql": "371/1795 (21%)",
+    "lead_sql_num": 371,
+    "lead_sql_denom": 1795
+  }
+}
