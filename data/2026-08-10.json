@@ -1,0 +1,247 @@
+{
+  "date": "2026-08-10",
+  "generated_at": "2026-08-11 08:29",
+  "summary": {
+    "total": 14,
+    "new_lead": 6,
+    "mql": 2,
+    "sql": 0,
+    "won": 1,
+    "lost_before_mql": 1,
+    "sales_lost": 1,
+    "lost_total": 2
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 10,
+        "new_lead": 5,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - skynevo [PL] - 2026-08-10",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - iclean [AT] - 2026-08-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - sjv djafklsjvd  [DE] - 2026-08-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Lena Lighting [PL] - 2026-08-09",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - digital-advice [DE] - 2026-08-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - kjalsdjvaskaklsda  [DE] - 2026-08-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Apteka Online  [PL] - 2026-08-10",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - Krzysztof Napiórkowski  [PL] - 2026-08-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Swedish Nutra [SE] - 2026-08-10",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Owoo [PL] - 2026-07-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 564,
+        "total_mql": 187,
+        "lead_mql": "187/564 (33%)",
+        "lead_mql_num": 187,
+        "lead_mql_denom": 564,
+        "mql_sql": "120/187 (64%)",
+        "mql_sql_num": 120,
+        "mql_sql_denom": 187,
+        "lead_sql": "120/564 (21%)",
+        "lead_sql_num": 120,
+        "lead_sql_denom": 564
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - insolutions [PL] - 2026-08-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - 24 I.S. [UK] - 2026-07-29",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 498,
+        "total_mql": 165,
+        "lead_mql": "165/498 (33%)",
+        "lead_mql_num": 165,
+        "lead_mql_denom": 498,
+        "mql_sql": "106/165 (64%)",
+        "mql_sql_num": 106,
+        "mql_sql_denom": 165,
+        "lead_sql": "106/498 (21%)",
+        "lead_sql_num": 106,
+        "lead_sql_denom": 498
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 1,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - Gaponik [DE] - 2026-07-15",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - heiz24.de [MARKET CODE] - 2026-08-05",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Gaponik [DE] - 2026-07-15",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "niestety analiza ad-hoc bez polaczenia api do automatycznego repricingu go niezadowoli przez co nie jest zainteresowany"
+        },
+        {
+          "name": "SDR - heiz24.de [MARKET CODE] - 2026-08-05",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Provider Initiated Termination",
+          "lost_description": "Poprosił o PDC"
+        }
+      ],
+      "conversions": {
+        "total_leads": 443,
+        "total_mql": 113,
+        "lead_mql": "113/443 (26%)",
+        "lead_mql_num": 113,
+        "lead_mql_denom": 443,
+        "mql_sql": "61/113 (54%)",
+        "mql_sql_num": 61,
+        "mql_sql_denom": 113,
+        "lead_sql": "61/443 (14%)",
+        "lead_sql_num": 61,
+        "lead_sql_denom": 443
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    },
+    {
+      "reason": "Provider Initiated Termination",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1817,
+    "total_mql": 584,
+    "lead_mql": "584/1817 (32%)",
+    "lead_mql_num": 584,
+    "lead_mql_denom": 1817,
+    "mql_sql": "373/584 (64%)",
+    "mql_sql_num": 373,
+    "mql_sql_denom": 584,
+    "lead_sql": "373/1817 (21%)",
+    "lead_sql_num": 373,
+    "lead_sql_denom": 1817
+  }
+}
