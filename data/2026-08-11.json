@@ -1,0 +1,278 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-12 08:45",
+  "summary": {
+    "total": 14,
+    "new_lead": 5,
+    "mql": 2,
+    "sql": 1,
+    "won": 2,
+    "lost_before_mql": 3,
+    "sales_lost": 1,
+    "lost_total": 4
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 1,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - insolutions [PL] - 2026-08-10",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - profitechnik [PL] - 2026-08-05",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - bkilic  [MARKET CODE] - 2026-08-01",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - herz.waw [PL] - 2026-08-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - jadoreinstytut.com [MARKET CODE] - 2026-08-11",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - jeta [PL] - 2026-08-05",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - bkilic  [MARKET CODE] - 2026-08-01",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - herz.waw [PL] - 2026-08-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - jeta [PL] - 2026-08-05",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "Szukaja repricingu tylko pod allegro, który będzie zbierał info czy ich oferta jest a programie 'allegro cena' i dostosowywał obniżki na jej podstawie + prowizje allegro. "
+        }
+      ],
+      "conversions": {
+        "total_leads": 501,
+        "total_mql": 167,
+        "lead_mql": "167/501 (33%)",
+        "lead_mql_num": 167,
+        "lead_mql_denom": 501,
+        "mql_sql": "107/167 (64%)",
+        "mql_sql_num": 107,
+        "mql_sql_denom": 167,
+        "lead_sql": "107/501 (21%)",
+        "lead_sql_num": 107,
+        "lead_sql_denom": 501
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 5,
+        "new_lead": 3,
+        "mql": 1,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - planetaprezent [PL] - 2026-08-11",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - radhalle.com [MARKET CODE] - 2026-08-11",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - drive-one [PL] - 2026-08-11",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - digital-advice [DE] - 2026-08-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Yamaha  [DE] - 2026-03-10",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - digital-advice [DE] - 2026-08-10",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "najniższe CP za drogie"
+        }
+      ],
+      "conversions": {
+        "total_leads": 568,
+        "total_mql": 189,
+        "lead_mql": "189/568 (33%)",
+        "lead_mql_num": 189,
+        "lead_mql_denom": 568,
+        "mql_sql": "121/189 (64%)",
+        "mql_sql_num": 121,
+        "mql_sql_denom": 189,
+        "lead_sql": "121/568 (21%)",
+        "lead_sql_num": 121,
+        "lead_sql_denom": 568
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Trefl [PL] - 2026-08-05",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - evegroup.pl [MARKET CODE] - 2026-08-11",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 289,
+        "total_mql": 113,
+        "lead_mql": "113/289 (39%)",
+        "lead_mql_num": 113,
+        "lead_mql_denom": 289,
+        "mql_sql": "83/113 (73%)",
+        "mql_sql_num": 83,
+        "mql_sql_denom": 113,
+        "lead_sql": "83/289 (29%)",
+        "lead_sql_num": 83,
+        "lead_sql_denom": 289
+      }
+    },
+    {
+      "name": "Oliver Copik",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SALES - LOT [PL] - 2025-07-30",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": []
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1827,
+    "total_mql": 588,
+    "lead_mql": "588/1827 (32%)",
+    "lead_mql_num": 588,
+    "lead_mql_denom": 1827,
+    "mql_sql": "376/588 (64%)",
+    "mql_sql_num": 376,
+    "mql_sql_denom": 588,
+    "lead_sql": "376/1827 (21%)",
+    "lead_sql_num": 376,
+    "lead_sql_denom": 1827
+  }
+}
