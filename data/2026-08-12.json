@@ -1,0 +1,289 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-13 08:48",
+  "summary": {
+    "total": 14,
+    "new_lead": 7,
+    "mql": 4,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 2,
+    "sales_lost": 1,
+    "lost_total": 3
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 7,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - sklepfryz.pl [PL] - 2026-08-12",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - PlastModel [PL] - 2026-07-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Apteka Online  [PL] - 2026-08-10",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - STYX [SK] - 2026-07-07",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Swedish Nutra [SE] - 2026-08-10",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Novabuy [CH] - 2026-07-09",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - georgdominik68@gmail.com [MARKET CODE] - 2026-08-12",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - PlastModel [PL] - 2026-07-22",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "cena za wysoka"
+        },
+        {
+          "name": "SDR - Novabuy [CH] - 2026-07-09",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Try Later",
+          "lost_description": "zgłoszą się, gdy będą mieli sprecyzowane produkty do monitoringu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 575,
+        "total_mql": 192,
+        "lead_mql": "192/575 (33%)",
+        "lead_mql_num": 192,
+        "lead_mql_denom": 575,
+        "mql_sql": "124/192 (65%)",
+        "mql_sql_num": 124,
+        "mql_sql_denom": 192,
+        "lead_sql": "124/575 (22%)",
+        "lead_sql_num": 124,
+        "lead_sql_denom": 575
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - sollux-lightning [PL] - 2026-08-10",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - vosken.de [DE] - 2026-08-12",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - torrex.de [DE] - 2026-06-30",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - torrex.de [DE] - 2026-06-30",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No-show",
+          "lost_description": "Nie mają teraz czasu, jak się ogarną to się sami odezwą"
+        }
+      ],
+      "conversions": {
+        "total_leads": 448,
+        "total_mql": 115,
+        "lead_mql": "115/448 (26%)",
+        "lead_mql_num": 115,
+        "lead_mql_denom": 448,
+        "mql_sql": "62/115 (54%)",
+        "mql_sql_num": 62,
+        "mql_sql_denom": 115,
+        "lead_sql": "62/448 (14%)",
+        "lead_sql_num": 62,
+        "lead_sql_denom": 448
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - john  [MARKET CODE] - 2026-08-12",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - alaskawater.pl [MARKET CODE] - 2026-08-12",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 503,
+        "total_mql": 167,
+        "lead_mql": "167/503 (33%)",
+        "lead_mql_num": 167,
+        "lead_mql_denom": 503,
+        "mql_sql": "106/167 (63%)",
+        "mql_sql_num": 106,
+        "mql_sql_denom": 167,
+        "lead_sql": "106/503 (21%)",
+        "lead_sql_num": 106,
+        "lead_sql_denom": 503
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - plytki-lazienki.pl [MARKET CODE] - 2026-08-12",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Wydawnictwo Poznanskie [PL] - 2026-08-12",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 291,
+        "total_mql": 113,
+        "lead_mql": "113/291 (39%)",
+        "lead_mql_num": 113,
+        "lead_mql_denom": 291,
+        "mql_sql": "83/113 (73%)",
+        "mql_sql_num": 83,
+        "mql_sql_denom": 113,
+        "lead_sql": "83/291 (29%)",
+        "lead_sql_num": 83,
+        "lead_sql_denom": 291
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Try Later",
+      "count": 1
+    },
+    {
+      "reason": "No-show",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1841,
+    "total_mql": 593,
+    "lead_mql": "593/1841 (32%)",
+    "lead_mql_num": 593,
+    "lead_mql_denom": 1841,
+    "mql_sql": "379/593 (64%)",
+    "mql_sql_num": 379,
+    "mql_sql_denom": 593,
+    "lead_sql": "379/1841 (21%)",
+    "lead_sql_num": 379,
+    "lead_sql_denom": 1841
+  }
+}
