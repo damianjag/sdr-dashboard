@@ -1,0 +1,241 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-18 07:59",
+  "summary": {
+    "total": 9,
+    "new_lead": 5,
+    "mql": 4,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 2,
+    "sales_lost": 0,
+    "lost_total": 2
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 5,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - savpol [PL] - 2026-08-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - me [PL] - 2026-08-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - indoortrends [DE] - 2026-08-13",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - mtechnique.fr [MARKET CODE] - 2026-08-05",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - jadoreinstytut.com [MARKET CODE] - 2026-08-11",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - mtechnique.fr [MARKET CODE] - 2026-08-05",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - jadoreinstytut.com [MARKET CODE] - 2026-08-11",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 509,
+        "total_mql": 173,
+        "lead_mql": "173/509 (34%)",
+        "lead_mql_num": 173,
+        "lead_mql_denom": 509,
+        "mql_sql": "108/173 (62%)",
+        "mql_sql_num": 108,
+        "mql_sql_denom": 173,
+        "lead_sql": "108/509 (21%)",
+        "lead_sql_num": 108,
+        "lead_sql_denom": 509
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Nähwelt Schweizer [DE] - 2026-08-13",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - mega-master.pl - Buyer Intent - 2026-08-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 581,
+        "total_mql": 195,
+        "lead_mql": "195/581 (34%)",
+        "lead_mql_num": 195,
+        "lead_mql_denom": 581,
+        "mql_sql": "125/195 (64%)",
+        "mql_sql_num": 125,
+        "mql_sql_denom": 195,
+        "lead_sql": "125/581 (22%)",
+        "lead_sql_num": 125,
+        "lead_sql_denom": 581
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - pous.sk [SK] - 2026-08-17",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 460,
+        "total_mql": 123,
+        "lead_mql": "123/460 (27%)",
+        "lead_mql_num": 123,
+        "lead_mql_denom": 460,
+        "mql_sql": "66/123 (54%)",
+        "mql_sql_num": 66,
+        "mql_sql_denom": 123,
+        "lead_sql": "66/460 (14%)",
+        "lead_sql_num": 66,
+        "lead_sql_denom": 460
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Skalnik [PL] - 2026-08-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 295,
+        "total_mql": 117,
+        "lead_mql": "117/295 (40%)",
+        "lead_mql_num": 117,
+        "lead_mql_denom": 295,
+        "mql_sql": "85/117 (73%)",
+        "mql_sql_num": 85,
+        "mql_sql_denom": 117,
+        "lead_sql": "85/295 (29%)",
+        "lead_sql_num": 85,
+        "lead_sql_denom": 295
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    }
+  ],
+  "conversions": {
+    "total_leads": 1869,
+    "total_mql": 614,
+    "lead_mql": "614/1869 (33%)",
+    "lead_mql_num": 614,
+    "lead_mql_denom": 1869,
+    "mql_sql": "388/614 (63%)",
+    "mql_sql_num": 388,
+    "mql_sql_denom": 614,
+    "lead_sql": "388/1869 (21%)",
+    "lead_sql_num": 388,
+    "lead_sql_denom": 1869
+  }
+}
