@@ -1,0 +1,208 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-19 08:00",
+  "summary": {
+    "total": 8,
+    "new_lead": 4,
+    "mql": 1,
+    "sql": 4,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 3,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - savpol [PL] - 2026-08-17",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - profitechnik [PL] - 2026-08-05",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - me [PL] - 2026-08-17",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 513,
+        "total_mql": 173,
+        "lead_mql": "173/513 (34%)",
+        "lead_mql_num": 173,
+        "lead_mql_denom": 513,
+        "mql_sql": "111/173 (64%)",
+        "mql_sql_num": 111,
+        "mql_sql_denom": 173,
+        "lead_sql": "111/513 (22%)",
+        "lead_sql_num": 111,
+        "lead_sql_denom": 513
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - vvs.dk [MARKET CODE] - 2026-08-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - raiffeisen-eichsfeld.de - Buyer Intent - 2026-08-18",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 459,
+        "total_mql": 124,
+        "lead_mql": "124/459 (27%)",
+        "lead_mql_num": 124,
+        "lead_mql_denom": 459,
+        "mql_sql": "66/124 (53%)",
+        "mql_sql_num": 66,
+        "mql_sql_denom": 124,
+        "lead_sql": "66/459 (14%)",
+        "lead_sql_num": 66,
+        "lead_sql_denom": 459
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Peter Hahn [CH] - 2026-08-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Teqphone [DE] - 2026-08-13",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 583,
+        "total_mql": 194,
+        "lead_mql": "194/583 (33%)",
+        "lead_mql_num": 194,
+        "lead_mql_denom": 583,
+        "mql_sql": "126/194 (65%)",
+        "mql_sql_num": 126,
+        "mql_sql_denom": 194,
+        "lead_sql": "126/583 (22%)",
+        "lead_sql_num": 126,
+        "lead_sql_denom": 583
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - fudi.pl [MARKET CODE] - 2026-08-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 296,
+        "total_mql": 116,
+        "lead_mql": "116/296 (39%)",
+        "lead_mql_num": 116,
+        "lead_mql_denom": 296,
+        "mql_sql": "83/116 (72%)",
+        "mql_sql_num": 83,
+        "mql_sql_denom": 116,
+        "lead_sql": "83/296 (28%)",
+        "lead_sql_num": 83,
+        "lead_sql_denom": 296
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1875,
+    "total_mql": 613,
+    "lead_mql": "613/1875 (33%)",
+    "lead_mql_num": 613,
+    "lead_mql_denom": 1875,
+    "mql_sql": "390/613 (64%)",
+    "mql_sql_num": 390,
+    "mql_sql_denom": 613,
+    "lead_sql": "390/1875 (21%)",
+    "lead_sql_num": 390,
+    "lead_sql_denom": 1875
+  }
+}
