@@ -1,0 +1,322 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-20 08:02",
+  "summary": {
+    "total": 17,
+    "new_lead": 8,
+    "mql": 1,
+    "sql": 2,
+    "won": 2,
+    "lost_before_mql": 1,
+    "sales_lost": 4,
+    "lost_total": 5
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 6,
+        "new_lead": 4,
+        "mql": 1,
+        "sql": 1,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - vegis.ro [MARKET CODE] - 2026-08-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - foodbazaar.co.uk [GB] - 2026-08-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - tk-shop24 [DE] - Revisit - 2026-08-19",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL",
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - sanisusmedical.com [ES] - 2026-08-13",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - tractortyresdirect.co.uk [UK] - 2026-08-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - lackstore [DE] - Buyer Intent - 2026-08-05",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - sanisusmedical.com [ES] - 2026-08-13",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Price Too High",
+          "lost_description": "Budżet ich nie puszcza."
+        }
+      ],
+      "conversions": {
+        "total_leads": 464,
+        "total_mql": 126,
+        "lead_mql": "126/464 (27%)",
+        "lead_mql_num": 126,
+        "lead_mql_denom": 464,
+        "mql_sql": "68/126 (54%)",
+        "mql_sql_num": 68,
+        "mql_sql_denom": 126,
+        "lead_sql": "68/464 (15%)",
+        "lead_sql_num": 68,
+        "lead_sql_denom": 464
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 6,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 2,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - Home36 [AT] - 2026-08-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - data.rocks [PL] - 2026-08-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Darlington Diecast [UK] - 2026-08-19",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Apteka Online  [PL] - 2026-08-10",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - mega-master.pl - Buyer Intent - 2026-08-17",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - Peter Hahn [CH] - 2026-08-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Apteka Online  [PL] - 2026-08-10",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Chciał zobaczyć jakie są możliwości, ale są na etapie budowy. Zaczęli w lutym, ale to raczkujący temat."
+        },
+        {
+          "name": "SDR - mega-master.pl - Buyer Intent - 2026-08-17",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No Business Need",
+          "lost_description": "ecommerce dla nich to kilka % przychodu, działają głównie D2D w B2C, koszty spore nawet w CP. Narzędzie fajne ale zdecydowanie nie na tym etapie. Spotkał się bo go marketing zainteresował i chciał poznać narzędzie, natomiast biznesowych potrzeb praktycznie nie ma "
+        },
+        {
+          "name": "SDR - Peter Hahn [CH] - 2026-08-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "temat jednak nieaktualny"
+        }
+      ],
+      "conversions": {
+        "total_leads": 584,
+        "total_mql": 194,
+        "lead_mql": "194/584 (33%)",
+        "lead_mql_num": 194,
+        "lead_mql_denom": 584,
+        "mql_sql": "126/194 (65%)",
+        "mql_sql_num": 126,
+        "mql_sql_denom": 194,
+        "lead_sql": "126/584 (22%)",
+        "lead_sql_num": 126,
+        "lead_sql_denom": 584
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - Kanuk [DE] - 2026-08-19",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - rcs-pro [DE]- Click From Mailing - 2026-08-13",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - indoortrends [DE] - 2026-08-13",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - Betten Hofmann [DE] - 2026-08-14",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Betten Hofmann [DE] - 2026-08-14",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Przemyślą, jeśli się zdecydują to sami do nas wrócą. "
+        }
+      ],
+      "conversions": {
+        "total_leads": 515,
+        "total_mql": 174,
+        "lead_mql": "174/515 (34%)",
+        "lead_mql_num": 174,
+        "lead_mql_denom": 515,
+        "mql_sql": "112/174 (64%)",
+        "mql_sql_num": 112,
+        "mql_sql_denom": 174,
+        "lead_sql": "112/515 (22%)",
+        "lead_sql_num": 112,
+        "lead_sql_denom": 515
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - fudi.pl [MARKET CODE] - 2026-08-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 296,
+        "total_mql": 116,
+        "lead_mql": "116/296 (39%)",
+        "lead_mql_num": 116,
+        "lead_mql_denom": 296,
+        "mql_sql": "83/116 (72%)",
+        "mql_sql_num": 83,
+        "mql_sql_denom": 116,
+        "lead_sql": "83/296 (28%)",
+        "lead_sql_num": 83,
+        "lead_sql_denom": 296
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Was Only Checking",
+      "count": 3
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "No Business Need",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1883,
+    "total_mql": 616,
+    "lead_mql": "616/1883 (33%)",
+    "lead_mql_num": 616,
+    "lead_mql_denom": 1883,
+    "mql_sql": "393/616 (64%)",
+    "mql_sql_num": 393,
+    "mql_sql_denom": 616,
+    "lead_sql": "393/1883 (21%)",
+    "lead_sql_num": 393,
+    "lead_sql_denom": 1883
+  }
+}
