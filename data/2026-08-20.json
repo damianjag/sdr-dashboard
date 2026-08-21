@@ -1,0 +1,346 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-21 08:02",
+  "summary": {
+    "total": 17,
+    "new_lead": 4,
+    "mql": 2,
+    "sql": 4,
+    "won": 0,
+    "lost_before_mql": 2,
+    "sales_lost": 6,
+    "lost_total": 8
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 4,
+        "lost_total": 4
+      },
+      "deals": [
+        {
+          "name": "SDR - hunting-sport [DE] - 2026-08-20",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Kanuk [DE] - 2026-08-19",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - saluti [PL] - 2026-07-28",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - ppmcolor [PL] - 2026-07-30",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - gradinasanatatii [RO] - 2026-06-30",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - euromaster.com [MARKET CODE] - 2026-05-28",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - saluti [PL] - 2026-07-28",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No Business Need",
+          "lost_description": "stary temat, rezygnują z prezentacji "
+        },
+        {
+          "name": "SDR - ppmcolor [PL] - 2026-07-30",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "stary temat, facet stwierdził że nie jest na teraz dla nich priorytet, moze w przyszłości"
+        },
+        {
+          "name": "SDR - gradinasanatatii [RO] - 2026-06-30",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Not Responding",
+          "lost_description": "stary temat, poxi nie przyszedł nie odp i nie odbiera"
+        },
+        {
+          "name": "SDR - euromaster.com [MARKET CODE] - 2026-05-28",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Lack of Decision Maker",
+          "lost_description": "stary temat - proxi przestał być DM w tym temacie, nie odzywa się, mówi że sami sie beda kontaktować w razie co"
+        }
+      ],
+      "conversions": {
+        "total_leads": 516,
+        "total_mql": 175,
+        "lead_mql": "175/516 (34%)",
+        "lead_mql_num": 175,
+        "lead_mql_denom": 516,
+        "mql_sql": "112/175 (64%)",
+        "mql_sql_num": 112,
+        "mql_sql_denom": 175,
+        "lead_sql": "112/516 (22%)",
+        "lead_sql_num": 112,
+        "lead_sql_denom": 516
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 1,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - e-floor [PL] - 2026-08-20",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - drive-one [PL] - 2026-08-11",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Monbeck [DE] - 2026-07-09",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - Krzysztof Napiórkowski  [PL] - 2026-08-10",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Monbeck [DE] - 2026-07-09",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Competition",
+          "lost_description": "Nie doszło do prezentacji - zależało mu wyłącznie na danych z Idealo, których jego dotychczasowy dostawca nie był w stanie dostarczać. Obecnie może, więc temat nieaktualny."
+        },
+        {
+          "name": "SDR - Krzysztof Napiórkowski  [PL] - 2026-08-10",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 588,
+        "total_mql": 194,
+        "lead_mql": "194/588 (33%)",
+        "lead_mql_num": 194,
+        "lead_mql_denom": 588,
+        "mql_sql": "127/194 (65%)",
+        "mql_sql_num": 127,
+        "mql_sql_denom": 194,
+        "lead_sql": "127/588 (22%)",
+        "lead_sql_num": 127,
+        "lead_sql_denom": 588
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 3,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - INFOR [PL] - 2026-07-03",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - Pakos [PL] - 2026-08-13",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Skalnik [PL] - 2026-08-17",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Wydawnictwo Poznanskie [PL] - 2026-08-12",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - INFOR [PL] - 2026-07-03",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Not Responding",
+          "lost_description": "stary temat, nie doszło do spotkania. Przestał się odzywać "
+        }
+      ],
+      "conversions": {
+        "total_leads": 296,
+        "total_mql": 116,
+        "lead_mql": "116/296 (39%)",
+        "lead_mql_num": 116,
+        "lead_mql_denom": 296,
+        "mql_sql": "86/116 (74%)",
+        "mql_sql_num": 86,
+        "mql_sql_denom": 116,
+        "lead_sql": "86/296 (29%)",
+        "lead_sql_num": 86,
+        "lead_sql_denom": 296
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - vosken.de [MARKET CODE] - 2026-08-20",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - dalibor.samsa@prohackovani.cz - Revisit - 2026-08-20",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - kreckler-gmbh.de [DE] - 2026-08-13",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - kreckler-gmbh.de [DE] - 2026-08-13",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Business Need",
+          "lost_description": "powiedzial jak bedzie interesujące to się zamelduje"
+        }
+      ],
+      "conversions": {
+        "total_leads": 465,
+        "total_mql": 126,
+        "lead_mql": "126/465 (27%)",
+        "lead_mql_num": 126,
+        "lead_mql_denom": 465,
+        "mql_sql": "67/126 (53%)",
+        "mql_sql_num": 67,
+        "mql_sql_denom": 126,
+        "lead_sql": "67/465 (14%)",
+        "lead_sql_num": 67,
+        "lead_sql_denom": 465
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 3
+    },
+    {
+      "reason": "No Business Need",
+      "count": 2
+    },
+    {
+      "reason": "Competition",
+      "count": 1
+    },
+    {
+      "reason": "Try Later",
+      "count": 1
+    },
+    {
+      "reason": "Lack of Decision Maker",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1889,
+    "total_mql": 617,
+    "lead_mql": "617/1889 (33%)",
+    "lead_mql_num": 617,
+    "lead_mql_denom": 1889,
+    "mql_sql": "396/617 (64%)",
+    "mql_sql_num": 396,
+    "mql_sql_denom": 617,
+    "lead_sql": "396/1889 (21%)",
+    "lead_sql_num": 396,
+    "lead_sql_denom": 1889
+  }
+}
