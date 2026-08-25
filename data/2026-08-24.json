@@ -1,0 +1,285 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-25 08:04",
+  "summary": {
+    "total": 14,
+    "new_lead": 7,
+    "mql": 5,
+    "sql": 1,
+    "won": 0,
+    "lost_before_mql": 3,
+    "sales_lost": 2,
+    "lost_total": 5
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 6,
+        "new_lead": 4,
+        "mql": 3,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - MoveSell [DE] - 2026-08-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - sklepfryz.pl [PL] - 2026-08-12",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - 4map [PL] - 2026-08-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Wild Story [PL] - 2026-08-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - socialive.com.pl [MARKET CODE] - 2026-07-21",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - b2bike [PL] - 2026-08-24",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - sklepfryz.pl [PL] - 2026-08-12",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        },
+        {
+          "name": "SDR - socialive.com.pl [MARKET CODE] - 2026-07-21",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "chciałby tylko potestować demo, nie chce się spotykać ani rozmawiać - nazwał się introwertykiem millenialsem"
+        }
+      ],
+      "conversions": {
+        "total_leads": 594,
+        "total_mql": 198,
+        "lead_mql": "198/594 (33%)",
+        "lead_mql_num": 198,
+        "lead_mql_denom": 594,
+        "mql_sql": "127/198 (64%)",
+        "mql_sql_num": 127,
+        "mql_sql_denom": 198,
+        "lead_sql": "127/594 (21%)",
+        "lead_sql_num": 127,
+        "lead_sql_denom": 594
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 5,
+        "new_lead": 3,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - creativedock.com [MARKET CODE] - 2026-08-21",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - cukieteria [PL] - 2026-08-24",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - ecofan [PL] - 2026-08-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - homes-jones [DE] - 2026-08-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - kingspan [IR] - 2026-07-21",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - kingspan [IR] - 2026-07-21",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie teraz "
+        }
+      ],
+      "conversions": {
+        "total_leads": 519,
+        "total_mql": 176,
+        "lead_mql": "176/519 (34%)",
+        "lead_mql_num": 176,
+        "lead_mql_denom": 519,
+        "mql_sql": "113/176 (64%)",
+        "mql_sql_num": 113,
+        "mql_sql_denom": 176,
+        "lead_sql": "113/519 (22%)",
+        "lead_sql_num": 113,
+        "lead_sql_denom": 519
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 2,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - MelPolska [PL] - 2026-07-25",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - green-future [AT] - 2026-08-13",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - dalibor.samsa@prohackovani.cz - Revisit - 2026-08-20",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - MelPolska [PL] - 2026-07-25",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No-show",
+          "lost_description": "3x odwoływane spotkanie "
+        },
+        {
+          "name": "SDR - dalibor.samsa@prohackovani.cz - Revisit - 2026-08-20",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "Sytuacja praktycznie bez zmian od ostatniego razu - za miesiąc będzie miał czas i może wtedy się uda ;) "
+        }
+      ],
+      "conversions": {
+        "total_leads": 465,
+        "total_mql": 127,
+        "lead_mql": "127/465 (27%)",
+        "lead_mql_num": 127,
+        "lead_mql_denom": 465,
+        "mql_sql": "68/127 (54%)",
+        "mql_sql_num": 68,
+        "mql_sql_denom": 127,
+        "lead_sql": "68/465 (15%)",
+        "lead_sql_num": 68,
+        "lead_sql_denom": 465
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    },
+    {
+      "reason": "No-show",
+      "count": 1
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    },
+    {
+      "reason": "Try Later",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1899,
+    "total_mql": 623,
+    "lead_mql": "623/1899 (33%)",
+    "lead_mql_num": 623,
+    "lead_mql_denom": 1899,
+    "mql_sql": "398/623 (64%)",
+    "mql_sql_num": 398,
+    "mql_sql_denom": 623,
+    "lead_sql": "398/1899 (21%)",
+    "lead_sql_num": 398,
+    "lead_sql_denom": 1899
+  }
+}
