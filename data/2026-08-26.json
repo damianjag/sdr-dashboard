@@ -1,0 +1,208 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-27 18:20",
+  "summary": {
+    "total": 9,
+    "new_lead": 4,
+    "mql": 1,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 2,
+    "sales_lost": 0,
+    "lost_total": 2
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - selman.ch [CH] - 2026-08-26",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Jensonite [DE] - 2026-08-25",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - foodbazaar.co.uk [GB] - 2026-08-19",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - vegis.ro [MARKET CODE] - 2026-08-19",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - foodbazaar.co.uk [GB] - 2026-08-19",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - vegis.ro [MARKET CODE] - 2026-08-19",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Language Barrier",
+          "lost_description": "Nie przepuszcza nie rozmawia"
+        }
+      ],
+      "conversions": {
+        "total_leads": 465,
+        "total_mql": 129,
+        "lead_mql": "129/465 (28%)",
+        "lead_mql_num": 129,
+        "lead_mql_denom": 465,
+        "mql_sql": "70/129 (54%)",
+        "mql_sql_num": 70,
+        "mql_sql_denom": 129,
+        "lead_sql": "70/465 (15%)",
+        "lead_sql_num": 70,
+        "lead_sql_denom": 465
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - wpc24 [PL] - 2026-08-26",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - vebi.pl [MARKET CODE] - 2026-08-26",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - 1pix.biz [MARKET CODE] - 2026-08-25",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - homes-jones [DE] - 2026-08-24",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 522,
+        "total_mql": 178,
+        "lead_mql": "178/522 (34%)",
+        "lead_mql_num": 178,
+        "lead_mql_denom": 522,
+        "mql_sql": "114/178 (64%)",
+        "mql_sql_num": 114,
+        "mql_sql_denom": 178,
+        "lead_sql": "114/522 (22%)",
+        "lead_sql_num": 114,
+        "lead_sql_denom": 522
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Thies + Co [DE] - 2026-08-26",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 600,
+        "total_mql": 202,
+        "lead_mql": "202/600 (34%)",
+        "lead_mql_num": 202,
+        "lead_mql_denom": 600,
+        "mql_sql": "130/202 (64%)",
+        "mql_sql_num": 130,
+        "mql_sql_denom": 202,
+        "lead_sql": "130/600 (22%)",
+        "lead_sql_num": 130,
+        "lead_sql_denom": 600
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 1
+    },
+    {
+      "reason": "Language Barrier",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1908,
+    "total_mql": 630,
+    "lead_mql": "630/1908 (33%)",
+    "lead_mql_num": 630,
+    "lead_mql_denom": 1908,
+    "mql_sql": "403/630 (64%)",
+    "mql_sql_num": 403,
+    "mql_sql_denom": 630,
+    "lead_sql": "403/1908 (21%)",
+    "lead_sql_num": 403,
+    "lead_sql_denom": 1908
+  }
+}
