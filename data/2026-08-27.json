@@ -1,0 +1,186 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-28 19:30",
+  "summary": {
+    "total": 9,
+    "new_lead": 4,
+    "mql": 2,
+    "sql": 2,
+    "won": 2,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 2,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - MoveSell [DE] - 2026-08-24",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - rivolishop [ZEA] - 2026-08-27",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Sentique [PL] - 2026-08-25",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Home36 [AT] - 2026-08-19",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 601,
+        "total_mql": 202,
+        "lead_mql": "202/601 (34%)",
+        "lead_mql_num": 202,
+        "lead_mql_denom": 601,
+        "mql_sql": "132/202 (65%)",
+        "mql_sql_num": 132,
+        "mql_sql_denom": 202,
+        "lead_sql": "132/601 (22%)",
+        "lead_sql_num": 132,
+        "lead_sql_denom": 601
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 4,
+        "new_lead": 3,
+        "mql": 1,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - market [PL] - 2026-08-27",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - robert@acusmed.pl - webinar - 2026-08-27",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - semgence.pl [MARKET CODE] - 2026-08-27",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - mabox [DE] 2026-07-17 - 2026-07-17",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 470,
+        "total_mql": 130,
+        "lead_mql": "130/470 (28%)",
+        "lead_mql_num": 130,
+        "lead_mql_denom": 470,
+        "mql_sql": "70/130 (54%)",
+        "mql_sql_num": 70,
+        "mql_sql_denom": 130,
+        "lead_sql": "70/470 (15%)",
+        "lead_sql_num": 70,
+        "lead_sql_denom": 470
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - wpc24 [PL] - 2026-08-26",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 521,
+        "total_mql": 178,
+        "lead_mql": "178/521 (34%)",
+        "lead_mql_num": 178,
+        "lead_mql_denom": 521,
+        "mql_sql": "113/178 (63%)",
+        "mql_sql_num": 113,
+        "mql_sql_denom": 178,
+        "lead_sql": "113/521 (22%)",
+        "lead_sql_num": 113,
+        "lead_sql_denom": 521
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1913,
+    "total_mql": 631,
+    "lead_mql": "631/1913 (33%)",
+    "lead_mql_num": 631,
+    "lead_mql_denom": 1913,
+    "mql_sql": "404/631 (64%)",
+    "mql_sql_num": 404,
+    "mql_sql_denom": 631,
+    "lead_sql": "404/1913 (21%)",
+    "lead_sql_num": 404,
+    "lead_sql_denom": 1913
+  }
+}
