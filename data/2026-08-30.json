@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-31 15:13",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Yazan  [MARKET CODE] - 2026-08-30",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 524,
+        "total_mql": 179,
+        "lead_mql": "179/524 (34%)",
+        "lead_mql_num": 179,
+        "lead_mql_denom": 524,
+        "mql_sql": "113/179 (63%)",
+        "mql_sql_num": 113,
+        "mql_sql_denom": 179,
+        "lead_sql": "113/524 (22%)",
+        "lead_sql_num": 113,
+        "lead_sql_denom": 524
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1918,
+    "total_mql": 635,
+    "lead_mql": "635/1918 (33%)",
+    "lead_mql_num": 635,
+    "lead_mql_denom": 1918,
+    "mql_sql": "404/635 (64%)",
+    "mql_sql_num": 404,
+    "mql_sql_denom": 635,
+    "lead_sql": "404/1918 (21%)",
+    "lead_sql_num": 404,
+    "lead_sql_denom": 1918
+  }
+}
