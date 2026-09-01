@@ -1,0 +1,304 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-09-01 12:38",
+  "summary": {
+    "total": 16,
+    "new_lead": 6,
+    "mql": 3,
+    "sql": 3,
+    "won": 0,
+    "lost_before_mql": 5,
+    "sales_lost": 1,
+    "lost_total": 6
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 6,
+        "new_lead": 4,
+        "mql": 2,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - VOLOWAY [CA] - 2026-08-31",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - FK Automation GmbH [DE] - 2026-08-31",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL",
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Florabomen [NL] - 2026-08-31",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - tracerteam [PL] - 2026-08-28",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Piercegroup [PL] - 2026-08-31",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - data.rocks [PL] - 2026-08-19",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - data.rocks [PL] - 2026-08-19",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 603,
+        "total_mql": 204,
+        "lead_mql": "204/603 (34%)",
+        "lead_mql_num": 204,
+        "lead_mql_denom": 603,
+        "mql_sql": "134/204 (66%)",
+        "mql_sql_num": 134,
+        "mql_sql_denom": 204,
+        "lead_sql": "134/603 (22%)",
+        "lead_sql_num": 134,
+        "lead_sql_denom": 603
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 5,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - Yazan  [SA] - 2026-08-30",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Andreas Riesmeyer  [MARKET CODE] - 2026-08-28",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - wpc24 [PL] - 2026-08-26",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - albert@kinkel.pl - 2026-08-31",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - putty-gausmann.de [MARKET CODE] - 2026-06-26",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - putty-gausmann.de [MARKET CODE] - 2026-06-26",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 525,
+        "total_mql": 179,
+        "lead_mql": "179/525 (34%)",
+        "lead_mql_num": 179,
+        "lead_mql_denom": 525,
+        "mql_sql": "114/179 (64%)",
+        "mql_sql_num": 114,
+        "mql_sql_denom": 179,
+        "lead_sql": "114/525 (22%)",
+        "lead_sql_num": 114,
+        "lead_sql_denom": 525
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 5,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 3,
+        "sales_lost": 1,
+        "lost_total": 4
+      },
+      "deals": [
+        {
+          "name": "SDR - eokulary.com.pl - webinar - 2026-08-31",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - vosken.de [DE] - 2026-08-12",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - selman.ch [CH] - 2026-08-26",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - gbtech.eu [PL] - 2026-08-29",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Rompart.ro [RO] - 2026-04-22",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - vosken.de [DE] - 2026-08-12",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie działa im freemium, ticket założony"
+        },
+        {
+          "name": "SDR - selman.ch [CH] - 2026-08-26",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Business Need",
+          "lost_description": "nie potrzebuje, zamelduje się jak będzie potrzebował"
+        },
+        {
+          "name": "SDR - gbtech.eu [PL] - 2026-08-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "on sobie sam napisze po usłyszeniu ceny około 500 zł za ad-hoc, codzienne sprwadzanie go nie interesuje przez zmieniajacy sie asortyment"
+        },
+        {
+          "name": "SDR - Rompart.ro [RO] - 2026-04-22",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Other",
+          "lost_description": "Projekt okazał się być nie taki pewien jak planowany, dopiero w połowie Q1 będzie wiadomo czy projekt na Rumunie dalej powstanie"
+        }
+      ],
+      "conversions": {
+        "total_leads": 476,
+        "total_mql": 135,
+        "lead_mql": "135/476 (28%)",
+        "lead_mql_num": 135,
+        "lead_mql_denom": 476,
+        "mql_sql": "71/135 (53%)",
+        "mql_sql_num": 71,
+        "mql_sql_denom": 135,
+        "lead_sql": "71/476 (15%)",
+        "lead_sql_num": 71,
+        "lead_sql_denom": 476
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    },
+    {
+      "reason": "No Business Need",
+      "count": 1
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    },
+    {
+      "reason": "Other",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1925,
+    "total_mql": 639,
+    "lead_mql": "639/1925 (33%)",
+    "lead_mql_num": 639,
+    "lead_mql_denom": 1925,
+    "mql_sql": "408/639 (64%)",
+    "mql_sql_num": 408,
+    "mql_sql_denom": 639,
+    "lead_sql": "408/1925 (21%)",
+    "lead_sql_num": 408,
+    "lead_sql_denom": 1925
+  }
+}
