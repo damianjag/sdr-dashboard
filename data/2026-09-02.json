@@ -1,0 +1,256 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-03 12:10",
+  "summary": {
+    "total": 11,
+    "new_lead": 3,
+    "mql": 4,
+    "sql": 2,
+    "won": 1,
+    "lost_before_mql": 1,
+    "sales_lost": 1,
+    "lost_total": 2
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 0,
+        "mql": 1,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - gorobets.agency [MARKET CODE] - 2026-09-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Yazan  [SA] - 2026-08-30",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - bestsecret [DE] - 2026-08-25",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - inkoop@caps.nl - 2026-09-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - cerpol [PL] - 2026-08-04",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - tior  [PL] - 2026-08-28",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Yazan  [SA] - 2026-08-30",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "Proxy niedecyzyjny, chciał się dowiedzieć więcej. Przekaże do szefa ale ten jest na urlopie, za miesiąc można próbować kontaktu. "
+        }
+      ],
+      "conversions": {
+        "total_leads": 529,
+        "total_mql": 184,
+        "lead_mql": "184/529 (35%)",
+        "lead_mql_num": 184,
+        "lead_mql_denom": 529,
+        "mql_sql": "117/184 (64%)",
+        "mql_sql_num": 117,
+        "mql_sql_denom": 184,
+        "lead_sql": "117/529 (22%)",
+        "lead_sql_num": 117,
+        "lead_sql_denom": 529
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - torautomation24.de [MARKET CODE] - 2026-09-02",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - sportdeal24.de [DE] - 2026-06-29",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - sportdeal24.de [DE] - 2026-06-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Competition",
+          "lost_description": "On sobie sam sþrobuje ogarnąć"
+        }
+      ],
+      "conversions": {
+        "total_leads": 478,
+        "total_mql": 136,
+        "lead_mql": "136/478 (28%)",
+        "lead_mql_num": 136,
+        "lead_mql_denom": 478,
+        "mql_sql": "74/136 (54%)",
+        "mql_sql_num": 74,
+        "mql_sql_denom": 136,
+        "lead_sql": "74/478 (15%)",
+        "lead_sql_num": 74,
+        "lead_sql_denom": 478
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Office Media [PL] - 2026-09-02",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - AB Invest Info [PL] - 2026-09-02",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 606,
+        "total_mql": 207,
+        "lead_mql": "207/606 (34%)",
+        "lead_mql_num": 207,
+        "lead_mql_denom": 606,
+        "mql_sql": "134/207 (65%)",
+        "mql_sql_num": 134,
+        "mql_sql_denom": 207,
+        "lead_sql": "134/606 (22%)",
+        "lead_sql_num": 134,
+        "lead_sql_denom": 606
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Diabetyk24 [PL] - 2026-07-17",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 295,
+        "total_mql": 114,
+        "lead_mql": "114/295 (39%)",
+        "lead_mql_num": 114,
+        "lead_mql_denom": 295,
+        "mql_sql": "85/114 (75%)",
+        "mql_sql_num": 85,
+        "mql_sql_denom": 114,
+        "lead_sql": "85/295 (29%)",
+        "lead_sql_num": 85,
+        "lead_sql_denom": 295
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Try Later",
+      "count": 1
+    },
+    {
+      "reason": "Competition",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 1933,
+    "total_mql": 647,
+    "lead_mql": "647/1933 (33%)",
+    "lead_mql_num": 647,
+    "lead_mql_denom": 1933,
+    "mql_sql": "414/647 (64%)",
+    "mql_sql_num": 414,
+    "mql_sql_denom": 647,
+    "lead_sql": "414/1933 (21%)",
+    "lead_sql_num": 414,
+    "lead_sql_denom": 1933
+  }
+}
