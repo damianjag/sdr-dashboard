@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-04 12:12",
+  "summary": {
+    "total": 10,
+    "new_lead": 7,
+    "mql": 2,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 4,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - frontmanclothes.com [NL] - 2026-09-03",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - sortmund [PL] - 2026-09-03",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - alkooutlet.pl [MARKET CODE] - 2026-09-03",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - wydawnictwopoznanskie.pl [MARKET CODE] - 2026-09-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 531,
+        "total_mql": 185,
+        "lead_mql": "185/531 (35%)",
+        "lead_mql_num": 185,
+        "lead_mql_denom": 531,
+        "mql_sql": "117/185 (63%)",
+        "mql_sql_num": 117,
+        "mql_sql_denom": 185,
+        "lead_sql": "117/531 (22%)",
+        "lead_sql_num": 117,
+        "lead_sql_denom": 531
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Piercegroup [PL] - 2026-08-31",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - adrian garcia  [MARKET CODE] - 2026-09-03",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - s-uznajomego [PL] - 2026-09-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 607,
+        "total_mql": 207,
+        "lead_mql": "207/607 (34%)",
+        "lead_mql_num": 207,
+        "lead_mql_denom": 607,
+        "mql_sql": "135/207 (65%)",
+        "mql_sql_num": 135,
+        "mql_sql_denom": 207,
+        "lead_sql": "135/607 (22%)",
+        "lead_sql_num": 135,
+        "lead_sql_denom": 607
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - medtechshop [DE] - 2026-08-28",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL",
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - greenlight-shop.de [DE] - 2026-09-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - mellerud.de [DE] - 2026-09-03",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 480,
+        "total_mql": 136,
+        "lead_mql": "136/480 (28%)",
+        "lead_mql_num": 136,
+        "lead_mql_denom": 480,
+        "mql_sql": "74/136 (54%)",
+        "mql_sql_num": 74,
+        "mql_sql_denom": 136,
+        "lead_sql": "74/480 (15%)",
+        "lead_sql_num": 74,
+        "lead_sql_denom": 480
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1938,
+    "total_mql": 648,
+    "lead_mql": "648/1938 (33%)",
+    "lead_mql_num": 648,
+    "lead_mql_denom": 1938,
+    "mql_sql": "415/648 (64%)",
+    "mql_sql_num": 415,
+    "mql_sql_denom": 648,
+    "lead_sql": "415/1938 (21%)",
+    "lead_sql_num": 415,
+    "lead_sql_denom": 1938
+  }
+}
