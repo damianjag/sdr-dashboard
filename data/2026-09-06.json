@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-07 13:35",
+  "summary": {
+    "total": 3,
+    "new_lead": 3,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Ferhat Cavus  [DE] - 2026-09-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 616,
+        "total_mql": 211,
+        "lead_mql": "211/616 (34%)",
+        "lead_mql_num": 211,
+        "lead_mql_denom": 616,
+        "mql_sql": "136/211 (64%)",
+        "mql_sql_num": 136,
+        "mql_sql_denom": 211,
+        "lead_sql": "136/616 (22%)",
+        "lead_sql_num": 136,
+        "lead_sql_denom": 616
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Jakub Rybak [MARKET CODE] - 2026-09-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 537,
+        "total_mql": 187,
+        "lead_mql": "187/537 (35%)",
+        "lead_mql_num": 187,
+        "lead_mql_denom": 537,
+        "mql_sql": "118/187 (63%)",
+        "mql_sql_num": 118,
+        "mql_sql_denom": 187,
+        "lead_sql": "118/537 (22%)",
+        "lead_sql_num": 118,
+        "lead_sql_denom": 537
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - debouwmarktshop.nl [MARKET CODE] - 2026-09-06",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 485,
+        "total_mql": 137,
+        "lead_mql": "137/485 (28%)",
+        "lead_mql_num": 137,
+        "lead_mql_denom": 485,
+        "mql_sql": "76/137 (55%)",
+        "mql_sql_num": 76,
+        "mql_sql_denom": 137,
+        "lead_sql": "76/485 (16%)",
+        "lead_sql_num": 76,
+        "lead_sql_denom": 485
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 1959,
+    "total_mql": 655,
+    "lead_mql": "655/1959 (33%)",
+    "lead_mql_num": 655,
+    "lead_mql_denom": 1959,
+    "mql_sql": "419/655 (64%)",
+    "mql_sql_num": 419,
+    "mql_sql_denom": 655,
+    "lead_sql": "419/1959 (21%)",
+    "lead_sql_num": 419,
+    "lead_sql_denom": 1959
+  }
+}
