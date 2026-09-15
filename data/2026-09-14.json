@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-15 12:45",
+  "summary": {
+    "total": 2,
+    "new_lead": 0,
+    "mql": 0,
+    "sql": 1,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - marboss [PL] - 2026-09-11",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 627,
+        "total_mql": 217,
+        "lead_mql": "217/627 (35%)",
+        "lead_mql_num": 217,
+        "lead_mql_denom": 627,
+        "mql_sql": "140/217 (65%)",
+        "mql_sql_num": 140,
+        "mql_sql_denom": 217,
+        "lead_sql": "140/627 (22%)",
+        "lead_sql_num": 140,
+        "lead_sql_denom": 627
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - goed [BE] - 2026-08-14",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 547,
+        "total_mql": 192,
+        "lead_mql": "192/547 (35%)",
+        "lead_mql_num": 192,
+        "lead_mql_denom": 547,
+        "mql_sql": "124/192 (65%)",
+        "mql_sql_num": 124,
+        "mql_sql_denom": 192,
+        "lead_sql": "124/547 (23%)",
+        "lead_sql_num": 124,
+        "lead_sql_denom": 547
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2005,
+    "total_mql": 682,
+    "lead_mql": "682/2005 (34%)",
+    "lead_mql_num": 682,
+    "lead_mql_denom": 2005,
+    "mql_sql": "436/682 (64%)",
+    "mql_sql_num": 436,
+    "mql_sql_denom": 682,
+    "lead_sql": "436/2005 (22%)",
+    "lead_sql_num": 436,
+    "lead_sql_denom": 2005
+  }
+}
