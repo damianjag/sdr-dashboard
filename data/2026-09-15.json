@@ -1,0 +1,279 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-16 12:40",
+  "summary": {
+    "total": 16,
+    "new_lead": 12,
+    "mql": 5,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 2,
+    "sales_lost": 1,
+    "lost_total": 3
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 9,
+        "new_lead": 6,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 1,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - [contact@dealavo.com] - joanna.brandao@cosmogroup.pl - 2026-09-15",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - esotiq [PL] - 2026-09-15",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - SDR Adler Lacke [DE] - 2026-09-15",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Old Lost (SALES) - agrodn.com - 06/05/2026 - 2026-09-15",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - equipe-ton-camping-car.fr [MARKET CODE] - 2026-09-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - alkooutlet [PL] - 2026-09-03",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - universrestau.com [MARKET CODE] - 2026-09-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Mateusz Kordyś  [MARKET CODE] - 2026-09-07",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - cerpol [PL] - 2026-08-04",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Mateusz Kordyś  [MARKET CODE] - 2026-09-07",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie mają sklepu"
+        },
+        {
+          "name": "SDR - cerpol [PL] - 2026-08-04",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Competition",
+          "lost_description": "zostają przy liveprice"
+        }
+      ],
+      "conversions": {
+        "total_leads": 553,
+        "total_mql": 194,
+        "lead_mql": "194/553 (35%)",
+        "lead_mql_num": 194,
+        "lead_mql_denom": 553,
+        "mql_sql": "124/194 (64%)",
+        "mql_sql_num": 124,
+        "mql_sql_denom": 194,
+        "lead_sql": "124/553 (22%)",
+        "lead_sql_num": 124,
+        "lead_sql_denom": 553
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 5,
+        "new_lead": 4,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Koned [PL] - 2026-09-15",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - popsamerica [FR] - 2026-09-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - piter.pioter435@gmail.com - 2026-09-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - chemicaltiger.com [MARKET CODE] - 2026-09-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - VOLOWAY [CA] - 2026-08-31",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 631,
+        "total_mql": 219,
+        "lead_mql": "219/631 (35%)",
+        "lead_mql_num": 219,
+        "lead_mql_denom": 631,
+        "mql_sql": "140/219 (64%)",
+        "mql_sql_num": 140,
+        "mql_sql_denom": 219,
+        "lead_sql": "140/631 (22%)",
+        "lead_sql_num": 140,
+        "lead_sql_denom": 631
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - stepfinity.com [MARKET CODE] - 2026-09-15",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - rc-speedhouse.com [NL] Click From Mailing - 2026-09-15",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - stepfinity.com [MARKET CODE] - 2026-09-15",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Contact Information Avaliable",
+          "lost_description": "taki ktos tu nie pracuje"
+        }
+      ],
+      "conversions": {
+        "total_leads": 504,
+        "total_mql": 146,
+        "lead_mql": "146/504 (29%)",
+        "lead_mql_num": 146,
+        "lead_mql_denom": 504,
+        "mql_sql": "78/146 (53%)",
+        "mql_sql_num": 78,
+        "mql_sql_denom": 146,
+        "lead_sql": "78/504 (15%)",
+        "lead_sql_num": 78,
+        "lead_sql_denom": 504
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "No Contact Information Avaliable",
+      "count": 1
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    },
+    {
+      "reason": "Competition",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2017,
+    "total_mql": 688,
+    "lead_mql": "688/2017 (34%)",
+    "lead_mql_num": 688,
+    "lead_mql_denom": 2017,
+    "mql_sql": "437/688 (64%)",
+    "mql_sql_num": 437,
+    "mql_sql_denom": 688,
+    "lead_sql": "437/2017 (22%)",
+    "lead_sql_num": 437,
+    "lead_sql_denom": 2017
+  }
+}
