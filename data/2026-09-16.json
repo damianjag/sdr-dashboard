@@ -1,0 +1,284 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-17 12:39",
+  "summary": {
+    "total": 14,
+    "new_lead": 6,
+    "mql": 5,
+    "sql": 5,
+    "won": 0,
+    "lost_before_mql": 1,
+    "sales_lost": 1,
+    "lost_total": 2
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 3,
+        "mql": 3,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - cosmogroup - 2026-09-15",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - majka.formalik@woohoo.pl - 2026-09-16",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - esotiq [PL] - 2026-09-15",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - bellastoria [PL] - webinar - 2026-09-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - k60-gitterroste [DE] - 2026-09-09",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Plusgum [PL] - 2026-09-16",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Plusgum [PL] - 2026-09-16",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "za drogo"
+        }
+      ],
+      "conversions": {
+        "total_leads": 555,
+        "total_mql": 197,
+        "lead_mql": "197/555 (35%)",
+        "lead_mql_num": 197,
+        "lead_mql_denom": 555,
+        "mql_sql": "125/197 (63%)",
+        "mql_sql_num": 125,
+        "mql_sql_denom": 197,
+        "lead_sql": "125/555 (23%)",
+        "lead_sql_num": 125,
+        "lead_sql_denom": 555
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 3,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Varuste [FI] - 2026-09-08",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Poczta Polska [PL] - 2026-09-09",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Koned [PL] - 2026-09-15",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 633,
+        "total_mql": 219,
+        "lead_mql": "219/633 (35%)",
+        "lead_mql_num": 219,
+        "lead_mql_denom": 633,
+        "mql_sql": "143/219 (65%)",
+        "mql_sql_num": 143,
+        "mql_sql_denom": 219,
+        "lead_sql": "143/633 (23%)",
+        "lead_sql_num": 143,
+        "lead_sql_denom": 633
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Moto Budrex [PL] - 2026-09-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Mateusz Rother  [MARKET CODE] - 2026-09-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - gfsp [PL] - 2026-09-07",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 306,
+        "total_mql": 123,
+        "lead_mql": "123/306 (40%)",
+        "lead_mql_num": 123,
+        "lead_mql_denom": 306,
+        "mql_sql": "91/123 (74%)",
+        "mql_sql_num": 91,
+        "mql_sql_denom": 123,
+        "lead_sql": "91/306 (30%)",
+        "lead_sql_num": 91,
+        "lead_sql_denom": 306
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - allpremio.de [DE] - 2026-09-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - baseline-toner.de - Buyer Intent - 2026-08-13",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - baseline-toner.de - Buyer Intent - 2026-08-13",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "Baseline Toner - lost. Teraz nie ma czasu, potencjalne 3 miesiące testowe to luty, marzec i kwiecień. Dodatkowo głównie zarabia na B2B, więc koszty dealavo w D2C może się zwyczajnie nie zwrócić."
+        }
+      ],
+      "conversions": {
+        "total_leads": 506,
+        "total_mql": 148,
+        "lead_mql": "148/506 (29%)",
+        "lead_mql_num": 148,
+        "lead_mql_denom": 506,
+        "mql_sql": "79/148 (53%)",
+        "mql_sql_num": 79,
+        "mql_sql_denom": 148,
+        "lead_sql": "79/506 (16%)",
+        "lead_sql_num": 79,
+        "lead_sql_denom": 506
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Does Not Have Time",
+      "count": 1
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2025,
+    "total_mql": 694,
+    "lead_mql": "694/2025 (34%)",
+    "lead_mql_num": 694,
+    "lead_mql_denom": 2025,
+    "mql_sql": "443/694 (64%)",
+    "mql_sql_num": 443,
+    "mql_sql_denom": 694,
+    "lead_sql": "443/2025 (22%)",
+    "lead_sql_num": 443,
+    "lead_sql_denom": 2025
+  }
+}
