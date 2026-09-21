@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-21 14:23",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - kon-tec.eu [MARKET CODE] - 2026-09-20",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 560,
+        "total_mql": 198,
+        "lead_mql": "198/560 (35%)",
+        "lead_mql_num": 198,
+        "lead_mql_denom": 560,
+        "mql_sql": "128/198 (65%)",
+        "mql_sql_num": 128,
+        "mql_sql_denom": 198,
+        "lead_sql": "128/560 (23%)",
+        "lead_sql_num": 128,
+        "lead_sql_denom": 560
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2043,
+    "total_mql": 708,
+    "lead_mql": "708/2043 (35%)",
+    "lead_mql_num": 708,
+    "lead_mql_denom": 2043,
+    "mql_sql": "449/708 (63%)",
+    "mql_sql_num": 449,
+    "mql_sql_denom": 708,
+    "lead_sql": "449/2043 (22%)",
+    "lead_sql_num": 449,
+    "lead_sql_denom": 2043
+  }
+}
