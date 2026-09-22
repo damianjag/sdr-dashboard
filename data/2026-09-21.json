@@ -1,0 +1,235 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-22 12:42",
+  "summary": {
+    "total": 11,
+    "new_lead": 7,
+    "mql": 3,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 3,
+    "lost_total": 3
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 5,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Wobitec -[DE] - 2026-09-21",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - rebusdekk.no [MARKET CODE] - 2026-09-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - md-sound.de [MARKET CODE] - 2026-09-21",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - pet-bliss.com [MARKET CODE] - 2026-09-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - fightshopdirect.co.uk [MARKET CODE] - 2026-09-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - kon-tec.eu [MARKET CODE] - 2026-09-20",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 565,
+        "total_mql": 200,
+        "lead_mql": "200/565 (35%)",
+        "lead_mql_num": 200,
+        "lead_mql_denom": 565,
+        "mql_sql": "128/200 (64%)",
+        "mql_sql_num": 128,
+        "mql_sql_denom": 200,
+        "lead_sql": "128/565 (23%)",
+        "lead_sql_num": 128,
+        "lead_sql_denom": 565
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 3,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - frukvist [NO] - 2026-09-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Dorema-Megastore-Spuerkel [DE] - 2026-06-10",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - Arabesque [RO] - 2026-07-17",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - carp-lab [IT] - 2026-07-15",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Dorema-Megastore-Spuerkel [DE] - 2026-06-10",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No Business Need",
+          "lost_description": "Nie przyszli na prezentację w czerwcu, zbywają ciągle i przesuwają o kolejne miesiące. Dziś ostatecznie powiedzieli, że nie potrzebują "
+        },
+        {
+          "name": "SDR - Arabesque [RO] - 2026-07-17",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Not Responding",
+          "lost_description": "To już kolejny raz, gdy umawiane jest spotkanie, a w dniu spotkania coś nagle wypada i Sebastian nie może wziąć w nim udziału. Brak kontaktu od lipca... "
+        },
+        {
+          "name": "SDR - carp-lab [IT] - 2026-07-15",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Not Responding",
+          "lost_description": "Nie przyszedł na prezentację w lipcu, brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 638,
+        "total_mql": 223,
+        "lead_mql": "223/638 (35%)",
+        "lead_mql_num": 223,
+        "lead_mql_denom": 638,
+        "mql_sql": "144/223 (65%)",
+        "mql_sql_num": 144,
+        "mql_sql_denom": 223,
+        "lead_sql": "144/638 (23%)",
+        "lead_sql_num": 144,
+        "lead_sql_denom": 638
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Answear [PL] - 2026-09-21",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 314,
+        "total_mql": 130,
+        "lead_mql": "130/314 (41%)",
+        "lead_mql_num": 130,
+        "lead_mql_denom": 314,
+        "mql_sql": "92/130 (71%)",
+        "mql_sql_num": 92,
+        "mql_sql_denom": 130,
+        "lead_sql": "92/314 (29%)",
+        "lead_sql_num": 92,
+        "lead_sql_denom": 314
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    },
+    {
+      "reason": "No Business Need",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2050,
+    "total_mql": 711,
+    "lead_mql": "711/2050 (35%)",
+    "lead_mql_num": 711,
+    "lead_mql_denom": 2050,
+    "mql_sql": "449/711 (63%)",
+    "mql_sql_num": 449,
+    "mql_sql_denom": 711,
+    "lead_sql": "449/2050 (22%)",
+    "lead_sql_num": 449,
+    "lead_sql_denom": 2050
+  }
+}
