@@ -1,0 +1,241 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-23 12:49",
+  "summary": {
+    "total": 14,
+    "new_lead": 6,
+    "mql": 4,
+    "sql": 4,
+    "won": 2,
+    "lost_before_mql": 1,
+    "sales_lost": 0,
+    "lost_total": 1
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 8,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 3,
+        "won": 1,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - scgroup [RO] Revisit - 2026-07-15",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - md-sound.de [MARKET CODE] - 2026-09-21",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Wobitec -[DE] - 2026-09-21",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - pet-bliss.com [MARKET CODE] - 2026-09-21",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - esotiq [PL] - 2026-09-15",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - zepter [PL] - 2026-09-22",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - external.haier-europe [IT] - 2026-09-22",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - bautiger.at [AT] - 2026-09-17",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - bautiger.at [AT] - 2026-09-17",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Try Later",
+          "lost_description": "mają bauphase, może w styczniu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 570,
+        "total_mql": 202,
+        "lead_mql": "202/570 (35%)",
+        "lead_mql_num": 202,
+        "lead_mql_denom": 570,
+        "mql_sql": "131/202 (65%)",
+        "mql_sql_num": 131,
+        "mql_sql_denom": 202,
+        "lead_sql": "131/570 (23%)",
+        "lead_sql_num": 131,
+        "lead_sql_denom": 570
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 5,
+        "new_lead": 4,
+        "mql": 2,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Zabłocki [PL] - 2026-09-22",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - cleanxpert [DK] - 2026-09-22",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Foto-Hamer [DE] - 2026-09-22",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - sparpaavvs.dk [MARKET CODE] - 2026-09-22",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Brillenplatz [DE] - 2026-07-06",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 642,
+        "total_mql": 225,
+        "lead_mql": "225/642 (35%)",
+        "lead_mql_num": 225,
+        "lead_mql_denom": 642,
+        "mql_sql": "144/225 (64%)",
+        "mql_sql_num": 144,
+        "mql_sql_denom": 225,
+        "lead_sql": "144/642 (22%)",
+        "lead_sql_num": 144,
+        "lead_sql_denom": 642
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - exerion [PL] - 2026-09-17",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 313,
+        "total_mql": 130,
+        "lead_mql": "130/313 (42%)",
+        "lead_mql_num": 130,
+        "lead_mql_denom": 313,
+        "mql_sql": "93/130 (72%)",
+        "mql_sql_num": 93,
+        "mql_sql_denom": 130,
+        "lead_sql": "93/313 (30%)",
+        "lead_sql_num": 93,
+        "lead_sql_denom": 313
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Try Later",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2059,
+    "total_mql": 715,
+    "lead_mql": "715/2059 (35%)",
+    "lead_mql_num": 715,
+    "lead_mql_denom": 2059,
+    "mql_sql": "453/715 (63%)",
+    "mql_sql_num": 453,
+    "mql_sql_denom": 715,
+    "lead_sql": "453/2059 (22%)",
+    "lead_sql_num": 453,
+    "lead_sql_denom": 2059
+  }
+}
