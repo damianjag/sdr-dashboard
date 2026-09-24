@@ -1,0 +1,301 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-24 12:47",
+  "summary": {
+    "total": 16,
+    "new_lead": 7,
+    "mql": 4,
+    "sql": 4,
+    "won": 0,
+    "lost_before_mql": 3,
+    "sales_lost": 0,
+    "lost_total": 3
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 8,
+        "new_lead": 4,
+        "mql": 2,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - hahn [CZ] - 2026-09-23",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - autofixer [PL] - 2026-09-23",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - All-4-Baby  [DE] - 2026-09-17",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Adam Andrzejewski <Adam.Andrzejewski@rywal.com.pl> - 2026-09-23",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - sparpaavvs {DK] - 2026-09-22",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - frukvist [NO] - 2026-09-21",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Hurtownia - Elektroniczna [PL] - 23.09.2026 - 2026-09-23",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Zabłocki [PL] - 2026-09-22",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - frukvist [NO] - 2026-09-21",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "za drogo"
+        }
+      ],
+      "conversions": {
+        "total_leads": 648,
+        "total_mql": 227,
+        "lead_mql": "227/648 (35%)",
+        "lead_mql_num": 227,
+        "lead_mql_denom": 648,
+        "mql_sql": "146/227 (64%)",
+        "mql_sql_num": 146,
+        "mql_sql_denom": 227,
+        "lead_sql": "146/648 (23%)",
+        "lead_sql_num": 146,
+        "lead_sql_denom": 648
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 3,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - bauchemie24 [DE] - 2026-09-23",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - equipe-ton-camping-car.fr [MARKET CODE] - 2026-09-15",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - actionfi.com [MARKET CODE] - 2026-09-23",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - polomarket [PL] - 2026-09-23",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - kon-tec [PL] - 2026-09-20",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - alians-oze [PL] - 2026-09-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - equipe-ton-camping-car.fr [MARKET CODE] - 2026-09-15",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - alians-oze [PL] - 2026-09-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "odrzuca, mail nieprawidlowy"
+        }
+      ],
+      "conversions": {
+        "total_leads": 576,
+        "total_mql": 205,
+        "lead_mql": "205/576 (36%)",
+        "lead_mql_num": 205,
+        "lead_mql_denom": 576,
+        "mql_sql": "131/205 (64%)",
+        "mql_sql_num": 131,
+        "mql_sql_denom": 205,
+        "lead_sql": "131/576 (23%)",
+        "lead_sql_num": 131,
+        "lead_sql_denom": 576
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Tadmet [PL] - 2026-09-18",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 313,
+        "total_mql": 130,
+        "lead_mql": "130/313 (42%)",
+        "lead_mql_num": 130,
+        "lead_mql_denom": 313,
+        "mql_sql": "94/130 (72%)",
+        "mql_sql_num": 94,
+        "mql_sql_denom": 130,
+        "lead_sql": "94/313 (30%)",
+        "lead_sql_num": 94,
+        "lead_sql_denom": 313
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - raiffeisen-eichsfeld [DE] - Buyer Intent - 2026-08-18",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 509,
+        "total_mql": 151,
+        "lead_mql": "151/509 (30%)",
+        "lead_mql_num": 151,
+        "lead_mql_denom": 509,
+        "mql_sql": "82/151 (54%)",
+        "mql_sql_num": 82,
+        "mql_sql_denom": 151,
+        "lead_sql": "82/509 (16%)",
+        "lead_sql_num": 82,
+        "lead_sql_denom": 509
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2071,
+    "total_mql": 720,
+    "lead_mql": "720/2071 (35%)",
+    "lead_mql_num": 720,
+    "lead_mql_denom": 2071,
+    "mql_sql": "458/720 (64%)",
+    "mql_sql_num": 458,
+    "mql_sql_denom": 720,
+    "lead_sql": "458/2071 (22%)",
+    "lead_sql_num": 458,
+    "lead_sql_denom": 2071
+  }
+}
