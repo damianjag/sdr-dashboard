@@ -1,0 +1,308 @@
+{
+  "date": "2026-09-24",
+  "generated_at": "2026-09-25 12:51",
+  "summary": {
+    "total": 14,
+    "new_lead": 8,
+    "mql": 2,
+    "sql": 3,
+    "won": 1,
+    "lost_before_mql": 5,
+    "sales_lost": 0,
+    "lost_total": 5
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 6,
+        "new_lead": 3,
+        "mql": 1,
+        "sql": 2,
+        "won": 1,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - helikontrade@keszthelynet.hu [MARKET CODE] - 2026-09-24",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - zepter [PL] - 2026-09-22",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - l-e.cz [MARKET CODE] - 2026-09-24",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - bauchemie24 [DE] - 2026-09-23",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Kwalka (SQL)",
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - kubartech.pl [MARKET CODE] - 2026-09-15",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Ikonka [PL] - 2026-09-24",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - helikontrade@keszthelynet.hu [MARKET CODE] - 2026-09-24",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Language Barrier",
+          "lost_description": "nie mowi po ang"
+        },
+        {
+          "name": "SDR - kubartech.pl [MARKET CODE] - 2026-09-15",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odpisuje nie odbiera"
+        }
+      ],
+      "conversions": {
+        "total_leads": 582,
+        "total_mql": 209,
+        "lead_mql": "209/582 (36%)",
+        "lead_mql_num": 209,
+        "lead_mql_denom": 582,
+        "mql_sql": "134/209 (64%)",
+        "mql_sql_num": 134,
+        "mql_sql_denom": 209,
+        "lead_sql": "134/582 (23%)",
+        "lead_sql_num": 134,
+        "lead_sql_denom": 582
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - metallit [DE] - 2026-09-24",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - autofixer [PL] - 2026-09-23",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - chemicaltiger.com [MARKET CODE] - 2026-09-15",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - chemicaltiger.com [MARKET CODE] - 2026-09-15",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "nie jest to dla nich priorytet - jak będzie odezwą się"
+        }
+      ],
+      "conversions": {
+        "total_leads": 648,
+        "total_mql": 228,
+        "lead_mql": "228/648 (35%)",
+        "lead_mql_num": 228,
+        "lead_mql_denom": 648,
+        "mql_sql": "146/228 (64%)",
+        "mql_sql_num": 146,
+        "mql_sql_denom": 228,
+        "lead_sql": "146/648 (23%)",
+        "lead_sql_num": 146,
+        "lead_sql_denom": 648
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - csempebolt.hu [MARKET CODE] - 2026-09-24",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - fjs.hu [MARKET CODE] - 2026-09-24",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - trendtech24.de [DE] - 2026-09-24",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - trendtech24.de [DE] - 2026-09-24",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "na początek roku sie zameldować, ich stronka jeszcze nie aktywna wtedy będzie ten temat bardziej interesujący"
+        }
+      ],
+      "conversions": {
+        "total_leads": 511,
+        "total_mql": 151,
+        "lead_mql": "151/511 (30%)",
+        "lead_mql_num": 151,
+        "lead_mql_denom": 511,
+        "mql_sql": "82/151 (54%)",
+        "mql_sql_num": 82,
+        "mql_sql_denom": 151,
+        "lead_sql": "82/511 (16%)",
+        "lead_sql_num": 82,
+        "lead_sql_denom": 511
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - E-prim [PL] - 2026-09-10",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - tapicerski.pl [MARKET CODE] - 2026-09-24",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - tapicerski.pl [MARKET CODE] - 2026-09-24",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Insufficient Functionality",
+          "lost_description": "ściągają produkty z chin i nadają własne kody, monitoring tylko po nazwie, nie zdecyduje się"
+        }
+      ],
+      "conversions": {
+        "total_leads": 313,
+        "total_mql": 129,
+        "lead_mql": "129/313 (41%)",
+        "lead_mql_num": 129,
+        "lead_mql_denom": 313,
+        "mql_sql": "94/129 (73%)",
+        "mql_sql_num": 94,
+        "mql_sql_denom": 129,
+        "lead_sql": "94/313 (30%)",
+        "lead_sql_num": 94,
+        "lead_sql_denom": 313
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Does Not Have Time",
+      "count": 2
+    },
+    {
+      "reason": "Language Barrier",
+      "count": 1
+    },
+    {
+      "reason": "Insufficient Functionality",
+      "count": 1
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2078,
+    "total_mql": 723,
+    "lead_mql": "723/2078 (35%)",
+    "lead_mql_num": 723,
+    "lead_mql_denom": 2078,
+    "mql_sql": "461/723 (64%)",
+    "mql_sql_num": 461,
+    "mql_sql_denom": 723,
+    "lead_sql": "461/2078 (22%)",
+    "lead_sql_num": 461,
+    "lead_sql_denom": 2078
+  }
+}
