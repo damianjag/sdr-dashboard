@@ -1,0 +1,222 @@
+{
+  "date": "2026-09-25",
+  "generated_at": "2026-09-26 12:19",
+  "summary": {
+    "total": 8,
+    "new_lead": 3,
+    "mql": 3,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 1,
+    "sales_lost": 3,
+    "lost_total": 4
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 3,
+        "mql": 3,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - labelident [DE] - 2026-09-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - simply4you [DE] - Buyer Intent - 2026-09-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - baltona [PL] - 2026-09-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 585,
+        "total_mql": 212,
+        "lead_mql": "212/585 (36%)",
+        "lead_mql_num": 212,
+        "lead_mql_denom": 585,
+        "mql_sql": "134/212 (63%)",
+        "mql_sql_num": 134,
+        "mql_sql_denom": 212,
+        "lead_sql": "134/585 (23%)",
+        "lead_sql_num": 134,
+        "lead_sql_denom": 585
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 3,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - info@darlingtondiecast.co.uk - Click From Mailing - 2026-09-07",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - grassomacchinepercucire.com [IT] - 2026-09-17",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - kraftathlet.com [DE] - 2026-07-12",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - info@darlingtondiecast.co.uk - Click From Mailing - 2026-09-07",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No-show",
+          "lost_description": "nie chce sie ponownie umówić"
+        },
+        {
+          "name": "SDR - grassomacchinepercucire.com [IT] - 2026-09-17",
+          "lost_type": "Sales Lost",
+          "lost_reason": "No-show",
+          "lost_description": "nie przyszedł nie odbiera"
+        },
+        {
+          "name": "SDR - kraftathlet.com [DE] - 2026-07-12",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "Przyszedł na prezke, stwierdził że na generycznym koncie on nic nie wskóra chciał prezke na jego feedzie, czekamy 2 miesiace teraz zaczal odrzucać telefony po usłuszeniu Dealavo"
+        }
+      ],
+      "conversions": {
+        "total_leads": 511,
+        "total_mql": 151,
+        "lead_mql": "151/511 (30%)",
+        "lead_mql_num": 151,
+        "lead_mql_denom": 511,
+        "mql_sql": "82/151 (54%)",
+        "mql_sql_num": 82,
+        "mql_sql_denom": 151,
+        "lead_sql": "82/511 (16%)",
+        "lead_sql_num": 82,
+        "lead_sql_denom": 511
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - metallit [DE] - 2026-09-24",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - popsamerica [FR] - 2026-09-15",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - popsamerica [FR] - 2026-09-15",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 648,
+        "total_mql": 228,
+        "lead_mql": "228/648 (35%)",
+        "lead_mql_num": 228,
+        "lead_mql_denom": 648,
+        "mql_sql": "146/228 (64%)",
+        "mql_sql_num": 146,
+        "mql_sql_denom": 228,
+        "lead_sql": "146/648 (23%)",
+        "lead_sql_num": 146,
+        "lead_sql_denom": 648
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "No-show",
+      "count": 2
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    },
+    {
+      "reason": "Does Not Have Time",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2081,
+    "total_mql": 726,
+    "lead_mql": "726/2081 (35%)",
+    "lead_mql_num": 726,
+    "lead_mql_denom": 2081,
+    "mql_sql": "461/726 (63%)",
+    "mql_sql_num": 461,
+    "mql_sql_denom": 726,
+    "lead_sql": "461/2081 (22%)",
+    "lead_sql_num": 461,
+    "lead_sql_denom": 2081
+  }
+}
