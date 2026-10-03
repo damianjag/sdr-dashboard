@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-03 12:39",
+  "summary": {
+    "total": 6,
+    "new_lead": 3,
+    "mql": 2,
+    "sql": 2,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - stavmat.cz [CZ] - 2026-10-02",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - alovalestetica.es [ES] - 2026-10-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - haase.store [DE] - 2026-10-01",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - cs-parts.de - Buyer Intent - 2026-10-02",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 527,
+        "total_mql": 157,
+        "lead_mql": "157/527 (30%)",
+        "lead_mql_num": 157,
+        "lead_mql_denom": 527,
+        "mql_sql": "85/157 (54%)",
+        "mql_sql_num": 85,
+        "mql_sql_denom": 157,
+        "lead_sql": "85/527 (16%)",
+        "lead_sql_num": 85,
+        "lead_sql_denom": 527
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - wsqn.pl [MARKET CODE] - 2026-10-02",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Woblink [PL] - 2026-10-01",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 321,
+        "total_mql": 134,
+        "lead_mql": "134/321 (42%)",
+        "lead_mql_num": 134,
+        "lead_mql_denom": 321,
+        "mql_sql": "98/134 (73%)",
+        "mql_sql_num": 98,
+        "mql_sql_denom": 134,
+        "lead_sql": "98/321 (31%)",
+        "lead_sql_num": 98,
+        "lead_sql_denom": 321
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2124,
+    "total_mql": 744,
+    "lead_mql": "744/2124 (35%)",
+    "lead_mql_num": 744,
+    "lead_mql_denom": 2124,
+    "mql_sql": "473/744 (64%)",
+    "mql_sql_num": 473,
+    "mql_sql_denom": 744,
+    "lead_sql": "473/2124 (22%)",
+    "lead_sql_num": 473,
+    "lead_sql_denom": 2124
+  }
+}
