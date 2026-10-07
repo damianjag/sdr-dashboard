@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-07 14:38",
+  "summary": {
+    "total": 15,
+    "new_lead": 7,
+    "mql": 4,
+    "sql": 3,
+    "won": 1,
+    "lost_before_mql": 4,
+    "sales_lost": 2,
+    "lost_total": 6
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 6,
+        "new_lead": 3,
+        "mql": 3,
+        "sql": 1,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - Helion [PL] - 2026-10-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Alfa i Omega [PL] - 2026-10-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Tradax [PL] - 2026-09-28",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Wild Story [PL] - 2026-08-24",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - VetDiscount [RO] - 2026-10-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Thies + Co [DE] - 2026-08-26",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Wild Story [PL] - 2026-08-24",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "bardzo fajne spotkanie ale temat nie na teraz a za miesiąc/dwa. musi wdrożyć APILO żeby było się z czym zintegrować"
+        }
+      ],
+      "conversions": {
+        "total_leads": 659,
+        "total_mql": 235,
+        "lead_mql": "235/659 (36%)",
+        "lead_mql_num": 235,
+        "lead_mql_denom": 659,
+        "mql_sql": "150/235 (64%)",
+        "mql_sql_num": 150,
+        "mql_sql_denom": 235,
+        "lead_sql": "150/659 (23%)",
+        "lead_sql_num": 150,
+        "lead_sql_denom": 659
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 5,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 1,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - elarto [PL] - 2026-10-06",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - kon-tec [PL] - 2026-09-20",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - prostore.ro [MARKET CODE] - 2026-10-06",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - grillgott [DE] 2026-09-29 - 2026-09-29",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - efirma.com [MARKET CODE] - 2026-10-05",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - prostore.ro [MARKET CODE] - 2026-10-06",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Language Barrier",
+          "lost_description": "nie mówi po ang"
+        },
+        {
+          "name": "SDR - grillgott [DE] 2026-09-29 - 2026-09-29",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "Będzie właśnie zmieniał ERP na JTL - to potrwa."
+        },
+        {
+          "name": "SDR - efirma.com [MARKET CODE] - 2026-10-05",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Incorrect Data",
+          "lost_description": "niepoprawne dane"
+        }
+      ],
+      "conversions": {
+        "total_leads": 602,
+        "total_mql": 220,
+        "lead_mql": "220/602 (37%)",
+        "lead_mql_num": 220,
+        "lead_mql_denom": 602,
+        "mql_sql": "137/220 (62%)",
+        "mql_sql_num": 137,
+        "mql_sql_denom": 220,
+        "lead_sql": "137/602 (23%)",
+        "lead_sql_num": 137,
+        "lead_sql_denom": 602
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - alovalestetica [ES] - 2026-10-01",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - fjs.hu [MARKET CODE] - 2026-09-24",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - aaoparts.ro [MARKET CODE] - 2026-10-06",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - abaddon-mysticstore.de [MARKET CODE] - 2026-10-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - fjs.hu [MARKET CODE] - 2026-09-24",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odb"
+        },
+        {
+          "name": "SDR - aaoparts.ro [MARKET CODE] - 2026-10-06",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "No Business Need",
+          "lost_description": "On nie potrzebuje, on nie ma Marketingu, on nie musi robić discount, \nCzęści Samochodowe"
+        }
+      ],
+      "conversions": {
+        "total_leads": 532,
+        "total_mql": 160,
+        "lead_mql": "160/532 (30%)",
+        "lead_mql_num": 160,
+        "lead_mql_denom": 532,
+        "mql_sql": "87/160 (54%)",
+        "mql_sql_num": 87,
+        "mql_sql_denom": 160,
+        "lead_sql": "87/532 (16%)",
+        "lead_sql_num": 87,
+        "lead_sql_denom": 532
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Try Later",
+      "count": 2
+    },
+    {
+      "reason": "Language Barrier",
+      "count": 1
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    },
+    {
+      "reason": "No Business Need",
+      "count": 1
+    },
+    {
+      "reason": "Incorrect Data",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2141,
+    "total_mql": 756,
+    "lead_mql": "756/2141 (35%)",
+    "lead_mql_num": 756,
+    "lead_mql_denom": 2141,
+    "mql_sql": "477/756 (63%)",
+    "mql_sql_num": 477,
+    "mql_sql_denom": 756,
+    "lead_sql": "477/2141 (22%)",
+    "lead_sql_num": 477,
+    "lead_sql_denom": 2141
+  }
+}
