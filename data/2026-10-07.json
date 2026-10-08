@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-08 14:43",
+  "summary": {
+    "total": 17,
+    "new_lead": 8,
+    "mql": 3,
+    "sql": 6,
+    "won": 1,
+    "lost_before_mql": 1,
+    "sales_lost": 0,
+    "lost_total": 1
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 8,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 5,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - bamiro  [DE] - 2026-10-03",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - nk@spiel-preis.de - 2026-10-07",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - simply4you [DE] - Buyer Intent - 2026-09-25",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - delikatesy z natury [PL] - 2026-09-30",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - matbor.pl [MARKET CODE] - 2026-10-07",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - elarto [PL] - 2026-10-06",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Marek Wyrwicz  [PL] - 2026-10-04",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - kon-tec [PL] - 2026-09-20",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 604,
+        "total_mql": 220,
+        "lead_mql": "220/604 (36%)",
+        "lead_mql_num": 220,
+        "lead_mql_denom": 604,
+        "mql_sql": "142/220 (65%)",
+        "mql_sql_num": 142,
+        "mql_sql_denom": 220,
+        "lead_sql": "142/604 (24%)",
+        "lead_sql_num": 142,
+        "lead_sql_denom": 604
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 5,
+        "new_lead": 3,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - printerzone.ro [RO] - 2026-10-07",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - dederichs-gmbh [DE] - Buyer Intent - 2026-10-07",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - greenlight-shop.de [DE] - 2026-09-03",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - celimed.sk [SK] - 2026-09-30",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - air-com.pl [PL] - 2026-10-07",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - celimed.sk [SK] - 2026-09-30",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Chicala monitorowac absurdalną ilość stron, miała sprawdzić czy konkurencja jest na marketplaceach bo nie zdawała sobie sprawy jakie to koszta są i kontakt się urwał"
+        }
+      ],
+      "conversions": {
+        "total_leads": 536,
+        "total_mql": 162,
+        "lead_mql": "162/536 (30%)",
+        "lead_mql_num": 162,
+        "lead_mql_denom": 536,
+        "mql_sql": "87/162 (54%)",
+        "mql_sql_num": 87,
+        "mql_sql_denom": 162,
+        "lead_sql": "87/536 (16%)",
+        "lead_sql_num": 87,
+        "lead_sql_denom": 536
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 3,
+        "new_lead": 3,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - piapimo.pl [MARKET CODE] - 2026-10-07",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - little greenie [DE] - 2026-10-07",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - pauloadriani [PL] - 2026-10-07",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 662,
+        "total_mql": 236,
+        "lead_mql": "236/662 (36%)",
+        "lead_mql_num": 236,
+        "lead_mql_denom": 662,
+        "mql_sql": "150/236 (64%)",
+        "mql_sql_num": 150,
+        "mql_sql_denom": 236,
+        "lead_sql": "150/662 (23%)",
+        "lead_sql_num": 150,
+        "lead_sql_denom": 662
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Moto Budrex [PL] - 2026-09-16",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 326,
+        "total_mql": 135,
+        "lead_mql": "135/326 (41%)",
+        "lead_mql_num": 135,
+        "lead_mql_denom": 326,
+        "mql_sql": "99/135 (73%)",
+        "mql_sql_num": 99,
+        "mql_sql_denom": 135,
+        "lead_sql": "99/326 (30%)",
+        "lead_sql_num": 99,
+        "lead_sql_denom": 326
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2152,
+    "total_mql": 759,
+    "lead_mql": "759/2152 (35%)",
+    "lead_mql_num": 759,
+    "lead_mql_denom": 2152,
+    "mql_sql": "483/759 (64%)",
+    "mql_sql_num": 483,
+    "mql_sql_denom": 759,
+    "lead_sql": "483/2152 (22%)",
+    "lead_sql_num": 483,
+    "lead_sql_denom": 2152
+  }
+}
