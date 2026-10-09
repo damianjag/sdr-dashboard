@@ -1,0 +1,303 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-09 14:28",
+  "summary": {
+    "total": 14,
+    "new_lead": 6,
+    "mql": 2,
+    "sql": 1,
+    "won": 1,
+    "lost_before_mql": 2,
+    "sales_lost": 3,
+    "lost_total": 5
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 5,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 2,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - printerzone.ro [RO] - 2026-10-07",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Aptekiprima [PL] - 2026-10-08",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - info.com [DE] - 2026-10-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - citycare24.de [DE] - 2026-10-08",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - tomy-gastrobedarf.de - webinar - 2026-09-18",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Aptekiprima [PL] - 2026-10-08",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "spotkanie trwało 15 min ze względu na spóźnienie leada. podczas spotkania  klient stwierdził że nie jest to dobry moment na tego typu rozmowy, jest za wcześnie - wymieniają silnik ERP dopiero po jego wymianie będzie można rozmawiać - dobry aspekt tego spotkania jest taki że wbiloiśmy klin bo gość był przekonany że Dealavo jest bardzo drogie  i nawet nas nie brał pod uwagę jako firmę do której uderzy jak będzie czegoś szukał na tym etpaie rowzwoju ich ecommerce "
+        },
+        {
+          "name": "SDR - tomy-gastrobedarf.de - webinar - 2026-09-18",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "przenoszą swój sklep internetowy i nie mają teraz czasu na nowe wdrożenia, poprosił o ponowny kontakt przed świętami"
+        }
+      ],
+      "conversions": {
+        "total_leads": 537,
+        "total_mql": 163,
+        "lead_mql": "163/537 (30%)",
+        "lead_mql_num": 163,
+        "lead_mql_denom": 537,
+        "mql_sql": "87/163 (53%)",
+        "mql_sql_num": 87,
+        "mql_sql_denom": 163,
+        "lead_sql": "87/537 (16%)",
+        "lead_sql_num": 87,
+        "lead_sql_denom": 537
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - nacomi-shop [PL] - 2026-10-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - matbor [PL] - 2026-10-09",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - piapimo.pl [MARKET CODE] - 2026-10-07",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - little greenie [DE] - 2026-10-07",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - piapimo.pl [MARKET CODE] - 2026-10-07",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "pdc"
+        }
+      ],
+      "conversions": {
+        "total_leads": 664,
+        "total_mql": 236,
+        "lead_mql": "236/664 (36%)",
+        "lead_mql_num": 236,
+        "lead_mql_denom": 664,
+        "mql_sql": "151/236 (64%)",
+        "mql_sql_num": 151,
+        "mql_sql_denom": 236,
+        "lead_sql": "151/664 (23%)",
+        "lead_sql_num": 151,
+        "lead_sql_denom": 664
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 1,
+        "sales_lost": 1,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - md-sound.de [MARKET CODE] - 2026-09-21",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - kupujdrzwi [PL] - 2026-10-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - polomarket [PL] - 2026-09-23",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - mervato [PL] - 2026-09-28",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - polomarket [PL] - 2026-09-23",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp, ale też nie tego szukali u nas"
+        },
+        {
+          "name": "SDR - mervato [PL] - 2026-09-28",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "Chcieli sie rozeznać, raczej bez intencji zakupowej."
+        }
+      ],
+      "conversions": {
+        "total_leads": 605,
+        "total_mql": 220,
+        "lead_mql": "220/605 (36%)",
+        "lead_mql_num": 220,
+        "lead_mql_denom": 605,
+        "mql_sql": "142/220 (65%)",
+        "mql_sql_num": 142,
+        "mql_sql_denom": 220,
+        "lead_sql": "142/605 (23%)",
+        "lead_sql_num": 142,
+        "lead_sql_denom": 605
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - fernity (furnizone) - 2026-10-08",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 327,
+        "total_mql": 136,
+        "lead_mql": "136/327 (42%)",
+        "lead_mql_num": 136,
+        "lead_mql_denom": 327,
+        "mql_sql": "99/136 (73%)",
+        "mql_sql_num": 99,
+        "mql_sql_denom": 136,
+        "lead_sql": "99/327 (30%)",
+        "lead_sql_num": 99,
+        "lead_sql_denom": 327
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Was Only Checking",
+      "count": 2
+    },
+    {
+      "reason": "Try Later",
+      "count": 1
+    },
+    {
+      "reason": "Does Not Have Time",
+      "count": 1
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2157,
+    "total_mql": 761,
+    "lead_mql": "761/2157 (35%)",
+    "lead_mql_num": 761,
+    "lead_mql_denom": 2157,
+    "mql_sql": "484/761 (64%)",
+    "mql_sql_num": 484,
+    "mql_sql_denom": 761,
+    "lead_sql": "484/2157 (22%)",
+    "lead_sql_num": 484,
+    "lead_sql_denom": 2157
+  }
+}
