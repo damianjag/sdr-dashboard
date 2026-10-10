@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-10 13:53",
+  "summary": {
+    "total": 6,
+    "new_lead": 1,
+    "mql": 1,
+    "sql": 1,
+    "won": 0,
+    "lost_before_mql": 2,
+    "sales_lost": 0,
+    "lost_total": 2
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - info.com [DE] - 2026-10-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - verkter.fi [MARKET CODE] - 2026-09-30",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - abaddon-mysticstore.de [MARKET CODE] - 2026-10-06",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - verkter.fi [MARKET CODE] - 2026-09-30",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odbiera"
+        },
+        {
+          "name": "SDR - abaddon-mysticstore.de [MARKET CODE] - 2026-10-06",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "nie dadzą rade sie zmieścić w miesięcznych kosztach, produkty z chin, bez eanów, różne nazwy"
+        }
+      ],
+      "conversions": {
+        "total_leads": 537,
+        "total_mql": 163,
+        "lead_mql": "163/537 (30%)",
+        "lead_mql_num": 163,
+        "lead_mql_denom": 537,
+        "mql_sql": "87/163 (53%)",
+        "mql_sql_num": 87,
+        "mql_sql_denom": 163,
+        "lead_sql": "87/537 (16%)",
+        "lead_sql_num": 87,
+        "lead_sql_denom": 537
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - matbor [PL] - 2026-10-09",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Helion [PL] - 2026-10-06",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 664,
+        "total_mql": 236,
+        "lead_mql": "236/664 (36%)",
+        "lead_mql_num": 236,
+        "lead_mql_denom": 664,
+        "mql_sql": "152/236 (64%)",
+        "mql_sql_num": 152,
+        "mql_sql_denom": 236,
+        "lead_sql": "152/664 (23%)",
+        "lead_sql_num": 152,
+        "lead_sql_denom": 664
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - ASAN [PL] - 2026-10-09",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 328,
+        "total_mql": 137,
+        "lead_mql": "137/328 (42%)",
+        "lead_mql_num": 137,
+        "lead_mql_denom": 328,
+        "mql_sql": "99/137 (72%)",
+        "mql_sql_num": 99,
+        "mql_sql_denom": 137,
+        "lead_sql": "99/328 (30%)",
+        "lead_sql_num": 99,
+        "lead_sql_denom": 328
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 1
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2158,
+    "total_mql": 762,
+    "lead_mql": "762/2158 (35%)",
+    "lead_mql_num": 762,
+    "lead_mql_denom": 2158,
+    "mql_sql": "485/762 (64%)",
+    "mql_sql_num": 485,
+    "mql_sql_denom": 762,
+    "lead_sql": "485/2158 (22%)",
+    "lead_sql_num": 485,
+    "lead_sql_denom": 2158
+  }
+}
