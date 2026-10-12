@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-12 16:52",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - rowerystylowe.pl [MARKET CODE] - 2026-10-11",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 665,
+        "total_mql": 236,
+        "lead_mql": "236/665 (35%)",
+        "lead_mql_num": 236,
+        "lead_mql_denom": 665,
+        "mql_sql": "152/236 (64%)",
+        "mql_sql_num": 152,
+        "mql_sql_denom": 236,
+        "lead_sql": "152/665 (23%)",
+        "lead_sql_num": 152,
+        "lead_sql_denom": 665
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2159,
+    "total_mql": 763,
+    "lead_mql": "763/2159 (35%)",
+    "lead_mql_num": 763,
+    "lead_mql_denom": 2159,
+    "mql_sql": "485/763 (64%)",
+    "mql_sql_num": 485,
+    "mql_sql_denom": 763,
+    "lead_sql": "485/2159 (22%)",
+    "lead_sql_num": 485,
+    "lead_sql_denom": 2159
+  }
+}
