@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-14 12:58",
+  "summary": {
+    "total": 9,
+    "new_lead": 2,
+    "mql": 2,
+    "sql": 1,
+    "won": 0,
+    "lost_before_mql": 3,
+    "sales_lost": 0,
+    "lost_total": 3
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - werbmedia [DE] - 2026-10-14",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - Camperselbstbau [DE] - 2026-04-21",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - lions-group [PL] - 2026-09-25",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - kupujdrzwi [PL] - 2026-10-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - lions-group [PL] - 2026-09-25",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odpisują nie odbierają"
+        },
+        {
+          "name": "SDR - kupujdrzwi [PL] - 2026-10-08",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "on nie ma czasu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 610,
+        "total_mql": 223,
+        "lead_mql": "223/610 (37%)",
+        "lead_mql_num": 223,
+        "lead_mql_denom": 610,
+        "mql_sql": "142/223 (64%)",
+        "mql_sql_num": 142,
+        "mql_sql_denom": 223,
+        "lead_sql": "142/610 (23%)",
+        "lead_sql_num": 142,
+        "lead_sql_denom": 610
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - rowerystylowe.pl [MARKET CODE] - 2026-10-11",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - matbor [PL] - 2026-10-09",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - Eszyby [PL] 13.10.2026 - 2026-10-13",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 667,
+        "total_mql": 237,
+        "lead_mql": "237/667 (36%)",
+        "lead_mql_num": 237,
+        "lead_mql_denom": 667,
+        "mql_sql": "152/237 (64%)",
+        "mql_sql_num": 152,
+        "mql_sql_denom": 237,
+        "lead_sql": "152/667 (23%)",
+        "lead_sql_num": 152,
+        "lead_sql_denom": 667
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 2,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - citycare24 [DE] - 2026-10-08",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - info.com [DE] - 2026-10-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - info.com [DE] - 2026-10-08",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Insufficient Data Quality",
+          "lost_description": "Błędne dane"
+        }
+      ],
+      "conversions": {
+        "total_leads": 542,
+        "total_mql": 166,
+        "lead_mql": "166/542 (31%)",
+        "lead_mql_num": 166,
+        "lead_mql_denom": 542,
+        "mql_sql": "88/166 (53%)",
+        "mql_sql_num": 88,
+        "mql_sql_denom": 166,
+        "lead_sql": "88/542 (16%)",
+        "lead_sql_num": 88,
+        "lead_sql_denom": 542
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 1
+    },
+    {
+      "reason": "Does Not Have Time",
+      "count": 1
+    },
+    {
+      "reason": "Insufficient Data Quality",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2170,
+    "total_mql": 769,
+    "lead_mql": "769/2170 (35%)",
+    "lead_mql_num": 769,
+    "lead_mql_denom": 2170,
+    "mql_sql": "488/769 (63%)",
+    "mql_sql_num": 488,
+    "mql_sql_denom": 769,
+    "lead_sql": "488/2170 (22%)",
+    "lead_sql_num": 488,
+    "lead_sql_denom": 2170
+  }
+}
