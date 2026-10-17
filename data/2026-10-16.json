@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-17 11:41",
+  "summary": {
+    "total": 9,
+    "new_lead": 5,
+    "mql": 4,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 1,
+    "sales_lost": 2,
+    "lost_total": 3
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - captainworkwear.de [DE] - 2026-10-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - sls-profishop [DE] - webinar - 2026-10-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - diashop.de [DE] - 2026-10-16",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - tanlink.com [CN] - 2026-10-12",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - diashop.de [DE] - 2026-10-16",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Other",
+          "lost_description": "90% produktów nic nie mogą zrobić  z cenami uwiązani przez farmacje przez które są sprzdawane, 10% produktów mogli by coś zrobić ale to nie jest główny cel tej firmy i nie wiedzą czy szczerze miałoby to sens, lost"
+        }
+      ],
+      "conversions": {
+        "total_leads": 548,
+        "total_mql": 169,
+        "lead_mql": "169/548 (31%)",
+        "lead_mql_num": 169,
+        "lead_mql_denom": 548,
+        "mql_sql": "91/169 (54%)",
+        "mql_sql_num": 91,
+        "mql_sql_denom": 169,
+        "lead_sql": "91/548 (17%)",
+        "lead_sql_num": 91,
+        "lead_sql_denom": 548
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - 24usb [PL] - 2026-10-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - azolcsosag.hu [MARKET CODE] - 2026-10-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 613,
+        "total_mql": 225,
+        "lead_mql": "225/613 (37%)",
+        "lead_mql_num": 225,
+        "lead_mql_denom": 613,
+        "mql_sql": "142/225 (63%)",
+        "mql_sql_num": 142,
+        "mql_sql_denom": 225,
+        "lead_sql": "142/613 (23%)",
+        "lead_sql_num": 142,
+        "lead_sql_denom": 613
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 1,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - GrupaMO [PL] - 2026-10-15",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        },
+        {
+          "name": "SDR - ZEW FOR MEN [PL] - 2026-10-16",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - GrupaMO [PL] - 2026-10-15",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Lack of Decision Maker",
+          "lost_description": "Proxy zupełnie niedecyzyjny + idzie na dłuższy urlop. Powrót w listopadzie."
+        }
+      ],
+      "conversions": {
+        "total_leads": 330,
+        "total_mql": 140,
+        "lead_mql": "140/330 (42%)",
+        "lead_mql_num": 140,
+        "lead_mql_denom": 330,
+        "mql_sql": "103/140 (74%)",
+        "mql_sql_num": 103,
+        "mql_sql_denom": 140,
+        "lead_sql": "103/330 (31%)",
+        "lead_sql_num": 103,
+        "lead_sql_denom": 330
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - Killer Ink Tattoo [UK] - 2026-09-02",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Killer Ink Tattoo [UK] - 2026-09-02",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Other",
+          "lost_description": "Inaczej sobie wyobrażali. Nie poradzą sobie z zarządzaniem 'takim' systemem. Nie mają nikogo kto mógłby faktycznie zająć się pricingiem, myśleli że wrzucą sobie produkty i codziennie dostaną raport / alert - tutaj zmień ceny tak i tak a twoja sprzedaż wzrośnie o X. :) "
+        }
+      ],
+      "conversions": {
+        "total_leads": 668,
+        "total_mql": 239,
+        "lead_mql": "239/668 (36%)",
+        "lead_mql_num": 239,
+        "lead_mql_denom": 668,
+        "mql_sql": "152/239 (64%)",
+        "mql_sql_num": 152,
+        "mql_sql_denom": 239,
+        "lead_sql": "152/668 (23%)",
+        "lead_sql_num": 152,
+        "lead_sql_denom": 668
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Other",
+      "count": 2
+    },
+    {
+      "reason": "Lack of Decision Maker",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2182,
+    "total_mql": 779,
+    "lead_mql": "779/2182 (36%)",
+    "lead_mql_num": 779,
+    "lead_mql_denom": 2182,
+    "mql_sql": "493/779 (63%)",
+    "mql_sql_num": 493,
+    "mql_sql_denom": 779,
+    "lead_sql": "493/2182 (23%)",
+    "lead_sql_num": 493,
+    "lead_sql_denom": 2182
+  }
+}
