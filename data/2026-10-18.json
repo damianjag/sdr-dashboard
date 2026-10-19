@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-19 14:48",
+  "summary": {
+    "total": 2,
+    "new_lead": 2,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Yusuf [DE] - 2026-10-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 669,
+        "total_mql": 239,
+        "lead_mql": "239/669 (36%)",
+        "lead_mql_num": 239,
+        "lead_mql_denom": 669,
+        "mql_sql": "152/239 (64%)",
+        "mql_sql_num": 152,
+        "mql_sql_denom": 239,
+        "lead_sql": "152/669 (23%)",
+        "lead_sql_num": 152,
+        "lead_sql_denom": 669
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - danberg.pl [MARKET CODE] - 2026-10-18",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 331,
+        "total_mql": 140,
+        "lead_mql": "140/331 (42%)",
+        "lead_mql_num": 140,
+        "lead_mql_denom": 331,
+        "mql_sql": "103/140 (74%)",
+        "mql_sql_num": 103,
+        "mql_sql_denom": 140,
+        "lead_sql": "103/331 (31%)",
+        "lead_sql_num": 103,
+        "lead_sql_denom": 331
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2185,
+    "total_mql": 779,
+    "lead_mql": "779/2185 (36%)",
+    "lead_mql_num": 779,
+    "lead_mql_denom": 2185,
+    "mql_sql": "493/779 (63%)",
+    "mql_sql_num": 493,
+    "mql_sql_denom": 779,
+    "lead_sql": "493/2185 (23%)",
+    "lead_sql_num": 493,
+    "lead_sql_denom": 2185
+  }
+}
