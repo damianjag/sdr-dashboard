@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-24 12:07",
+  "summary": {
+    "total": 15,
+    "new_lead": 6,
+    "mql": 0,
+    "sql": 4,
+    "won": 0,
+    "lost_before_mql": 3,
+    "sales_lost": 0,
+    "lost_total": 3
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 7,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 3,
+        "sales_lost": 0,
+        "lost_total": 3
+      },
+      "deals": [
+        {
+          "name": "SDR - p.krycia@gmail.com [MARKET CODE] - 2026-10-22",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - arka-bojanowo.pl [MARKET CODE] - 2026-10-23",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - swiatsupli [PL] - 2026-10-22",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - patryk.kubiak90@gmail.com [MARKET CODE] - 2026-10-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - twojpasaz.pl [MARKET CODE] - 2026-10-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - p.manda@ogniochrone.eu [MARKET CODE] - 2026-10-23",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - ogniochron.eu [MARKET CODE] - 2026-10-23",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - arka-bojanowo.pl [MARKET CODE] - 2026-10-23",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "teraz nie, uderzać za pare miesiecy"
+        },
+        {
+          "name": "SDR - patryk.kubiak90@gmail.com [MARKET CODE] - 2026-10-22",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "tylko sprawdzal"
+        },
+        {
+          "name": "SDR - twojpasaz.pl [MARKET CODE] - 2026-10-22",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "nie jest zaint"
+        }
+      ],
+      "conversions": {
+        "total_leads": 638,
+        "total_mql": 233,
+        "lead_mql": "233/638 (37%)",
+        "lead_mql_num": 233,
+        "lead_mql_denom": 638,
+        "mql_sql": "147/233 (63%)",
+        "mql_sql_num": 147,
+        "mql_sql_denom": 233,
+        "lead_sql": "147/638 (23%)",
+        "lead_sql_num": 147,
+        "lead_sql_denom": 638
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 7,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 2,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - switch-electric [EE] - 2026-10-22",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - <radomir@alpinus.eu> - 2026-10-22",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        },
+        {
+          "name": "SDR - Mona Schwichtenberg  [MARKET CODE] - 2026-10-23",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - katowicka.ewa@gmail.com [MARKET CODE] - 2026-10-23",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - alltech-interactive [PL] - 2026-10-20",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - semex [PL] - 2026-10-23",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Borośliny [PL] - 2026-10-14",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 687,
+        "total_mql": 244,
+        "lead_mql": "244/687 (36%)",
+        "lead_mql_num": 244,
+        "lead_mql_denom": 687,
+        "mql_sql": "157/244 (64%)",
+        "mql_sql_num": 157,
+        "mql_sql_denom": 244,
+        "lead_sql": "157/687 (23%)",
+        "lead_sql_num": 157,
+        "lead_sql_denom": 687
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - redats [PL] - 2026-10-22",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 349,
+        "total_mql": 143,
+        "lead_mql": "143/349 (41%)",
+        "lead_mql_num": 143,
+        "lead_mql_denom": 349,
+        "mql_sql": "108/143 (76%)",
+        "mql_sql_num": 108,
+        "mql_sql_denom": 143,
+        "lead_sql": "108/349 (31%)",
+        "lead_sql_num": 108,
+        "lead_sql_denom": 349
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Was Only Checking",
+      "count": 3
+    }
+  ],
+  "conversions": {
+    "total_leads": 2249,
+    "total_mql": 796,
+    "lead_mql": "796/2249 (35%)",
+    "lead_mql_num": 796,
+    "lead_mql_denom": 2249,
+    "mql_sql": "510/796 (64%)",
+    "mql_sql_num": 510,
+    "mql_sql_denom": 796,
+    "lead_sql": "510/2249 (23%)",
+    "lead_sql_num": 510,
+    "lead_sql_denom": 2249
+  }
+}
