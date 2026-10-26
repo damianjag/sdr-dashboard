@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-26 14:26",
+  "summary": {
+    "total": 4,
+    "new_lead": 4,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - ford.sklep [PL] - 2026-10-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - candlejoy644@gmail.com [MARKET CODE] - 2026-10-25",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - skleprowerowy [PL] - 2026-10-25",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 644,
+        "total_mql": 233,
+        "lead_mql": "233/644 (36%)",
+        "lead_mql_num": 233,
+        "lead_mql_denom": 644,
+        "mql_sql": "147/233 (63%)",
+        "mql_sql_num": 147,
+        "mql_sql_denom": 233,
+        "lead_sql": "147/644 (23%)",
+        "lead_sql_num": 147,
+        "lead_sql_denom": 644
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - jmconnect.cz [MARKET CODE] - 2026-10-25",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 554,
+        "total_mql": 170,
+        "lead_mql": "170/554 (31%)",
+        "lead_mql_num": 170,
+        "lead_mql_denom": 554,
+        "mql_sql": "93/170 (55%)",
+        "mql_sql_num": 93,
+        "mql_sql_denom": 170,
+        "lead_sql": "93/554 (17%)",
+        "lead_sql_num": 93,
+        "lead_sql_denom": 554
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2260,
+    "total_mql": 796,
+    "lead_mql": "796/2260 (35%)",
+    "lead_mql_num": 796,
+    "lead_mql_denom": 2260,
+    "mql_sql": "510/796 (64%)",
+    "mql_sql_num": 510,
+    "mql_sql_denom": 796,
+    "lead_sql": "510/2260 (23%)",
+    "lead_sql_num": 510,
+    "lead_sql_denom": 2260
+  }
+}
