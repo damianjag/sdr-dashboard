@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-30 14:23",
+  "summary": {
+    "total": 17,
+    "new_lead": 9,
+    "mql": 4,
+    "sql": 1,
+    "won": 3,
+    "lost_before_mql": 3,
+    "sales_lost": 0,
+    "lost_total": 3
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 7,
+        "new_lead": 3,
+        "mql": 0,
+        "sql": 1,
+        "won": 1,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - Intertrade GmbH [DE] - 2026-10-29",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Dagnydeal [PL] 2026-10-29 - 2026-10-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Camperersatzteile [DE] - 2026-10-19",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - Garden System [PL] - 2026-10-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - phu-kris [PL] - 2026-10-27",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - m.krawczyk@miniprice.pl [MARKET CODE] - 2026-10-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - Yusuf [DE] - 2026-10-18",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - m.krawczyk@miniprice.pl [MARKET CODE] - 2026-10-22",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Does Not Have Time",
+          "lost_description": "nie ma czasu, najwcześniej w styczniu"
+        },
+        {
+          "name": "SDR - Yusuf [DE] - 2026-10-18",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "brak kontaktu"
+        }
+      ],
+      "conversions": {
+        "total_leads": 695,
+        "total_mql": 248,
+        "lead_mql": "248/695 (36%)",
+        "lead_mql_num": 248,
+        "lead_mql_denom": 695,
+        "mql_sql": "162/248 (65%)",
+        "mql_sql_num": 162,
+        "mql_sql_denom": 248,
+        "lead_sql": "162/695 (23%)",
+        "lead_sql_num": 162,
+        "lead_sql_denom": 695
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 3,
+        "mql": 2,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - knut-fuchs [DE] - 2026-10-28",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - rowerowy [PL] - 2026-10-29",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - formplastic [PL] - 2026-10-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - antra.com.pl [MARKET CODE] - 2026-10-29",
+          "current_stage": "SDR Call Scheduled",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 651,
+        "total_mql": 237,
+        "lead_mql": "237/651 (36%)",
+        "lead_mql_num": 237,
+        "lead_mql_denom": 651,
+        "mql_sql": "149/237 (63%)",
+        "mql_sql_num": 149,
+        "mql_sql_denom": 237,
+        "lead_sql": "149/651 (23%)",
+        "lead_sql_num": 149,
+        "lead_sql_denom": 651
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 3,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - Tadmet [PL] - 2026-09-18",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - plonpharm.pl [MARKET CODE] - 2026-10-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - biuro@gamster.pl [MARKET CODE] - 2026-10-29",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - plonpharm.pl [MARKET CODE] - 2026-10-22",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Po pierwszej rozmowie przestał się odzywać "
+        }
+      ],
+      "conversions": {
+        "total_leads": 356,
+        "total_mql": 146,
+        "lead_mql": "146/356 (41%)",
+        "lead_mql_num": 146,
+        "lead_mql_denom": 356,
+        "mql_sql": "110/146 (75%)",
+        "mql_sql_num": 110,
+        "mql_sql_denom": 146,
+        "lead_sql": "110/356 (31%)",
+        "lead_sql_num": 110,
+        "lead_sql_denom": 356
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 2,
+        "sql": 0,
+        "won": 1,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - juwelier-harnisch [DE] - 2026-06-09",
+          "current_stage": "Sales Won",
+          "stage_changes": [
+            "Sales Won"
+          ]
+        },
+        {
+          "name": "SDR - schweitzer-online.de - Buyer Intent - 2026-10-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - glasundbeschlag [DE] - webinar - 2026-10-29",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 561,
+        "total_mql": 175,
+        "lead_mql": "175/561 (31%)",
+        "lead_mql_num": 175,
+        "lead_mql_denom": 561,
+        "mql_sql": "96/175 (55%)",
+        "mql_sql_num": 96,
+        "mql_sql_denom": 175,
+        "lead_sql": "96/561 (17%)",
+        "lead_sql_num": 96,
+        "lead_sql_denom": 561
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 2
+    },
+    {
+      "reason": "Does Not Have Time",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2285,
+    "total_mql": 812,
+    "lead_mql": "812/2285 (36%)",
+    "lead_mql_num": 812,
+    "lead_mql_denom": 2285,
+    "mql_sql": "522/812 (64%)",
+    "mql_sql_num": 522,
+    "mql_sql_denom": 812,
+    "lead_sql": "522/2285 (23%)",
+    "lead_sql_num": 522,
+    "lead_sql_denom": 2285
+  }
+}
