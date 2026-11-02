@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-02 17:16",
+  "summary": {
+    "total": 4,
+    "new_lead": 4,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Damian Michałkiewicz  [MARKET CODE] - 2026-11-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - printex [PL] - 2026-11-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 654,
+        "total_mql": 237,
+        "lead_mql": "237/654 (36%)",
+        "lead_mql_num": 237,
+        "lead_mql_denom": 654,
+        "mql_sql": "151/237 (64%)",
+        "mql_sql_num": 151,
+        "mql_sql_denom": 237,
+        "lead_sql": "151/654 (23%)",
+        "lead_sql_num": 151,
+        "lead_sql_denom": 654
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Blackout [PL] - 2026-11-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 698,
+        "total_mql": 251,
+        "lead_mql": "251/698 (36%)",
+        "lead_mql_num": 251,
+        "lead_mql_denom": 698,
+        "mql_sql": "162/251 (65%)",
+        "mql_sql_num": 162,
+        "mql_sql_denom": 251,
+        "lead_sql": "162/698 (23%)",
+        "lead_sql_num": 162,
+        "lead_sql_denom": 698
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - piotr.zurowski@adsmar.pl [PL] - 2026-11-01",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 567,
+        "total_mql": 178,
+        "lead_mql": "178/567 (31%)",
+        "lead_mql_num": 178,
+        "lead_mql_denom": 567,
+        "mql_sql": "96/178 (54%)",
+        "mql_sql_num": 96,
+        "mql_sql_denom": 178,
+        "lead_sql": "96/567 (17%)",
+        "lead_sql_num": 96,
+        "lead_sql_denom": 567
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2300,
+    "total_mql": 819,
+    "lead_mql": "819/2300 (36%)",
+    "lead_mql_num": 819,
+    "lead_mql_denom": 2300,
+    "mql_sql": "524/819 (64%)",
+    "mql_sql_num": 524,
+    "mql_sql_denom": 819,
+    "lead_sql": "524/2300 (23%)",
+    "lead_sql_num": 524,
+    "lead_sql_denom": 2300
+  }
+}
