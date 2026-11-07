@@ -1,0 +1,274 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-07 14:15",
+  "summary": {
+    "total": 10,
+    "new_lead": 3,
+    "mql": 1,
+    "sql": 1,
+    "won": 0,
+    "lost_before_mql": 6,
+    "sales_lost": 0,
+    "lost_total": 6
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 5,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 4,
+        "sales_lost": 0,
+        "lost_total": 4
+      },
+      "deals": [
+        {
+          "name": "SDR - kitku-shop [PL] - 2026-10-30",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - agro-wodzislaw.pl [MARKET CODE] - 2026-10-22",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - \"Lovepigs.pl\" <shop@lovepigs.pl> - 2026-10-05",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - remotronix.com [MARKET CODE] - 2026-10-20",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - media-tech.eu [MARKET CODE] - 2026-10-30",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - agro-wodzislaw.pl [MARKET CODE] - 2026-10-22",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "na razie nie ma jej na allegro, jak to sie zmieni to moze bedzie zainteresowana, allegro i amazon - ping po nowym roku "
+        },
+        {
+          "name": "SDR - \"Lovepigs.pl\" <shop@lovepigs.pl> - 2026-10-05",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "Brak kontaktu "
+        },
+        {
+          "name": "SDR - remotronix.com [MARKET CODE] - 2026-10-20",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Price Too High",
+          "lost_description": "nie będzie tyle płacił - za ad hoc spoko, ale nie chce umowy, gdyby było coś bez umowy to on mógłby nawet więcej zapłacić. Nie chce się wiązać żadną umową "
+        },
+        {
+          "name": "SDR - media-tech.eu [MARKET CODE] - 2026-10-30",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "po prostu nie są zainteresowani tym produktem "
+        }
+      ],
+      "conversions": {
+        "total_leads": 368,
+        "total_mql": 149,
+        "lead_mql": "149/368 (40%)",
+        "lead_mql_num": 149,
+        "lead_mql_denom": 368,
+        "mql_sql": "111/149 (74%)",
+        "mql_sql_num": 111,
+        "mql_sql_denom": 149,
+        "lead_sql": "111/368 (30%)",
+        "lead_sql_num": 111,
+        "lead_sql_denom": 368
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 3,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - borgstaedt.de [DE] - 2026-11-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - hauswerk.shop - Buyer Intent - 2026-11-06",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - amazon@goldprintz.shop [MARKET CODE] - 2026-11-02",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - amazon@goldprintz.shop [MARKET CODE] - 2026-11-02",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "kto? ja nie, ja nie potrzebuje nie jestesmy zainteresowani dziekuje"
+        }
+      ],
+      "conversions": {
+        "total_leads": 584,
+        "total_mql": 182,
+        "lead_mql": "182/584 (31%)",
+        "lead_mql_num": 182,
+        "lead_mql_denom": 584,
+        "mql_sql": "98/182 (54%)",
+        "mql_sql_num": 98,
+        "mql_sql_denom": 182,
+        "lead_sql": "98/584 (17%)",
+        "lead_sql_num": 98,
+        "lead_sql_denom": 584
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 0,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - rowerowy [PL] - 2026-10-29",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - rowerowy [PL] - 2026-10-29",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 669,
+        "total_mql": 237,
+        "lead_mql": "237/669 (35%)",
+        "lead_mql_num": 237,
+        "lead_mql_denom": 669,
+        "mql_sql": "154/237 (65%)",
+        "mql_sql_num": 154,
+        "mql_sql_denom": 237,
+        "lead_sql": "154/669 (23%)",
+        "lead_sql_num": 154,
+        "lead_sql_denom": 669
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - ambit.wroclaw [PL] - 2026-11-06",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 723,
+        "total_mql": 258,
+        "lead_mql": "258/723 (36%)",
+        "lead_mql_num": 258,
+        "lead_mql_denom": 723,
+        "mql_sql": "166/258 (64%)",
+        "mql_sql_num": 166,
+        "mql_sql_denom": 258,
+        "lead_sql": "166/723 (23%)",
+        "lead_sql_num": 166,
+        "lead_sql_denom": 723
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Was Only Checking",
+      "count": 3
+    },
+    {
+      "reason": "Not Responding",
+      "count": 2
+    },
+    {
+      "reason": "Price Too High",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2366,
+    "total_mql": 832,
+    "lead_mql": "832/2366 (35%)",
+    "lead_mql_num": 832,
+    "lead_mql_denom": 2366,
+    "mql_sql": "534/832 (64%)",
+    "mql_sql_num": 534,
+    "mql_sql_denom": 832,
+    "lead_sql": "534/2366 (23%)",
+    "lead_sql_num": 534,
+    "lead_sql_denom": 2366
+  }
+}
