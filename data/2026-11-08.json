@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-09 17:43",
+  "summary": {
+    "total": 4,
+    "new_lead": 4,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 3,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 2,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Max Zepik  [MARKET CODE] - 2026-11-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - mabora.de [MARKET CODE] - 2026-11-08",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 671,
+        "total_mql": 237,
+        "lead_mql": "237/671 (35%)",
+        "lead_mql_num": 237,
+        "lead_mql_denom": 671,
+        "mql_sql": "154/237 (65%)",
+        "mql_sql_num": 154,
+        "mql_sql_denom": 237,
+        "lead_sql": "154/671 (23%)",
+        "lead_sql_num": 154,
+        "lead_sql_denom": 671
+      }
+    },
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - Aethra [PL] - 2026-11-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 723,
+        "total_mql": 258,
+        "lead_mql": "258/723 (36%)",
+        "lead_mql_num": 258,
+        "lead_mql_denom": 723,
+        "mql_sql": "166/258 (64%)",
+        "mql_sql_num": 166,
+        "mql_sql_denom": 258,
+        "lead_sql": "166/723 (23%)",
+        "lead_sql_num": 166,
+        "lead_sql_denom": 723
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - ksgomha@ksg-tech.de [DE] - 2026-11-08",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 587,
+        "total_mql": 182,
+        "lead_mql": "182/587 (31%)",
+        "lead_mql_num": 182,
+        "lead_mql_denom": 587,
+        "mql_sql": "98/182 (54%)",
+        "mql_sql_num": 98,
+        "mql_sql_denom": 182,
+        "lead_sql": "98/587 (17%)",
+        "lead_sql_num": 98,
+        "lead_sql_denom": 587
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2371,
+    "total_mql": 832,
+    "lead_mql": "832/2371 (35%)",
+    "lead_mql_num": 832,
+    "lead_mql_denom": 2371,
+    "mql_sql": "534/832 (64%)",
+    "mql_sql_num": 534,
+    "mql_sql_denom": 832,
+    "lead_sql": "534/2371 (23%)",
+    "lead_sql_num": 534,
+    "lead_sql_denom": 2371
+  }
+}
