@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-12 16:04",
+  "summary": {
+    "total": 6,
+    "new_lead": 2,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 4,
+    "sales_lost": 0,
+    "lost_total": 4
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 5,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 4,
+        "sales_lost": 0,
+        "lost_total": 4
+      },
+      "deals": [
+        {
+          "name": "SDR - itrade-germany.de [MARKET CODE] - 2026-11-11",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - sinob [DE] - 2026-11-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - nuvoshop.lt [MARKET CODE] - 2026-11-03",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - werbmedia [DE] - 2026-10-14",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - compan.eu [MARKET CODE] - 2026-10-20",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - sinob [DE] - 2026-11-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "mają narzucone ceny, nie rozważa zmian"
+        },
+        {
+          "name": "SDR - nuvoshop.lt [MARKET CODE] - 2026-11-03",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - werbmedia [DE] - 2026-10-14",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        },
+        {
+          "name": "SDR - compan.eu [MARKET CODE] - 2026-10-20",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "PDC"
+        }
+      ],
+      "conversions": {
+        "total_leads": 680,
+        "total_mql": 245,
+        "lead_mql": "245/680 (36%)",
+        "lead_mql_num": 245,
+        "lead_mql_denom": 680,
+        "mql_sql": "154/245 (63%)",
+        "mql_sql_num": 154,
+        "mql_sql_denom": 245,
+        "lead_sql": "154/680 (23%)",
+        "lead_sql_num": 154,
+        "lead_sql_denom": 680
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - healthy-sale.pl [MARKET CODE] - 2026-11-11",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 373,
+        "total_mql": 151,
+        "lead_mql": "151/373 (40%)",
+        "lead_mql_num": 151,
+        "lead_mql_denom": 373,
+        "mql_sql": "111/151 (74%)",
+        "mql_sql_num": 111,
+        "mql_sql_denom": 151,
+        "lead_sql": "111/373 (30%)",
+        "lead_sql_num": 111,
+        "lead_sql_denom": 373
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Not Responding",
+      "count": 3
+    },
+    {
+      "reason": "Was Only Checking",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2392,
+    "total_mql": 846,
+    "lead_mql": "846/2392 (35%)",
+    "lead_mql_num": 846,
+    "lead_mql_denom": 2392,
+    "mql_sql": "534/846 (63%)",
+    "mql_sql_num": 534,
+    "mql_sql_denom": 846,
+    "lead_sql": "534/2392 (22%)",
+    "lead_sql_num": 534,
+    "lead_sql_denom": 2392
+  }
+}
