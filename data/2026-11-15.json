@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-16 17:12",
+  "summary": {
+    "total": 1,
+    "new_lead": 1,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 1,
+  "sdr_data": [
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - dein-bauernhof.de [MARKET CODE] - 2026-11-15",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 595,
+        "total_mql": 186,
+        "lead_mql": "186/595 (31%)",
+        "lead_mql_num": 186,
+        "lead_mql_denom": 595,
+        "mql_sql": "98/186 (53%)",
+        "mql_sql_num": 98,
+        "mql_sql_denom": 186,
+        "lead_sql": "98/595 (16%)",
+        "lead_sql_num": 98,
+        "lead_sql_denom": 595
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2413,
+    "total_mql": 853,
+    "lead_mql": "853/2413 (35%)",
+    "lead_mql_num": 853,
+    "lead_mql_denom": 2413,
+    "mql_sql": "541/853 (63%)",
+    "mql_sql_num": 541,
+    "mql_sql_denom": 853,
+    "lead_sql": "541/2413 (22%)",
+    "lead_sql_num": 541,
+    "lead_sql_denom": 2413
+  }
+}
