@@ -1,0 +1,335 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-18 16:36",
+  "summary": {
+    "total": 18,
+    "new_lead": 10,
+    "mql": 3,
+    "sql": 3,
+    "won": 0,
+    "lost_before_mql": 3,
+    "sales_lost": 2,
+    "lost_total": 5
+  },
+  "active_sdrs": 4,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 6,
+        "new_lead": 4,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - selbermachen-versand [DE] - 2026-11-17",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - model-railway-magic.co.uk [MARKET CODE] - 2026-11-17",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - [contact@dealavo.com] - dev@alfavit.com - 2026-11-17",
+          "current_stage": "New Lead",
+          "stage_changes": [
+            "New Lead"
+          ]
+        },
+        {
+          "name": "SDR - hybridsupply [DE] - 2026-11-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Rowery Stylowe [PL] - 2026-10-11",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - Garden System [PL] - 2026-10-29",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - Garden System [PL] - 2026-10-29",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": "chce wprowadzić narzędzie do wiosny, teraz nie ma czasu, ale jeszcze w tym roku się odezwie i umówi prezentację "
+        }
+      ],
+      "conversions": {
+        "total_leads": 742,
+        "total_mql": 265,
+        "lead_mql": "265/742 (36%)",
+        "lead_mql_num": 265,
+        "lead_mql_denom": 742,
+        "mql_sql": "171/265 (65%)",
+        "mql_sql_num": 171,
+        "mql_sql_denom": 265,
+        "lead_sql": "171/742 (23%)",
+        "lead_sql_num": 171,
+        "lead_sql_denom": 742
+      }
+    },
+    {
+      "name": "Igor Sapritonow",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 1,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - hygienemarkt24.de [DE] - Click From Mailing - 2026-11-17",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - diy-basar.com [MARKET CODE] - 2026-11-17",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - deudat.de [MARKET CODE] - 2026-11-16",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - maskinvaruhuset.se [SE] - Click From Mailing - 2026-11-03",
+          "current_stage": "Sales Lost",
+          "stage_changes": [
+            "Sales Lost"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - maskinvaruhuset.se [SE] - Click From Mailing - 2026-11-03",
+          "lost_type": "Sales Lost",
+          "lost_reason": "Try Later",
+          "lost_description": " najwczensiej temat na Styczen. Teraz musi sie rozeznac ze swoim dostawca systemu sklepowego /ERP czy uda sie zintegrowac. Będziemy się łapać za miesiąc co ustalił"
+        }
+      ],
+      "conversions": {
+        "total_leads": 600,
+        "total_mql": 188,
+        "lead_mql": "188/600 (31%)",
+        "lead_mql_num": 188,
+        "lead_mql_denom": 600,
+        "mql_sql": "100/188 (53%)",
+        "mql_sql_num": 100,
+        "mql_sql_denom": 188,
+        "lead_sql": "100/600 (17%)",
+        "lead_sql_num": 100,
+        "lead_sql_denom": 600
+      }
+    },
+    {
+      "name": "Natalia Jedrysiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 0,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 2,
+        "sales_lost": 0,
+        "lost_total": 2
+      },
+      "deals": [
+        {
+          "name": "SDR - bubbletea [PL] - 2026-11-17",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - krinner-group [DE] - 2026-11-17",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "New Lead",
+            "Lost Before MQL"
+          ]
+        },
+        {
+          "name": "SDR - outlet-meblowy-24 [PL]- 09/02/2026 - 2026-11-10",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - leventis.nl [MARKET CODE] - 2026-11-05",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - krinner-group [DE] - 2026-11-17",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "tylko patrzyła, po nowym roku może "
+        },
+        {
+          "name": "SDR - leventis.nl [MARKET CODE] - 2026-11-05",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Not Responding",
+          "lost_description": "nie odp"
+        }
+      ],
+      "conversions": {
+        "total_leads": 690,
+        "total_mql": 250,
+        "lead_mql": "250/690 (36%)",
+        "lead_mql_num": 250,
+        "lead_mql_denom": 690,
+        "mql_sql": "159/250 (64%)",
+        "mql_sql_num": 159,
+        "mql_sql_denom": 250,
+        "lead_sql": "159/690 (23%)",
+        "lead_sql_num": 159,
+        "lead_sql_denom": 690
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 4,
+        "new_lead": 2,
+        "mql": 1,
+        "sql": 1,
+        "won": 0,
+        "lost_before_mql": 1,
+        "sales_lost": 0,
+        "lost_total": 1
+      },
+      "deals": [
+        {
+          "name": "SDR - Merazet [PL] - 2026-11-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress"
+          ]
+        },
+        {
+          "name": "SDR - Profix [PL] - 2026-11-17",
+          "current_stage": "MQL",
+          "stage_changes": [
+            "New Lead",
+            "In Progress",
+            "SDR Call Scheduled",
+            "MQL"
+          ]
+        },
+        {
+          "name": "SDR - Elektrohome [PL] - 2026-11-12",
+          "current_stage": "Kwalka (SQL)",
+          "stage_changes": [
+            "Kwalka (SQL)"
+          ]
+        },
+        {
+          "name": "SDR - befado.pl [MARKET CODE] - 2026-11-04",
+          "current_stage": "Lost Before MQL",
+          "stage_changes": [
+            "Lost Before MQL"
+          ]
+        }
+      ],
+      "lost_deals": [
+        {
+          "name": "SDR - befado.pl [MARKET CODE] - 2026-11-04",
+          "lost_type": "Lost Before MQL",
+          "lost_reason": "Was Only Checking",
+          "lost_description": "ona sie tym nie zajmuje - pani idzie na urlop - ping w połowie grudnia "
+        }
+      ],
+      "conversions": {
+        "total_leads": 380,
+        "total_mql": 155,
+        "lead_mql": "155/380 (41%)",
+        "lead_mql_num": 155,
+        "lead_mql_denom": 380,
+        "mql_sql": "113/155 (73%)",
+        "mql_sql_num": 113,
+        "mql_sql_denom": 155,
+        "lead_sql": "113/380 (30%)",
+        "lead_sql_num": 113,
+        "lead_sql_denom": 380
+      }
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Was Only Checking",
+      "count": 2
+    },
+    {
+      "reason": "Try Later",
+      "count": 2
+    },
+    {
+      "reason": "Not Responding",
+      "count": 1
+    }
+  ],
+  "conversions": {
+    "total_leads": 2434,
+    "total_mql": 864,
+    "lead_mql": "864/2434 (35%)",
+    "lead_mql_num": 864,
+    "lead_mql_denom": 2434,
+    "mql_sql": "548/864 (63%)",
+    "mql_sql_num": 548,
+    "mql_sql_denom": 864,
+    "lead_sql": "548/2434 (23%)",
+    "lead_sql_num": 548,
+    "lead_sql_denom": 2434
+  }
+}
