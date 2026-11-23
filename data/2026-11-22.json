@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-23 19:23",
+  "summary": {
+    "total": 2,
+    "new_lead": 2,
+    "mql": 0,
+    "sql": 0,
+    "won": 0,
+    "lost_before_mql": 0,
+    "sales_lost": 0,
+    "lost_total": 0
+  },
+  "active_sdrs": 2,
+  "sdr_data": [
+    {
+      "name": "Emilia Kazimierczak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - beschlagswelt [DE] - 2026-11-22",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 753,
+        "total_mql": 269,
+        "lead_mql": "269/753 (36%)",
+        "lead_mql_num": 269,
+        "lead_mql_denom": 753,
+        "mql_sql": "173/269 (64%)",
+        "mql_sql_num": 173,
+        "mql_sql_denom": 269,
+        "lead_sql": "173/753 (23%)",
+        "lead_sql_num": 173,
+        "lead_sql_denom": 753
+      }
+    },
+    {
+      "name": "Kamil Oleksiak",
+      "stats": {
+        "total": 1,
+        "new_lead": 1,
+        "mql": 0,
+        "sql": 0,
+        "won": 0,
+        "lost_before_mql": 0,
+        "sales_lost": 0,
+        "lost_total": 0
+      },
+      "deals": [
+        {
+          "name": "SDR - krodi.pl [MARKET CODE] - 2026-11-22",
+          "current_stage": "In Progress",
+          "stage_changes": [
+            "New Lead"
+          ]
+        }
+      ],
+      "lost_deals": [],
+      "conversions": {
+        "total_leads": 387,
+        "total_mql": 157,
+        "lead_mql": "157/387 (41%)",
+        "lead_mql_num": 157,
+        "lead_mql_denom": 387,
+        "mql_sql": "114/157 (73%)",
+        "mql_sql_num": 114,
+        "mql_sql_denom": 157,
+        "lead_sql": "114/387 (29%)",
+        "lead_sql_num": 114,
+        "lead_sql_denom": 387
+      }
+    }
+  ],
+  "lost_reasons": [],
+  "conversions": {
+    "total_leads": 2464,
+    "total_mql": 876,
+    "lead_mql": "876/2464 (36%)",
+    "lead_mql_num": 876,
+    "lead_mql_denom": 2464,
+    "mql_sql": "553/876 (63%)",
+    "mql_sql_num": 553,
+    "mql_sql_denom": 876,
+    "lead_sql": "553/2464 (22%)",
+    "lead_sql_num": 553,
+    "lead_sql_denom": 2464
+  }
+}
